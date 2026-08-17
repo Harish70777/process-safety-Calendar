@@ -256,11 +256,19 @@
     <h3>Subscribe to the calendar</h3>
     <p class="sub">One link, added once. New incidents you publish later show up automatically — no need to resubscribe.</p>
     <div class="btn-row">
-      <a class="btn" href="https://calendar.google.com/calendar/render?cid=https://harish70777.github.io/process-safety-Calendar/calendar.ics">Add to Google Calendar</a>
+      <a class="btn" id="google-btn" href="https://calendar.google.com/calendar/u/0/r/settings/addbyurl" target="_blank" rel="noopener">Add to Google Calendar</a>
       <a class="btn secondary" href="webcal://harish70777.github.io/process-safety-Calendar/calendar.ics">Add to Apple / Outlook</a>
       <a class="btn secondary" href="calendar.ics" download>Download .ics file</a>
     </div>
-    <div class="note">Using Google Calendar? Reminders aren't on by default for subscribed calendars. After subscribing, go to Settings → your subscribed calendar → Notifications, and turn on "Event notifications."</div>
+    <div class="note">Clicking "Add to Google Calendar" copies the feed link and opens Google's "Add by URL" page — just paste (Ctrl/Cmd+V) into the box that opens and click "Add calendar." Reminders aren't on by default for subscribed calendars: after subscribing, go to Settings → your subscribed calendar → Notifications, and turn on "Event notifications."</div>
+    <script>
+      document.getElementById('google-btn').addEventListener('click', function(e) {
+        var icsUrl = new URL('calendar.ics', window.location.href).href;
+        if (navigator.clipboard) {
+          navigator.clipboard.writeText(icsUrl).catch(function(){});
+        }
+      });
+    </script>
   </div>
 </section>
 
