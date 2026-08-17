@@ -30,6 +30,11 @@ Legend: ✅ published · ⏳ researching · 🔲 not started
 | ✅ | DuPont La Porte Methyl Mercaptan Release | 2014 | CSB Final Report | `dupont-laporte-2014.md` |
 | ✅ | Williams Olefins Plant Reboiler Explosion | 2013 | CSB Final Case Study | `williams-olefins-2013.md` |
 | ✅ | Chevron Richmond Refinery Pipe Rupture/Fire | 2012 | CSB Final Investigation Report | `chevron-richmond-2012.md` |
+| ✅ | Tesoro Anacortes Refinery Heat Exchanger Explosion | 2010 | CSB Final Investigation Report | `tesoro-anacortes-2010.md` |
+| ✅ | West Pharmaceutical Services Dust Explosion | 2003 | CSB Final Investigation Report | `west-pharmaceutical-2003.md` |
+| ✅ | Motiva Delaware City Sulfuric Acid Tank Explosion | 2001 | CSB Investigation Report | `motiva-delaware-city-2001.md` |
+| ✅ | Formosa Plastics Vinyl Chloride Explosion | 2004 | CSB Final Investigation Report | `formosa-illiopolis-2004.md` |
+| ✅ | Bayer CropScience Pesticide Waste Tank Explosion | 2008 | CSB Final Investigation Report | `bayer-cropscience-2008.md` |
 | 🔲 | Chernobyl Nuclear Disaster | 1986 | IAEA | — (note: nuclear, not chemical process — confirm fit before researching) |
 | 🔲 | Macondo well control failures (pre-DWH) | — | CSB | — (largely superseded by deepwater-horizon-2010.md — likely skip) |
 
@@ -54,8 +59,8 @@ CCPS, and Marsh's "100 Largest Losses" but haven't been individually
 researched and verified yet — pulled from source lists, not yet checked
 against a primary investigation report:
 
-- Formosa Plastics Illiopolis Explosion (2004) — CSB
-- Motiva Enterprises Delaware City Refinery Sulfuric Acid Tank Failure (2001) — CSB
+- Formosa Plastics Illiopolis Explosion (2004) — ✅ done, see above
+- Motiva Enterprises Delaware City Refinery Sulfuric Acid Tank Failure (2001) — ✅ done, see above
 - BP Grangemouth incidents (2000) — UK HSE
 - Enterprise Products Mont Belvieu NGL explosion (2020) — CSB
 - Milford Haven Refinery Explosion, Texaco (1994) — UK HSE
@@ -64,16 +69,15 @@ against a primary investigation report:
   not yet reviewed individually
 - Fieldwood Energy incident (referenced in EPSC's own 2026 process safety
   calendar — cross-check against CSB/BSEE for details)
-- West Pharmaceutical Services dust explosion (referenced in EPSC's 2026
-  calendar) — CSB
-- Tesoro Anacortes Refinery fire (2010) — CSB; same corrosion-failure
-  family as Chevron Richmond
+- Tesoro Anacortes Refinery fire (2010) — ✅ done, see above
 - BP Grangemouth "Three Greens" incidents specifically (2000) — UK HSE
-- Bayer CropScience Institute explosion, West Virginia (2008) — CSB
+- Bayer CropScience Institute explosion, West Virginia (2008) — ✅ done, see above
 - Goodyear Houston chemical release (2008) — CSB
-- Macondo/Deepwater Horizon-adjacent: Mont Belvieu, LA — already covered by
-  Deepwater Horizon entry, skip
 - Praxair/other industrial gas asphyxiation incidents — CCPS case studies
+- CTA Acoustics Corbin, KY dust explosion (2003) — CSB, same national dust
+  study as West Pharmaceutical, good pairing
+- Hayes Lemmerz dust explosion, Huntington, IN (2003) — CSB, third of the
+  same 2003 dust explosion trio
 
 Before writing any of these up, verify against a primary source (CSB final
 report, HSE case study, or equivalent) rather than a secondary summary —
