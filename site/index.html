@@ -299,7 +299,7 @@
 
     <div class="placard" id="hero-placard">
       <div class="date-tab" id="hero-date">&nbsp;</div>
-      <span class="tier-tag" id="hero-tier">&nbsp;</span>
+      <span class="tier-tag" id="hero-tier" style="display:none;">&nbsp;</span>
       <div class="eyebrow" id="hero-label" style="margin-bottom:4px;">&nbsp;</div>
       <h2 id="hero-title">Loading…</h2>
       <div class="meta" id="hero-meta">&nbsp;</div>
@@ -360,7 +360,6 @@
     ].filter(Boolean).join(", ");
 
     document.getElementById("hero-date").textContent = mmStr + "." + ddStr;
-    document.getElementById("hero-tier").textContent = "Severity " + chosen.severity;
     document.getElementById("hero-label").textContent = label;
     document.getElementById("hero-title").textContent = chosen.title;
     document.getElementById("hero-meta").textContent = md.year + " \u00b7 " + chosen.location + (toll ? " \u00b7 " + toll : "");
