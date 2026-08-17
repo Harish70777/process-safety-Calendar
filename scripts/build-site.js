@@ -45,12 +45,12 @@ function cardFor(inc) {
   const tags = (inc.psm_elements || []).slice(0, 3)
     .map(t => `<span class="tag">${esc(t)}</span>`).join("");
 
-  return `      <div class="card${sevClass}">
+  return `      <a class="card${sevClass}" href="incidents/${esc(inc.id)}/">
         <div class="tab">${mm}.${dd} &middot; ${d.getUTCFullYear()}</div>
         <h4>${esc(inc.title)}</h4>
         <div class="loc">${esc(inc.location)}</div>
         <div class="tags">${tags}</div>
-      </div>`;
+      </a>`;
 }
 
 function main() {
