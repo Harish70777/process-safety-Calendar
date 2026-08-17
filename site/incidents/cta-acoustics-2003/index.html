@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CTA Acoustics Dust Explosion and Fire — Process Safety Calendar</title>
+<meta name="description" content="CTA Acoustics Dust Explosion and Fire, 2003: what happened, root causes, and lessons learned.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#EFF3F5; --ink:#101820; --blueprint:#0B4F6C;
+    --amber:#F2A900; --red:#C81E1E; --line:#C7D0D6; --paper-card:#FFFFFF;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:'IBM Plex Sans', sans-serif;line-height:1.65;}
+  .wrap{max-width:760px;margin:0 auto;padding:0 24px;}
+  header{border-bottom:1px solid var(--line);padding:20px 0;}
+  .brand{font-family:'IBM Plex Mono', monospace;font-size:13px;letter-spacing:0.08em;text-transform:uppercase;display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink);}
+  .brand .dot{width:8px;height:8px;background:var(--amber);border:1px solid var(--ink);}
+  main{padding:40px 0 64px;}
+  .eyebrow{font-family:'IBM Plex Mono', monospace;font-size:12px;letter-spacing:0.05em;color:var(--blueprint);margin-bottom:10px;}
+  h1{font-family:'Space Grotesk', sans-serif;font-weight:700;font-size:34px;line-height:1.2;margin:0 0 14px;}
+  .meta-row{font-family:'IBM Plex Mono', monospace;font-size:13px;color:#555;margin-bottom:8px;}
+  .tier-tag{display:inline-block;font-family:'IBM Plex Mono', monospace;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;padding:3px 8px;border:1px solid var(--red);color:var(--red);margin-bottom:16px;}
+  .tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:28px;}
+  .tag{font-family:'IBM Plex Mono', monospace;font-size:11px;padding:3px 8px;border:1px solid var(--line);color:#555;}
+  article h2{font-family:'Space Grotesk', sans-serif;font-size:20px;margin:32px 0 12px;}
+  article p{font-size:15.5px;color:#292929;margin:0 0 14px;}
+  article ul, article ol{padding-left:22px;margin:0 0 14px;}
+  article li{font-size:15.5px;color:#292929;margin-bottom:8px;}
+  article strong{color:var(--ink);}
+  .sources{margin-top:36px;padding-top:20px;border-top:1px solid var(--line);}
+  .sources h3{font-family:'IBM Plex Mono', monospace;font-size:12px;letter-spacing:0.05em;text-transform:uppercase;color:var(--blueprint);margin:0 0 10px;}
+  .sources ul{padding-left:20px;margin:0;}
+  .sources li{font-size:13.5px;color:#555;margin-bottom:4px;}
+  .back-link{display:inline-block;margin-top:36px;font-family:'IBM Plex Mono', monospace;font-size:13px;color:var(--blueprint);text-decoration:none;}
+  .back-link:hover{text-decoration:underline;}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap"><a class="brand" href="../../"><span class="dot"></span> Process Safety Calendar</a></div>
+</header>
+<main>
+  <div class="wrap">
+    <div class="eyebrow">Anniversary: February 20, 2003</div>
+    <h1>CTA Acoustics Dust Explosion and Fire</h1>
+    <div class="meta-row">Corbin, KY, USA &middot; 7 fatalities, 37 injuries</div>
+    <div class="tags"><span class="tag">process-hazard-analysis</span><span class="tag">facility-siting</span><span class="tag">mechanical-integrity</span></div>
+    <article>
+<h2>What Happened</h2>
+<p>At an acoustic insulation plant that impregnated fiberglass mat with phenolic resin using heated ovens, a curing oven had been left open due to an unresolved temperature control problem. Workers were cleaning the area near the oven, stirring up a cloud of combustible phenolic resin dust, which the open oven's heat most likely ignited. A series of dust explosions and fire tore through the plant, killing seven workers, injuring 37, and destroying the facility. The building itself was never designed to limit dust explosion severity — it lacked features like minimized flat surfaces where dust could settle, or fire walls to separate production lines and contain a blast to one area.</p>
+<h2>Root Causes</h2>
+<ul>
+  <li><strong>The dust hazard was known but never communicated to workers:</strong> CSB found the company was aware phenolic resin dust could explode, but never communicated this to the workforce or adjusted operating procedures or facility design accordingly.</li>
+  <li><strong>The chemical supplier withheld a directly relevant prior warning:</strong> Borden Chemical, which supplied the resin, was aware of a nearly identical 1999 dust explosion at a different facility (Jahn Foundry) involving a similar resin — but never passed that safety lesson on to CTA, despite documentation showing Borden knew about it.</li>
+  <li><strong>Facility design did not account for dust explosion severity:</strong> the plant's design predated modern combustible dust practice and lacked basic mitigation features that limit how far and how badly a dust explosion can propagate once started.</li>
+  <li><strong>No regulatory inspection ever caught the hazard:</strong> state OSHA inspectors had visited the facility multiple times without citing the combustible dust risk, the state fire marshal's office had never inspected the 32-year-old plant at all, and years of insurance inspections also failed to flag phenolic resin dust as an explosion hazard.</li>
+</ul>
+<h2>Lessons Learned</h2>
+<ol>
+  <li>Chemical and material suppliers carry real responsibility for passing along safety-relevant incident history — if you supply a hazardous material, a documented explosion involving that material at another customer's site is information the next customer needs, not proprietary knowledge to sit on.</li>
+  <li>A known internal hazard that never reaches the workforce is functionally the same as an unknown hazard — hazard communication isn't complete until it's actually reached the people doing the work.</li>
+  <li>Facility and equipment design should proactively limit dust explosion propagation (minimizing dust-collecting surfaces, using fire walls between production areas) rather than relying entirely on preventing the initial ignition — a single ignition source will eventually occur; design should assume that and limit the consequence.</li>
+  <li>Regulatory inspection gaps compound quietly: this plant went 32 years without a single fire marshal inspection, and multiple OSHA visits missed the hazard entirely — don't assume "we've been inspected and passed" means every relevant hazard was actually evaluated.</li>
+</ol>
+
+    </article>
+    <div class="sources"><h3>Sources</h3><ul><li>CSB Investigation Report (2005)</li><li>CSB Combustible Dust Hazard Study (2006)</li></ul></div>
+    <a class="back-link" href="../../#archive">&larr; Back to the full archive</a>
+  </div>
+</main>
+</body>
+</html>

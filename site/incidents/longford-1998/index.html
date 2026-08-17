@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Longford Esso Gas Plant Explosion — Process Safety Calendar</title>
+<meta name="description" content="Longford Esso Gas Plant Explosion, 1998: what happened, root causes, and lessons learned.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#EFF3F5; --ink:#101820; --blueprint:#0B4F6C;
+    --amber:#F2A900; --red:#C81E1E; --line:#C7D0D6; --paper-card:#FFFFFF;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:'IBM Plex Sans', sans-serif;line-height:1.65;}
+  .wrap{max-width:760px;margin:0 auto;padding:0 24px;}
+  header{border-bottom:1px solid var(--line);padding:20px 0;}
+  .brand{font-family:'IBM Plex Mono', monospace;font-size:13px;letter-spacing:0.08em;text-transform:uppercase;display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink);}
+  .brand .dot{width:8px;height:8px;background:var(--amber);border:1px solid var(--ink);}
+  main{padding:40px 0 64px;}
+  .eyebrow{font-family:'IBM Plex Mono', monospace;font-size:12px;letter-spacing:0.05em;color:var(--blueprint);margin-bottom:10px;}
+  h1{font-family:'Space Grotesk', sans-serif;font-weight:700;font-size:34px;line-height:1.2;margin:0 0 14px;}
+  .meta-row{font-family:'IBM Plex Mono', monospace;font-size:13px;color:#555;margin-bottom:8px;}
+  .tier-tag{display:inline-block;font-family:'IBM Plex Mono', monospace;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;padding:3px 8px;border:1px solid var(--red);color:var(--red);margin-bottom:16px;}
+  .tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:28px;}
+  .tag{font-family:'IBM Plex Mono', monospace;font-size:11px;padding:3px 8px;border:1px solid var(--line);color:#555;}
+  article h2{font-family:'Space Grotesk', sans-serif;font-size:20px;margin:32px 0 12px;}
+  article p{font-size:15.5px;color:#292929;margin:0 0 14px;}
+  article ul, article ol{padding-left:22px;margin:0 0 14px;}
+  article li{font-size:15.5px;color:#292929;margin-bottom:8px;}
+  article strong{color:var(--ink);}
+  .sources{margin-top:36px;padding-top:20px;border-top:1px solid var(--line);}
+  .sources h3{font-family:'IBM Plex Mono', monospace;font-size:12px;letter-spacing:0.05em;text-transform:uppercase;color:var(--blueprint);margin:0 0 10px;}
+  .sources ul{padding-left:20px;margin:0;}
+  .sources li{font-size:13.5px;color:#555;margin-bottom:4px;}
+  .back-link{display:inline-block;margin-top:36px;font-family:'IBM Plex Mono', monospace;font-size:13px;color:var(--blueprint);text-decoration:none;}
+  .back-link:hover{text-decoration:underline;}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap"><a class="brand" href="../../"><span class="dot"></span> Process Safety Calendar</a></div>
+</header>
+<main>
+  <div class="wrap">
+    <div class="eyebrow">Anniversary: September 25, 1998</div>
+    <h1>Longford Esso Gas Plant Explosion</h1>
+    <div class="meta-row">Longford, Victoria, Australia &middot; 2 fatalities, 8 injuries</div>
+    <div class="tags"><span class="tag">process-hazard-analysis</span><span class="tag">safety-culture</span><span class="tag">mechanical-integrity</span><span class="tag">emergency-planning</span></div>
+    <article>
+<h2>What Happened</h2>
+<p>Operators at Esso's Longford Gas Plant 1 shut down the flow of warm oil to a heat exchanger without understanding the consequence: the exchanger, no longer receiving the warm oil that kept it from embrittling, cooled dramatically. When operators later tried to restart warm oil flow, the sudden reintroduction of heat caused the now brittle, supercooled metal to fracture, releasing a large quantity of flammable gas and condensate that ignited, killing two workers and injuring eight. The fires burned for two days and cut gas supply to nearly all of Victoria state for about two weeks, causing an estimated $1.3 billion in wider economic impact.</p>
+<h2>Root Causes</h2>
+<ul>
+  <li><strong>No HAZOP had ever been conducted on Gas Plant 1's heat exchange system</strong> — a formal hazard and operability study would very likely have identified the low-temperature embrittlement risk before it caused a failure.</li>
+  <li><strong>Inadequate operator and supervisor training:</strong> staff did not understand the metallurgical consequence of losing warm oil flow to the exchanger, so the danger of the situation wasn't recognized in time.</li>
+  <li><strong>Poor shift communication:</strong> the pump shutdown and its significance were not effectively communicated to the following shift, leaving incoming operators without the context needed to respond correctly.</li>
+  <li><strong>Alarm desensitization:</strong> the plant generated so many routine alarms that workers had become desensitized to warning signals, dulling the response to genuine developing hazards.</li>
+  <li><strong>Reduced engineering supervision:</strong> plant engineers had been relocated away from the site to a central office as a cost-cutting measure, weakening the technical oversight available to catch developing problems.</li>
+</ul>
+<h2>Lessons Learned</h2>
+<ol>
+  <li>Every safety-critical process change — including a "simple" pump shutdown — needs a documented hazard review if its downstream consequences aren't fully understood by the people making the call.</li>
+  <li>Metallurgical and material-condition hazards (embrittlement, thermal shock) deserve the same procedural rigor as chemical or pressure hazards; they're just as capable of causing catastrophic failure.</li>
+  <li>Alarm rationalization matters: an alarm system that cries wolf constantly trains operators to tune it out exactly when it matters most.</li>
+  <li>Centralizing engineering expertise away from a plant is a real risk decision, not just an org-chart change — it should go through the same scrutiny as any other reduction in a safety-critical control.</li>
+</ol>
+
+    </article>
+    <div class="sources"><h3>Sources</h3><ul><li>Longford Royal Commission Final Report (1999)</li><li>Andrew Hopkins, 'Lessons from Longford' (2000)</li></ul></div>
+    <a class="back-link" href="../../#archive">&larr; Back to the full archive</a>
+  </div>
+</main>
+</body>
+</html>

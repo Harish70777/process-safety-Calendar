@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Buncefield Oil Storage Depot Explosion — Process Safety Calendar</title>
+<meta name="description" content="Buncefield Oil Storage Depot Explosion, 2005: what happened, root causes, and lessons learned.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#EFF3F5; --ink:#101820; --blueprint:#0B4F6C;
+    --amber:#F2A900; --red:#C81E1E; --line:#C7D0D6; --paper-card:#FFFFFF;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:'IBM Plex Sans', sans-serif;line-height:1.65;}
+  .wrap{max-width:760px;margin:0 auto;padding:0 24px;}
+  header{border-bottom:1px solid var(--line);padding:20px 0;}
+  .brand{font-family:'IBM Plex Mono', monospace;font-size:13px;letter-spacing:0.08em;text-transform:uppercase;display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink);}
+  .brand .dot{width:8px;height:8px;background:var(--amber);border:1px solid var(--ink);}
+  main{padding:40px 0 64px;}
+  .eyebrow{font-family:'IBM Plex Mono', monospace;font-size:12px;letter-spacing:0.05em;color:var(--blueprint);margin-bottom:10px;}
+  h1{font-family:'Space Grotesk', sans-serif;font-weight:700;font-size:34px;line-height:1.2;margin:0 0 14px;}
+  .meta-row{font-family:'IBM Plex Mono', monospace;font-size:13px;color:#555;margin-bottom:8px;}
+  .tier-tag{display:inline-block;font-family:'IBM Plex Mono', monospace;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;padding:3px 8px;border:1px solid var(--red);color:var(--red);margin-bottom:16px;}
+  .tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:28px;}
+  .tag{font-family:'IBM Plex Mono', monospace;font-size:11px;padding:3px 8px;border:1px solid var(--line);color:#555;}
+  article h2{font-family:'Space Grotesk', sans-serif;font-size:20px;margin:32px 0 12px;}
+  article p{font-size:15.5px;color:#292929;margin:0 0 14px;}
+  article ul, article ol{padding-left:22px;margin:0 0 14px;}
+  article li{font-size:15.5px;color:#292929;margin-bottom:8px;}
+  article strong{color:var(--ink);}
+  .sources{margin-top:36px;padding-top:20px;border-top:1px solid var(--line);}
+  .sources h3{font-family:'IBM Plex Mono', monospace;font-size:12px;letter-spacing:0.05em;text-transform:uppercase;color:var(--blueprint);margin:0 0 10px;}
+  .sources ul{padding-left:20px;margin:0;}
+  .sources li{font-size:13.5px;color:#555;margin-bottom:4px;}
+  .back-link{display:inline-block;margin-top:36px;font-family:'IBM Plex Mono', monospace;font-size:13px;color:var(--blueprint);text-decoration:none;}
+  .back-link:hover{text-decoration:underline;}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap"><a class="brand" href="../../"><span class="dot"></span> Process Safety Calendar</a></div>
+</header>
+<main>
+  <div class="wrap">
+    <div class="eyebrow">Anniversary: December 11, 2005</div>
+    <h1>Buncefield Oil Storage Depot Explosion</h1>
+    <div class="meta-row">Hemel Hempstead, England &middot; 0 fatalities, 43 injuries</div>
+    <div class="tags"><span class="tag">mechanical-integrity</span><span class="tag">process-hazard-analysis</span><span class="tag">facility-siting</span></div>
+    <article>
+<h2>What Happened</h2>
+<p>During an overnight fuel delivery, a storage tank's automatic tank gauge failed to register the rising level, and an independent high-level switch — meant to be the backup safety layer — had also failed and was not detected because it was not being tested regularly. The tank overflowed for around 40 minutes, releasing a large volume of gasoline that formed a dense vapor cloud. The bund (secondary containment) failed to adequately contain the spill, and the cloud found an ignition source, causing one of the largest peacetime explosions in Europe. Remarkably there were no fatalities, largely because the explosion occurred at night when the site was minimally staffed — had it occurred during a work day, casualties would likely have been severe.</p>
+<h2>Root Causes</h2>
+<ul>
+  <li><strong>Instrumentation failure went undetected:</strong> the primary level gauge failed, and the independent high-level switch (the intended safety backup) had also failed without anyone knowing.</li>
+  <li><strong>Inadequate testing of independent protection layers:</strong> safety-critical instrumentation was not proof-tested on a schedule that would have caught the fault.</li>
+  <li><strong>Bund/secondary containment underperformance:</strong> containment systems were not designed for the vapor cloud dynamics of a release this size.</li>
+</ul>
+<h2>Lessons Learned</h2>
+<ol>
+  <li>Independent protection layers (like high-level switches) are only as reliable as your proof-testing regime — an untested safety system is not a safety system.</li>
+  <li>Design your overfill protection with the assumption that the primary instrument *will* eventually fail — the backup has to be genuinely independent and regularly verified.</li>
+  <li>Timing and staffing levels can mask the true severity of a near-catastrophic design flaw; "we got lucky" should trigger the same investigation rigor as a fatality.</li>
+</ol>
+
+    </article>
+    <div class="sources"><h3>Sources</h3><ul><li>Buncefield Major Incident Investigation Board Reports</li><li>UK HSE / COMAH investigation</li></ul></div>
+    <a class="back-link" href="../../#archive">&larr; Back to the full archive</a>
+  </div>
+</main>
+</body>
+</html>

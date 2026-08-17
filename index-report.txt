@@ -1,26 +1,27 @@
 === Process Safety Calendar — Index Report ===
-Generated: 2026-08-17T17:21:42.429Z
+Generated: 2026-08-17T23:14:37.844Z
 
-Total incidents:      17
-  Published:           17
+Total incidents:      40
+  Published:           40
   Draft/needs review:  0
 
 --- Data quality issues ---
 None found — all incidents have required fields. ✅
 
 --- Duplicate calendar dates (not an error, just FYI) ---
+10-29: Hayes Lemmerz Aluminum Dust Explosion | Jaipur Oil Terminal Fire
 2-7: Imperial Sugar Refinery Dust Explosion | Kleen Energy Plant Natural Gas Explosion
 
 --- Coverage by PSM element (are we balanced, or overweight on one theme?) ---
-  mechanical-integrity: 16
-  process-hazard-analysis: 14
-  facility-siting: 9
-  emergency-planning: 9
-  safety-culture: 7
-  management-of-change: 5
-  permit-to-work: 2
+  mechanical-integrity: 34
+  process-hazard-analysis: 33
+  safety-culture: 21
+  emergency-planning: 16
+  facility-siting: 15
+  management-of-change: 11
+  permit-to-work: 6
+  pre-startup-safety-review: 2
   contractor-safety: 1
-  pre-startup-safety-review: 1
 
 --- Coverage by root cause tag ---
   design-deficiency: 3
@@ -28,8 +29,12 @@ None found — all incidents have required fields. ✅
   poor-emergency-response: 2
   inadequate-emergency-response: 2
   staffing-cuts: 2
+  no-gas-detection: 2
+  poor-shift-communication: 2
   facility-siting: 2
+  no-worker-training-on-hazard: 2
   instrumentation-failure: 2
+  near-miss-hf-tank: 2
   temporary-modification: 1
   no-engineering-review: 1
   no-automatic-cooling: 1
@@ -41,14 +46,43 @@ None found — all incidents have required fields. ✅
   inadequate-lockout-tagout: 1
   no-process-hazard-analysis: 1
   contractor-management-failure: 1
-  no-gas-detection: 1
+  valve-position-indication-mismatch: 1
+  undersized-flare-system: 1
+  inadequate-instrumentation-maintenance: 1
+  unassessed-plant-modification: 1
   no-hazop-conducted: 1
   inadequate-training: 1
-  poor-shift-communication: 1
   alarm-desensitization: 1
+  inadequate-excavation-controls: 1
+  incorrectly-fitted-pipe-tee-1950s: 1
+  inadequately-supported-pipework: 1
+  cyclic-stress-from-frequent-startups: 1
+  overstated-safety-report: 1
+  inadequate-hot-work-program: 1
+  corroded-storage-tank: 1
+  no-inspection-per-schedule: 1
+  no-emergency-venting: 1
   incompatible-chemical-mixing: 1
   off-spec-material-storage: 1
   inadequate-hazard-study: 1
+  no-engineering-assessment-of-dust-hazard: 1
+  no-fire-code-consultation: 1
+  inadequate-hazard-communication: 1
+  ignored-prior-ignition-incident: 1
+  unrated-electrical-equipment: 1
+  unknown-dust-hazard-communication-failure: 1
+  supplier-withheld-prior-incident-knowledge: 1
+  poor-facility-design: 1
+  malfunctioning-oven-ignition: 1
+  no-fire-marshal-inspection-32-years: 1
+  no-moc-on-dust-collector-install: 1
+  inadequate-dust-collector-design: 1
+  unaddressed-prior-dust-fires: 1
+  poor-housekeeping: 1
+  bypassed-pressure-interlock: 1
+  single-procedural-safeguard: 1
+  ignored-prior-similar-incidents: 1
+  operator-error-enabled-by-system-design: 1
   cost-cutting: 1
   inadequate-pssr: 1
   inadequate-independent-protection-layers: 1
@@ -61,6 +95,16 @@ None found — all incidents have required fields. ✅
   inadequate-housekeeping: 1
   no-explosion-protection: 1
   normalized-hazard: 1
+  valves-closed-blocking-relief-path: 1
+  inadequate-maintenance-operations-handoff: 1
+  no-emergency-drills-in-4-years: 1
+  failed-worker-accountability-system: 1
+  badge-tracking-system-malfunction: 1
+  premature-startup: 1
+  bypassed-safety-interlocks: 1
+  inadequate-pre-startup-review: 1
+  operator-fatigue: 1
+  poor-emergency-communication: 1
   no-remote-shutoff-valve: 1
   no-written-procedures: 1
   procedural-sequence-error: 1
@@ -68,21 +112,81 @@ None found — all incidents have required fields. ✅
   no-regulatory-prohibition: 1
   congested-release-area: 1
   undetermined-ignition-source: 1
+  high-temperature-hydrogen-attack: 1
+  undetected-equipment-degradation: 1
+  weak-industry-inspection-standard: 1
+  complacent-safety-culture: 1
+  ineffective-pha-safeguards: 1
   cement-barrier-failure: 1
   misinterpreted-pressure-test: 1
   missed-well-flow-indication: 1
   bop-failure: 1
   ambiguous-safety-roles: 1
+  sulfidation-corrosion: 1
+  ignored-internal-recommendation-2002: 1
+  incomplete-pha-corrosion-mechanisms: 1
+  low-silicon-piping: 1
   combustible-building-materials: 1
   no-sprinkler-system: 1
   inadequate-facility-siting: 1
   no-hazard-recognition: 1
+  inadequate-moc-1990s-change: 1
+  unprotected-overpressure: 1
+  poor-safety-culture: 1
+  unaddressed-hazard-12-years: 1
+  pitting-corrosion-no-inspection-10-plus-years: 1
+  degraded-secondary-containment: 1
+  no-regulatory-inspection-requirement: 1
+  deficient-emergency-communication: 1
+  flawed-engineering-design: 1
+  no-adequate-safeguards: 1
+  ignored-prior-pha-finding: 1
+  no-respiratory-protection-used: 1
+  faulty-slide-valve: 1
+  no-safe-operating-limits: 1
+  unsafe-isolation-methods: 1
+  outdated-hazard-analysis: 1
   spontaneous-ignition-improper-storage: 1
   incompatible-chemical-co-storage: 1
   illegal-storage-quantities: 1
   inadequate-regulatory-enforcement: 1
+  visually-similar-unmarked-fill-lines: 1
+  both-lines-left-unlocked: 1
+  no-remote-shutdown: 1
+  inadequate-unloading-procedures: 1
+  hot-work-above-flammable-tank: 1
+  inadequate-hazard-identification: 1
+  repeat-failure-same-company-2008: 1
+  psm-standard-gap-non-condensable-gas-system: 1
+  oxygen-pitting-corrosion-known-since-2004: 1
+  incomplete-2012-repair: 1
+  no-inspection-program: 1
+  unpermitted-unregistered-vessel: 1
+  operated-while-known-leaking: 1
+  no-dust-hazard-analysis: 1
+  dust-managed-under-food-safety-not-safety-program: 1
+  interconnected-processes-allowed-fire-spread: 1
+  normalized-smoldering-fires: 1
+  falsified-compliance-records: 1
+  inadequate-extreme-weather-planning: 1
+  total-power-loss-not-anticipated: 1
+  insufficient-backup-refrigeration-capacity: 1
+  no-industry-guidance-for-flooding: 1
   worn-slide-valve: 1
   ineffective-safeguards: 1
   failure-to-learn-from-prior-incident: 1
   inadequate-process-knowledge: 1
-  near-miss-hf-tank: 1
+  incompatible-chemicals-mixed: 1
+  identical-looking-containers: 1
+  no-hazard-analysis-program: 1
+  ignored-2014-near-miss: 1
+  below-regulatory-threshold: 1
+  corroded-pipe-elbow: 1
+  outdated-material-standard: 1
+  no-remote-isolation-valves: 1
+  inadequate-mechanical-integrity-inspection: 1
+  degraded-welding-hose: 1
+  valve-left-open-overnight: 1
+  non-functional-gas-detection: 1
+  no-psm-program-below-threshold: 1
+  facility-sited-near-homes: 1

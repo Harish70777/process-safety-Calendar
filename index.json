@@ -186,6 +186,40 @@
     "hasBody": true
   },
   {
+    "id": "milford-haven-1994",
+    "file": "milford-haven-1994.md",
+    "title": "Texaco Milford Haven Refinery Explosion and Fires",
+    "date": "1994-07-24",
+    "location": "Milford Haven, Wales, UK",
+    "industry": [
+      "oil-gas-refining"
+    ],
+    "chemicals": [
+      "hydrocarbons"
+    ],
+    "severity": 1,
+    "fatalities": 0,
+    "injuries": 26,
+    "root_causes": [
+      "valve-position-indication-mismatch",
+      "undersized-flare-system",
+      "inadequate-instrumentation-maintenance",
+      "unassessed-plant-modification"
+    ],
+    "psm_elements": [
+      "mechanical-integrity",
+      "management-of-change",
+      "process-hazard-analysis"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "HSE Investigation Report (1997), ISBN 0 7176 1413 1",
+      "FABIG industrial accidents archive"
+    ],
+    "hasBody": true
+  },
+  {
     "id": "longford-1998",
     "file": "longford-1998.md",
     "title": "Longford Esso Gas Plant Explosion",
@@ -223,6 +257,77 @@
     "hasBody": true
   },
   {
+    "id": "bp-grangemouth-2000",
+    "file": "bp-grangemouth-2000.md",
+    "title": "BP Grangemouth Petrochemical Complex — Three Major Incidents",
+    "date": "2000-05-29",
+    "location": "Grangemouth, Scotland, UK",
+    "industry": [
+      "oil-gas-refining",
+      "petrochemical-manufacturing"
+    ],
+    "chemicals": [
+      "hydrocarbons",
+      "steam"
+    ],
+    "severity": 1,
+    "fatalities": 0,
+    "injuries": 1,
+    "root_causes": [
+      "inadequate-excavation-controls",
+      "incorrectly-fitted-pipe-tee-1950s",
+      "inadequately-supported-pipework",
+      "cyclic-stress-from-frequent-startups",
+      "overstated-safety-report"
+    ],
+    "psm_elements": [
+      "mechanical-integrity",
+      "process-hazard-analysis",
+      "safety-culture"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "HSE/SEPA Major Incident Investigation Report (2003)",
+      "IChemE Safety and Loss Prevention SIG archive"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "motiva-delaware-city-2001",
+    "file": "motiva-delaware-city-2001.md",
+    "title": "Motiva Enterprises Delaware City Refinery Sulfuric Acid Tank Explosion",
+    "date": "2001-07-17",
+    "location": "Delaware City, DE, USA",
+    "industry": [
+      "oil-gas-refining"
+    ],
+    "chemicals": [
+      "sulfuric-acid"
+    ],
+    "severity": 1,
+    "fatalities": 1,
+    "injuries": 8,
+    "root_causes": [
+      "inadequate-hot-work-program",
+      "corroded-storage-tank",
+      "no-inspection-per-schedule",
+      "no-emergency-venting"
+    ],
+    "psm_elements": [
+      "mechanical-integrity",
+      "permit-to-work",
+      "process-hazard-analysis"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Investigation Report (2002)",
+      "CSB News Release, August 28, 2002"
+    ],
+    "hasBody": true
+  },
+  {
     "id": "azf-toulouse-2001",
     "file": "azf-toulouse-2001.md",
     "title": "AZF Toulouse Fertilizer Plant Explosion",
@@ -255,6 +360,149 @@
       "French final judicial investigation report (2006)",
       "Ouvry CBRN historical review",
       "Academic reviews (Dechy et al., other peer-reviewed sources)"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "west-pharmaceutical-2003",
+    "file": "west-pharmaceutical-2003.md",
+    "title": "West Pharmaceutical Services Dust Explosion",
+    "date": "2003-01-29",
+    "location": "Kinston, NC, USA",
+    "industry": [
+      "pharmaceutical-manufacturing",
+      "rubber-products"
+    ],
+    "chemicals": [
+      "polyethylene-dust",
+      "zinc-stearate"
+    ],
+    "severity": 1,
+    "fatalities": 6,
+    "injuries": 38,
+    "root_causes": [
+      "no-engineering-assessment-of-dust-hazard",
+      "no-fire-code-consultation",
+      "inadequate-hazard-communication",
+      "ignored-prior-ignition-incident",
+      "unrated-electrical-equipment"
+    ],
+    "psm_elements": [
+      "process-hazard-analysis",
+      "mechanical-integrity",
+      "safety-culture"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Investigation Report No. 2003-07-I-NC (2004)",
+      "CSB Combustible Dust Hazard Study (2006)"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "cta-acoustics-2003",
+    "file": "cta-acoustics-2003.md",
+    "title": "CTA Acoustics Dust Explosion and Fire",
+    "date": "2003-02-20",
+    "location": "Corbin, KY, USA",
+    "industry": [
+      "automotive-parts-manufacturing"
+    ],
+    "chemicals": [
+      "phenolic-resin-dust"
+    ],
+    "severity": 1,
+    "fatalities": 7,
+    "injuries": 37,
+    "root_causes": [
+      "unknown-dust-hazard-communication-failure",
+      "supplier-withheld-prior-incident-knowledge",
+      "poor-facility-design",
+      "malfunctioning-oven-ignition",
+      "no-fire-marshal-inspection-32-years"
+    ],
+    "psm_elements": [
+      "process-hazard-analysis",
+      "facility-siting",
+      "mechanical-integrity"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Investigation Report (2005)",
+      "CSB Combustible Dust Hazard Study (2006)"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "hayes-lemmerz-2003",
+    "file": "hayes-lemmerz-2003.md",
+    "title": "Hayes Lemmerz Aluminum Dust Explosion",
+    "date": "2003-10-29",
+    "location": "Huntington, IN, USA",
+    "industry": [
+      "automotive-parts-manufacturing"
+    ],
+    "chemicals": [
+      "aluminum-dust"
+    ],
+    "severity": 1,
+    "fatalities": 1,
+    "injuries": 6,
+    "root_causes": [
+      "no-moc-on-dust-collector-install",
+      "inadequate-dust-collector-design",
+      "unaddressed-prior-dust-fires",
+      "no-worker-training-on-hazard",
+      "poor-housekeeping"
+    ],
+    "psm_elements": [
+      "management-of-change",
+      "mechanical-integrity",
+      "safety-culture"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Investigation Report No. 2004-01-I-IN (2005)",
+      "CSB Combustible Dust Hazard Study (2006)"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "formosa-illiopolis-2004",
+    "file": "formosa-illiopolis-2004.md",
+    "title": "Formosa Plastics Vinyl Chloride Explosion",
+    "date": "2004-04-23",
+    "location": "Illiopolis, IL, USA",
+    "industry": [
+      "chemical-manufacturing",
+      "plastics"
+    ],
+    "chemicals": [
+      "vinyl-chloride-monomer"
+    ],
+    "severity": 1,
+    "fatalities": 5,
+    "injuries": 3,
+    "root_causes": [
+      "bypassed-pressure-interlock",
+      "single-procedural-safeguard",
+      "ignored-prior-similar-incidents",
+      "operator-error-enabled-by-system-design"
+    ],
+    "psm_elements": [
+      "process-hazard-analysis",
+      "management-of-change",
+      "safety-culture",
+      "permit-to-work"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Investigation Report (2007)",
+      "Long et al., Process Safety Progress (2008)"
     ],
     "hasBody": true
   },
@@ -381,7 +629,7 @@
     ],
     "severity": 1,
     "fatalities": 14,
-    "injuries": 38,
+    "injuries": 36,
     "root_causes": [
       "combustible-dust-accumulation",
       "inadequate-housekeeping",
@@ -398,6 +646,81 @@
     "sources": [
       "CSB Investigation Report (2009)",
       "Vorderbrueggen, Process Safety Progress (2011)"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "goodyear-houston-2008",
+    "file": "goodyear-houston-2008.md",
+    "title": "Goodyear Houston Heat Exchanger Rupture and Ammonia Release",
+    "date": "2008-06-11",
+    "location": "Houston, TX, USA",
+    "industry": [
+      "chemical-manufacturing",
+      "synthetic-rubber"
+    ],
+    "chemicals": [
+      "anhydrous-ammonia"
+    ],
+    "severity": 1,
+    "fatalities": 1,
+    "injuries": 6,
+    "root_causes": [
+      "valves-closed-blocking-relief-path",
+      "inadequate-maintenance-operations-handoff",
+      "no-emergency-drills-in-4-years",
+      "failed-worker-accountability-system",
+      "badge-tracking-system-malfunction"
+    ],
+    "psm_elements": [
+      "mechanical-integrity",
+      "emergency-planning",
+      "permit-to-work",
+      "safety-culture"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Case Study (2011)",
+      "Rubber News / Tire Business, CSB study coverage"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "bayer-cropscience-2008",
+    "file": "bayer-cropscience-2008.md",
+    "title": "Bayer CropScience Pesticide Waste Tank Explosion",
+    "date": "2008-08-28",
+    "location": "Institute, WV, USA",
+    "industry": [
+      "chemical-manufacturing",
+      "pesticides"
+    ],
+    "chemicals": [
+      "methomyl",
+      "methyl-isocyanate"
+    ],
+    "severity": 1,
+    "fatalities": 2,
+    "injuries": 8,
+    "root_causes": [
+      "premature-startup",
+      "bypassed-safety-interlocks",
+      "inadequate-pre-startup-review",
+      "operator-fatigue",
+      "poor-emergency-communication"
+    ],
+    "psm_elements": [
+      "process-hazard-analysis",
+      "pre-startup-safety-review",
+      "emergency-planning",
+      "safety-culture"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Investigation Report No. 2008-08-I-WV (2011)",
+      "Center for Public Integrity, CSB report coverage"
     ],
     "hasBody": true
   },
@@ -471,6 +794,42 @@
     "hasBody": true
   },
   {
+    "id": "tesoro-anacortes-2010",
+    "file": "tesoro-anacortes-2010.md",
+    "title": "Tesoro Anacortes Refinery Heat Exchanger Explosion",
+    "date": "2010-04-02",
+    "location": "Anacortes, WA, USA",
+    "industry": [
+      "oil-gas-refining"
+    ],
+    "chemicals": [
+      "hydrogen",
+      "naphtha"
+    ],
+    "severity": 1,
+    "fatalities": 7,
+    "injuries": 1,
+    "root_causes": [
+      "high-temperature-hydrogen-attack",
+      "undetected-equipment-degradation",
+      "weak-industry-inspection-standard",
+      "complacent-safety-culture",
+      "ineffective-pha-safeguards"
+    ],
+    "psm_elements": [
+      "mechanical-integrity",
+      "process-hazard-analysis",
+      "safety-culture"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Final Investigation Report (2014)",
+      "CSB Safety Alert: Preventing High Temperature Hydrogen Attack (HTHA)"
+    ],
+    "hasBody": true
+  },
+  {
     "id": "deepwater-horizon-2010",
     "file": "deepwater-horizon-2010.md",
     "title": "Deepwater Horizon / Macondo Well Blowout",
@@ -511,6 +870,41 @@
     "hasBody": true
   },
   {
+    "id": "chevron-richmond-2012",
+    "file": "chevron-richmond-2012.md",
+    "title": "Chevron Richmond Refinery Pipe Rupture and Fire",
+    "date": "2012-08-06",
+    "location": "Richmond, CA, USA",
+    "industry": [
+      "oil-gas-refining"
+    ],
+    "chemicals": [
+      "crude-oil",
+      "hydrocarbons"
+    ],
+    "severity": 1,
+    "fatalities": 0,
+    "injuries": 6,
+    "root_causes": [
+      "sulfidation-corrosion",
+      "ignored-internal-recommendation-2002",
+      "incomplete-pha-corrosion-mechanisms",
+      "low-silicon-piping"
+    ],
+    "psm_elements": [
+      "mechanical-integrity",
+      "process-hazard-analysis"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Regulatory Report (2014)",
+      "CSB/Cal-OSHA Technical Evaluation Report (2013)",
+      "CSB Final Investigation Report No. 2012-03-I-CA (2015)"
+    ],
+    "hasBody": true
+  },
+  {
     "id": "west-fertilizer-2013",
     "file": "west-fertilizer-2013.md",
     "title": "West Fertilizer Company Fire and Explosion",
@@ -542,6 +936,151 @@
     "sources": [
       "CSB Investigation Report 2013-02-I-TX (2016)",
       "CSB safety video: Dangerously Close"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "williams-olefins-2013",
+    "file": "williams-olefins-2013.md",
+    "title": "Williams Olefins Plant Reboiler Explosion",
+    "date": "2013-06-13",
+    "location": "Geismar, LA, USA",
+    "industry": [
+      "petrochemical-manufacturing"
+    ],
+    "chemicals": [
+      "propylene",
+      "propane",
+      "hydrocarbons"
+    ],
+    "severity": 1,
+    "fatalities": 2,
+    "injuries": 167,
+    "root_causes": [
+      "inadequate-moc-1990s-change",
+      "unprotected-overpressure",
+      "poor-safety-culture",
+      "unaddressed-hazard-12-years"
+    ],
+    "psm_elements": [
+      "management-of-change",
+      "mechanical-integrity",
+      "process-hazard-analysis",
+      "safety-culture"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Final Case Study (2016)",
+      "The Advocate, Baton Rouge — CSB report coverage"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "freedom-industries-elk-river-2014",
+    "file": "freedom-industries-elk-river-2014.md",
+    "title": "Freedom Industries Elk River Chemical Spill",
+    "date": "2014-01-09",
+    "location": "Charleston, WV, USA",
+    "industry": [
+      "chemical-storage-distribution"
+    ],
+    "chemicals": [
+      "crude-mchm",
+      "pph"
+    ],
+    "severity": 1,
+    "fatalities": 0,
+    "injuries": 300,
+    "root_causes": [
+      "pitting-corrosion-no-inspection-10-plus-years",
+      "degraded-secondary-containment",
+      "no-regulatory-inspection-requirement",
+      "deficient-emergency-communication"
+    ],
+    "psm_elements": [
+      "mechanical-integrity",
+      "emergency-planning",
+      "facility-siting"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Final Investigation Report (2016, revised 2017)",
+      "West Virginia Public Broadcasting, CSB report coverage"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "dupont-laporte-2014",
+    "file": "dupont-laporte-2014.md",
+    "title": "DuPont La Porte Methyl Mercaptan Release",
+    "date": "2014-11-15",
+    "location": "La Porte, TX, USA",
+    "industry": [
+      "chemical-manufacturing",
+      "insecticides"
+    ],
+    "chemicals": [
+      "methyl-mercaptan"
+    ],
+    "severity": 1,
+    "fatalities": 4,
+    "injuries": 1,
+    "root_causes": [
+      "flawed-engineering-design",
+      "no-adequate-safeguards",
+      "ignored-prior-pha-finding",
+      "no-respiratory-protection-used",
+      "poor-shift-communication"
+    ],
+    "psm_elements": [
+      "process-hazard-analysis",
+      "mechanical-integrity",
+      "emergency-planning",
+      "safety-culture"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Investigation Report No. 2015-01-I-TX (2019)",
+      "CSB Winterization Safety Digest (2018)"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "exxonmobil-torrance-2015",
+    "file": "exxonmobil-torrance-2015.md",
+    "title": "ExxonMobil Torrance Refinery Electrostatic Precipitator Explosion",
+    "date": "2015-02-18",
+    "location": "Torrance, CA, USA",
+    "industry": [
+      "oil-gas-refining"
+    ],
+    "chemicals": [
+      "hydrocarbons",
+      "hydrofluoric-acid"
+    ],
+    "severity": 1,
+    "fatalities": 0,
+    "injuries": 2,
+    "root_causes": [
+      "faulty-slide-valve",
+      "no-safe-operating-limits",
+      "unsafe-isolation-methods",
+      "outdated-hazard-analysis",
+      "near-miss-hf-tank"
+    ],
+    "psm_elements": [
+      "mechanical-integrity",
+      "process-hazard-analysis",
+      "management-of-change"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Investigation Report No. 2015-02-I-CA (2017)",
+      "Oil & Gas Journal, CSB final report coverage"
     ],
     "hasBody": true
   },
@@ -585,6 +1124,184 @@
     "hasBody": true
   },
   {
+    "id": "mgpi-atchison-2016",
+    "file": "mgpi-atchison-2016.md",
+    "title": "MGPI Processing Toxic Chlorine Gas Release",
+    "date": "2016-10-21",
+    "location": "Atchison, KS, USA",
+    "industry": [
+      "food-beverage-manufacturing",
+      "distilled-spirits"
+    ],
+    "chemicals": [
+      "sulfuric-acid",
+      "sodium-hypochlorite",
+      "chlorine-gas"
+    ],
+    "severity": 1,
+    "fatalities": 0,
+    "injuries": 140,
+    "root_causes": [
+      "visually-similar-unmarked-fill-lines",
+      "both-lines-left-unlocked",
+      "no-remote-shutdown",
+      "inadequate-unloading-procedures"
+    ],
+    "psm_elements": [
+      "process-hazard-analysis",
+      "mechanical-integrity",
+      "emergency-planning"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Investigation Report (2018)",
+      "CSB Safety Video: Mixed Connection, Toxic Result"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "pca-deridder-2017",
+    "file": "pca-deridder-2017.md",
+    "title": "Packaging Corporation of America DeRidder Mill Explosion",
+    "date": "2017-02-08",
+    "location": "DeRidder, LA, USA",
+    "industry": [
+      "pulp-paper-manufacturing"
+    ],
+    "chemicals": [
+      "non-condensable-gases",
+      "flammable-vapors"
+    ],
+    "severity": 1,
+    "fatalities": 3,
+    "injuries": 7,
+    "root_causes": [
+      "hot-work-above-flammable-tank",
+      "inadequate-hazard-identification",
+      "repeat-failure-same-company-2008",
+      "psm-standard-gap-non-condensable-gas-system"
+    ],
+    "psm_elements": [
+      "permit-to-work",
+      "process-hazard-analysis",
+      "safety-culture",
+      "management-of-change"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Investigation Report No. 2017-03-I-LA (2018)",
+      "CSB Safety Bulletin: Seven Key Lessons to Prevent Worker Deaths during Hot Work In and Around Tanks"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "loy-lange-box-2017",
+    "file": "loy-lange-box-2017.md",
+    "title": "Loy-Lange Box Company Pressure Vessel Explosion",
+    "date": "2017-04-03",
+    "location": "St. Louis, MO, USA",
+    "industry": [
+      "packaging-manufacturing"
+    ],
+    "chemicals": [
+      "steam",
+      "oxygenated-water"
+    ],
+    "severity": 1,
+    "fatalities": 4,
+    "injuries": 1,
+    "root_causes": [
+      "oxygen-pitting-corrosion-known-since-2004",
+      "incomplete-2012-repair",
+      "no-inspection-program",
+      "unpermitted-unregistered-vessel",
+      "operated-while-known-leaking"
+    ],
+    "psm_elements": [
+      "mechanical-integrity",
+      "safety-culture",
+      "process-hazard-analysis"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Final Investigation Report (2022)",
+      "CSB Safety Video: Ignored Warnings — Explosion in St. Louis, Missouri"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "didion-milling-2017",
+    "file": "didion-milling-2017.md",
+    "title": "Didion Milling Combustible Dust Explosions and Fire",
+    "date": "2017-05-31",
+    "location": "Cambria, WI, USA",
+    "industry": [
+      "food-agricultural-processing"
+    ],
+    "chemicals": [
+      "corn-dust"
+    ],
+    "severity": 1,
+    "fatalities": 5,
+    "injuries": 14,
+    "root_causes": [
+      "no-dust-hazard-analysis",
+      "dust-managed-under-food-safety-not-safety-program",
+      "interconnected-processes-allowed-fire-spread",
+      "normalized-smoldering-fires",
+      "falsified-compliance-records"
+    ],
+    "psm_elements": [
+      "process-hazard-analysis",
+      "facility-siting",
+      "safety-culture"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Final Investigation Report No. 2017-07-I-WI (2023)",
+      "CSB Safety Video: Deadly Dust — Explosions at Didion Milling"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "arkema-crosby-2017",
+    "file": "arkema-crosby-2017.md",
+    "title": "Arkema Crosby Organic Peroxide Fire (Hurricane Harvey)",
+    "date": "2017-08-31",
+    "location": "Crosby, TX, USA",
+    "industry": [
+      "chemical-manufacturing"
+    ],
+    "chemicals": [
+      "organic-peroxides"
+    ],
+    "severity": 1,
+    "fatalities": 0,
+    "injuries": 21,
+    "root_causes": [
+      "inadequate-extreme-weather-planning",
+      "total-power-loss-not-anticipated",
+      "insufficient-backup-refrigeration-capacity",
+      "no-industry-guidance-for-flooding"
+    ],
+    "psm_elements": [
+      "process-hazard-analysis",
+      "emergency-planning",
+      "facility-siting"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Investigation Report No. 2017-08-I-TX (2018)",
+      "CSB Safety Video: Caught in the Storm — Extreme Weather Hazards"
+    ],
+    "hasBody": true
+  },
+  {
     "id": "husky-superior-2018",
     "file": "husky-superior-2018.md",
     "title": "Husky Energy Superior Refinery FCC Explosion",
@@ -619,6 +1336,116 @@
     "sources": [
       "CSB Final Investigation Report (2022)",
       "CSB Factual Investigative Update (2018)"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "ab-specialty-silicones-2019",
+    "file": "ab-specialty-silicones-2019.md",
+    "title": "AB Specialty Silicones Chemical Explosion",
+    "date": "2019-05-03",
+    "location": "Waukegan, IL, USA",
+    "industry": [
+      "specialty-chemical-manufacturing"
+    ],
+    "chemicals": [
+      "potassium-hydroxide",
+      "silicon-hydride-hydrogen-gas"
+    ],
+    "severity": 1,
+    "fatalities": 4,
+    "injuries": 1,
+    "root_causes": [
+      "incompatible-chemicals-mixed",
+      "identical-looking-containers",
+      "no-hazard-analysis-program",
+      "ignored-2014-near-miss",
+      "no-gas-detection",
+      "below-regulatory-threshold"
+    ],
+    "psm_elements": [
+      "process-hazard-analysis",
+      "safety-culture",
+      "mechanical-integrity"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Safety Video and Investigation Update (2022)",
+      "C&EN, CSB preliminary report coverage (2019)"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "philadelphia-energy-solutions-2019",
+    "file": "philadelphia-energy-solutions-2019.md",
+    "title": "Philadelphia Energy Solutions Refinery Fire and HF Release",
+    "date": "2019-06-21",
+    "location": "Philadelphia, PA, USA",
+    "industry": [
+      "oil-gas-refining"
+    ],
+    "chemicals": [
+      "hydrofluoric-acid",
+      "propane",
+      "hydrocarbons"
+    ],
+    "severity": 1,
+    "fatalities": 0,
+    "injuries": 5,
+    "root_causes": [
+      "corroded-pipe-elbow",
+      "outdated-material-standard",
+      "no-remote-isolation-valves",
+      "inadequate-mechanical-integrity-inspection"
+    ],
+    "psm_elements": [
+      "mechanical-integrity",
+      "facility-siting",
+      "process-hazard-analysis"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Investigation Report No. 2019-06-I-PA (2022)",
+      "CSB Factual Update (2019)"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "watson-grinding-2020",
+    "file": "watson-grinding-2020.md",
+    "title": "Watson Grinding and Manufacturing Propylene Explosion",
+    "date": "2020-01-24",
+    "location": "Houston, TX, USA",
+    "industry": [
+      "metal-coating-manufacturing"
+    ],
+    "chemicals": [
+      "propylene"
+    ],
+    "severity": 1,
+    "fatalities": 3,
+    "injuries": 18,
+    "root_causes": [
+      "degraded-welding-hose",
+      "valve-left-open-overnight",
+      "non-functional-gas-detection",
+      "no-worker-training-on-hazard",
+      "no-psm-program-below-threshold",
+      "facility-sited-near-homes"
+    ],
+    "psm_elements": [
+      "mechanical-integrity",
+      "emergency-planning",
+      "facility-siting",
+      "safety-culture"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Final Investigation Report No. 2020-031-I-TX (2023)",
+      "CSB Safety Video: No Detection — Explosion at Watson Grinding"
     ],
     "hasBody": true
   }

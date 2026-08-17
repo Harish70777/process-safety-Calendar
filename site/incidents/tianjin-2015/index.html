@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tianjin Port Explosions — Process Safety Calendar</title>
+<meta name="description" content="Tianjin Port Explosions, 2015: what happened, root causes, and lessons learned.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#EFF3F5; --ink:#101820; --blueprint:#0B4F6C;
+    --amber:#F2A900; --red:#C81E1E; --line:#C7D0D6; --paper-card:#FFFFFF;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:'IBM Plex Sans', sans-serif;line-height:1.65;}
+  .wrap{max-width:760px;margin:0 auto;padding:0 24px;}
+  header{border-bottom:1px solid var(--line);padding:20px 0;}
+  .brand{font-family:'IBM Plex Mono', monospace;font-size:13px;letter-spacing:0.08em;text-transform:uppercase;display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink);}
+  .brand .dot{width:8px;height:8px;background:var(--amber);border:1px solid var(--ink);}
+  main{padding:40px 0 64px;}
+  .eyebrow{font-family:'IBM Plex Mono', monospace;font-size:12px;letter-spacing:0.05em;color:var(--blueprint);margin-bottom:10px;}
+  h1{font-family:'Space Grotesk', sans-serif;font-weight:700;font-size:34px;line-height:1.2;margin:0 0 14px;}
+  .meta-row{font-family:'IBM Plex Mono', monospace;font-size:13px;color:#555;margin-bottom:8px;}
+  .tier-tag{display:inline-block;font-family:'IBM Plex Mono', monospace;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;padding:3px 8px;border:1px solid var(--red);color:var(--red);margin-bottom:16px;}
+  .tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:28px;}
+  .tag{font-family:'IBM Plex Mono', monospace;font-size:11px;padding:3px 8px;border:1px solid var(--line);color:#555;}
+  article h2{font-family:'Space Grotesk', sans-serif;font-size:20px;margin:32px 0 12px;}
+  article p{font-size:15.5px;color:#292929;margin:0 0 14px;}
+  article ul, article ol{padding-left:22px;margin:0 0 14px;}
+  article li{font-size:15.5px;color:#292929;margin-bottom:8px;}
+  article strong{color:var(--ink);}
+  .sources{margin-top:36px;padding-top:20px;border-top:1px solid var(--line);}
+  .sources h3{font-family:'IBM Plex Mono', monospace;font-size:12px;letter-spacing:0.05em;text-transform:uppercase;color:var(--blueprint);margin:0 0 10px;}
+  .sources ul{padding-left:20px;margin:0;}
+  .sources li{font-size:13.5px;color:#555;margin-bottom:4px;}
+  .back-link{display:inline-block;margin-top:36px;font-family:'IBM Plex Mono', monospace;font-size:13px;color:var(--blueprint);text-decoration:none;}
+  .back-link:hover{text-decoration:underline;}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap"><a class="brand" href="../../"><span class="dot"></span> Process Safety Calendar</a></div>
+</header>
+<main>
+  <div class="wrap">
+    <div class="eyebrow">Anniversary: August 12, 2015</div>
+    <h1>Tianjin Port Explosions</h1>
+    <div class="meta-row">Binhai New Area, Tianjin, China &middot; 173 fatalities, 798 injuries</div>
+    <div class="tags"><span class="tag">facility-siting</span><span class="tag">mechanical-integrity</span><span class="tag">process-hazard-analysis</span><span class="tag">emergency-planning</span></div>
+    <article>
+<h2>What Happened</h2>
+<p>A container of dry nitrocellulose stored at the Ruihai International Logistics hazardous goods warehouse in the Port of Tianjin overheated in summer temperatures after its protective wetting agent evaporated — nitrocellulose becomes unstable and prone to spontaneous ignition when it dries out. The resulting fire ignited nearby ammonium nitrate that had been stored in the same area, triggering two massive explosions roughly 30 seconds apart. The second explosion, estimated at several hundred tons of TNT equivalent, created a crater nearly 100 meters wide, destroyed thousands of shipping containers and vehicles, and killed 173 people — the majority of them firefighters and emergency responders who had no idea what hazardous materials they were actually fighting a fire near. Investigators later found dozens of different hazardous chemicals had been stored together in violation of separation requirements, and the facility was operating with inadequate permits for the quantities and types of material actually on site.</p>
+<h2>Root Causes</h2>
+<ul>
+  <li><strong>Improper storage conditions for a reactive material:</strong> nitrocellulose requires continuous wetting to remain stable; storage practices did not maintain this, and the material was left exposed to direct sunlight and summer heat until it dried out and self-ignited.</li>
+  <li><strong>Incompatible chemicals stored together:</strong> dozens of different classes of hazardous chemicals — oxidizers, flammables, and others — were stored in close proximity in violation of segregation rules, allowing an initial fire to cascade into a much larger event.</li>
+  <li><strong>Illegal/unpermitted storage quantities:</strong> the facility was storing hazardous materials, including hundreds of tons of ammonium nitrate, in quantities and combinations that exceeded what its permits allowed.</li>
+  <li><strong>Inadequate regulatory enforcement:</strong> the investigation found systemic failures in oversight, with dozens of officials later found responsible for allowing the facility to operate outside its permitted conditions for an extended period.</li>
+  <li><strong>Emergency responders lacked hazard information:</strong> firefighters responding to the initial fire were not aware of the ammonium nitrate stored nearby, and were caught in the blast zone when the second, much larger explosion occurred.</li>
+</ul>
+<h2>Lessons Learned</h2>
+<ol>
+  <li>Reactive or unstable materials like nitrocellulose need active, monitored stabilization (wetting, temperature control) as an ongoing control — not a one-time condition checked at receipt.</li>
+  <li>Chemical segregation rules exist specifically to prevent an incident in one material from cascading into a much larger one — enforcement of separation distances between incompatible hazard classes is not optional paperwork.</li>
+  <li>Storage permits need to reflect what's actually on site, verified through regular audit — a facility operating outside its permitted inventory is a facility whose emergency response plan doesn't match reality.</li>
+  <li>Emergency responders need pre-incident access to a site's hazardous materials inventory; sending firefighters into an unknown hazard is often what turns a serious incident into a mass-casualty one.</li>
+</ol>
+
+    </article>
+    <div class="sources"><h3>Sources</h3><ul><li>China State Council Investigation Report (Feb 2016)</li><li>Fu et al., Process Safety Progress (2016)</li><li>Swiss Re / Munich Re insurance loss analyses</li></ul></div>
+    <a class="back-link" href="../../#archive">&larr; Back to the full archive</a>
+  </div>
+</main>
+</body>
+</html>

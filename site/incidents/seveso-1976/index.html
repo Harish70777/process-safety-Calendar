@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Seveso Dioxin Release — Process Safety Calendar</title>
+<meta name="description" content="Seveso Dioxin Release, 1976: what happened, root causes, and lessons learned.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#EFF3F5; --ink:#101820; --blueprint:#0B4F6C;
+    --amber:#F2A900; --red:#C81E1E; --line:#C7D0D6; --paper-card:#FFFFFF;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:'IBM Plex Sans', sans-serif;line-height:1.65;}
+  .wrap{max-width:760px;margin:0 auto;padding:0 24px;}
+  header{border-bottom:1px solid var(--line);padding:20px 0;}
+  .brand{font-family:'IBM Plex Mono', monospace;font-size:13px;letter-spacing:0.08em;text-transform:uppercase;display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink);}
+  .brand .dot{width:8px;height:8px;background:var(--amber);border:1px solid var(--ink);}
+  main{padding:40px 0 64px;}
+  .eyebrow{font-family:'IBM Plex Mono', monospace;font-size:12px;letter-spacing:0.05em;color:var(--blueprint);margin-bottom:10px;}
+  h1{font-family:'Space Grotesk', sans-serif;font-weight:700;font-size:34px;line-height:1.2;margin:0 0 14px;}
+  .meta-row{font-family:'IBM Plex Mono', monospace;font-size:13px;color:#555;margin-bottom:8px;}
+  .tier-tag{display:inline-block;font-family:'IBM Plex Mono', monospace;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;padding:3px 8px;border:1px solid var(--red);color:var(--red);margin-bottom:16px;}
+  .tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:28px;}
+  .tag{font-family:'IBM Plex Mono', monospace;font-size:11px;padding:3px 8px;border:1px solid var(--line);color:#555;}
+  article h2{font-family:'Space Grotesk', sans-serif;font-size:20px;margin:32px 0 12px;}
+  article p{font-size:15.5px;color:#292929;margin:0 0 14px;}
+  article ul, article ol{padding-left:22px;margin:0 0 14px;}
+  article li{font-size:15.5px;color:#292929;margin-bottom:8px;}
+  article strong{color:var(--ink);}
+  .sources{margin-top:36px;padding-top:20px;border-top:1px solid var(--line);}
+  .sources h3{font-family:'IBM Plex Mono', monospace;font-size:12px;letter-spacing:0.05em;text-transform:uppercase;color:var(--blueprint);margin:0 0 10px;}
+  .sources ul{padding-left:20px;margin:0;}
+  .sources li{font-size:13.5px;color:#555;margin-bottom:4px;}
+  .back-link{display:inline-block;margin-top:36px;font-family:'IBM Plex Mono', monospace;font-size:13px;color:var(--blueprint);text-decoration:none;}
+  .back-link:hover{text-decoration:underline;}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap"><a class="brand" href="../../"><span class="dot"></span> Process Safety Calendar</a></div>
+</header>
+<main>
+  <div class="wrap">
+    <div class="eyebrow">Anniversary: July 10, 1976</div>
+    <h1>Seveso Dioxin Release</h1>
+    <div class="meta-row">Meda/Seveso, Lombardy, Italy &middot; 0 fatalities, 0 injuries</div>
+    <div class="tags"><span class="tag">process-hazard-analysis</span><span class="tag">mechanical-integrity</span><span class="tag">facility-siting</span><span class="tag">emergency-planning</span></div>
+    <article>
+<h2>What Happened</h2>
+<p>A batch reactor producing 2,4,5-trichlorophenol (TCP) at the ICMESA plant was shut down mid-cycle on a Friday evening, left with unreacted material at elevated temperature, and abandoned unsupervised for the weekend. With no stirring and no automatic cooling system, residual heat in the mixture drove a slow exothermic reaction that continued raising the temperature long after the shutdown. By Saturday around 12:37 pm, pressure inside the reactor exceeded the rupture disc's set point (3.5 bar) and it burst, releasing a toxic vapor cloud through a roof vent for about 20 minutes. The cloud carried an estimated 1–2 kg of TCDD dioxin — one of the most toxic substances known — over the towns of Seveso and Meda. No one died immediately, but widespread chloracne, contamination of land and livestock, and a 16-day delay before the company disclosed what had been released led to a major public health crisis and mass evacuation.</p>
+<h2>Root Causes</h2>
+<ul>
+  <li><strong>No automatic cooling or temperature control:</strong> the reactor had no automatic shutdown-cooling sequence; safe shutdown depended entirely on staff being present to manually intervene, and no one was on site over the weekend.</li>
+  <li><strong>Inadequate reactor instrumentation:</strong> control systems lacked adequate sensors, alarms, and interlocks for the parameters that mattered (temperature, agitation status), so the developing runaway went undetected.</li>
+  <li><strong>Incomplete understanding of the reaction hazard:</strong> the company was aware of the primary exotherm but had not fully characterized a weaker, slower secondary exotherm capable of driving the runaway that actually occurred.</li>
+  <li><strong>Poorly set relief device:</strong> the rupture disc was sized for a different hazard (overpressure from the transfer air system), not for containing or safely venting a runaway reaction — a lower-set device would have vented at a lower, less hazardous temperature.</li>
+  <li><strong>Facility siting and emergency communication failure:</strong> housing had been built up close to the plant over time, and there was no effective plan for rapid public notification — the company did not disclose the release for over a week.</li>
+</ul>
+<h2>Lessons Learned</h2>
+<ol>
+  <li>Never leave a batch reactor mid-cycle without completing a safe, verified shutdown sequence — "we'll finish Monday" is a decision that needs its own hazard review.</li>
+  <li>Fully characterize all exothermic pathways in a batch chemistry, not just the dominant one — secondary or weaker exotherms can still drive a runaway given enough unsupervised time.</li>
+  <li>Relief devices must be sized and set for the specific hazard scenario (e.g., runaway reaction), not repurposed from an unrelated design basis.</li>
+  <li>This incident is the direct origin of the EU's Seveso Directive (now Seveso III) — the regulatory foundation requiring hazardous facilities to conduct formal risk assessments and coordinate with local authorities on emergency planning, precisely because of the disclosure and siting failures here.</li>
+</ol>
+
+    </article>
+    <div class="sources"><h3>Sources</h3><ul><li>UK HSE COMAH case study archive</li><li>FABIG industrial accidents archive</li><li>ARIA/BARPI accident database (France)</li></ul></div>
+    <a class="back-link" href="../../#archive">&larr; Back to the full archive</a>
+  </div>
+</main>
+</body>
+</html>

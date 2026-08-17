@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>T2 Laboratories Reactive Chemical Explosion — Process Safety Calendar</title>
+<meta name="description" content="T2 Laboratories Reactive Chemical Explosion, 2007: what happened, root causes, and lessons learned.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#EFF3F5; --ink:#101820; --blueprint:#0B4F6C;
+    --amber:#F2A900; --red:#C81E1E; --line:#C7D0D6; --paper-card:#FFFFFF;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:'IBM Plex Sans', sans-serif;line-height:1.65;}
+  .wrap{max-width:760px;margin:0 auto;padding:0 24px;}
+  header{border-bottom:1px solid var(--line);padding:20px 0;}
+  .brand{font-family:'IBM Plex Mono', monospace;font-size:13px;letter-spacing:0.08em;text-transform:uppercase;display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink);}
+  .brand .dot{width:8px;height:8px;background:var(--amber);border:1px solid var(--ink);}
+  main{padding:40px 0 64px;}
+  .eyebrow{font-family:'IBM Plex Mono', monospace;font-size:12px;letter-spacing:0.05em;color:var(--blueprint);margin-bottom:10px;}
+  h1{font-family:'Space Grotesk', sans-serif;font-weight:700;font-size:34px;line-height:1.2;margin:0 0 14px;}
+  .meta-row{font-family:'IBM Plex Mono', monospace;font-size:13px;color:#555;margin-bottom:8px;}
+  .tier-tag{display:inline-block;font-family:'IBM Plex Mono', monospace;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;padding:3px 8px;border:1px solid var(--red);color:var(--red);margin-bottom:16px;}
+  .tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:28px;}
+  .tag{font-family:'IBM Plex Mono', monospace;font-size:11px;padding:3px 8px;border:1px solid var(--line);color:#555;}
+  article h2{font-family:'Space Grotesk', sans-serif;font-size:20px;margin:32px 0 12px;}
+  article p{font-size:15.5px;color:#292929;margin:0 0 14px;}
+  article ul, article ol{padding-left:22px;margin:0 0 14px;}
+  article li{font-size:15.5px;color:#292929;margin-bottom:8px;}
+  article strong{color:var(--ink);}
+  .sources{margin-top:36px;padding-top:20px;border-top:1px solid var(--line);}
+  .sources h3{font-family:'IBM Plex Mono', monospace;font-size:12px;letter-spacing:0.05em;text-transform:uppercase;color:var(--blueprint);margin:0 0 10px;}
+  .sources ul{padding-left:20px;margin:0;}
+  .sources li{font-size:13.5px;color:#555;margin-bottom:4px;}
+  .back-link{display:inline-block;margin-top:36px;font-family:'IBM Plex Mono', monospace;font-size:13px;color:var(--blueprint);text-decoration:none;}
+  .back-link:hover{text-decoration:underline;}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap"><a class="brand" href="../../"><span class="dot"></span> Process Safety Calendar</a></div>
+</header>
+<main>
+  <div class="wrap">
+    <div class="eyebrow">Anniversary: December 19, 2007</div>
+    <h1>T2 Laboratories Reactive Chemical Explosion</h1>
+    <div class="meta-row">Jacksonville, FL, USA &middot; 4 fatalities, 32 injuries</div>
+    <div class="tags"><span class="tag">process-hazard-analysis</span><span class="tag">mechanical-integrity</span><span class="tag">safety-culture</span></div>
+    <article>
+<h2>What Happened</h2>
+<p>During a batch process to manufacture the gasoline additive MCMT (methylcyclopentadienyl manganese tricarbonyl), the reactor's cooling system likely malfunctioned — probably due to a blockage or valve failure — while the reaction was underway. Without adequate cooling, the exothermic reaction accelerated into a runaway, driving temperature and pressure inside the 2,400-gallon reactor far beyond its design limits. The process operator reported a cooling problem and called the plant's owners back to the site; one owner went to the control room to help just minutes before the reactor violently ruptured. The explosion killed the owner and the process operator in the control room, along with two outside operators who were leaving the area, and injured 32 more — including 28 people at nearby businesses hit by flying debris and blown-in windows and walls. Wreckage was found up to a mile from the site.</p>
+<h2>Root Causes</h2>
+<ul>
+  <li><strong>Unrecognized runaway reaction hazard:</strong> the company had never fully identified or characterized the potential for this specific reaction chemistry to run away — despite both owners holding chemistry and chemical engineering degrees, the CSB found they were likely unaware of the reaction's true runaway potential.</li>
+  <li><strong>Inadequate reactor cooling system:</strong> the cooling system that should have controlled the exotherm was insufficient or failed outright, and there was no independent, more robust backup to arrest the reaction once cooling was lost.</li>
+  <li><strong>No formal process hazard analysis:</strong> a PHA on this process, specifically quantifying worst-case consequences of a loss-of-cooling upset, would very likely have surfaced the need for better safeguards before the process was ever run at this scale.</li>
+  <li><strong>Ignored near-misses:</strong> the CSB found the company had experienced prior near-misses during earlier production runs of this same chemistry without recognizing them as warnings of the underlying runaway hazard.</li>
+</ul>
+<h2>Lessons Learned</h2>
+<ol>
+  <li>Reactive chemical hazards need to be assessed with real thermal hazard data (adiabatic calorimetry) before scale-up — intuition and general chemistry knowledge are not a substitute for characterizing a specific reaction's runaway potential.</li>
+  <li>Loss of cooling on an exothermic batch reaction is a foreseeable upset condition and needs a dedicated safeguard — an independent emergency cooling or reaction-quench system, not just the primary cooling loop.</li>
+  <li>A near-miss during a reactive process is a direct signal that your hazard understanding is incomplete — treat it as a stop-and-investigate trigger, not a one-off anomaly.</li>
+  <li>This incident specifically prompted the CSB to recommend that reactive hazard recognition be formally added to chemical engineering curricula — a rare case where an incident's lessons reached back into how the profession itself is trained.</li>
+</ol>
+
+    </article>
+    <div class="sources"><h3>Sources</h3><ul><li>CSB Investigation Report (2009)</li><li>CSB safety video and public meeting findings</li></ul></div>
+    <a class="back-link" href="../../#archive">&larr; Back to the full archive</a>
+  </div>
+</main>
+</body>
+</html>

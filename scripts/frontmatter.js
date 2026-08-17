@@ -32,7 +32,7 @@ function parseFlowList(raw) {
 
 function parseFrontmatter(text) {
   const data = {};
-  const lines = text.split("\n");
+  const lines = text.split("\n").map(l => l.replace(/\r$/, ""));
   let i = 0;
   let currentKey = null;
   let currentList = null;

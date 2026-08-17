@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bhopal Gas Tragedy — Process Safety Calendar</title>
+<meta name="description" content="Bhopal Gas Tragedy, 1984: what happened, root causes, and lessons learned.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#EFF3F5; --ink:#101820; --blueprint:#0B4F6C;
+    --amber:#F2A900; --red:#C81E1E; --line:#C7D0D6; --paper-card:#FFFFFF;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:'IBM Plex Sans', sans-serif;line-height:1.65;}
+  .wrap{max-width:760px;margin:0 auto;padding:0 24px;}
+  header{border-bottom:1px solid var(--line);padding:20px 0;}
+  .brand{font-family:'IBM Plex Mono', monospace;font-size:13px;letter-spacing:0.08em;text-transform:uppercase;display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink);}
+  .brand .dot{width:8px;height:8px;background:var(--amber);border:1px solid var(--ink);}
+  main{padding:40px 0 64px;}
+  .eyebrow{font-family:'IBM Plex Mono', monospace;font-size:12px;letter-spacing:0.05em;color:var(--blueprint);margin-bottom:10px;}
+  h1{font-family:'Space Grotesk', sans-serif;font-weight:700;font-size:34px;line-height:1.2;margin:0 0 14px;}
+  .meta-row{font-family:'IBM Plex Mono', monospace;font-size:13px;color:#555;margin-bottom:8px;}
+  .tier-tag{display:inline-block;font-family:'IBM Plex Mono', monospace;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;padding:3px 8px;border:1px solid var(--red);color:var(--red);margin-bottom:16px;}
+  .tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:28px;}
+  .tag{font-family:'IBM Plex Mono', monospace;font-size:11px;padding:3px 8px;border:1px solid var(--line);color:#555;}
+  article h2{font-family:'Space Grotesk', sans-serif;font-size:20px;margin:32px 0 12px;}
+  article p{font-size:15.5px;color:#292929;margin:0 0 14px;}
+  article ul, article ol{padding-left:22px;margin:0 0 14px;}
+  article li{font-size:15.5px;color:#292929;margin-bottom:8px;}
+  article strong{color:var(--ink);}
+  .sources{margin-top:36px;padding-top:20px;border-top:1px solid var(--line);}
+  .sources h3{font-family:'IBM Plex Mono', monospace;font-size:12px;letter-spacing:0.05em;text-transform:uppercase;color:var(--blueprint);margin:0 0 10px;}
+  .sources ul{padding-left:20px;margin:0;}
+  .sources li{font-size:13.5px;color:#555;margin-bottom:4px;}
+  .back-link{display:inline-block;margin-top:36px;font-family:'IBM Plex Mono', monospace;font-size:13px;color:var(--blueprint);text-decoration:none;}
+  .back-link:hover{text-decoration:underline;}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap"><a class="brand" href="../../"><span class="dot"></span> Process Safety Calendar</a></div>
+</header>
+<main>
+  <div class="wrap">
+    <div class="eyebrow">Anniversary: December 3, 1984</div>
+    <h1>Bhopal Gas Tragedy</h1>
+    <div class="meta-row">Bhopal, Madhya Pradesh, India &middot; 3800 fatalities, 500000 injuries</div>
+    <div class="tags"><span class="tag">process-hazard-analysis</span><span class="tag">mechanical-integrity</span><span class="tag">emergency-planning</span><span class="tag">safety-culture</span></div>
+    <article>
+<h2>What Happened</h2>
+<p>Water entered a storage tank holding roughly 40 tons of methyl isocyanate (MIC) at a Union Carbide pesticide plant, triggering a runaway exothermic reaction. The resulting pressure release sent a dense toxic gas cloud over the densely populated area surrounding the plant. Refrigeration on the tank (meant to keep MIC stable) had been shut down for cost reasons, the gas scrubber and flare tower meant to neutralize any release were both non-operational, and no effective public warning system existed. Official death toll estimates range from roughly 3,800 to over 15,000 including long-term effects, with several hundred thousand injured.</p>
+<h2>Root Causes</h2>
+<ul>
+  <li><strong>Design deficiency:</strong> safety systems (refrigeration, scrubber, flare) were undersized or non-operational at the time of the release, and were never designed to handle a release of this magnitude.</li>
+  <li><strong>Deferred maintenance &amp; staffing cuts:</strong> the plant had reduced maintenance and operating staff significantly in the years before the incident as part of cost-reduction measures.</li>
+  <li><strong>Inadequate process hazard analysis:</strong> the potential for water contamination of the MIC tank and the consequence severity was not adequately assessed or mitigated.</li>
+  <li><strong>No community emergency planning:</strong> there was no siren system, evacuation plan, or public information campaign to protect the surrounding population.</li>
+</ul>
+<h2>Lessons Learned</h2>
+<ol>
+  <li>Safety-critical systems (refrigeration, scrubbers, flares, relief systems) must never be taken offline for cost savings without a formal, documented risk assessment.</li>
+  <li>Inherently safer design — minimizing on-site inventory of highly hazardous intermediates like MIC — is a stronger control than relying on layers of protection alone.</li>
+  <li>Community emergency planning is part of process safety, not a separate function; land-use planning around hazardous facilities matters as much as in-plant controls.</li>
+  <li>This incident directly led to the creation of OSHA's PSM standard (1910.119) and the EPA's Risk Management Program — it remains the benchmark against which "worst case" consequence severity is measured industry-wide.</li>
+</ol>
+
+    </article>
+    <div class="sources"><h3>Sources</h3><ul><li>Indian Council of Medical Research reports</li><li>Trevor Kletz, 'Still Going Wrong!'</li><li>CSB educational case study materials</li></ul></div>
+    <a class="back-link" href="../../#archive">&larr; Back to the full archive</a>
+  </div>
+</main>
+</body>
+</html>

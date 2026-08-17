@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AZF Toulouse Fertilizer Plant Explosion — Process Safety Calendar</title>
+<meta name="description" content="AZF Toulouse Fertilizer Plant Explosion, 2001: what happened, root causes, and lessons learned.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#EFF3F5; --ink:#101820; --blueprint:#0B4F6C;
+    --amber:#F2A900; --red:#C81E1E; --line:#C7D0D6; --paper-card:#FFFFFF;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:'IBM Plex Sans', sans-serif;line-height:1.65;}
+  .wrap{max-width:760px;margin:0 auto;padding:0 24px;}
+  header{border-bottom:1px solid var(--line);padding:20px 0;}
+  .brand{font-family:'IBM Plex Mono', monospace;font-size:13px;letter-spacing:0.08em;text-transform:uppercase;display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink);}
+  .brand .dot{width:8px;height:8px;background:var(--amber);border:1px solid var(--ink);}
+  main{padding:40px 0 64px;}
+  .eyebrow{font-family:'IBM Plex Mono', monospace;font-size:12px;letter-spacing:0.05em;color:var(--blueprint);margin-bottom:10px;}
+  h1{font-family:'Space Grotesk', sans-serif;font-weight:700;font-size:34px;line-height:1.2;margin:0 0 14px;}
+  .meta-row{font-family:'IBM Plex Mono', monospace;font-size:13px;color:#555;margin-bottom:8px;}
+  .tier-tag{display:inline-block;font-family:'IBM Plex Mono', monospace;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;padding:3px 8px;border:1px solid var(--red);color:var(--red);margin-bottom:16px;}
+  .tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:28px;}
+  .tag{font-family:'IBM Plex Mono', monospace;font-size:11px;padding:3px 8px;border:1px solid var(--line);color:#555;}
+  article h2{font-family:'Space Grotesk', sans-serif;font-size:20px;margin:32px 0 12px;}
+  article p{font-size:15.5px;color:#292929;margin:0 0 14px;}
+  article ul, article ol{padding-left:22px;margin:0 0 14px;}
+  article li{font-size:15.5px;color:#292929;margin-bottom:8px;}
+  article strong{color:var(--ink);}
+  .sources{margin-top:36px;padding-top:20px;border-top:1px solid var(--line);}
+  .sources h3{font-family:'IBM Plex Mono', monospace;font-size:12px;letter-spacing:0.05em;text-transform:uppercase;color:var(--blueprint);margin:0 0 10px;}
+  .sources ul{padding-left:20px;margin:0;}
+  .sources li{font-size:13.5px;color:#555;margin-bottom:4px;}
+  .back-link{display:inline-block;margin-top:36px;font-family:'IBM Plex Mono', monospace;font-size:13px;color:var(--blueprint);text-decoration:none;}
+  .back-link:hover{text-decoration:underline;}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap"><a class="brand" href="../../"><span class="dot"></span> Process Safety Calendar</a></div>
+</header>
+<main>
+  <div class="wrap">
+    <div class="eyebrow">Anniversary: September 21, 2001</div>
+    <h1>AZF Toulouse Fertilizer Plant Explosion</h1>
+    <div class="meta-row">Toulouse, France &middot; 31 fatalities, 2500 injuries</div>
+    <div class="tags"><span class="tag">process-hazard-analysis</span><span class="tag">facility-siting</span><span class="tag">mechanical-integrity</span></div>
+    <article>
+<h2>What Happened</h2>
+<p>An explosion equivalent to roughly 20–40 tons of TNT destroyed a warehouse holding approximately 300–400 tons of off-specification ammonium nitrate at the AZF fertilizer plant, killing 31 people and injuring around 2,500 — one of the largest industrial accidents in modern French history, with damage extending across southern Toulouse. The official investigation concluded the most probable cause was accidental mixing of a small quantity of sodium dichloroisocyanurate (a chlorinated compound used elsewhere on site) with off-spec ammonium nitrate that had been dumped in the same storage area roughly 20 minutes before the blast, triggering a reaction that detonated the pile.</p>
+<p><strong>Note on certainty:</strong> unlike most incidents in this database, the precise causal chain at AZF remains genuinely disputed. Judicial and technical investigations reached different conclusions over more than a decade of litigation, and some independent researchers have argued the official chemical-mixing theory doesn't fully explain witness reports of unusual electrical phenomena in the hours before the blast. This entry reflects the most widely cited official finding, but readers researching this incident further should be aware the full causal picture was never conclusively settled to the satisfaction of all investigators. The death toll is also reported inconsistently across sources — figures of 29, 30, and 31 all appear in credible technical and journalistic accounts, likely reflecting differences in when the count was taken and which indirect deaths were included.</p>
+<h2>Root Causes (per the official investigation)</h2>
+<ul>
+  <li><strong>Incompatible chemical mixing:</strong> small quantities of chlorinated compound were introduced into a storage area holding off-spec ammonium nitrate, and the two are chemically incompatible when mixed.</li>
+  <li><strong>Poor control over off-spec/reject material storage:</strong> the plant lacked adequate segregation and handling controls for rejected or off-specification product, which is exactly the kind of material most likely to end up stored inconsistently with normal procedures.</li>
+  <li><strong>Inadequate hazard study:</strong> the plant's risk assessment did not adequately anticipate this failure mode or account for worst-case, low-probability scenarios involving material mixing in storage.</li>
+  <li><strong>Facility siting:</strong> like several fertilizer/ammonium nitrate incidents on this calendar, the plant — originally built on open land in 1930 — had become surrounded by dense urban development by 2001, dramatically raising the consequence severity of any large release.</li>
+</ul>
+<h2>Lessons Learned</h2>
+<ol>
+  <li>Off-specification and reject material needs the same segregation and handling discipline as on-spec product — arguably more, since it's exactly the material most likely to be handled inconsistently or stored somewhere convenient rather than somewhere safe.</li>
+  <li>Chemical compatibility controls must extend to storage and waste-handling areas, not just active process units — incompatible materials can end up in the same space through informal, undocumented pathways.</li>
+  <li>Facility siting risk grows over decades even when the plant itself doesn't change — periodically reassess worst-case consequence distances against current, not historical, land use around the site.</li>
+  <li>When causation is genuinely uncertain even after a thorough investigation, that uncertainty itself is a finding — it argues for defense-in-depth controls that don't depend on knowing the precise failure mechanism in advance.</li>
+</ol>
+
+    </article>
+    <div class="sources"><h3>Sources</h3><ul><li>French final judicial investigation report (2006)</li><li>Ouvry CBRN historical review</li><li>Academic reviews (Dechy et al., other peer-reviewed sources)</li></ul></div>
+    <a class="back-link" href="../../#archive">&larr; Back to the full archive</a>
+  </div>
+</main>
+</body>
+</html>
