@@ -12,7 +12,7 @@ const path = require("path");
 
 const INDEX_JSON = path.join(__dirname, "..", "index.json");
 const OUT_ICS = path.join(__dirname, "..", "site", "calendar.ics");
-const SITE_URL = "https://processsafetycalendar.com"; // TODO: replace with your real domain
+const SITE_URL = "https://harish70777.github.io/process-safety-Calendar";
 
 function escapeICS(text) {
   return String(text)
