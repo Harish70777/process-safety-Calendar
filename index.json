@@ -1,0 +1,625 @@
+[
+  {
+    "id": "flixborough-1974",
+    "file": "flixborough-1974.md",
+    "title": "Flixborough Chemical Plant Explosion",
+    "date": "1974-06-01",
+    "location": "Flixborough, England",
+    "industry": [
+      "chemical-manufacturing"
+    ],
+    "chemicals": [
+      "cyclohexane"
+    ],
+    "severity": 1,
+    "fatalities": 28,
+    "injuries": 36,
+    "root_causes": [
+      "inadequate-moc",
+      "temporary-modification",
+      "no-engineering-review"
+    ],
+    "psm_elements": [
+      "management-of-change",
+      "process-hazard-analysis",
+      "mechanical-integrity"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "UK Court of Inquiry Report (1975)",
+      "HSE historical case study"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "seveso-1976",
+    "file": "seveso-1976.md",
+    "title": "Seveso Dioxin Release",
+    "date": "1976-07-10",
+    "location": "Meda/Seveso, Lombardy, Italy",
+    "industry": [
+      "chemical-manufacturing",
+      "pesticides"
+    ],
+    "chemicals": [
+      "trichlorophenol",
+      "dioxin-tcdd"
+    ],
+    "severity": 1,
+    "fatalities": 0,
+    "injuries": 0,
+    "root_causes": [
+      "design-deficiency",
+      "no-automatic-cooling",
+      "inadequate-instrumentation",
+      "unsupervised-shutdown",
+      "poor-emergency-response"
+    ],
+    "psm_elements": [
+      "process-hazard-analysis",
+      "mechanical-integrity",
+      "facility-siting",
+      "emergency-planning"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "UK HSE COMAH case study archive",
+      "FABIG industrial accidents archive",
+      "ARIA/BARPI accident database (France)"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "bhopal-1984",
+    "file": "bhopal-1984.md",
+    "title": "Bhopal Gas Tragedy",
+    "date": "1984-12-03",
+    "location": "Bhopal, Madhya Pradesh, India",
+    "industry": [
+      "chemical-manufacturing",
+      "pesticides"
+    ],
+    "chemicals": [
+      "methyl-isocyanate"
+    ],
+    "severity": 1,
+    "fatalities": 3800,
+    "injuries": 500000,
+    "root_causes": [
+      "design-deficiency",
+      "deferred-maintenance",
+      "inadequate-emergency-response",
+      "staffing-cuts"
+    ],
+    "psm_elements": [
+      "process-hazard-analysis",
+      "mechanical-integrity",
+      "emergency-planning",
+      "safety-culture"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "Indian Council of Medical Research reports",
+      "Trevor Kletz, 'Still Going Wrong!'",
+      "CSB educational case study materials"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "piper-alpha-1988",
+    "file": "piper-alpha-1988.md",
+    "title": "Piper Alpha Offshore Platform Explosion",
+    "date": "1988-07-06",
+    "location": "North Sea, off Aberdeen, Scotland",
+    "industry": [
+      "offshore-oil-gas"
+    ],
+    "chemicals": [
+      "condensate",
+      "natural-gas"
+    ],
+    "severity": 1,
+    "fatalities": 167,
+    "injuries": 61,
+    "root_causes": [
+      "inadequate-moc",
+      "permit-to-work-failure",
+      "shift-handover-failure",
+      "design-deficiency",
+      "poor-emergency-response"
+    ],
+    "psm_elements": [
+      "management-of-change",
+      "permit-to-work",
+      "emergency-planning",
+      "facility-siting",
+      "safety-culture"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "Cullen Report (1990) - UK Public Inquiry",
+      "HSE offshore safety case regulations background"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "phillips-pasadena-1989",
+    "file": "phillips-pasadena-1989.md",
+    "title": "Phillips 66 Pasadena Polyethylene Plant Explosion",
+    "date": "1989-10-23",
+    "location": "Pasadena, TX, USA",
+    "industry": [
+      "petrochemical-manufacturing",
+      "plastics"
+    ],
+    "chemicals": [
+      "ethylene",
+      "isobutane",
+      "propylene",
+      "hexane"
+    ],
+    "severity": 1,
+    "fatalities": 23,
+    "injuries": 314,
+    "root_causes": [
+      "inadequate-lockout-tagout",
+      "no-process-hazard-analysis",
+      "contractor-management-failure",
+      "no-gas-detection"
+    ],
+    "psm_elements": [
+      "permit-to-work",
+      "process-hazard-analysis",
+      "contractor-safety",
+      "mechanical-integrity"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "OSHA Report to the President (April 1990)",
+      "Oil & Gas Journal contemporaneous reporting"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "longford-1998",
+    "file": "longford-1998.md",
+    "title": "Longford Esso Gas Plant Explosion",
+    "date": "1998-09-25",
+    "location": "Longford, Victoria, Australia",
+    "industry": [
+      "natural-gas-processing"
+    ],
+    "chemicals": [
+      "natural-gas",
+      "condensate"
+    ],
+    "severity": 1,
+    "fatalities": 2,
+    "injuries": 8,
+    "root_causes": [
+      "no-hazop-conducted",
+      "inadequate-training",
+      "poor-shift-communication",
+      "alarm-desensitization",
+      "staffing-cuts"
+    ],
+    "psm_elements": [
+      "process-hazard-analysis",
+      "safety-culture",
+      "mechanical-integrity",
+      "emergency-planning"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "Longford Royal Commission Final Report (1999)",
+      "Andrew Hopkins, 'Lessons from Longford' (2000)"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "azf-toulouse-2001",
+    "file": "azf-toulouse-2001.md",
+    "title": "AZF Toulouse Fertilizer Plant Explosion",
+    "date": "2001-09-21",
+    "location": "Toulouse, France",
+    "industry": [
+      "fertilizer-manufacturing"
+    ],
+    "chemicals": [
+      "ammonium-nitrate",
+      "sodium-dichloroisocyanurate"
+    ],
+    "severity": 1,
+    "fatalities": 31,
+    "injuries": 2500,
+    "root_causes": [
+      "incompatible-chemical-mixing",
+      "off-spec-material-storage",
+      "inadequate-hazard-study",
+      "facility-siting"
+    ],
+    "psm_elements": [
+      "process-hazard-analysis",
+      "facility-siting",
+      "mechanical-integrity"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "French final judicial investigation report (2006)",
+      "Ouvry CBRN historical review",
+      "Academic reviews (Dechy et al., other peer-reviewed sources)"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "texas-city-2005",
+    "file": "texas-city-2005.md",
+    "title": "BP Texas City Refinery Explosion",
+    "date": "2005-03-23",
+    "location": "Texas City, TX, USA",
+    "industry": [
+      "oil-gas-refining"
+    ],
+    "chemicals": [
+      "naphtha",
+      "raffinate",
+      "hydrocarbons"
+    ],
+    "severity": 1,
+    "fatalities": 15,
+    "injuries": 180,
+    "root_causes": [
+      "instrumentation-failure",
+      "facility-siting",
+      "cost-cutting",
+      "inadequate-pssr"
+    ],
+    "psm_elements": [
+      "pre-startup-safety-review",
+      "mechanical-integrity",
+      "facility-siting",
+      "safety-culture"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Final Investigation Report (2007)",
+      "Baker Panel Report (2007)",
+      "CSB 20th Anniversary Investigation Digest"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "buncefield-2005",
+    "file": "buncefield-2005.md",
+    "title": "Buncefield Oil Storage Depot Explosion",
+    "date": "2005-12-11",
+    "location": "Hemel Hempstead, England",
+    "industry": [
+      "fuel-storage-terminal"
+    ],
+    "chemicals": [
+      "gasoline",
+      "petroleum"
+    ],
+    "severity": 1,
+    "fatalities": 0,
+    "injuries": 43,
+    "root_causes": [
+      "instrumentation-failure",
+      "inadequate-independent-protection-layers",
+      "bund-design-failure"
+    ],
+    "psm_elements": [
+      "mechanical-integrity",
+      "process-hazard-analysis",
+      "facility-siting"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "Buncefield Major Incident Investigation Board Reports",
+      "UK HSE / COMAH investigation"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "t2-laboratories-2007",
+    "file": "t2-laboratories-2007.md",
+    "title": "T2 Laboratories Reactive Chemical Explosion",
+    "date": "2007-12-19",
+    "location": "Jacksonville, FL, USA",
+    "industry": [
+      "specialty-chemical-manufacturing"
+    ],
+    "chemicals": [
+      "mcmt",
+      "sodium",
+      "diglyme"
+    ],
+    "severity": 1,
+    "fatalities": 4,
+    "injuries": 32,
+    "root_causes": [
+      "unrecognized-reactive-hazard-runaway-reaction",
+      "inadequate-cooling-system",
+      "no-pha",
+      "ignored-near-misses"
+    ],
+    "psm_elements": [
+      "process-hazard-analysis",
+      "mechanical-integrity",
+      "safety-culture"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Investigation Report (2009)",
+      "CSB safety video and public meeting findings"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "imperial-sugar-2008",
+    "file": "imperial-sugar-2008.md",
+    "title": "Imperial Sugar Refinery Dust Explosion",
+    "date": "2008-02-07",
+    "location": "Port Wentworth, GA, USA",
+    "industry": [
+      "food-manufacturing",
+      "sugar-refining"
+    ],
+    "chemicals": [
+      "combustible-sugar-dust"
+    ],
+    "severity": 1,
+    "fatalities": 14,
+    "injuries": 38,
+    "root_causes": [
+      "combustible-dust-accumulation",
+      "inadequate-housekeeping",
+      "no-explosion-protection",
+      "normalized-hazard"
+    ],
+    "psm_elements": [
+      "mechanical-integrity",
+      "safety-culture",
+      "emergency-planning"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Investigation Report (2009)",
+      "Vorderbrueggen, Process Safety Progress (2011)"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "jaipur-2009",
+    "file": "jaipur-2009.md",
+    "title": "Jaipur Oil Terminal Fire",
+    "date": "2009-10-29",
+    "location": "Sitapura, Jaipur, Rajasthan, India",
+    "industry": [
+      "fuel-storage-terminal"
+    ],
+    "chemicals": [
+      "motor-spirit-gasoline"
+    ],
+    "severity": 1,
+    "fatalities": 12,
+    "injuries": 200,
+    "root_causes": [
+      "no-remote-shutoff-valve",
+      "no-written-procedures",
+      "inadequate-emergency-response",
+      "procedural-sequence-error"
+    ],
+    "psm_elements": [
+      "mechanical-integrity",
+      "process-hazard-analysis",
+      "emergency-planning",
+      "facility-siting"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "Independent Inquiry Committee Report, Ministry of Petroleum and Natural Gas (India)",
+      "FABIG industrial accidents archive"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "kleen-energy-2010",
+    "file": "kleen-energy-2010.md",
+    "title": "Kleen Energy Plant Natural Gas Explosion",
+    "date": "2010-02-07",
+    "location": "Middletown, CT, USA",
+    "industry": [
+      "power-generation"
+    ],
+    "chemicals": [
+      "natural-gas"
+    ],
+    "severity": 1,
+    "fatalities": 6,
+    "injuries": 50,
+    "root_causes": [
+      "inherently-unsafe-work-practice",
+      "no-regulatory-prohibition",
+      "congested-release-area",
+      "undetermined-ignition-source"
+    ],
+    "psm_elements": [
+      "process-hazard-analysis",
+      "mechanical-integrity",
+      "management-of-change"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Urgent Recommendation and Investigation Findings (2010)",
+      "CSB press statements, Feb-Mar 2010"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "deepwater-horizon-2010",
+    "file": "deepwater-horizon-2010.md",
+    "title": "Deepwater Horizon / Macondo Well Blowout",
+    "date": "2010-04-20",
+    "location": "Gulf of Mexico, ~41 miles off Louisiana, USA",
+    "industry": [
+      "offshore-oil-gas",
+      "drilling"
+    ],
+    "chemicals": [
+      "crude-oil",
+      "natural-gas"
+    ],
+    "severity": 1,
+    "fatalities": 11,
+    "injuries": 17,
+    "root_causes": [
+      "cement-barrier-failure",
+      "misinterpreted-pressure-test",
+      "missed-well-flow-indication",
+      "bop-failure",
+      "ambiguous-safety-roles"
+    ],
+    "psm_elements": [
+      "process-hazard-analysis",
+      "mechanical-integrity",
+      "management-of-change",
+      "safety-culture",
+      "emergency-planning"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Investigation Report, Volume 2 (2016) - BOP Failure Analysis",
+      "BOEMRE/USCG Joint Investigation Report (2011)",
+      "National Commission Chief Counsel's Report"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "west-fertilizer-2013",
+    "file": "west-fertilizer-2013.md",
+    "title": "West Fertilizer Company Fire and Explosion",
+    "date": "2013-04-17",
+    "location": "West, TX, USA",
+    "industry": [
+      "fertilizer-storage-distribution"
+    ],
+    "chemicals": [
+      "ammonium-nitrate"
+    ],
+    "severity": 1,
+    "fatalities": 15,
+    "injuries": 260,
+    "root_causes": [
+      "combustible-building-materials",
+      "no-sprinkler-system",
+      "inadequate-facility-siting",
+      "no-hazard-recognition"
+    ],
+    "psm_elements": [
+      "facility-siting",
+      "emergency-planning",
+      "mechanical-integrity",
+      "process-hazard-analysis"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Investigation Report 2013-02-I-TX (2016)",
+      "CSB safety video: Dangerously Close"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "tianjin-2015",
+    "file": "tianjin-2015.md",
+    "title": "Tianjin Port Explosions",
+    "date": "2015-08-12",
+    "location": "Binhai New Area, Tianjin, China",
+    "industry": [
+      "logistics-warehousing",
+      "hazardous-materials-storage"
+    ],
+    "chemicals": [
+      "nitrocellulose",
+      "ammonium-nitrate",
+      "sodium-cyanide"
+    ],
+    "severity": 1,
+    "fatalities": 173,
+    "injuries": 798,
+    "root_causes": [
+      "spontaneous-ignition-improper-storage",
+      "incompatible-chemical-co-storage",
+      "illegal-storage-quantities",
+      "inadequate-regulatory-enforcement"
+    ],
+    "psm_elements": [
+      "facility-siting",
+      "mechanical-integrity",
+      "process-hazard-analysis",
+      "emergency-planning"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "China State Council Investigation Report (Feb 2016)",
+      "Fu et al., Process Safety Progress (2016)",
+      "Swiss Re / Munich Re insurance loss analyses"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "husky-superior-2018",
+    "file": "husky-superior-2018.md",
+    "title": "Husky Energy Superior Refinery FCC Explosion",
+    "date": "2018-04-26",
+    "location": "Superior, WI, USA",
+    "industry": [
+      "oil-gas-refining"
+    ],
+    "chemicals": [
+      "hydrocarbons",
+      "hydrogen-fluoride",
+      "asphalt"
+    ],
+    "severity": 1,
+    "fatalities": 0,
+    "injuries": 36,
+    "root_causes": [
+      "worn-slide-valve",
+      "ineffective-safeguards",
+      "failure-to-learn-from-prior-incident",
+      "inadequate-process-knowledge",
+      "near-miss-hf-tank"
+    ],
+    "psm_elements": [
+      "mechanical-integrity",
+      "process-hazard-analysis",
+      "facility-siting",
+      "management-of-change"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Final Investigation Report (2022)",
+      "CSB Factual Investigative Update (2018)"
+    ],
+    "hasBody": true
+  }
+]

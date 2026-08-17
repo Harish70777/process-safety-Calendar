@@ -1,0 +1,88 @@
+=== Process Safety Calendar — Index Report ===
+Generated: 2026-08-17T17:21:42.429Z
+
+Total incidents:      17
+  Published:           17
+  Draft/needs review:  0
+
+--- Data quality issues ---
+None found — all incidents have required fields. ✅
+
+--- Duplicate calendar dates (not an error, just FYI) ---
+2-7: Imperial Sugar Refinery Dust Explosion | Kleen Energy Plant Natural Gas Explosion
+
+--- Coverage by PSM element (are we balanced, or overweight on one theme?) ---
+  mechanical-integrity: 16
+  process-hazard-analysis: 14
+  facility-siting: 9
+  emergency-planning: 9
+  safety-culture: 7
+  management-of-change: 5
+  permit-to-work: 2
+  contractor-safety: 1
+  pre-startup-safety-review: 1
+
+--- Coverage by root cause tag ---
+  design-deficiency: 3
+  inadequate-moc: 2
+  poor-emergency-response: 2
+  inadequate-emergency-response: 2
+  staffing-cuts: 2
+  facility-siting: 2
+  instrumentation-failure: 2
+  temporary-modification: 1
+  no-engineering-review: 1
+  no-automatic-cooling: 1
+  inadequate-instrumentation: 1
+  unsupervised-shutdown: 1
+  deferred-maintenance: 1
+  permit-to-work-failure: 1
+  shift-handover-failure: 1
+  inadequate-lockout-tagout: 1
+  no-process-hazard-analysis: 1
+  contractor-management-failure: 1
+  no-gas-detection: 1
+  no-hazop-conducted: 1
+  inadequate-training: 1
+  poor-shift-communication: 1
+  alarm-desensitization: 1
+  incompatible-chemical-mixing: 1
+  off-spec-material-storage: 1
+  inadequate-hazard-study: 1
+  cost-cutting: 1
+  inadequate-pssr: 1
+  inadequate-independent-protection-layers: 1
+  bund-design-failure: 1
+  unrecognized-reactive-hazard-runaway-reaction: 1
+  inadequate-cooling-system: 1
+  no-pha: 1
+  ignored-near-misses: 1
+  combustible-dust-accumulation: 1
+  inadequate-housekeeping: 1
+  no-explosion-protection: 1
+  normalized-hazard: 1
+  no-remote-shutoff-valve: 1
+  no-written-procedures: 1
+  procedural-sequence-error: 1
+  inherently-unsafe-work-practice: 1
+  no-regulatory-prohibition: 1
+  congested-release-area: 1
+  undetermined-ignition-source: 1
+  cement-barrier-failure: 1
+  misinterpreted-pressure-test: 1
+  missed-well-flow-indication: 1
+  bop-failure: 1
+  ambiguous-safety-roles: 1
+  combustible-building-materials: 1
+  no-sprinkler-system: 1
+  inadequate-facility-siting: 1
+  no-hazard-recognition: 1
+  spontaneous-ignition-improper-storage: 1
+  incompatible-chemical-co-storage: 1
+  illegal-storage-quantities: 1
+  inadequate-regulatory-enforcement: 1
+  worn-slide-valve: 1
+  ineffective-safeguards: 1
+  failure-to-learn-from-prior-incident: 1
+  inadequate-process-knowledge: 1
+  near-miss-hf-tank: 1
