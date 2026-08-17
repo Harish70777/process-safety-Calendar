@@ -81,7 +81,6 @@ function pageTemplate(data, bodyHtml) {
 <main>
   <div class="wrap">
     <div class="eyebrow">Anniversary: ${dateStr}</div>
-    <span class="tier-tag">Severity ${esc(data.severity)}</span>
     <h1>${esc(data.title)}</h1>
     <div class="meta-row">${esc(data.location)}${toll ? " &middot; " + esc(toll) : ""}</div>
     <div class="tags">${tags}</div>
