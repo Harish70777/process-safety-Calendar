@@ -35,8 +35,22 @@ Legend: ✅ published · ⏳ researching · 🔲 not started
 | ✅ | Motiva Delaware City Sulfuric Acid Tank Explosion | 2001 | CSB Investigation Report | `motiva-delaware-city-2001.md` |
 | ✅ | Formosa Plastics Vinyl Chloride Explosion | 2004 | CSB Final Investigation Report | `formosa-illiopolis-2004.md` |
 | ✅ | Bayer CropScience Pesticide Waste Tank Explosion | 2008 | CSB Final Investigation Report | `bayer-cropscience-2008.md` |
+| ✅ | CTA Acoustics Dust Explosion and Fire | 2003 | CSB Final Investigation Report | `cta-acoustics-2003.md` |
+| ✅ | Hayes Lemmerz Aluminum Dust Explosion | 2003 | CSB Final Investigation Report | `hayes-lemmerz-2003.md` |
+| ✅ | BP Grangemouth — Three Major Incidents | 2000 | HSE/SEPA Major Incident Report | `bp-grangemouth-2000.md` |
+| ✅ | Texaco Milford Haven Refinery Explosion | 1994 | HSE Investigation Report | `milford-haven-1994.md` |
+| ✅ | Goodyear Houston Heat Exchanger Rupture | 2008 | CSB Case Study | `goodyear-houston-2008.md` |
+| ✅ | Freedom Industries Elk River Chemical Spill | 2014 | CSB Final Investigation Report | `freedom-industries-elk-river-2014.md` |
+| ✅ | Arkema Crosby Organic Peroxide Fire | 2017 | CSB Investigation Report | `arkema-crosby-2017.md` |
+| ✅ | AB Specialty Silicones Chemical Explosion | 2019 | CSB Safety Video/Update | `ab-specialty-silicones-2019.md` |
+| ✅ | Watson Grinding Propylene Explosion | 2020 | CSB Final Investigation Report | `watson-grinding-2020.md` |
+| ✅ | MGPI Processing Toxic Chlorine Release | 2016 | CSB Investigation Report | `mgpi-atchison-2016.md` |
+| ✅ | Loy-Lange Box Company Pressure Vessel Explosion | 2017 | CSB Final Investigation Report | `loy-lange-box-2017.md` |
+| ✅ | Packaging Corporation of America DeRidder Explosion | 2017 | CSB Investigation Report | `pca-deridder-2017.md` |
+| ✅ | Didion Milling Combustible Dust Explosions | 2017 | CSB Final Investigation Report | `didion-milling-2017.md` |
 | 🔲 | Chernobyl Nuclear Disaster | 1986 | IAEA | — (note: nuclear, not chemical process — confirm fit before researching) |
 | 🔲 | Macondo well control failures (pre-DWH) | — | CSB | — (largely superseded by deepwater-horizon-2010.md — likely skip) |
+| ⚠️ | Enterprise Products Mont Belvieu NGL explosion (2020) | — | Unconfirmed — no CSB report found for a 2020 incident; a fatal 2011 explosion at the same complex was OSHA-investigated, not CSB. Do not research further without a verified primary source. |
 
 ## How to add the next incident
 
@@ -61,23 +75,45 @@ against a primary investigation report:
 
 - Formosa Plastics Illiopolis Explosion (2004) — ✅ done, see above
 - Motiva Enterprises Delaware City Refinery Sulfuric Acid Tank Failure (2001) — ✅ done, see above
-- BP Grangemouth incidents (2000) — UK HSE
-- Enterprise Products Mont Belvieu NGL explosion (2020) — CSB
-- Milford Haven Refinery Explosion, Texaco (1994) — UK HSE
+- BP Grangemouth incidents (2000) — ✅ done, see above
+- Milford Haven Refinery Explosion, Texaco (1994) — ✅ done, see above
 - Nypro Flixborough-adjacent incidents / other UK HSE COMAH case studies
 - Various ARIA/BARPI entries for European solvent and storage tank fires
   not yet reviewed individually
 - Fieldwood Energy incident (referenced in EPSC's own 2026 process safety
   calendar — cross-check against CSB/BSEE for details)
-- Tesoro Anacortes Refinery fire (2010) — ✅ done, see above
-- BP Grangemouth "Three Greens" incidents specifically (2000) — UK HSE
-- Bayer CropScience Institute explosion, West Virginia (2008) — ✅ done, see above
-- Goodyear Houston chemical release (2008) — CSB
+- Goodyear Houston chemical release (2008) — ✅ done, see above
 - Praxair/other industrial gas asphyxiation incidents — CCPS case studies
-- CTA Acoustics Corbin, KY dust explosion (2003) — CSB, same national dust
-  study as West Pharmaceutical, good pairing
-- Hayes Lemmerz dust explosion, Huntington, IN (2003) — CSB, third of the
-  same 2003 dust explosion trio
+- CTA Acoustics Corbin, KY dust explosion (2003) — ✅ done, see above
+- Hayes Lemmerz dust explosion, Huntington, IN (2003) — ✅ done, see above
+- Freedom Industries Elk River, WV drinking water contamination (2014) —
+  ✅ done, see above
+- Arkema Crosby, TX organic peroxide fire, Hurricane Harvey (2017) —
+  ✅ done, see above
+- AB Specialty Silicones, Waukegan, IL explosion (2019) — ✅ done, see above
+- Watson Grinding and Manufacturing, Houston, TX explosion (2020) —
+  ✅ done, see above
+- MGPI Processing, Atchison, KS toxic release (2016) — ✅ done, see above
+- Loy-Lange Box Company, St. Louis, MO pressure vessel explosion (2017) —
+  ✅ done, see above
+- Packaging Corp of America, DeRidder, LA explosion (2017) — ✅ done,
+  see above
+- Didion Milling, Cambria, WI dust explosion (2017) — ✅ done, see above
+
+## Fresh candidates for the next research batch (not yet vetted)
+
+- Evergreen Packaging paper mill, NC — heat gun ignited resin bucket in a
+  confined space, 2 killed (2020) — CSB
+- Chemtool, Rockton, IL fire (2021) — CSB
+- NDK Crystal, Belvidere, IL stress corrosion cracking explosion (2009) — CSB
+- Kuraray America EVA plant explosion, Pasadena, TX (2018) — CSB
+- Allied Terminals fertilizer tank collapse, Chesapeake, VA (2008) — CSB
+- Barton Solvents, Des Moines, IA static electricity fire (2007) — CSB
+- Silver Eagle Refinery, Woods Cross, UT hydrogen explosion (2009) — CSB
+- Valero Refinery, Sunray, TX propane fire from frozen piping (2007) — CSB
+- International Paper, Pensacola, FL explosion — referenced in the PCA
+  DeRidder report as a related non-condensable gas system incident, worth
+  checking directly
 
 Before writing any of these up, verify against a primary source (CSB final
 report, HSE case study, or equivalent) rather than a secondary summary —
