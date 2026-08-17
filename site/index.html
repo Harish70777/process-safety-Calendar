@@ -164,6 +164,54 @@
     max-width:38em;
   }
 
+  .copy-row{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:28px;}
+  .copy-link-url{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:13px;
+    color:#555;
+  }
+  .copy-feedback{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:13px;
+    color:var(--blueprint);
+    opacity:0;
+    transition:opacity 0.15s ease;
+  }
+  .copy-feedback.shown{opacity:1;}
+
+  details.howto{
+    border:1px solid var(--line);
+    background:var(--paper-card);
+    margin-bottom:10px;
+    max-width:38em;
+  }
+  details.howto summary{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:13px;
+    padding:12px 16px;
+    cursor:pointer;
+    list-style:none;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+  }
+  details.howto summary::-webkit-details-marker{display:none;}
+  details.howto summary::after{content:"+";font-size:15px;color:var(--blueprint);}
+  details.howto[open] summary::after{content:"−";}
+  details.howto .howto-body{
+    padding:0 16px 16px;
+    font-size:14px;
+    color:#333;
+  }
+  details.howto .howto-body ol{margin:8px 0 0;padding-left:20px;}
+  details.howto .howto-body li{margin-bottom:6px;}
+  details.howto .howto-body code{
+    background:var(--paper);
+    padding:1px 5px;
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12px;
+  }
+
   .archive{padding:48px 0 64px;}
   .archive h3{
     font-family:'Space Grotesk', sans-serif;
@@ -255,19 +303,79 @@
   <div class="wrap">
     <h3>Subscribe to the calendar</h3>
     <p class="sub">One link, added once. New incidents you publish later show up automatically — no need to resubscribe.</p>
-    <div class="btn-row">
-      <a class="btn" id="google-btn" href="https://calendar.google.com/calendar/u/0/r/settings/addbyurl" target="_blank" rel="noopener">Add to Google Calendar</a>
-      <a class="btn secondary" href="webcal://harish70777.github.io/process-safety-Calendar/calendar.ics">Add to Apple / Outlook</a>
-      <a class="btn secondary" href="calendar.ics" download>Download .ics file</a>
+    <div class="copy-row">
+      <button class="btn" id="copy-btn" type="button">Copy calendar link</button>
+      <span class="copy-link-url">calendar.ics</span>
+      <span class="copy-feedback" id="copy-feedback">Copied ✓</span>
     </div>
-    <div class="note">Clicking "Add to Google Calendar" copies the feed link and opens Google's "Add by URL" page — just paste (Ctrl/Cmd+V) into the box that opens and click "Add calendar." Reminders aren't on by default for subscribed calendars: after subscribing, go to Settings → your subscribed calendar → Notifications, and turn on "Event notifications."</div>
+    <div class="note">Paste that link into your calendar app's "Subscribe from URL" (sometimes called "Add calendar from Internet" or "From URL"). Not sure where that is? Open the instructions for your app below.</div>
+
+    <details class="howto">
+      <summary>Google Calendar</summary>
+      <div class="howto-body">
+        <ol>
+          <li>On the left sidebar, next to "Other calendars," click <strong>+</strong></li>
+          <li>Choose <strong>"From URL"</strong></li>
+          <li>Paste the link, click <strong>Add calendar</strong></li>
+        </ol>
+        Reminders aren't on by default for subscribed calendars — after adding it, go to Settings → this calendar → Notifications, and turn on "Event notifications."
+      </div>
+    </details>
+
+    <details class="howto">
+      <summary>Apple Calendar</summary>
+      <div class="howto-body">
+        <ol>
+          <li>Open the Calendar app → menu <strong>File → New Calendar Subscription...</strong></li>
+          <li>Paste the link, click <strong>Subscribe</strong></li>
+          <li>Set auto-refresh frequency (daily is fine) and click <strong>OK</strong></li>
+        </ol>
+      </div>
+    </details>
+
+    <details class="howto">
+      <summary>Outlook</summary>
+      <div class="howto-body">
+        <ol>
+          <li>Go to Calendar view → <strong>File → Account Settings → Account Settings...</strong></li>
+          <li>Open the <strong>Internet Calendars</strong> tab → click <strong>New...</strong></li>
+          <li>Paste the link, click <strong>Add</strong></li>
+        </ol>
+      </div>
+    </details>
+
+    <details class="howto">
+      <summary>Subscription not working? Import it instead (one-time, always reliable)</summary>
+      <div class="howto-body">
+        <ol>
+          <li>Click <strong>Download .ics file</strong> below</li>
+          <li>In your calendar app, look for <strong>Import</strong> (Google: Settings → Import & Export. Outlook: File → Open &amp; Export → Import/Export)</li>
+          <li>Select the downloaded file</li>
+        </ol>
+        This adds every incident permanently, recurring each year. The only tradeoff: it won't auto-update if new incidents get added later — a live subscription does that automatically, an import doesn't.
+        <div style="margin-top:10px;"><a class="btn secondary" href="calendar.ics" download>Download .ics file</a></div>
+      </div>
+    </details>
+
     <script>
-      document.getElementById('google-btn').addEventListener('click', function(e) {
-        var icsUrl = new URL('calendar.ics', window.location.href).href;
-        if (navigator.clipboard) {
-          navigator.clipboard.writeText(icsUrl).catch(function(){});
-        }
-      });
+      (function() {
+        var btn = document.getElementById('copy-btn');
+        var feedback = document.getElementById('copy-feedback');
+        btn.addEventListener('click', function() {
+          var icsUrl = new URL('calendar.ics', window.location.href).href;
+          function showCopied() {
+            feedback.classList.add('shown');
+            setTimeout(function() { feedback.classList.remove('shown'); }, 2000);
+          }
+          if (navigator.clipboard) {
+            navigator.clipboard.writeText(icsUrl).then(showCopied).catch(function() {
+              window.prompt('Copy this link:', icsUrl);
+            });
+          } else {
+            window.prompt('Copy this link:', icsUrl);
+          }
+        });
+      })();
     </script>
   </div>
 </section>
