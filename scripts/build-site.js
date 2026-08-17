@@ -53,7 +53,7 @@ function cardFor(inc) {
   const mm = String(d.getUTCMonth() + 1).padStart(2, "0");
   const dd = String(d.getUTCDate()).padStart(2, "0");
   const sevClass = inc.severity === 1 ? " sev-1" : "";
-  const tags = (inc.psm_elements || []).slice(0, 3)
+  const tags = (inc.psm_elements || [])
     .map(t => `<span class="tag">${esc(humanize(t))}</span>`).join("");
 
   return `      <a class="card${sevClass}" href="incidents/${esc(inc.id)}/">
