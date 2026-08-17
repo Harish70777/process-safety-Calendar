@@ -165,13 +165,13 @@
     var industrySelect = document.getElementById("industry-filter");
     industries.forEach(function(i) {
       var opt = document.createElement("option");
-      opt.value = i; opt.textContent = i;
+      opt.value = i; opt.textContent = humanize(i);
       industrySelect.appendChild(opt);
     });
     var tagSelect = document.getElementById("tag-filter");
     tags.forEach(function(t) {
       var opt = document.createElement("option");
-      opt.value = t; opt.textContent = t;
+      opt.value = t; opt.textContent = humanize(t);
       tagSelect.appendChild(opt);
     });
 
@@ -190,6 +190,23 @@
       var d = document.createElement("div");
       d.textContent = s || "";
       return d.innerHTML;
+    }
+
+    function humanize(slug) {
+      var overrides = {
+        "oil-gas-refining": "Oil & Gas Refining",
+        "offshore-oil-gas": "Offshore Oil & Gas",
+        "oil-gas-terminal-logistics": "Oil & Gas Terminal Logistics",
+        "food-beverage-manufacturing": "Food & Beverage Manufacturing",
+        "pulp-paper-manufacturing": "Pulp & Paper Manufacturing",
+        "chemical-storage-distribution": "Chemical Storage & Distribution",
+        "fertilizer-storage-distribution": "Fertilizer Storage & Distribution"
+      };
+      if (overrides[slug]) return overrides[slug];
+      return String(slug || "")
+        .split("-")
+        .map(function(w) { return w.charAt(0).toUpperCase() + w.slice(1); })
+        .join(" ");
     }
 
     function filtered() {
@@ -227,7 +244,7 @@
         var dt = new Date(d.date);
         var dateStr = String(dt.getUTCMonth() + 1).padStart(2, "0") + "." +
                       String(dt.getUTCDate()).padStart(2, "0") + "." + dt.getUTCFullYear();
-        var tagsStr = (d.psm_elements || []).slice(0, 3).join(", ");
+        var tagsStr = (d.psm_elements || []).slice(0, 3).map(humanize).join(", ");
         var tr = document.createElement("tr");
         if (d.severity === 1) tr.className = "row-sev1";
         tr.innerHTML =

@@ -760,6 +760,44 @@
     "hasBody": true
   },
   {
+    "id": "dupont-belle-2010",
+    "file": "dupont-belle-2010.md",
+    "title": "DuPont Belle Three Toxic Releases in 33 Hours",
+    "date": "2010-01-22",
+    "location": "Belle, WV, USA",
+    "industry": [
+      "chemical-manufacturing"
+    ],
+    "chemicals": [
+      "methyl-chloride",
+      "oleum",
+      "phosgene"
+    ],
+    "severity": 1,
+    "fatalities": 1,
+    "injuries": 2,
+    "root_causes": [
+      "overdue-hose-replacement",
+      "ignored-near-miss-hours-earlier",
+      "undetected-5-day-leak",
+      "inadequate-mechanical-integrity-program",
+      "cost-rejected-safer-design"
+    ],
+    "psm_elements": [
+      "mechanical-integrity",
+      "safety-culture",
+      "process-hazard-analysis",
+      "emergency-planning"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Final Investigation Report (2011)",
+      "The Pump Handle, CSB report coverage"
+    ],
+    "hasBody": true
+  },
+  {
     "id": "kleen-energy-2010",
     "file": "kleen-energy-2010.md",
     "title": "Kleen Energy Plant Natural Gas Explosion",
@@ -1124,6 +1162,40 @@
     "hasBody": true
   },
   {
+    "id": "sunoco-nederland-2016",
+    "file": "sunoco-nederland-2016.md",
+    "title": "Sunoco Nederland Crude Oil Terminal Flash Fire and Explosion",
+    "date": "2016-08-12",
+    "location": "Nederland, TX, USA",
+    "industry": [
+      "oil-gas-terminal-logistics"
+    ],
+    "chemicals": [
+      "crude-oil"
+    ],
+    "severity": 1,
+    "fatalities": 0,
+    "injuries": 7,
+    "root_causes": [
+      "hot-work-on-uncleaned-pipe",
+      "inadequate-hot-work-procedure",
+      "contractor-procedure-gaps",
+      "no-clear-cleaning-inerting-guidance"
+    ],
+    "psm_elements": [
+      "permit-to-work",
+      "process-hazard-analysis",
+      "mechanical-integrity"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Final Investigation Report (2022)",
+      "Bloomberg Law, CSB report coverage"
+    ],
+    "hasBody": true
+  },
+  {
     "id": "mgpi-atchison-2016",
     "file": "mgpi-atchison-2016.md",
     "title": "MGPI Processing Toxic Chlorine Gas Release",
@@ -1413,6 +1485,41 @@
     "hasBody": true
   },
   {
+    "id": "tpc-port-neches-2019",
+    "file": "tpc-port-neches-2019.md",
+    "title": "TPC Group Port Neches Butadiene Explosions and Fire",
+    "date": "2019-11-27",
+    "location": "Port Neches, TX, USA",
+    "industry": [
+      "petrochemical-manufacturing"
+    ],
+    "chemicals": [
+      "butadiene",
+      "popcorn-polymer"
+    ],
+    "severity": 1,
+    "fatalities": 0,
+    "injuries": 5,
+    "root_causes": [
+      "unaddressed-dead-leg",
+      "ignored-2016-hazard-analysis-recommendation",
+      "no-remote-isolation-valves",
+      "no-shutdown-policy-for-popcorn-polymer"
+    ],
+    "psm_elements": [
+      "mechanical-integrity",
+      "process-hazard-analysis",
+      "management-of-change"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Final Investigation Report No. 2020-02-I-TX (2022)",
+      "U.S. Department of Justice, TPC Group LLC Investigation notice"
+    ],
+    "hasBody": true
+  },
+  {
     "id": "watson-grinding-2020",
     "file": "watson-grinding-2020.md",
     "title": "Watson Grinding and Manufacturing Propylene Explosion",
@@ -1446,6 +1553,254 @@
     "sources": [
       "CSB Final Investigation Report No. 2020-031-I-TX (2023)",
       "CSB Safety Video: No Detection — Explosion at Watson Grinding"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "wacker-polysilicon-2020",
+    "file": "wacker-polysilicon-2020.md",
+    "title": "Wacker Polysilicon Hydrogen Chloride Release",
+    "date": "2020-11-13",
+    "location": "Charleston, TN, USA",
+    "industry": [
+      "specialty-chemical-manufacturing",
+      "semiconductor-materials"
+    ],
+    "chemicals": [
+      "hydrogen-chloride"
+    ],
+    "severity": 1,
+    "fatalities": 1,
+    "injuries": 4,
+    "root_causes": [
+      "no-written-torque-procedure",
+      "ineffective-hazardous-energy-control",
+      "uncontrolled-simultaneous-operations",
+      "single-means-of-egress",
+      "ignored-egress-recommendation"
+    ],
+    "psm_elements": [
+      "permit-to-work",
+      "mechanical-integrity",
+      "emergency-planning"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Final Investigation Report No. 2021-01-I-TN (2023)",
+      "C&EN, CSB report coverage"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "optima-belle-2020",
+    "file": "optima-belle-2020.md",
+    "title": "Optima Belle Double Cone Dryer Explosion",
+    "date": "2020-12-08",
+    "location": "Belle, WV, USA",
+    "industry": [
+      "chemical-manufacturing",
+      "toll-manufacturing"
+    ],
+    "chemicals": [
+      "sodium-dichloroisocyanurate",
+      "chlorine-gas"
+    ],
+    "severity": 1,
+    "fatalities": 1,
+    "injuries": 3,
+    "root_causes": [
+      "inaccurate-safety-data-sheet",
+      "poor-process-knowledge-transfer-between-companies",
+      "no-thermal-hazard-assessment",
+      "equipment-not-designed-for-decomposition-reaction",
+      "regulatory-gap-reactive-chemicals"
+    ],
+    "psm_elements": [
+      "process-hazard-analysis",
+      "mechanical-integrity",
+      "management-of-change"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Final Investigation Report (2023)",
+      "The Chemical Engineer / WV Gazette-Mail, CSB report coverage"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "foundation-food-group-2021",
+    "file": "foundation-food-group-2021.md",
+    "title": "Foundation Food Group Liquid Nitrogen Release",
+    "date": "2021-01-28",
+    "location": "Gainesville, GA, USA",
+    "industry": [
+      "food-processing",
+      "poultry"
+    ],
+    "chemicals": [
+      "liquid-nitrogen"
+    ],
+    "severity": 1,
+    "fatalities": 6,
+    "injuries": 4,
+    "root_causes": [
+      "bent-bubbler-tube-single-point-of-failure",
+      "no-gas-monitoring-or-alarms",
+      "inadequate-worker-training-on-asphyxiation-hazard",
+      "poor-emergency-preparedness",
+      "equipment-supplier-continued-despite-known-nonconformance"
+    ],
+    "psm_elements": [
+      "mechanical-integrity",
+      "emergency-planning",
+      "safety-culture"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Final Investigation Report (2023)",
+      "Associated Press / AJC, CSB report coverage"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "yenkin-majestic-2021",
+    "file": "yenkin-majestic-2021.md",
+    "title": "Yenkin-Majestic Resin Plant Vapor Cloud Explosion and Fire",
+    "date": "2021-04-08",
+    "location": "Columbus, OH, USA",
+    "industry": [
+      "chemical-manufacturing",
+      "paint-coatings"
+    ],
+    "chemicals": [
+      "naphtha",
+      "resin"
+    ],
+    "severity": 1,
+    "fatalities": 1,
+    "injuries": 8,
+    "root_causes": [
+      "manway-not-pressure-tested-for-service",
+      "no-engineering-control-for-agitator-status",
+      "no-gas-detection-or-alarms",
+      "no-flame-resistant-ppe-requirement",
+      "procedure-violated-solvent-added-with-agitator-off"
+    ],
+    "psm_elements": [
+      "mechanical-integrity",
+      "process-hazard-analysis",
+      "emergency-planning"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Final Investigation Report (2023)",
+      "AIHA / NBC4 Columbus, CSB report coverage"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "home-market-foods-2022",
+    "file": "home-market-foods-2022.md",
+    "title": "Home Market Foods Ammonia Release",
+    "date": "2022-12-19",
+    "location": "Norwood, MA, USA",
+    "industry": [
+      "food-processing"
+    ],
+    "chemicals": [
+      "anhydrous-ammonia"
+    ],
+    "severity": 1,
+    "fatalities": 1,
+    "injuries": 1,
+    "root_causes": [
+      "severed-ammonia-pipe-during-unrelated-work",
+      "rmp-accident-prevention-violations",
+      "inadequate-hazard-awareness-for-contractors",
+      "no-isolation-for-nearby-non-ammonia-work"
+    ],
+    "psm_elements": [
+      "mechanical-integrity",
+      "emergency-planning",
+      "facility-siting"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Incident Reports Volume One (2025)",
+      "EPA Settlement Announcement (2026)"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "darling-ingredients-2023",
+    "file": "darling-ingredients-2023.md",
+    "title": "Darling Ingredients Aluminum Chloride Tank Rupture",
+    "date": "2023-06-22",
+    "location": "Wadesboro, NC, USA",
+    "industry": [
+      "rendering-byproduct-processing"
+    ],
+    "chemicals": [
+      "aluminum-chloride"
+    ],
+    "severity": 1,
+    "fatalities": 1,
+    "injuries": 0,
+    "root_causes": [
+      "water-reactive-chemical-in-confined-space",
+      "unstable-solution-storage"
+    ],
+    "psm_elements": [
+      "mechanical-integrity",
+      "process-hazard-analysis"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Incident Reports Volume One (2025)",
+      "Local news coverage (McClatchy/WBTV), Anson County Emergency Services"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "us-steel-clairton-2025",
+    "file": "us-steel-clairton-2025.md",
+    "title": "U.S. Steel Clairton Coke Works Coke Oven Gas Explosion",
+    "date": "2025-08-11",
+    "location": "Clairton, PA, USA",
+    "industry": [
+      "steel-manufacturing",
+      "coke-production"
+    ],
+    "chemicals": [
+      "coke-oven-gas"
+    ],
+    "severity": 1,
+    "fatalities": 2,
+    "injuries": 11,
+    "root_causes": [
+      "no-procedure-for-valve-washing-task",
+      "ad-hoc-informal-work-practice",
+      "control-rooms-sited-too-close-to-hazard",
+      "buildings-not-explosion-rated",
+      "ignored-2010-precedent"
+    ],
+    "psm_elements": [
+      "facility-siting",
+      "process-hazard-analysis",
+      "permit-to-work",
+      "management-of-change"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Final Investigation Report (2026)",
+      "WPXI / Spokesman-Review, CSB report coverage"
     ],
     "hasBody": true
   }

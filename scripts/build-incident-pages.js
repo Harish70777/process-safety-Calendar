@@ -23,6 +23,13 @@ function esc(str) {
     .replace(/>/g, "&gt;");
 }
 
+function humanize(slug) {
+  return String(slug || "")
+    .split("-")
+    .map(w => w.charAt(0).toUpperCase() + w.slice(1))
+    .join(" ");
+}
+
 function pageTemplate(data, bodyHtml) {
   const d = new Date(data.date);
   const dateStr = d.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric", timeZone: "UTC" });
@@ -30,7 +37,7 @@ function pageTemplate(data, bodyHtml) {
     data.fatalities !== undefined ? `${data.fatalities} fatalities` : "",
     data.injuries !== undefined ? `${data.injuries} injuries` : "",
   ].filter(Boolean).join(", ");
-  const tags = (data.psm_elements || []).map(t => `<span class="tag">${esc(t)}</span>`).join("");
+  const tags = (data.psm_elements || []).map(t => `<span class="tag">${esc(humanize(t))}</span>`).join("");
   const sources = (data.sources || []).map(s => `<li>${esc(s)}</li>`).join("");
 
   return `<!DOCTYPE html>

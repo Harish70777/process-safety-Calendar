@@ -1,8 +1,8 @@
 === Process Safety Calendar — Index Report ===
-Generated: 2026-08-17T23:14:37.844Z
+Generated: 2026-08-17T23:25:15.973Z
 
-Total incidents:      40
-  Published:           40
+Total incidents:      50
+  Published:           50
   Draft/needs review:  0
 
 --- Data quality issues ---
@@ -10,16 +10,18 @@ None found — all incidents have required fields. ✅
 
 --- Duplicate calendar dates (not an error, just FYI) ---
 10-29: Hayes Lemmerz Aluminum Dust Explosion | Jaipur Oil Terminal Fire
+12-19: T2 Laboratories Reactive Chemical Explosion | Home Market Foods Ammonia Release
 2-7: Imperial Sugar Refinery Dust Explosion | Kleen Energy Plant Natural Gas Explosion
+8-12: Tianjin Port Explosions | Sunoco Nederland Crude Oil Terminal Flash Fire and Explosion
 
 --- Coverage by PSM element (are we balanced, or overweight on one theme?) ---
-  mechanical-integrity: 34
-  process-hazard-analysis: 33
-  safety-culture: 21
-  emergency-planning: 16
-  facility-siting: 15
-  management-of-change: 11
-  permit-to-work: 6
+  mechanical-integrity: 43
+  process-hazard-analysis: 40
+  safety-culture: 23
+  emergency-planning: 21
+  facility-siting: 17
+  management-of-change: 14
+  permit-to-work: 9
   pre-startup-safety-review: 2
   contractor-safety: 1
 
@@ -35,6 +37,7 @@ None found — all incidents have required fields. ✅
   no-worker-training-on-hazard: 2
   instrumentation-failure: 2
   near-miss-hf-tank: 2
+  no-remote-isolation-valves: 2
   temporary-modification: 1
   no-engineering-review: 1
   no-automatic-cooling: 1
@@ -108,6 +111,11 @@ None found — all incidents have required fields. ✅
   no-remote-shutoff-valve: 1
   no-written-procedures: 1
   procedural-sequence-error: 1
+  overdue-hose-replacement: 1
+  ignored-near-miss-hours-earlier: 1
+  undetected-5-day-leak: 1
+  inadequate-mechanical-integrity-program: 1
+  cost-rejected-safer-design: 1
   inherently-unsafe-work-practice: 1
   no-regulatory-prohibition: 1
   congested-release-area: 1
@@ -150,6 +158,10 @@ None found — all incidents have required fields. ✅
   incompatible-chemical-co-storage: 1
   illegal-storage-quantities: 1
   inadequate-regulatory-enforcement: 1
+  hot-work-on-uncleaned-pipe: 1
+  inadequate-hot-work-procedure: 1
+  contractor-procedure-gaps: 1
+  no-clear-cleaning-inerting-guidance: 1
   visually-similar-unmarked-fill-lines: 1
   both-lines-left-unlocked: 1
   no-remote-shutdown: 1
@@ -183,10 +195,43 @@ None found — all incidents have required fields. ✅
   below-regulatory-threshold: 1
   corroded-pipe-elbow: 1
   outdated-material-standard: 1
-  no-remote-isolation-valves: 1
   inadequate-mechanical-integrity-inspection: 1
+  unaddressed-dead-leg: 1
+  ignored-2016-hazard-analysis-recommendation: 1
+  no-shutdown-policy-for-popcorn-polymer: 1
   degraded-welding-hose: 1
   valve-left-open-overnight: 1
   non-functional-gas-detection: 1
   no-psm-program-below-threshold: 1
   facility-sited-near-homes: 1
+  no-written-torque-procedure: 1
+  ineffective-hazardous-energy-control: 1
+  uncontrolled-simultaneous-operations: 1
+  single-means-of-egress: 1
+  ignored-egress-recommendation: 1
+  inaccurate-safety-data-sheet: 1
+  poor-process-knowledge-transfer-between-companies: 1
+  no-thermal-hazard-assessment: 1
+  equipment-not-designed-for-decomposition-reaction: 1
+  regulatory-gap-reactive-chemicals: 1
+  bent-bubbler-tube-single-point-of-failure: 1
+  no-gas-monitoring-or-alarms: 1
+  inadequate-worker-training-on-asphyxiation-hazard: 1
+  poor-emergency-preparedness: 1
+  equipment-supplier-continued-despite-known-nonconformance: 1
+  manway-not-pressure-tested-for-service: 1
+  no-engineering-control-for-agitator-status: 1
+  no-gas-detection-or-alarms: 1
+  no-flame-resistant-ppe-requirement: 1
+  procedure-violated-solvent-added-with-agitator-off: 1
+  severed-ammonia-pipe-during-unrelated-work: 1
+  rmp-accident-prevention-violations: 1
+  inadequate-hazard-awareness-for-contractors: 1
+  no-isolation-for-nearby-non-ammonia-work: 1
+  water-reactive-chemical-in-confined-space: 1
+  unstable-solution-storage: 1
+  no-procedure-for-valve-washing-task: 1
+  ad-hoc-informal-work-practice: 1
+  control-rooms-sited-too-close-to-hazard: 1
+  buildings-not-explosion-rated: 1
+  ignored-2010-precedent: 1

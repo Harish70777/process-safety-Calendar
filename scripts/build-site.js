@@ -41,13 +41,20 @@ function truncate(text, max) {
   return cut.slice(0, cut.lastIndexOf(" ")) + "…";
 }
 
+function humanize(slug) {
+  return String(slug || "")
+    .split("-")
+    .map(w => w.charAt(0).toUpperCase() + w.slice(1))
+    .join(" ");
+}
+
 function cardFor(inc) {
   const d = new Date(inc.date);
   const mm = String(d.getUTCMonth() + 1).padStart(2, "0");
   const dd = String(d.getUTCDate()).padStart(2, "0");
   const sevClass = inc.severity === 1 ? " sev-1" : "";
   const tags = (inc.psm_elements || []).slice(0, 3)
-    .map(t => `<span class="tag">${esc(t)}</span>`).join("");
+    .map(t => `<span class="tag">${esc(humanize(t))}</span>`).join("");
 
   return `      <a class="card${sevClass}" href="incidents/${esc(inc.id)}/">
         <div class="tab">${mm}.${dd} &middot; ${d.getUTCFullYear()}</div>
