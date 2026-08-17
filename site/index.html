@@ -228,6 +228,14 @@
     border:1px solid var(--line);
     padding:18px 18px 16px;
     position:relative;
+    display:block;
+    text-decoration:none;
+    color:inherit;
+    transition:border-color 0.15s ease, transform 0.1s ease;
+  }
+  .card:hover{
+    border-color:var(--blueprint);
+    transform:translateY(-1px);
   }
   .card .tab{
     font-family:'IBM Plex Mono', monospace;
@@ -449,108 +457,108 @@
     <h3>Incident archive</h3>
     <div class="grid" id="archive-grid">
       <!-- Cards injected from index.json at build time by scripts/build-site.js -->
-      <div class="card sev-1">
+      <a class="card sev-1" href="incidents/flixborough-1974/">
         <div class="tab">06.01 &middot; 1974</div>
         <h4>Flixborough Chemical Plant Explosion</h4>
         <div class="loc">Flixborough, England</div>
         <div class="tags"><span class="tag">management-of-change</span><span class="tag">process-hazard-analysis</span><span class="tag">mechanical-integrity</span></div>
-      </div>
-      <div class="card sev-1">
+      </a>
+      <a class="card sev-1" href="incidents/seveso-1976/">
         <div class="tab">07.10 &middot; 1976</div>
         <h4>Seveso Dioxin Release</h4>
         <div class="loc">Meda/Seveso, Lombardy, Italy</div>
         <div class="tags"><span class="tag">process-hazard-analysis</span><span class="tag">mechanical-integrity</span><span class="tag">facility-siting</span></div>
-      </div>
-      <div class="card sev-1">
+      </a>
+      <a class="card sev-1" href="incidents/bhopal-1984/">
         <div class="tab">12.03 &middot; 1984</div>
         <h4>Bhopal Gas Tragedy</h4>
         <div class="loc">Bhopal, Madhya Pradesh, India</div>
         <div class="tags"><span class="tag">process-hazard-analysis</span><span class="tag">mechanical-integrity</span><span class="tag">emergency-planning</span></div>
-      </div>
-      <div class="card sev-1">
+      </a>
+      <a class="card sev-1" href="incidents/piper-alpha-1988/">
         <div class="tab">07.06 &middot; 1988</div>
         <h4>Piper Alpha Offshore Platform Explosion</h4>
         <div class="loc">North Sea, off Aberdeen, Scotland</div>
         <div class="tags"><span class="tag">management-of-change</span><span class="tag">permit-to-work</span><span class="tag">emergency-planning</span></div>
-      </div>
-      <div class="card sev-1">
+      </a>
+      <a class="card sev-1" href="incidents/phillips-pasadena-1989/">
         <div class="tab">10.23 &middot; 1989</div>
         <h4>Phillips 66 Pasadena Polyethylene Plant Explosion</h4>
         <div class="loc">Pasadena, TX, USA</div>
         <div class="tags"><span class="tag">permit-to-work</span><span class="tag">process-hazard-analysis</span><span class="tag">contractor-safety</span></div>
-      </div>
-      <div class="card sev-1">
+      </a>
+      <a class="card sev-1" href="incidents/longford-1998/">
         <div class="tab">09.25 &middot; 1998</div>
         <h4>Longford Esso Gas Plant Explosion</h4>
         <div class="loc">Longford, Victoria, Australia</div>
         <div class="tags"><span class="tag">process-hazard-analysis</span><span class="tag">safety-culture</span><span class="tag">mechanical-integrity</span></div>
-      </div>
-      <div class="card sev-1">
+      </a>
+      <a class="card sev-1" href="incidents/azf-toulouse-2001/">
         <div class="tab">09.21 &middot; 2001</div>
         <h4>AZF Toulouse Fertilizer Plant Explosion</h4>
         <div class="loc">Toulouse, France</div>
         <div class="tags"><span class="tag">process-hazard-analysis</span><span class="tag">facility-siting</span><span class="tag">mechanical-integrity</span></div>
-      </div>
-      <div class="card sev-1">
+      </a>
+      <a class="card sev-1" href="incidents/texas-city-2005/">
         <div class="tab">03.23 &middot; 2005</div>
         <h4>BP Texas City Refinery Explosion</h4>
         <div class="loc">Texas City, TX, USA</div>
         <div class="tags"><span class="tag">pre-startup-safety-review</span><span class="tag">mechanical-integrity</span><span class="tag">facility-siting</span></div>
-      </div>
-      <div class="card sev-1">
+      </a>
+      <a class="card sev-1" href="incidents/buncefield-2005/">
         <div class="tab">12.11 &middot; 2005</div>
         <h4>Buncefield Oil Storage Depot Explosion</h4>
         <div class="loc">Hemel Hempstead, England</div>
         <div class="tags"><span class="tag">mechanical-integrity</span><span class="tag">process-hazard-analysis</span><span class="tag">facility-siting</span></div>
-      </div>
-      <div class="card sev-1">
+      </a>
+      <a class="card sev-1" href="incidents/t2-laboratories-2007/">
         <div class="tab">12.19 &middot; 2007</div>
         <h4>T2 Laboratories Reactive Chemical Explosion</h4>
         <div class="loc">Jacksonville, FL, USA</div>
         <div class="tags"><span class="tag">process-hazard-analysis</span><span class="tag">mechanical-integrity</span><span class="tag">safety-culture</span></div>
-      </div>
-      <div class="card sev-1">
+      </a>
+      <a class="card sev-1" href="incidents/imperial-sugar-2008/">
         <div class="tab">02.07 &middot; 2008</div>
         <h4>Imperial Sugar Refinery Dust Explosion</h4>
         <div class="loc">Port Wentworth, GA, USA</div>
         <div class="tags"><span class="tag">mechanical-integrity</span><span class="tag">safety-culture</span><span class="tag">emergency-planning</span></div>
-      </div>
-      <div class="card sev-1">
+      </a>
+      <a class="card sev-1" href="incidents/jaipur-2009/">
         <div class="tab">10.29 &middot; 2009</div>
         <h4>Jaipur Oil Terminal Fire</h4>
         <div class="loc">Sitapura, Jaipur, Rajasthan, India</div>
         <div class="tags"><span class="tag">mechanical-integrity</span><span class="tag">process-hazard-analysis</span><span class="tag">emergency-planning</span></div>
-      </div>
-      <div class="card sev-1">
+      </a>
+      <a class="card sev-1" href="incidents/kleen-energy-2010/">
         <div class="tab">02.07 &middot; 2010</div>
         <h4>Kleen Energy Plant Natural Gas Explosion</h4>
         <div class="loc">Middletown, CT, USA</div>
         <div class="tags"><span class="tag">process-hazard-analysis</span><span class="tag">mechanical-integrity</span><span class="tag">management-of-change</span></div>
-      </div>
-      <div class="card sev-1">
+      </a>
+      <a class="card sev-1" href="incidents/deepwater-horizon-2010/">
         <div class="tab">04.20 &middot; 2010</div>
         <h4>Deepwater Horizon / Macondo Well Blowout</h4>
         <div class="loc">Gulf of Mexico, ~41 miles off Louisiana, USA</div>
         <div class="tags"><span class="tag">process-hazard-analysis</span><span class="tag">mechanical-integrity</span><span class="tag">management-of-change</span></div>
-      </div>
-      <div class="card sev-1">
+      </a>
+      <a class="card sev-1" href="incidents/west-fertilizer-2013/">
         <div class="tab">04.17 &middot; 2013</div>
         <h4>West Fertilizer Company Fire and Explosion</h4>
         <div class="loc">West, TX, USA</div>
         <div class="tags"><span class="tag">facility-siting</span><span class="tag">emergency-planning</span><span class="tag">mechanical-integrity</span></div>
-      </div>
-      <div class="card sev-1">
+      </a>
+      <a class="card sev-1" href="incidents/tianjin-2015/">
         <div class="tab">08.12 &middot; 2015</div>
         <h4>Tianjin Port Explosions</h4>
         <div class="loc">Binhai New Area, Tianjin, China</div>
         <div class="tags"><span class="tag">facility-siting</span><span class="tag">mechanical-integrity</span><span class="tag">process-hazard-analysis</span></div>
-      </div>
-      <div class="card sev-1">
+      </a>
+      <a class="card sev-1" href="incidents/husky-superior-2018/">
         <div class="tab">04.26 &middot; 2018</div>
         <h4>Husky Energy Superior Refinery FCC Explosion</h4>
         <div class="loc">Superior, WI, USA</div>
         <div class="tags"><span class="tag">mechanical-integrity</span><span class="tag">process-hazard-analysis</span><span class="tag">facility-siting</span></div>
-      </div>
+      </a>
     </div>
   </div>
 </section>
