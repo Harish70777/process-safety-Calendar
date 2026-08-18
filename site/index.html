@@ -655,35 +655,24 @@
 
 <script>
   (function() {
-    // Remembers which nav link was last clicked (Archive vs Subscribe) so
-    // the orange box stays on that word across page loads, until the other
-    // one is clicked. Hover still works independently for previewing.
-    var STORAGE_KEY = "psmcal_active_nav";
-    var archiveLink = document.querySelector("nav a.nav-archive");
+    // "Subscribe" gets the orange box whenever you're actually viewing that
+    // section (URL ends in #subscribe) — checked on load, on browser
+    // back/forward, and on click, so it always reflects where you really
+    // are rather than trying to remember a past click across page loads.
     var subscribeLink = document.querySelector("nav a.nav-cta");
 
-    function setActive(which) {
-      if (archiveLink) archiveLink.classList.toggle("active", which === "archive");
-      if (subscribeLink) subscribeLink.classList.toggle("active", which === "subscribe");
+    function syncFromHash() {
+      if (!subscribeLink) return;
+      subscribeLink.classList.toggle("active", window.location.hash === "#subscribe");
     }
 
-    try {
-      var saved = localStorage.getItem(STORAGE_KEY);
-      if (saved) setActive(saved);
-    } catch (e) { /* localStorage unavailable, e.g. private browsing */ }
-
-    if (archiveLink) {
-      archiveLink.addEventListener("click", function() {
-        try { localStorage.setItem(STORAGE_KEY, "archive"); } catch (e) {}
-        setActive("archive");
-      });
-    }
-    if (subscribeLink) {
-      subscribeLink.addEventListener("click", function() {
-        try { localStorage.setItem(STORAGE_KEY, "subscribe"); } catch (e) {}
-        setActive("subscribe");
-      });
-    }
+    syncFromHash();
+    window.addEventListener("hashchange", syncFromHash);
+    if (subscribeLink) subscribeLink.addEventListener("click", function() {
+      // The click itself changes the hash; sync on the next tick so the
+      // new hash is already in place.
+      setTimeout(syncFromHash, 0);
+    });
   })();
 </script>
 </body>
