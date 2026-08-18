@@ -60,6 +60,8 @@
     transition:background 0.15s ease, color 0.15s ease;
   }
   nav a:hover{background:var(--orange); color:#fff;}
+  nav a.active{background:var(--orange); color:#fff; font-weight:600;}
+  nav a.active:hover{background:var(--orange-dark); color:#fff;}
   nav a.nav-cta{
     font-weight:600;
   }
@@ -356,7 +358,7 @@
   <div class="wrap">
     <a href="./" class="brand"><img src="rskless-logo.svg" alt="RskLess" style="height:28px;width:auto;"> RskLess PSM Calendar</a>
     <nav>
-      <a href="archive.html">Archive</a>
+      <a href="archive.html" class="nav-archive">Archive</a>
       <a href="#subscribe" class="nav-cta">Subscribe</a>
     </nav>
   </div>
@@ -651,5 +653,38 @@
   })();
 </script>
 
+<script>
+  (function() {
+    // Remembers which nav link was last clicked (Archive vs Subscribe) so
+    // the orange box stays on that word across page loads, until the other
+    // one is clicked. Hover still works independently for previewing.
+    var STORAGE_KEY = "psmcal_active_nav";
+    var archiveLink = document.querySelector("nav a.nav-archive");
+    var subscribeLink = document.querySelector("nav a.nav-cta");
+
+    function setActive(which) {
+      if (archiveLink) archiveLink.classList.toggle("active", which === "archive");
+      if (subscribeLink) subscribeLink.classList.toggle("active", which === "subscribe");
+    }
+
+    try {
+      var saved = localStorage.getItem(STORAGE_KEY);
+      if (saved) setActive(saved);
+    } catch (e) { /* localStorage unavailable, e.g. private browsing */ }
+
+    if (archiveLink) {
+      archiveLink.addEventListener("click", function() {
+        try { localStorage.setItem(STORAGE_KEY, "archive"); } catch (e) {}
+        setActive("archive");
+      });
+    }
+    if (subscribeLink) {
+      subscribeLink.addEventListener("click", function() {
+        try { localStorage.setItem(STORAGE_KEY, "subscribe"); } catch (e) {}
+        setActive("subscribe");
+      });
+    }
+  })();
+</script>
 </body>
 </html>
