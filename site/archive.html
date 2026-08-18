@@ -22,6 +22,7 @@
   .brand{font-family:'Baloo 2', sans-serif;font-weight:700;font-size:19px;color:var(--orange);display:flex;align-items:center;gap:10px;text-decoration:none;}
   nav a{font-family:'Poppins', sans-serif;font-weight:500;font-size:14px;color:var(--ink);text-decoration:none;margin-left:26px;}
   nav a:hover{color:var(--orange);}
+  nav a.active{color:var(--orange);font-weight:700;}
   nav a.nav-cta{background:var(--orange);color:#fff;padding:10px 20px;border-radius:4px;font-weight:600;}
   nav a.nav-cta:hover{background:var(--orange-dark);color:#fff;}
 
@@ -107,7 +108,7 @@
   <div class="wrap">
     <a class="brand" href="./"><img src="rskless-logo.svg" alt="RskLess" style="height:28px;width:auto;"> RskLess PSM Calendar</a>
     <nav>
-      <a href="archive.html">Archive</a>
+      <a href="archive.html" class="active">Archive</a>
       <a href="./#subscribe" class="nav-cta">Subscribe</a>
     </nav>
   </div>
