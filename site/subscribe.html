@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Subscribe: RskLess PSM Incidents Calendar</title>
+<link rel="icon" type="image/svg+xml" href="rskless-favicon.svg">
+<meta name="description" content="Subscribe to a calendar of historical process safety incidents. Get a native reminder on each anniversary, with root causes and lessons learned.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --orange:#E8622C; --orange-dark:#C94E1E; --navy:#13567F; --navy-dark:#0D3E5C;
+    --paper:#FFFFFF; --paper-alt:#F5F8FA; --ink:#2B2B2B; --red:#C81E1E; --line:#E3E7EC;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:'Poppins', sans-serif;line-height:1.55;}
+  .wrap{max-width:760px;margin:0 auto;padding:0 24px;}
+  header{background:var(--paper);border-bottom:1px solid var(--line);padding:16px 0;}
+  header .wrap{max-width:1080px;display:flex;align-items:center;justify-content:space-between;}
+  .brand{font-family:'Baloo 2', sans-serif;font-weight:700;font-size:18px;color:var(--orange);text-decoration:none;display:flex;align-items:center;gap:10px;}
+  nav a{
+    font-family:'Poppins', sans-serif;
+    font-weight:500;
+    font-size:14px;
+    color:var(--ink);
+    text-decoration:none;
+    margin-left:8px;
+    padding:10px 20px;
+    border-radius:4px;
+    display:inline-block;
+    transition:background 0.15s ease, color 0.15s ease;
+  }
+  nav a:hover{background:var(--orange); color:#fff;}
+  nav a.active{background:var(--orange); color:#fff; font-weight:600;}
+  nav a.active:hover{background:var(--orange-dark); color:#fff;}
+  nav a.nav-cta{font-weight:600;}
+  nav a.nav-cta:hover{background:var(--orange-dark); color:#fff;}
+
+  main{padding:48px 0 64px;}
+  .eyebrow{font-family:'Poppins', sans-serif;font-weight:600;font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:var(--orange);margin-bottom:10px;}
+  h1{font-family:'Baloo 2', sans-serif;font-weight:800;font-size:34px;line-height:1.15;margin:0 0 10px;color:var(--navy);}
+  .sub{color:#444;font-size:15px;margin-bottom:32px;max-width:34em;}
+
+  .btn{
+    font-family:'Poppins', sans-serif;
+    font-weight:600;
+    font-size:13px;
+    letter-spacing:0.03em;
+    text-transform:uppercase;
+    padding:13px 22px;
+    background:var(--orange);
+    color:#fff;
+    border:1.5px solid var(--orange);
+    border-radius:4px;
+    text-decoration:none;
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    cursor:pointer;
+  }
+  .btn:hover{background:var(--orange-dark);border-color:var(--orange-dark);}
+  .btn.secondary{background:transparent;color:var(--orange);}
+  .btn.secondary:hover{background:var(--orange);color:#fff;}
+  .note{
+    font-size:13px;
+    color:var(--navy);
+    border-left:3px solid var(--orange);
+    padding:10px 14px;
+    background:#fff;
+    max-width:38em;
+    border-radius:0 4px 4px 0;
+  }
+
+  .copy-row{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:28px;}
+  .copy-link-url{font-family:'Poppins', sans-serif;font-size:13px;color:#555;}
+  .copy-feedback{
+    font-family:'Poppins', sans-serif;
+    font-weight:500;
+    font-size:13px;
+    color:var(--orange);
+    opacity:0;
+    transition:opacity 0.15s ease;
+  }
+  .copy-feedback.shown{opacity:1;}
+
+  details.howto{
+    border:1px solid var(--line);
+    background:#fff;
+    border-radius:8px;
+    margin-bottom:10px;
+    max-width:38em;
+    overflow:hidden;
+  }
+  details.howto summary{
+    font-family:'Poppins', sans-serif;
+    font-weight:600;
+    font-size:14px;
+    color:var(--navy);
+    padding:14px 18px;
+    cursor:pointer;
+    list-style:none;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+  }
+  details.howto summary::-webkit-details-marker{display:none;}
+  details.howto summary::after{content:"+";font-size:18px;font-weight:700;color:var(--orange);}
+  details.howto[open] summary::after{content:"\2212";}
+  details.howto[open] summary{border-bottom:1px solid var(--line);}
+  details.howto .howto-body{padding:14px 18px 18px;font-size:14px;color:#3a3a3a;}
+  details.howto .howto-body ol{margin:8px 0 0;padding-left:20px;}
+  details.howto .howto-body li{margin-bottom:6px;}
+  details.howto .howto-body code{background:var(--paper-alt);padding:1px 5px;font-family:'Poppins', sans-serif;font-size:12px;border-radius:3px;}
+
+  footer{border-top:1px solid var(--line);padding:24px 0;font-size:13px;color:#777;margin-top:16px;}
+  footer .wrap{max-width:1080px;}
+
+  @media (max-width:600px){
+    h1{font-size:26px;}
+    .copy-row{flex-direction:column;align-items:flex-start;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="brand" href="./"><img src="rskless-icon.svg" alt="RskLess" style="height:28px;width:auto;"> RskLess PSM Calendar</a>
+    <nav>
+      <a href="archive.html" class="nav-archive">Archive</a>
+      <a href="subscribe.html" class="nav-cta active">Subscribe</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <div class="eyebrow">Get anniversary reminders automatically</div>
+    <h1>Subscribe to the calendar</h1>
+    <p class="sub">One link, added once. New incidents you publish later show up automatically, so there's no need to resubscribe.</p>
+
+    <div class="copy-row">
+      <button class="btn" id="copy-btn" type="button">Copy calendar link</button>
+      <a class="btn secondary" id="apple-one-click" href="#" style="text-decoration:none;">Add to Apple Calendar (one-click)</a>
+      <span class="copy-link-url">calendar.ics</span>
+      <span class="copy-feedback" id="copy-feedback">Copied ✓</span>
+    </div>
+    <div class="note">On a Mac or iPhone? The "Add to Apple Calendar" button works instantly, with no copying needed. Everyone else: paste the copied link into your calendar app's "Subscribe from URL" (sometimes called "Add calendar from Internet" or "From URL"). Not sure where that is? Open the instructions for your app below.</div>
+    <div class="note" style="margin-top:10px;">New incidents get added to this same feed regularly. If you used "Subscribe" above, your calendar app checks for updates automatically, but the timing is controlled by your calendar app, not by us, and can take anywhere from a few hours to a day or two. If you used "Import" instead (see below), new incidents will <strong>never</strong> appear automatically; you'll need to re-import periodically.</div>
+
+    <br>
+
+    <details class="howto">
+      <summary>Google Calendar</summary>
+      <div class="howto-body">
+        <ol>
+          <li>On the left sidebar, next to "Other calendars," click <strong>+</strong></li>
+          <li>Choose <strong>"From URL"</strong></li>
+          <li>Paste the link, click <strong>Add calendar</strong></li>
+        </ol>
+        Reminders aren't on by default for subscribed calendars. After adding it, go to Settings → this calendar → Notifications, and turn on "Event notifications."
+      </div>
+    </details>
+
+    <details class="howto">
+      <summary>Apple Calendar</summary>
+      <div class="howto-body">
+        <ol>
+          <li>Open the Calendar app → menu <strong>File → New Calendar Subscription...</strong></li>
+          <li>Paste the link, click <strong>Subscribe</strong></li>
+          <li>Set auto-refresh frequency (daily is fine) and click <strong>OK</strong></li>
+        </ol>
+      </div>
+    </details>
+
+    <details class="howto">
+      <summary>Outlook</summary>
+      <div class="howto-body">
+        <ol>
+          <li>Go to Calendar view → <strong>File → Account Settings → Account Settings...</strong></li>
+          <li>Open the <strong>Internet Calendars</strong> tab → click <strong>New...</strong></li>
+          <li>Paste the link, click <strong>Add</strong></li>
+        </ol>
+      </div>
+    </details>
+
+    <details class="howto">
+      <summary>Work computer blocks subscriptions? Ask IT to allow it</summary>
+      <div class="howto-body">
+        <p style="margin-top:0;">Many companies block calendar subscriptions from external URLs by default. This is a policy setting an admin can change in minutes. Before falling back to Import below, try forwarding this to your IT or helpdesk team:</p>
+        <div style="background:var(--paper-alt); border:1px solid var(--line); padding:12px 14px; margin:10px 0; font-size:13px; position:relative; border-radius:6px;">
+          <div id="it-message">Hi, could you allow-list the following calendar subscription URL so I can subscribe to it in my work calendar? It's a read-only feed with no attachments or executable content, just calendar events.<br><br>URL: <span id="it-url-fill">calendar.ics</span><br><br>For Google Workspace, this is usually under Apps → Google Workspace → Calendar → Sharing settings. For Microsoft 365, it's under external sharing policies for internet calendar subscriptions. Thanks!</div>
+          <button class="btn secondary" id="copy-it-message" type="button" style="margin-top:10px; font-size:12px; padding:8px 12px;">Copy message</button>
+          <span class="copy-feedback" id="it-copy-feedback">Copied ✓</span>
+        </div>
+        <p style="margin-bottom:0;">This is worth trying first, since it fixes the problem permanently instead of needing a manual workaround every month.</p>
+      </div>
+    </details>
+
+    <details class="howto">
+      <summary>Can't subscribe? (e.g. work computer blocks it): Import as a last resort</summary>
+      <div class="howto-body">
+        <p style="margin-top:0;">Only use this if "Subscribe from URL" genuinely doesn't work for you, for example if your workplace's IT policy blocks calendar subscriptions from external URLs. If you can subscribe normally, do that instead; it stays current automatically and this doesn't.</p>
+        <ol>
+          <li>Click <strong>Download .ics file</strong> below</li>
+          <li>In your calendar app, look for <strong>Import</strong> (Google: Settings → Import & Export. Outlook: File → Open &amp; Export → Import/Export)</li>
+          <li>Select the downloaded file</li>
+        </ol>
+        <p style="color:var(--red); font-weight:500; margin-bottom:4px;">Important: this adds a one-time snapshot. New incidents added later will NOT appear. You'd need to re-download and re-import this file periodically to stay current. A true "Subscribe from URL" (above) updates automatically; this does not.</p>
+        <p style="margin-bottom:4px;">If you're relying on Import, we'd suggest re-importing every 1–3 months. Check the "last updated" date in the footer below before you bother re-importing. If it hasn't changed since your last import, there's nothing new yet.</p>
+        <div style="margin-top:10px;"><a class="btn secondary" href="calendar.ics" download>Download .ics file</a></div>
+      </div>
+    </details>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span id="last-updated"></span>
+  </div>
+</footer>
+
+<script src="incidents-data.js"></script>
+<script>
+  (function() {
+    var btn = document.getElementById('copy-btn');
+    var feedback = document.getElementById('copy-feedback');
+    var icsUrl = new URL('calendar.ics', window.location.href).href;
+
+    // Wire up the one-click Apple Calendar button (webcal:// is a real,
+    // OS-registered protocol on Mac/iOS — this genuinely works there,
+    // unlike the Google/Outlook equivalents we already tested and found
+    // unreliable).
+    var appleBtn = document.getElementById('apple-one-click');
+    if (appleBtn) {
+      appleBtn.href = icsUrl.replace(/^https?:\/\//, 'webcal://');
+    }
+
+    btn.addEventListener('click', function() {
+      function showCopied() {
+        feedback.classList.add('shown');
+        setTimeout(function() { feedback.classList.remove('shown'); }, 2000);
+      }
+      if (navigator.clipboard) {
+        navigator.clipboard.writeText(icsUrl).then(showCopied).catch(function() {
+          window.prompt('Copy this link:', icsUrl);
+        });
+      } else {
+        window.prompt('Copy this link:', icsUrl);
+      }
+    });
+
+    // Fill in the real calendar URL inside the IT message
+    var urlFill = document.getElementById('it-url-fill');
+    if (urlFill) urlFill.textContent = icsUrl;
+
+    // Copy-to-clipboard for the IT message
+    var itBtn = document.getElementById('copy-it-message');
+    var itFeedback = document.getElementById('it-copy-feedback');
+    if (itBtn) {
+      itBtn.addEventListener('click', function() {
+        var msgEl = document.getElementById('it-message');
+        var text = msgEl.innerText;
+        function showItCopied() {
+          itFeedback.classList.add('shown');
+          setTimeout(function() { itFeedback.classList.remove('shown'); }, 2000);
+        }
+        if (navigator.clipboard) {
+          navigator.clipboard.writeText(text).then(showItCopied).catch(function() {
+            window.prompt('Copy this message:', text);
+          });
+        } else {
+          window.prompt('Copy this message:', text);
+        }
+      });
+    }
+
+    // "Last updated" note, same data source used on the archive page.
+    if (window.DATA_LAST_UPDATED) {
+      var d = new Date(window.DATA_LAST_UPDATED);
+      var el = document.getElementById("last-updated");
+      if (el) el.textContent = "Incident data last updated: " + d.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" }) + ". If your subscribed calendar looks out of date, your calendar app hasn't refreshed yet (this is normal and can take a day or two).";
+    }
+  })();
+</script>
+
+</body>
+</html>
