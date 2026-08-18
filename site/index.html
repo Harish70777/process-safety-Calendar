@@ -392,10 +392,11 @@
     <p class="sub">One link, added once. New incidents you publish later show up automatically — no need to resubscribe.</p>
     <div class="copy-row">
       <button class="btn" id="copy-btn" type="button">Copy calendar link</button>
+      <a class="btn secondary" id="apple-one-click" href="#" style="text-decoration:none;">Add to Apple Calendar (one-click)</a>
       <span class="copy-link-url">calendar.ics</span>
       <span class="copy-feedback" id="copy-feedback">Copied ✓</span>
     </div>
-    <div class="note">Paste that link into your calendar app's "Subscribe from URL" (sometimes called "Add calendar from Internet" or "From URL"). Not sure where that is? Open the instructions for your app below.</div>
+    <div class="note">On a Mac or iPhone? The "Add to Apple Calendar" button works instantly — no copying needed. Everyone else: paste the copied link into your calendar app's "Subscribe from URL" (sometimes called "Add calendar from Internet" or "From URL"). Not sure where that is? Open the instructions for your app below.</div>
     <div class="note" style="margin-top:10px;">New incidents get added to this same feed regularly. If you used "Subscribe" above, your calendar app checks for updates automatically — but the timing is controlled by your calendar app, not by us, and can take anywhere from a few hours to a day or two. If you used "Import" instead (see below), new incidents will <strong>never</strong> appear automatically — you'll need to re-import periodically.</div>
 
     <details class="howto">
@@ -465,6 +466,15 @@
         var btn = document.getElementById('copy-btn');
         var feedback = document.getElementById('copy-feedback');
         var icsUrl = new URL('calendar.ics', window.location.href).href;
+
+        // Wire up the one-click Apple Calendar button (webcal:// is a real,
+        // OS-registered protocol on Mac/iOS — this genuinely works there,
+        // unlike the Google/Outlook equivalents we already tested and found
+        // unreliable).
+        var appleBtn = document.getElementById('apple-one-click');
+        if (appleBtn) {
+          appleBtn.href = icsUrl.replace(/^https?:\/\//, 'webcal://');
+        }
 
         btn.addEventListener('click', function() {
           function showCopied() {
