@@ -83,7 +83,7 @@ function pageTemplate(data, bodyHtml) {
 </head>
 <body>
 <header>
-  <div class="wrap"><a class="brand" href="../../"><img src="../../rskless-logo.svg" alt="RskLess" style="height:24px;width:auto;"> RskLess PSM Calendar</a></div>
+  <div class="wrap"><a class="brand" href="../../"><img src="../../rskless-icon.svg" alt="RskLess" style="height:24px;width:auto;"> RskLess PSM Calendar</a></div>
 </header>
 <main>
   <div class="wrap">
