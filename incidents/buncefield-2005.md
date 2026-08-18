@@ -18,7 +18,7 @@ sources:
 
 ## What Happened
 
-During an overnight fuel delivery, a storage tank's automatic tank gauge failed to register the rising level, and an independent high-level switch — meant to be the backup safety layer — had also failed and was not detected because it was not being tested regularly. The tank overflowed for around 40 minutes, releasing a large volume of gasoline that formed a dense vapor cloud. The bund (secondary containment) failed to adequately contain the spill, and the cloud found an ignition source, causing one of the largest peacetime explosions in Europe. Remarkably there were no fatalities, largely because the explosion occurred at night when the site was minimally staffed — had it occurred during a work day, casualties would likely have been severe.
+During an overnight fuel delivery, a storage tank's automatic tank gauge failed to register the rising level, and an independent high-level switch, meant to be the backup safety layer, had also failed and was not detected because it was not being tested regularly. The tank overflowed for around 40 minutes, releasing a large volume of gasoline that formed a dense vapor cloud. The bund (secondary containment) failed to adequately contain the spill, and the cloud found an ignition source, causing one of the largest peacetime explosions in Europe. Remarkably there were no fatalities, largely because the explosion occurred at night when the site was minimally staffed, had it occurred during a work day, casualties would likely have been severe.
 
 ## Root Causes
 
@@ -28,6 +28,6 @@ During an overnight fuel delivery, a storage tank's automatic tank gauge failed 
 
 ## Lessons Learned
 
-1. Independent protection layers (like high-level switches) are only as reliable as your proof-testing regime — an untested safety system is not a safety system.
-2. Design your overfill protection with the assumption that the primary instrument *will* eventually fail — the backup has to be genuinely independent and regularly verified.
+1. Independent protection layers (like high-level switches) are only as reliable as your proof-testing regime, an untested safety system is not a safety system.
+2. Design your overfill protection with the assumption that the primary instrument *will* eventually fail, the backup has to be genuinely independent and regularly verified.
 3. Timing and staffing levels can mask the true severity of a near-catastrophic design flaw; "we got lucky" should trigger the same investigation rigor as a fatality.

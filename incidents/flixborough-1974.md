@@ -18,7 +18,7 @@ sources:
 
 ## What Happened
 
-After a crack was found in one of six reactors in a cyclohexane oxidation train, the reactor was removed and a temporary bypass pipe was installed to keep the other five reactors running while a replacement was sourced. The bypass was designed and installed without proper engineering calculations, drawings, or pressure testing — sketched out on the workshop floor rather than through a formal design process. The temporary pipe failed under process conditions, releasing an estimated 30+ tons of cyclohexane, which formed a vapor cloud and exploded with the force of roughly 15–45 tons of TNT, destroying the plant and killing 28 workers.
+After a crack was found in one of six reactors in a cyclohexane oxidation train, the reactor was removed and a temporary bypass pipe was installed to keep the other five reactors running while a replacement was sourced. The bypass was designed and installed without proper engineering calculations, drawings, or pressure testing, sketched out on the workshop floor rather than through a formal design process. The temporary pipe failed under process conditions, releasing an estimated 30+ tons of cyclohexane, which formed a vapor cloud and exploded with the force of roughly 15–45 tons of TNT, destroying the plant and killing 28 workers.
 
 ## Root Causes
 
@@ -28,6 +28,6 @@ After a crack was found in one of six reactors in a cyclohexane oxidation train,
 
 ## Lessons Learned
 
-1. "Temporary" modifications need the same engineering rigor as permanent ones — arguably more, since they're often installed under time pressure.
-2. Every process modification, however small it seems, needs documented engineering review and sign-off before startup — this is the foundational case study behind modern MOC procedures.
+1. "Temporary" modifications need the same engineering rigor as permanent ones, arguably more, since they're often installed under time pressure.
+2. Every process modification, however small it seems, needs documented engineering review and sign-off before startup, this is the foundational case study behind modern MOC procedures.
 3. Never let operational pressure to keep production running override a proper hazard review of a workaround.

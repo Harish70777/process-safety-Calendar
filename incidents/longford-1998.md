@@ -22,7 +22,7 @@ Operators at Esso's Longford Gas Plant 1 shut down the flow of warm oil to a hea
 
 ## Root Causes
 
-- **No HAZOP had ever been conducted on Gas Plant 1's heat exchange system** — a formal hazard and operability study would very likely have identified the low-temperature embrittlement risk before it caused a failure.
+- **No HAZOP had ever been conducted on Gas Plant 1's heat exchange system**, a formal hazard and operability study would very likely have identified the low-temperature embrittlement risk before it caused a failure.
 - **Inadequate operator and supervisor training:** staff did not understand the metallurgical consequence of losing warm oil flow to the exchanger, so the danger of the situation wasn't recognized in time.
 - **Poor shift communication:** the pump shutdown and its significance were not effectively communicated to the following shift, leaving incoming operators without the context needed to respond correctly.
 - **Alarm desensitization:** the plant generated so many routine alarms that workers had become desensitized to warning signals, dulling the response to genuine developing hazards.
@@ -30,7 +30,7 @@ Operators at Esso's Longford Gas Plant 1 shut down the flow of warm oil to a hea
 
 ## Lessons Learned
 
-1. Every safety-critical process change — including a "simple" pump shutdown — needs a documented hazard review if its downstream consequences aren't fully understood by the people making the call.
+1. Every safety-critical process change, including a "simple" pump shutdown, needs a documented hazard review if its downstream consequences aren't fully understood by the people making the call.
 2. Metallurgical and material-condition hazards (embrittlement, thermal shock) deserve the same procedural rigor as chemical or pressure hazards; they're just as capable of causing catastrophic failure.
 3. Alarm rationalization matters: an alarm system that cries wolf constantly trains operators to tune it out exactly when it matters most.
-4. Centralizing engineering expertise away from a plant is a real risk decision, not just an org-chart change — it should go through the same scrutiny as any other reduction in a safety-critical control.
+4. Centralizing engineering expertise away from a plant is a real risk decision, not just an org-chart change, it should go through the same scrutiny as any other reduction in a safety-critical control.

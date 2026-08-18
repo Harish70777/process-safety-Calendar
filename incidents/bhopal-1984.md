@@ -31,6 +31,6 @@ Water entered a storage tank holding roughly 40 tons of methyl isocyanate (MIC) 
 ## Lessons Learned
 
 1. Safety-critical systems (refrigeration, scrubbers, flares, relief systems) must never be taken offline for cost savings without a formal, documented risk assessment.
-2. Inherently safer design — minimizing on-site inventory of highly hazardous intermediates like MIC — is a stronger control than relying on layers of protection alone.
+2. Inherently safer design, minimizing on-site inventory of highly hazardous intermediates like MIC, is a stronger control than relying on layers of protection alone.
 3. Community emergency planning is part of process safety, not a separate function; land-use planning around hazardous facilities matters as much as in-plant controls.
-4. This incident directly led to the creation of OSHA's PSM standard (1910.119) and the EPA's Risk Management Program — it remains the benchmark against which "worst case" consequence severity is measured industry-wide.
+4. This incident directly led to the creation of OSHA's PSM standard (1910.119) and the EPA's Risk Management Program, it remains the benchmark against which "worst case" consequence severity is measured industry-wide.

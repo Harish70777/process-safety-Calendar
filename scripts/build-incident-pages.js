@@ -45,7 +45,7 @@ function pageTemplate(data, bodyHtml) {
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>${esc(data.title)} — RskLess PSM Incidents Calendar</title>
+<title>${esc(data.title)}: RskLess PSM Incidents Calendar</title>
 <link rel="icon" type="image/svg+xml" href="../../rskless-favicon.svg">
 <meta name="description" content="${esc(data.title)}, ${d.getUTCFullYear()}: what happened, root causes, and lessons learned.">
 <link rel="preconnect" href="https://fonts.googleapis.com">

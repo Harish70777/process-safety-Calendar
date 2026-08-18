@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>RskLess PSM Incidents Calendar — subscribe to historical incident anniversaries</title>
+<title>RskLess PSM Incidents Calendar: subscribe to historical incident anniversaries</title>
 <link rel="icon" type="image/svg+xml" href="rskless-favicon.svg">
 <meta name="description" content="A subscribable calendar of historical process safety incidents. Get a native reminder on each anniversary, with root causes and lessons learned.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -306,7 +306,7 @@
       <div class="hero-text">
         <div class="eyebrow">Historical incidents, on their anniversary</div>
         <h1>Keep process safety lessons alive, one anniversary at a time.</h1>
-        <p class="lede">Subscribe once. Your calendar app reminds you on the exact date a major incident happened — with what went wrong, the root causes, and what to check at your own site.</p>
+        <p class="lede">Subscribe once. Your calendar app reminds you on the exact date a major incident happened, with what went wrong, the root causes, and what to check at your own site.</p>
 
         <div class="placard" id="hero-placard">
           <div class="date-tab" id="hero-date">&nbsp;</div>
@@ -389,15 +389,15 @@
 <section class="subscribe" id="subscribe">
   <div class="wrap">
     <h3>Subscribe to the calendar</h3>
-    <p class="sub">One link, added once. New incidents you publish later show up automatically — no need to resubscribe.</p>
+    <p class="sub">One link, added once. New incidents you publish later show up automatically, so there's no need to resubscribe.</p>
     <div class="copy-row">
       <button class="btn" id="copy-btn" type="button">Copy calendar link</button>
       <a class="btn secondary" id="apple-one-click" href="#" style="text-decoration:none;">Add to Apple Calendar (one-click)</a>
       <span class="copy-link-url">calendar.ics</span>
       <span class="copy-feedback" id="copy-feedback">Copied ✓</span>
     </div>
-    <div class="note">On a Mac or iPhone? The "Add to Apple Calendar" button works instantly — no copying needed. Everyone else: paste the copied link into your calendar app's "Subscribe from URL" (sometimes called "Add calendar from Internet" or "From URL"). Not sure where that is? Open the instructions for your app below.</div>
-    <div class="note" style="margin-top:10px;">New incidents get added to this same feed regularly. If you used "Subscribe" above, your calendar app checks for updates automatically — but the timing is controlled by your calendar app, not by us, and can take anywhere from a few hours to a day or two. If you used "Import" instead (see below), new incidents will <strong>never</strong> appear automatically — you'll need to re-import periodically.</div>
+    <div class="note">On a Mac or iPhone? The "Add to Apple Calendar" button works instantly, with no copying needed. Everyone else: paste the copied link into your calendar app's "Subscribe from URL" (sometimes called "Add calendar from Internet" or "From URL"). Not sure where that is? Open the instructions for your app below.</div>
+    <div class="note" style="margin-top:10px;">New incidents get added to this same feed regularly. If you used "Subscribe" above, your calendar app checks for updates automatically, but the timing is controlled by your calendar app, not by us, and can take anywhere from a few hours to a day or two. If you used "Import" instead (see below), new incidents will <strong>never</strong> appear automatically; you'll need to re-import periodically.</div>
 
     <details class="howto">
       <summary>Google Calendar</summary>
@@ -407,7 +407,7 @@
           <li>Choose <strong>"From URL"</strong></li>
           <li>Paste the link, click <strong>Add calendar</strong></li>
         </ol>
-        Reminders aren't on by default for subscribed calendars — after adding it, go to Settings → this calendar → Notifications, and turn on "Event notifications."
+        Reminders aren't on by default for subscribed calendars. After adding it, go to Settings → this calendar → Notifications, and turn on "Event notifications."
       </div>
     </details>
 
@@ -436,27 +436,27 @@
     <details class="howto">
       <summary>Work computer blocks subscriptions? Ask IT to allow it</summary>
       <div class="howto-body">
-        <p style="margin-top:0;">Many companies block calendar subscriptions from external URLs by default — this is a policy setting an admin can change in minutes. Before falling back to Import below, try forwarding this to your IT or helpdesk team:</p>
+        <p style="margin-top:0;">Many companies block calendar subscriptions from external URLs by default. This is a policy setting an admin can change in minutes. Before falling back to Import below, try forwarding this to your IT or helpdesk team:</p>
         <div style="background:var(--paper); border:1px solid var(--line); padding:12px 14px; margin:10px 0; font-size:13px; position:relative;">
-          <div id="it-message">Hi — could you allow-list the following calendar subscription URL so I can subscribe to it in my work calendar? It's a read-only feed with no attachments or executable content, just calendar events.<br><br>URL: <span id="it-url-fill">calendar.ics</span><br><br>For Google Workspace, this is usually under Apps → Google Workspace → Calendar → Sharing settings. For Microsoft 365, it's under external sharing policies for internet calendar subscriptions. Thanks!</div>
+          <div id="it-message">Hi, could you allow-list the following calendar subscription URL so I can subscribe to it in my work calendar? It's a read-only feed with no attachments or executable content, just calendar events.<br><br>URL: <span id="it-url-fill">calendar.ics</span><br><br>For Google Workspace, this is usually under Apps → Google Workspace → Calendar → Sharing settings. For Microsoft 365, it's under external sharing policies for internet calendar subscriptions. Thanks!</div>
           <button class="btn secondary" id="copy-it-message" type="button" style="margin-top:10px; font-size:12px; padding:8px 12px;">Copy message</button>
           <span class="copy-feedback" id="it-copy-feedback">Copied ✓</span>
         </div>
-        <p style="margin-bottom:0;">This is worth trying first — it fixes the problem permanently instead of needing a manual workaround every month.</p>
+        <p style="margin-bottom:0;">This is worth trying first, since it fixes the problem permanently instead of needing a manual workaround every month.</p>
       </div>
     </details>
 
     <details class="howto">
-      <summary>Can't subscribe? (e.g. work computer blocks it) — Import as a last resort</summary>
+      <summary>Can't subscribe? (e.g. work computer blocks it): Import as a last resort</summary>
       <div class="howto-body">
-        <p style="margin-top:0;">Only use this if "Subscribe from URL" genuinely doesn't work for you — for example, your workplace's IT policy blocks calendar subscriptions from external URLs. If you can subscribe normally, do that instead; it stays current automatically and this doesn't.</p>
+        <p style="margin-top:0;">Only use this if "Subscribe from URL" genuinely doesn't work for you, for example if your workplace's IT policy blocks calendar subscriptions from external URLs. If you can subscribe normally, do that instead; it stays current automatically and this doesn't.</p>
         <ol>
           <li>Click <strong>Download .ics file</strong> below</li>
           <li>In your calendar app, look for <strong>Import</strong> (Google: Settings → Import & Export. Outlook: File → Open &amp; Export → Import/Export)</li>
           <li>Select the downloaded file</li>
         </ol>
-        <p style="color:var(--red); font-weight:500; margin-bottom:4px;">Important: this adds a one-time snapshot. New incidents added later will NOT appear — you'd need to re-download and re-import this file periodically to stay current. A true "Subscribe from URL" (above) updates automatically; this does not.</p>
-        <p style="margin-bottom:4px;">If you're relying on Import, we'd suggest re-importing every 1–3 months. Check the "last updated" date in the footer below before you bother re-importing — if it hasn't changed since your last import, there's nothing new yet.</p>
+        <p style="color:var(--red); font-weight:500; margin-bottom:4px;">Important: this adds a one-time snapshot. New incidents added later will NOT appear. You'd need to re-download and re-import this file periodically to stay current. A true "Subscribe from URL" (above) updates automatically; this does not.</p>
+        <p style="margin-bottom:4px;">If you're relying on Import, we'd suggest re-importing every 1–3 months. Check the "last updated" date in the footer below before you bother re-importing. If it hasn't changed since your last import, there's nothing new yet.</p>
         <div style="margin-top:10px;"><a class="btn secondary" href="calendar.ics" download>Download .ics file</a></div>
       </div>
     </details>
@@ -579,7 +579,7 @@
     if (window.DATA_LAST_UPDATED) {
       var d = new Date(window.DATA_LAST_UPDATED);
       var el = document.getElementById("last-updated");
-      if (el) el.textContent = "Incident data last updated: " + d.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" }) + " — if your subscribed calendar looks out of date, your calendar app hasn't refreshed yet (this is normal and can take a day or two).";
+      if (el) el.textContent = "Incident data last updated: " + d.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" }) + ". If your subscribed calendar looks out of date, your calendar app hasn't refreshed yet (this is normal and can take a day or two).";
     }
   })();
 </script>

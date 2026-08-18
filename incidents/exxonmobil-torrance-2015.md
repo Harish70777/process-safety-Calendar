@@ -18,7 +18,7 @@ sources:
 
 ## What Happened
 
-While preparing to isolate equipment for maintenance in the fluid catalytic cracking (FCC) unit — idled at the time following an earlier equipment problem — a faulty slide valve failed to keep hydrocarbons separated from the unit's "air side." Hydrocarbons backflowed through the process and ignited inside the electrostatic precipitator (ESP), a piece of pollution-control equipment not designed to contain an explosion. The blast dispersed large quantities of catalyst dust up to a mile from the refinery and threw heavy debris into surrounding units — one piece struck scaffolding in the alkylation unit, narrowly missing a tank holding tens of thousands of pounds of modified hydrofluoric acid (HF), a highly toxic chemical that could have caused a much more severe community-wide release had the tank been breached. Two workers were injured; the refinery ran at reduced capacity for over a year afterward, an outage CSB estimated cost California drivers roughly $2.4 billion in higher gas prices.
+While preparing to isolate equipment for maintenance in the fluid catalytic cracking (FCC) unit, idled at the time following an earlier equipment problem, a faulty slide valve failed to keep hydrocarbons separated from the unit's "air side." Hydrocarbons backflowed through the process and ignited inside the electrostatic precipitator (ESP), a piece of pollution-control equipment not designed to contain an explosion. The blast dispersed large quantities of catalyst dust up to a mile from the refinery and threw heavy debris into surrounding units, one piece struck scaffolding in the alkylation unit, narrowly missing a tank holding tens of thousands of pounds of modified hydrofluoric acid (HF), a highly toxic chemical that could have caused a much more severe community-wide release had the tank been breached. Two workers were injured; the refinery ran at reduced capacity for over a year afterward, an outage CSB estimated cost California drivers roughly $2.4 billion in higher gas prices.
 
 ## Root Causes
 
@@ -29,7 +29,7 @@ While preparing to isolate equipment for maintenance in the fluid catalytic crac
 
 ## Lessons Learned
 
-1. A slide valve or similar isolation component failing this way is a known, recurring failure mode in FCC units — this incident predates Husky Superior (2018) by three years and describes an almost identical mechanism, underscoring how easily an industry-wide lesson can go unabsorbed.
-2. Safe operating limits and shutdown criteria need to be explicitly defined and documented for every unit — "we'll know it when we see it" is not an operating limit.
+1. A slide valve or similar isolation component failing this way is a known, recurring failure mode in FCC units, this incident predates Husky Superior (2018) by three years and describes an almost identical mechanism, underscoring how easily an industry-wide lesson can go unabsorbed.
+2. Safe operating limits and shutdown criteria need to be explicitly defined and documented for every unit, "we'll know it when we see it" is not an operating limit.
 3. Reusing a procedure or variance from a prior maintenance event requires a fresh hazard analysis each time, not an assumption that past conditions still apply.
-4. Facility siting and layout should account for the possibility of explosion debris reaching nearby high-hazard inventories (like HF storage) — this incident came within a near-miss of a much larger toxic release, and that near-miss deserves the same seriousness as if it had actually happened.
+4. Facility siting and layout should account for the possibility of explosion debris reaching nearby high-hazard inventories (like HF storage), this incident came within a near-miss of a much larger toxic release, and that near-miss deserves the same seriousness as if it had actually happened.

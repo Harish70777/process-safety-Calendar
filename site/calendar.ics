@@ -8,7 +8,7 @@ X-WR-CALDESC:Historical process safety incidents, on their anniversary date, wit
 BEGIN:VEVENT
 UID:flixborough-1974@processsafetycalendar.com
 DTSTART;VALUE=DATE:19740601
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Flixborough Chemical Plant Explosion (1974)
 DESCRIPTION:28 fatalities\, 36 injuries.\n\nRoot causes: inadequate-moc\, 
@@ -25,7 +25,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:seveso-1976@processsafetycalendar.com
 DTSTART;VALUE=DATE:19760710
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Seveso Dioxin Release (1976)
 DESCRIPTION:0 fatalities\, 0 injuries.\n\nRoot causes: design-deficiency\,
@@ -42,7 +42,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:bhopal-1984@processsafetycalendar.com
 DTSTART;VALUE=DATE:19841203
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Bhopal Gas Tragedy (1984)
 DESCRIPTION:3800 fatalities\, 500000 injuries.\n\nRoot causes: design-defi
@@ -59,7 +59,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:piper-alpha-1988@processsafetycalendar.com
 DTSTART;VALUE=DATE:19880706
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Piper Alpha Offshore Platform Explosion (1988)
 DESCRIPTION:167 fatalities\, 61 injuries.\n\nRoot causes: inadequate-moc\,
@@ -76,7 +76,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:phillips-pasadena-1989@processsafetycalendar.com
 DTSTART;VALUE=DATE:19891023
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Phillips 66 Pasadena Polyethylene Plant Explosion 
  (1989)
@@ -94,7 +94,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:milford-haven-1994@processsafetycalendar.com
 DTSTART;VALUE=DATE:19940724
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Texaco Milford Haven Refinery Explosion and Fires 
  (1994)
@@ -113,7 +113,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:longford-1998@processsafetycalendar.com
 DTSTART;VALUE=DATE:19980925
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Longford Esso Gas Plant Explosion (1998)
 DESCRIPTION:2 fatalities\, 8 injuries.\n\nRoot causes: no-hazop-conducted\
@@ -130,9 +130,9 @@ END:VEVENT
 BEGIN:VEVENT
 UID:bp-grangemouth-2000@processsafetycalendar.com
 DTSTART;VALUE=DATE:20000529
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
-SUMMARY:⚠️ Anniversary: BP Grangemouth Petrochemical Complex — Three Major
+SUMMARY:⚠️ Anniversary: BP Grangemouth Petrochemical Complex\, Three Major
   Incidents (2000)
 DESCRIPTION:0 fatalities\, 1 injuries.\n\nRoot causes: inadequate-excavati
  on-controls\, incorrectly-fitted-pipe-tee-1950s\, inadequately-supported-
@@ -149,7 +149,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:motiva-delaware-city-2001@processsafetycalendar.com
 DTSTART;VALUE=DATE:20010717
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Motiva Enterprises Delaware City Refinery Sulfuric
   Acid Tank Explosion (2001)
@@ -167,7 +167,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:azf-toulouse-2001@processsafetycalendar.com
 DTSTART;VALUE=DATE:20010921
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: AZF Toulouse Fertilizer Plant Explosion (2001)
 DESCRIPTION:31 fatalities\, 2500 injuries.\n\nRoot causes: incompatible-ch
@@ -184,7 +184,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:west-pharmaceutical-2003@processsafetycalendar.com
 DTSTART;VALUE=DATE:20030129
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: West Pharmaceutical Services Dust Explosion (2003)
 DESCRIPTION:6 fatalities\, 38 injuries.\n\nRoot causes: no-engineering-ass
@@ -202,7 +202,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:cta-acoustics-2003@processsafetycalendar.com
 DTSTART;VALUE=DATE:20030220
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: CTA Acoustics Dust Explosion and Fire (2003)
 DESCRIPTION:7 fatalities\, 37 injuries.\n\nRoot causes: unknown-dust-hazar
@@ -220,7 +220,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hayes-lemmerz-2003@processsafetycalendar.com
 DTSTART;VALUE=DATE:20031029
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Hayes Lemmerz Aluminum Dust Explosion (2003)
 DESCRIPTION:1 fatalities\, 6 injuries.\n\nRoot causes: no-moc-on-dust-coll
@@ -238,7 +238,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:formosa-illiopolis-2004@processsafetycalendar.com
 DTSTART;VALUE=DATE:20040423
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Formosa Plastics Vinyl Chloride Explosion (2004)
 DESCRIPTION:5 fatalities\, 3 injuries.\n\nRoot causes: bypassed-pressure-i
@@ -256,7 +256,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:texas-city-2005@processsafetycalendar.com
 DTSTART;VALUE=DATE:20050323
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: BP Texas City Refinery Explosion (2005)
 DESCRIPTION:15 fatalities\, 180 injuries.\n\nRoot causes: instrumentation-
@@ -273,7 +273,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:buncefield-2005@processsafetycalendar.com
 DTSTART;VALUE=DATE:20051211
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Buncefield Oil Storage Depot Explosion (2005)
 DESCRIPTION:0 fatalities\, 43 injuries.\n\nRoot causes: instrumentation-fa
@@ -290,7 +290,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:valero-mckee-2007@processsafetycalendar.com
 DTSTART;VALUE=DATE:20070216
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Valero McKee Refinery Propane Fire (Frozen Dead-Le
  g Piping) (2007)
@@ -308,7 +308,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:barton-solvents-2007@processsafetycalendar.com
 DTSTART;VALUE=DATE:20071029
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Barton Solvents Des Moines Fire and Explosions (20
  07)
@@ -327,7 +327,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:t2-laboratories-2007@processsafetycalendar.com
 DTSTART;VALUE=DATE:20071219
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: T2 Laboratories Reactive Chemical Explosion (2007)
 DESCRIPTION:4 fatalities\, 32 injuries.\n\nRoot causes: unrecognized-react
@@ -344,7 +344,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:imperial-sugar-2008@processsafetycalendar.com
 DTSTART;VALUE=DATE:20080207
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Imperial Sugar Refinery Dust Explosion (2008)
 DESCRIPTION:14 fatalities\, 36 injuries.\n\nRoot causes: combustible-dust-
@@ -361,7 +361,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:goodyear-houston-2008@processsafetycalendar.com
 DTSTART;VALUE=DATE:20080611
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Goodyear Houston Heat Exchanger Rupture and Ammoni
  a Release (2008)
@@ -380,7 +380,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:bayer-cropscience-2008@processsafetycalendar.com
 DTSTART;VALUE=DATE:20080828
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Bayer CropScience Pesticide Waste Tank Explosion (
  2008)
@@ -399,7 +399,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:allied-terminals-2008@processsafetycalendar.com
 DTSTART;VALUE=DATE:20081112
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Allied Terminals Fertilizer Tank Collapse (2008)
 DESCRIPTION:0 fatalities\, 2 injuries.\n\nRoot causes: welding-defects-in-
@@ -417,7 +417,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:jaipur-2009@processsafetycalendar.com
 DTSTART;VALUE=DATE:20091029
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Jaipur Oil Terminal Fire (2009)
 DESCRIPTION:12 fatalities\, 200 injuries.\n\nRoot causes: no-remote-shutof
@@ -434,7 +434,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:silver-eagle-refinery-2009@processsafetycalendar.com
 DTSTART;VALUE=DATE:20091104
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Silver Eagle Refinery Pipe Rupture and Hydrogen Ex
  plosion (2009)
@@ -453,7 +453,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ndk-crystal-2009@processsafetycalendar.com
 DTSTART;VALUE=DATE:20091207
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: NDK Crystal Pressure Vessel Explosion with Offsite
   Fatality (2009)
@@ -472,7 +472,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:dupont-belle-2010@processsafetycalendar.com
 DTSTART;VALUE=DATE:20100122
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: DuPont Belle Three Toxic Releases in 33 Hours (201
  0)
@@ -491,7 +491,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:kleen-energy-2010@processsafetycalendar.com
 DTSTART;VALUE=DATE:20100207
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Kleen Energy Plant Natural Gas Explosion (2010)
 DESCRIPTION:6 fatalities\, 50 injuries.\n\nRoot causes: inherently-unsafe-
@@ -508,7 +508,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:tesoro-anacortes-2010@processsafetycalendar.com
 DTSTART;VALUE=DATE:20100402
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Tesoro Anacortes Refinery Heat Exchanger Explosion
   (2010)
@@ -527,7 +527,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:deepwater-horizon-2010@processsafetycalendar.com
 DTSTART;VALUE=DATE:20100420
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Deepwater Horizon / Macondo Well Blowout (2010)
 DESCRIPTION:11 fatalities\, 17 injuries.\n\nRoot causes: cement-barrier-fa
@@ -545,7 +545,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:chevron-richmond-2012@processsafetycalendar.com
 DTSTART;VALUE=DATE:20120806
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Chevron Richmond Refinery Pipe Rupture and Fire (2
  012)
@@ -564,7 +564,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:west-fertilizer-2013@processsafetycalendar.com
 DTSTART;VALUE=DATE:20130417
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: West Fertilizer Company Fire and Explosion (2013)
 DESCRIPTION:15 fatalities\, 260 injuries.\n\nRoot causes: combustible-buil
@@ -581,7 +581,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:williams-olefins-2013@processsafetycalendar.com
 DTSTART;VALUE=DATE:20130613
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Williams Olefins Plant Reboiler Explosion (2013)
 DESCRIPTION:2 fatalities\, 167 injuries.\n\nRoot causes: inadequate-moc-19
@@ -598,7 +598,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:freedom-industries-elk-river-2014@processsafetycalendar.com
 DTSTART;VALUE=DATE:20140109
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Freedom Industries Elk River Chemical Spill (2014)
 DESCRIPTION:0 fatalities\, 300 injuries.\n\nRoot causes: pitting-corrosion
@@ -616,7 +616,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:dupont-laporte-2014@processsafetycalendar.com
 DTSTART;VALUE=DATE:20141115
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: DuPont La Porte Methyl Mercaptan Release (2014)
 DESCRIPTION:4 fatalities\, 1 injuries.\n\nRoot causes: flawed-engineering-
@@ -634,7 +634,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:exxonmobil-torrance-2015@processsafetycalendar.com
 DTSTART;VALUE=DATE:20150218
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: ExxonMobil Torrance Refinery Electrostatic Precipi
  tator Explosion (2015)
@@ -653,7 +653,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:tianjin-2015@processsafetycalendar.com
 DTSTART;VALUE=DATE:20150812
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Tianjin Port Explosions (2015)
 DESCRIPTION:173 fatalities\, 798 injuries.\n\nRoot causes: spontaneous-ign
@@ -671,7 +671,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sunoco-nederland-2016@processsafetycalendar.com
 DTSTART;VALUE=DATE:20160812
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Sunoco Nederland Crude Oil Terminal Flash Fire and
   Explosion (2016)
@@ -690,7 +690,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:airgas-cantonment-2016@processsafetycalendar.com
 DTSTART;VALUE=DATE:20160828
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Airgas Nitrous Oxide Explosion (2016)
 DESCRIPTION:1 fatalities\, 0 injuries.\n\nRoot causes: no-safer-design-eva
@@ -708,7 +708,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:mgpi-atchison-2016@processsafetycalendar.com
 DTSTART;VALUE=DATE:20161021
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: MGPI Processing Toxic Chlorine Gas Release (2016)
 DESCRIPTION:0 fatalities\, 140 injuries.\n\nRoot causes: visually-similar-
@@ -726,7 +726,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:pca-deridder-2017@processsafetycalendar.com
 DTSTART;VALUE=DATE:20170208
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Packaging Corporation of America DeRidder Mill Exp
  losion (2017)
@@ -745,7 +745,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:loy-lange-box-2017@processsafetycalendar.com
 DTSTART;VALUE=DATE:20170403
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Loy-Lange Box Company Pressure Vessel Explosion (2
  017)
@@ -764,7 +764,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:didion-milling-2017@processsafetycalendar.com
 DTSTART;VALUE=DATE:20170531
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Didion Milling Combustible Dust Explosions and Fir
  e (2017)
@@ -783,7 +783,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:arkema-crosby-2017@processsafetycalendar.com
 DTSTART;VALUE=DATE:20170831
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Arkema Crosby Organic Peroxide Fire (Hurricane Har
  vey) (2017)
@@ -802,7 +802,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:husky-superior-2018@processsafetycalendar.com
 DTSTART;VALUE=DATE:20180426
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Husky Energy Superior Refinery FCC Explosion (2018
  )
@@ -821,7 +821,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:kuraray-america-2018@processsafetycalendar.com
 DTSTART;VALUE=DATE:20180519
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Kuraray America EVAL Plant Ethylene Release and Fi
  re (2018)
@@ -840,7 +840,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:kmco-crosby-2019@processsafetycalendar.com
 DTSTART;VALUE=DATE:20190402
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: KMCO Chemical Facility Fatal Explosion and Fire (2
  019)
@@ -859,7 +859,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ab-specialty-silicones-2019@processsafetycalendar.com
 DTSTART;VALUE=DATE:20190503
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: AB Specialty Silicones Chemical Explosion (2019)
 DESCRIPTION:4 fatalities\, 1 injuries.\n\nRoot causes: incompatible-chemic
@@ -877,7 +877,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:philadelphia-energy-solutions-2019@processsafetycalendar.com
 DTSTART;VALUE=DATE:20190621
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Philadelphia Energy Solutions Refinery Fire and HF
   Release (2019)
@@ -896,7 +896,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:tpc-port-neches-2019@processsafetycalendar.com
 DTSTART;VALUE=DATE:20191127
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: TPC Group Port Neches Butadiene Explosions and Fir
  e (2019)
@@ -915,7 +915,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:watson-grinding-2020@processsafetycalendar.com
 DTSTART;VALUE=DATE:20200124
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Watson Grinding and Manufacturing Propylene Explos
  ion (2020)
@@ -934,7 +934,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:evergreen-packaging-2020@processsafetycalendar.com
 DTSTART;VALUE=DATE:20200921
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Evergreen Packaging Paper Mill Fire During Hot Wor
  k (2020)
@@ -953,7 +953,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:wacker-polysilicon-2020@processsafetycalendar.com
 DTSTART;VALUE=DATE:20201113
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Wacker Polysilicon Hydrogen Chloride Release (2020
  )
@@ -972,7 +972,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:optima-belle-2020@processsafetycalendar.com
 DTSTART;VALUE=DATE:20201208
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Optima Belle Double Cone Dryer Explosion (2020)
 DESCRIPTION:1 fatalities\, 3 injuries.\n\nRoot causes: inaccurate-safety-d
@@ -991,7 +991,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:foundation-food-group-2021@processsafetycalendar.com
 DTSTART;VALUE=DATE:20210128
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Foundation Food Group Liquid Nitrogen Release (202
  1)
@@ -1011,7 +1011,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:yenkin-majestic-2021@processsafetycalendar.com
 DTSTART;VALUE=DATE:20210408
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Yenkin-Majestic Resin Plant Vapor Cloud Explosion 
  and Fire (2021)
@@ -1031,7 +1031,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:chemtool-rockton-2021@processsafetycalendar.com
 DTSTART;VALUE=DATE:20210614
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Chemtool Rockton Plant Fire (2021)
 DESCRIPTION:0 fatalities\, 2 injuries.\n\nRoot causes: mechanical-equipmen
@@ -1048,7 +1048,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:home-market-foods-2022@processsafetycalendar.com
 DTSTART;VALUE=DATE:20221219
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Home Market Foods Ammonia Release (2022)
 DESCRIPTION:1 fatalities\, 1 injuries.\n\nRoot causes: severed-ammonia-pip
@@ -1066,7 +1066,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:darling-ingredients-2023@processsafetycalendar.com
 DTSTART;VALUE=DATE:20230622
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Darling Ingredients Aluminum Chloride Tank Rupture
   (2023)
@@ -1084,7 +1084,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:us-steel-clairton-2025@processsafetycalendar.com
 DTSTART;VALUE=DATE:20250811
-DTSTAMP:20260818T171547Z
+DTSTAMP:20260818T182431Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: U.S. Steel Clairton Coke Works Coke Oven Gas Explo
  sion (2025)
