@@ -8,181 +8,214 @@
 <meta name="description" content="A subscribable calendar of historical process safety incidents. Get a native reminder on each anniversary, with root causes and lessons learned.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root{
-    --paper:#EFF3F5;
-    --ink:#101820;
-    --blueprint:#0B4F6C;
-    --amber:#F2A900;
+    --orange:#E8622C;
+    --orange-dark:#C94E1E;
+    --navy:#13567F;
+    --navy-dark:#0D3E5C;
+    --paper:#FFFFFF;
+    --paper-alt:#F5F8FA;
+    --ink:#2B2B2B;
     --red:#C81E1E;
-    --line:#C7D0D6;
-    --paper-card:#FFFFFF;
+    --line:#E3E7EC;
   }
   *{box-sizing:border-box;}
   body{
     margin:0;
     background:var(--paper);
     color:var(--ink);
-    font-family:'IBM Plex Sans', sans-serif;
-    line-height:1.6;
+    font-family:'Poppins', sans-serif;
+    line-height:1.65;
   }
-  .wrap{max-width:960px;margin:0 auto;padding:0 24px;}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 24px;}
   header{
+    background:var(--paper);
     border-bottom:1px solid var(--line);
-    padding:20px 0;
+    padding:16px 0;
   }
   header .wrap{display:flex;align-items:center;justify-content:space-between;}
   .brand{
-    font-family:'IBM Plex Mono', monospace;
-    font-size:13px;
-    letter-spacing:0.08em;
-    text-transform:uppercase;
+    font-family:'Baloo 2', sans-serif;
+    font-weight:700;
+    font-size:19px;
+    color:var(--orange);
     display:flex;
     align-items:center;
-    gap:8px;
+    gap:10px;
+    text-decoration:none;
   }
-  .brand .dot{width:8px;height:8px;background:var(--amber);border:1px solid var(--ink);}
+  nav{display:flex;align-items:center;}
   nav a{
-    font-family:'IBM Plex Mono', monospace;
-    font-size:13px;
+    font-family:'Poppins', sans-serif;
+    font-weight:500;
+    font-size:14px;
     color:var(--ink);
     text-decoration:none;
-    margin-left:24px;
-    border-bottom:1px solid transparent;
+    margin-left:26px;
   }
-  nav a:hover{border-bottom-color:var(--ink);}
+  nav a:hover{color:var(--orange);}
+  nav a.nav-cta{
+    background:var(--orange);
+    color:#fff;
+    padding:10px 20px;
+    border-radius:4px;
+    font-weight:600;
+  }
+  nav a.nav-cta:hover{background:var(--orange-dark); color:#fff;}
 
-  .hero{padding:56px 0 40px;}
+  /* Hero: navy gradient stand-in for their full-bleed industrial photo + overlay */
+  .hero{
+    background:linear-gradient(135deg, var(--navy) 0%, var(--navy-dark) 100%);
+    padding:64px 0 56px;
+    position:relative;
+    overflow:hidden;
+  }
+  .hero::after{
+    /* thin diagonal orange divider, echoing the angled line under their hero photo */
+    content:"";
+    position:absolute;
+    left:0; right:0; bottom:0;
+    height:4px;
+    background:var(--orange);
+    transform:skewY(-0.6deg);
+    transform-origin:left;
+  }
   .hero-flex{display:flex; align-items:center; gap:40px;}
   .hero-text{flex:1 1 auto; min-width:0;}
-  .hero-visual{flex:0 0 auto; display:flex; align-items:center; justify-content:center; width:240px;}
+  .hero-visual{flex:0 0 auto; display:flex; align-items:center; justify-content:center; width:220px;}
   .hero-visual img{width:100%; height:auto; opacity:0.95;}
   @media (max-width:800px){
     .hero-flex{flex-direction:column;}
-    .hero-visual{display:none;} /* avoid crowding narrow/mobile layouts */
+    .hero-visual{display:none;}
   }
   .eyebrow{
-    font-family:'IBM Plex Mono', monospace;
+    font-family:'Poppins', sans-serif;
+    font-weight:600;
     font-size:12px;
-    letter-spacing:0.1em;
+    letter-spacing:0.08em;
     text-transform:uppercase;
-    color:var(--blueprint);
+    color:var(--orange);
     margin-bottom:12px;
   }
   h1{
-    font-family:'Space Grotesk', sans-serif;
-    font-weight:700;
-    font-size:44px;
-    line-height:1.12;
+    font-family:'Baloo 2', sans-serif;
+    font-weight:800;
+    font-size:46px;
+    line-height:1.15;
     margin:0 0 18px;
-    max-width:9.5em;
+    max-width:10em;
+    color:#fff;
   }
-  .lede{font-size:17px;max-width:38em;color:#333;margin-bottom:32px;}
+  .lede{font-size:17px;max-width:38em;color:#DCE6EC;margin-bottom:32px;}
 
+  /* Hero incident placard: rounded semi-transparent card, echoing their
+     "Why RskLess?" overlay box treatment */
   .placard{
-    background:var(--paper-card);
-    border:1.5px solid var(--ink);
+    background:rgba(255,255,255,0.97);
+    border-radius:12px;
     position:relative;
     padding:28px 28px 24px;
     margin-bottom:16px;
-  }
-  .placard::before{
-    content:"";
-    position:absolute;
-    top:0;left:0;right:0;
-    height:6px;
-    background:repeating-linear-gradient(
-      -45deg,
-      var(--amber),
-      var(--amber) 12px,
-      var(--ink) 12px,
-      var(--ink) 24px
-    );
+    box-shadow:0 8px 24px rgba(0,0,0,0.18);
   }
   .date-tab{
     position:absolute;
     top:-14px;
     left:24px;
-    background:var(--ink);
-    color:var(--paper);
-    font-family:'IBM Plex Mono', monospace;
+    background:var(--orange);
+    color:#fff;
+    font-family:'Poppins', sans-serif;
+    font-weight:600;
     font-size:12px;
-    letter-spacing:0.05em;
-    padding:5px 10px;
+    letter-spacing:0.03em;
+    padding:5px 12px;
+    border-radius:4px;
   }
   .placard h2{
-    font-family:'Space Grotesk', sans-serif;
+    font-family:'Baloo 2', sans-serif;
+    font-weight:700;
     font-size:24px;
     margin:14px 0 8px;
+    color:var(--navy);
   }
   .placard .meta{
-    font-family:'IBM Plex Mono', monospace;
-    font-size:12px;
-    color:var(--blueprint);
+    font-family:'Poppins', sans-serif;
+    font-size:13px;
+    color:var(--navy);
+    font-weight:500;
     margin-bottom:14px;
   }
-  .placard p{font-size:15px;color:#333;margin:0;}
+  .placard p{font-size:15px;color:#3a3a3a;margin:0;}
   .tier-tag{
     display:inline-block;
-    font-family:'IBM Plex Mono', monospace;
+    font-family:'Poppins', sans-serif;
+    font-weight:600;
     font-size:11px;
-    letter-spacing:0.05em;
+    letter-spacing:0.03em;
     text-transform:uppercase;
-    padding:3px 8px;
+    padding:3px 10px;
+    border-radius:4px;
     border:1px solid var(--red);
     color:var(--red);
     margin-bottom:12px;
   }
 
   .subscribe{
-    padding:48px 0;
-    border-top:1px solid var(--line);
-    border-bottom:1px solid var(--line);
+    padding:56px 0;
+    background:var(--paper-alt);
   }
   .subscribe h3{
-    font-family:'Space Grotesk', sans-serif;
-    font-size:22px;
+    font-family:'Baloo 2', sans-serif;
+    font-weight:700;
+    font-size:24px;
     margin:0 0 6px;
+    color:var(--navy);
   }
-  .subscribe .sub{color:#333;font-size:15px;margin-bottom:24px;max-width:34em;}
+  .subscribe .sub{color:#444;font-size:15px;margin-bottom:24px;max-width:34em;}
   .btn-row{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:20px;}
   .btn{
-    font-family:'IBM Plex Mono', monospace;
+    font-family:'Poppins', sans-serif;
+    font-weight:600;
     font-size:13px;
-    letter-spacing:0.02em;
-    padding:12px 18px;
-    background:var(--ink);
-    color:var(--paper);
-    border:1px solid var(--ink);
+    letter-spacing:0.03em;
+    text-transform:uppercase;
+    padding:13px 22px;
+    background:var(--orange);
+    color:#fff;
+    border:1.5px solid var(--orange);
+    border-radius:4px;
     text-decoration:none;
     display:inline-flex;
     align-items:center;
     gap:8px;
     cursor:pointer;
   }
-  .btn:hover{background:var(--blueprint);border-color:var(--blueprint);}
-  .btn.secondary{background:transparent;color:var(--ink);}
-  .btn.secondary:hover{background:var(--ink);color:var(--paper);}
+  .btn:hover{background:var(--orange-dark);border-color:var(--orange-dark);}
+  .btn.secondary{background:transparent;color:var(--orange);}
+  .btn.secondary:hover{background:var(--orange);color:#fff;}
   .note{
     font-size:13px;
-    color:var(--blueprint);
-    border-left:2px solid var(--amber);
+    color:var(--navy);
+    border-left:3px solid var(--orange);
     padding:10px 14px;
     background:#fff;
     max-width:38em;
+    border-radius:0 4px 4px 0;
   }
 
   .copy-row{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:28px;}
   .copy-link-url{
-    font-family:'IBM Plex Mono', monospace;
+    font-family:'Poppins', sans-serif;
     font-size:13px;
     color:#555;
   }
   .copy-feedback{
-    font-family:'IBM Plex Mono', monospace;
+    font-family:'Poppins', sans-serif;
+    font-weight:500;
     font-size:13px;
-    color:var(--blueprint);
+    color:var(--orange);
     opacity:0;
     transition:opacity 0.15s ease;
   }
@@ -190,14 +223,18 @@
 
   details.howto{
     border:1px solid var(--line);
-    background:var(--paper-card);
+    background:#fff;
+    border-radius:8px;
     margin-bottom:10px;
     max-width:38em;
+    overflow:hidden;
   }
   details.howto summary{
-    font-family:'IBM Plex Mono', monospace;
-    font-size:13px;
-    padding:12px 16px;
+    font-family:'Poppins', sans-serif;
+    font-weight:600;
+    font-size:14px;
+    color:var(--navy);
+    padding:14px 18px;
     cursor:pointer;
     list-style:none;
     display:flex;
@@ -205,58 +242,65 @@
     justify-content:space-between;
   }
   details.howto summary::-webkit-details-marker{display:none;}
-  details.howto summary::after{content:"+";font-size:15px;color:var(--blueprint);}
-  details.howto[open] summary::after{content:"−";}
+  details.howto summary::after{content:"+";font-size:18px;font-weight:700;color:var(--orange);}
+  details.howto[open] summary::after{content:"\2212";}
+  details.howto[open] summary{border-bottom:1px solid var(--line);}
   details.howto .howto-body{
-    padding:0 16px 16px;
+    padding:14px 18px 18px;
     font-size:14px;
-    color:#333;
+    color:#3a3a3a;
   }
   details.howto .howto-body ol{margin:8px 0 0;padding-left:20px;}
   details.howto .howto-body li{margin-bottom:6px;}
   details.howto .howto-body code{
-    background:var(--paper);
+    background:var(--paper-alt);
     padding:1px 5px;
-    font-family:'IBM Plex Mono', monospace;
+    font-family:'Poppins', sans-serif;
     font-size:12px;
+    border-radius:3px;
   }
 
-  .archive{padding:48px 0 64px;}
+  .archive{padding:56px 0 64px;}
   .archive h3{
-    font-family:'Space Grotesk', sans-serif;
-    font-size:22px;
+    font-family:'Baloo 2', sans-serif;
+    font-weight:700;
+    font-size:24px;
     margin:0 0 20px;
+    color:var(--navy);
   }
   .grid{
     display:grid;
     grid-template-columns:repeat(auto-fit, minmax(260px, 1fr));
-    gap:16px;
+    gap:18px;
   }
   .card{
-    background:var(--paper-card);
+    background:#fff;
     border:1px solid var(--line);
+    border-radius:8px;
     padding:18px 18px 16px;
     position:relative;
     display:block;
     text-decoration:none;
     color:inherit;
-    transition:border-color 0.15s ease, transform 0.1s ease;
+    transition:box-shadow 0.15s ease, transform 0.1s ease;
   }
   .card:hover{
-    border-color:var(--blueprint);
-    transform:translateY(-1px);
+    box-shadow:0 6px 18px rgba(19,86,127,0.12);
+    transform:translateY(-2px);
   }
   .card .tab{
-    font-family:'IBM Plex Mono', monospace;
+    font-family:'Poppins', sans-serif;
+    font-weight:600;
     font-size:11px;
-    color:var(--blueprint);
+    color:var(--orange);
     margin-bottom:8px;
   }
   .card h4{
-    font-family:'Space Grotesk', sans-serif;
-    font-size:16px;
+    font-family:'Baloo 2', sans-serif;
+    font-size:17px;
     margin:0 0 6px;
     font-weight:700;
+    color:var(--navy);
   }
   .card .loc{
     font-size:13px;
@@ -265,22 +309,40 @@
   }
   .card .tags{display:flex;flex-wrap:wrap;gap:6px;}
   .tag{
-    font-family:'IBM Plex Mono', monospace;
+    font-family:'Poppins', sans-serif;
     font-size:10px;
-    padding:2px 6px;
-    border:1px solid var(--line);
+    padding:3px 8px;
+    border-radius:10px;
+    background:var(--paper-alt);
     color:#555;
   }
-  .sev-1{border-left:3px solid var(--red);}
+  .sev-1{border-left:4px solid var(--red);}
 
+  /* Footer: two-column, echoing their orange-wordmark-left /
+     navy-box-right layout */
   footer{
+    background:var(--paper);
     border-top:1px solid var(--line);
-    padding:32px 0 48px;
-    font-family:'IBM Plex Mono', monospace;
-    font-size:12px;
-    color:#777;
+    padding:0;
   }
-  footer a{color:var(--blueprint);}
+  .footer-flex{display:flex; gap:0; flex-wrap:wrap;}
+  .footer-brand{
+    flex:1 1 340px;
+    padding:40px 24px;
+  }
+  .footer-brand .brand{margin-bottom:14px;}
+  .footer-brand p{font-size:13px; color:#666; margin:0 0 6px;}
+  .footer-brand a{color:var(--navy); text-decoration:none;}
+  .footer-brand a:hover{color:var(--orange);}
+  .footer-info{
+    flex:1 1 300px;
+    background:var(--navy);
+    color:#fff;
+    padding:40px 32px;
+    display:flex;
+    align-items:center;
+  }
+  .footer-info p{font-size:13px; color:#DCE6EC; margin:0;}
 
   @media (max-width:600px){
     h1{font-size:32px;}
@@ -292,10 +354,10 @@
 
 <header>
   <div class="wrap">
-    <div class="brand"><img src="rskless-logo.svg" alt="RskLess" style="height:28px;width:auto;"> RskLess PSM Incidents Calendar</div>
+    <a href="./" class="brand"><img src="rskless-logo.svg" alt="RskLess" style="height:28px;width:auto;"> RskLess PSM Calendar</a>
     <nav>
-      <a href="#subscribe">Subscribe</a>
       <a href="archive.html">Archive</a>
+      <a href="#subscribe" class="nav-cta">Subscribe</a>
     </nav>
   </div>
 </header>
@@ -567,11 +629,16 @@
 </section>
 
 <footer>
-  <div class="wrap">
-    Sources: CSB &middot; UK HSE &middot; BARPI/ARIA &middot; CCPS &middot; IChemE &middot;
-    <a href="https://github.com/">View this project on GitHub</a>
-    <br>
-    <span id="last-updated" style="opacity:0.7;"></span>
+  <div class="footer-flex">
+    <div class="footer-brand">
+      <div class="brand"><img src="rskless-logo.svg" alt="RskLess" style="height:24px;width:auto;"> RskLess PSM Calendar</div>
+      <p>Safer than yesterday.</p>
+      <p>Sources: CSB &middot; UK HSE &middot; BARPI/ARIA &middot; CCPS &middot; IChemE</p>
+      <p><a href="https://github.com/">View this project on GitHub</a></p>
+    </div>
+    <div class="footer-info">
+      <p id="last-updated"></p>
+    </div>
   </div>
 </footer>
 <script>

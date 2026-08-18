@@ -8,87 +8,91 @@
 <meta name="description" content="Search and filter the full archive of historical process safety incidents, or browse them by month in the calendar view.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root{
-    --paper:#EFF3F5; --ink:#101820; --blueprint:#0B4F6C;
-    --amber:#F2A900; --red:#C81E1E; --line:#C7D0D6; --paper-card:#FFFFFF;
+    --orange:#E8622C; --orange-dark:#C94E1E; --navy:#13567F; --navy-dark:#0D3E5C;
+    --paper:#FFFFFF; --paper-alt:#F5F8FA; --ink:#2B2B2B; --red:#C81E1E; --line:#E3E7EC;
   }
   *{box-sizing:border-box;}
-  body{margin:0;background:var(--paper);color:var(--ink);font-family:'IBM Plex Sans', sans-serif;line-height:1.5;}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:'Poppins', sans-serif;line-height:1.55;}
   .wrap{max-width:1080px;margin:0 auto;padding:0 24px;}
-  header{border-bottom:1px solid var(--line);padding:20px 0;}
+  header{background:var(--paper);border-bottom:1px solid var(--line);padding:16px 0;}
   header .wrap{display:flex;align-items:center;justify-content:space-between;}
-  .brand{font-family:'IBM Plex Mono', monospace;font-size:13px;letter-spacing:0.08em;text-transform:uppercase;display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink);}
-  .brand .dot{width:8px;height:8px;background:var(--amber);border:1px solid var(--ink);}
-  nav a{font-family:'IBM Plex Mono', monospace;font-size:13px;color:var(--ink);text-decoration:none;margin-left:24px;border-bottom:1px solid transparent;}
-  nav a:hover{border-bottom-color:var(--ink);}
+  .brand{font-family:'Baloo 2', sans-serif;font-weight:700;font-size:19px;color:var(--orange);display:flex;align-items:center;gap:10px;text-decoration:none;}
+  nav a{font-family:'Poppins', sans-serif;font-weight:500;font-size:14px;color:var(--ink);text-decoration:none;margin-left:26px;}
+  nav a:hover{color:var(--orange);}
+  nav a.nav-cta{background:var(--orange);color:#fff;padding:10px 20px;border-radius:4px;font-weight:600;}
+  nav a.nav-cta:hover{background:var(--orange-dark);color:#fff;}
 
   main{padding:40px 0 64px;}
-  .eyebrow{font-family:'IBM Plex Mono', monospace;font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:var(--blueprint);margin-bottom:10px;}
-  h1{font-family:'Space Grotesk', sans-serif;font-weight:700;font-size:32px;line-height:1.15;margin:0 0 10px;}
-  .count{font-family:'IBM Plex Mono', monospace;font-size:13px;color:#555;margin-bottom:28px;}
+  .eyebrow{font-family:'Poppins', sans-serif;font-weight:600;font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:var(--orange);margin-bottom:10px;}
+  h1{font-family:'Baloo 2', sans-serif;font-weight:800;font-size:34px;line-height:1.15;margin:0 0 10px;color:var(--navy);}
+  .count{font-family:'Poppins', sans-serif;font-size:13px;color:#555;margin-bottom:28px;}
 
   /* Controls */
   .controls{
     display:flex; flex-wrap:wrap; gap:10px; align-items:center;
-    margin-bottom:24px; padding:16px; background:var(--paper-card);
-    border:1px solid var(--line);
+    margin-bottom:24px; padding:16px; background:var(--paper-alt);
+    border:1px solid var(--line); border-radius:8px;
   }
   .controls input[type="text"], .controls select{
-    font-family:'IBM Plex Sans', sans-serif;
+    font-family:'Poppins', sans-serif;
     font-size:14px;
-    padding:8px 10px;
+    padding:9px 11px;
     border:1px solid var(--line);
-    background:var(--paper);
+    border-radius:4px;
+    background:#fff;
     color:var(--ink);
   }
   .controls input[type="text"]{flex:1 1 220px; min-width:180px;}
   .controls select{flex:0 1 auto;}
-  .view-toggle{display:flex; margin-left:auto; border:1px solid var(--ink);}
+  .view-toggle{display:flex; margin-left:auto; border:1.5px solid var(--orange); border-radius:4px; overflow:hidden;}
   .view-toggle button{
-    font-family:'IBM Plex Mono', monospace; font-size:12px; letter-spacing:0.03em;
-    padding:8px 14px; background:var(--paper-card); color:var(--ink); border:none; cursor:pointer;
+    font-family:'Poppins', sans-serif; font-weight:600; font-size:12px; letter-spacing:0.02em;
+    padding:9px 16px; background:#fff; color:var(--orange); border:none; cursor:pointer;
   }
-  .view-toggle button.active{background:var(--ink); color:var(--paper);}
-  .view-toggle button:first-child{border-right:1px solid var(--ink);}
-  .result-count{font-family:'IBM Plex Mono', monospace; font-size:12px; color:#666; margin-bottom:16px;}
+  .view-toggle button.active{background:var(--orange); color:#fff;}
+  .view-toggle button:first-child{border-right:1.5px solid var(--orange);}
+  .result-count{font-family:'Poppins', sans-serif; font-size:12px; color:#666; margin-bottom:16px;}
 
   /* List view (table) */
-  table{width:100%; border-collapse:collapse; background:var(--paper-card); border:1px solid var(--line);}
+  table{width:100%; border-collapse:collapse; background:#fff; border:1px solid var(--line); border-radius:8px; overflow:hidden;}
   thead th{
-    text-align:left; font-family:'IBM Plex Mono', monospace; font-size:11px; letter-spacing:0.05em; text-transform:uppercase;
-    color:var(--blueprint); padding:10px 14px; border-bottom:1px solid var(--line); background:var(--paper);
+    text-align:left; font-family:'Poppins', sans-serif; font-weight:600; font-size:11px; letter-spacing:0.05em; text-transform:uppercase;
+    color:var(--navy); padding:12px 14px; border-bottom:1px solid var(--line); background:var(--paper-alt);
   }
   tbody tr{border-bottom:1px solid var(--line); cursor:pointer;}
   tbody tr:last-child{border-bottom:none;}
-  tbody tr:hover{background:var(--paper);}
+  tbody tr:hover{background:var(--paper-alt);}
   tbody td{padding:12px 14px; font-size:14px; vertical-align:top;}
-  td.date-cell{font-family:'IBM Plex Mono', monospace; font-size:13px; color:#555; white-space:nowrap;}
-  td.title-cell a{color:var(--ink); text-decoration:none; font-weight:500;}
-  td.title-cell a:hover{text-decoration:underline;}
+  td.date-cell{font-family:'Poppins', sans-serif; font-weight:500; font-size:13px; color:var(--orange); white-space:nowrap;}
+  td.title-cell a{color:var(--navy); text-decoration:none; font-weight:600;}
+  td.title-cell a:hover{color:var(--orange);}
   td.loc-cell{color:#555; font-size:13px;}
   td.tags-cell{font-size:12px; color:#666;}
-  .row-sev1{border-left:3px solid var(--red);}
+  .row-sev1{border-left:4px solid var(--red);}
 
   /* Calendar view */
   .cal-grid{display:grid; grid-template-columns:repeat(3, 1fr); gap:14px;}
   @media (max-width:800px){ .cal-grid{grid-template-columns:repeat(2, 1fr);} }
   @media (max-width:520px){ .cal-grid{grid-template-columns:1fr;} }
-  .cal-month{background:var(--paper-card); border:1px solid var(--line); padding:14px;}
+  .cal-month{background:#fff; border:1px solid var(--line); border-radius:8px; padding:14px;}
   .cal-month h4{
-    font-family:'Space Grotesk', sans-serif; font-size:16px; margin:0 0 10px;
-    padding-bottom:8px; border-bottom:1px solid var(--line); display:flex; justify-content:space-between; align-items:baseline;
+    font-family:'Baloo 2', sans-serif; font-weight:700; font-size:16px; margin:0 0 10px; color:var(--navy);
+    padding-bottom:8px; border-bottom:2px solid var(--orange); display:flex; justify-content:space-between; align-items:baseline;
   }
-  .cal-month h4 .cal-count{font-family:'IBM Plex Mono', monospace; font-size:11px; color:var(--blueprint); font-weight:400;}
+  .cal-month h4 .cal-count{font-family:'Poppins', sans-serif; font-size:11px; color:var(--orange); font-weight:600;}
   .cal-entry{display:block; padding:6px 0; border-bottom:1px dotted var(--line); text-decoration:none; color:var(--ink);}
   .cal-entry:last-child{border-bottom:none;}
-  .cal-entry:hover .cal-entry-title{text-decoration:underline;}
-  .cal-day{font-family:'IBM Plex Mono', monospace; font-size:11px; color:var(--blueprint); display:block;}
+  .cal-entry:hover .cal-entry-title{color:var(--orange);}
+  .cal-day{font-family:'Poppins', sans-serif; font-weight:500; font-size:11px; color:var(--orange); display:block;}
   .cal-entry-title{font-size:13px;}
   .cal-empty{font-size:13px; color:#999; font-style:italic;}
 
-  .no-results{padding:40px 20px; text-align:center; color:#666; font-size:14px; background:var(--paper-card); border:1px solid var(--line);}
+  .no-results{padding:40px 20px; text-align:center; color:#666; font-size:14px; background:var(--paper-alt); border:1px solid var(--line); border-radius:8px;}
+
+  footer{background:var(--paper);border-top:1px solid var(--line);}
 
   @media (max-width:600px){
     h1{font-size:26px;}
@@ -101,10 +105,10 @@
 
 <header>
   <div class="wrap">
-    <a class="brand" href="./"><img src="rskless-logo.svg" alt="RskLess" style="height:28px;width:auto;"> RskLess PSM Incidents Calendar</a>
+    <a class="brand" href="./"><img src="rskless-logo.svg" alt="RskLess" style="height:28px;width:auto;"> RskLess PSM Calendar</a>
     <nav>
-      <a href="./#subscribe">Subscribe</a>
       <a href="archive.html">Archive</a>
+      <a href="./#subscribe" class="nav-cta">Subscribe</a>
     </nav>
   </div>
 </header>
@@ -148,7 +152,7 @@
   </div>
 </main>
 
-<footer style="border-top:1px solid var(--line); padding:20px 0; font-family:'IBM Plex Mono', monospace; font-size:12px; color:#777;">
+<footer style="border-top:1px solid var(--line); padding:20px 0; font-family:'Poppins', sans-serif; font-size:12px; color:#777;">
   <div class="wrap">
     <span id="last-updated"></span>
   </div>

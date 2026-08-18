@@ -8,41 +8,40 @@
 <meta name="description" content="NDK Crystal Pressure Vessel Explosion with Offsite Fatality, 2009: what happened, root causes, and lessons learned.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root{
-    --paper:#EFF3F5; --ink:#101820; --blueprint:#0B4F6C;
-    --amber:#F2A900; --red:#C81E1E; --line:#C7D0D6; --paper-card:#FFFFFF;
+    --orange:#E8622C; --orange-dark:#C94E1E; --navy:#13567F; --navy-dark:#0D3E5C;
+    --paper:#FFFFFF; --paper-alt:#F5F8FA; --ink:#2B2B2B; --red:#C81E1E; --line:#E3E7EC;
   }
   *{box-sizing:border-box;}
-  body{margin:0;background:var(--paper);color:var(--ink);font-family:'IBM Plex Sans', sans-serif;line-height:1.65;}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:'Poppins', sans-serif;line-height:1.65;}
   .wrap{max-width:760px;margin:0 auto;padding:0 24px;}
-  header{border-bottom:1px solid var(--line);padding:20px 0;}
-  .brand{font-family:'IBM Plex Mono', monospace;font-size:13px;letter-spacing:0.08em;text-transform:uppercase;display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink);}
-  .brand .dot{width:8px;height:8px;background:var(--amber);border:1px solid var(--ink);}
+  header{background:var(--paper);border-bottom:1px solid var(--line);padding:16px 0;}
+  .brand{font-family:'Baloo 2', sans-serif;font-weight:700;font-size:19px;color:var(--orange);display:flex;align-items:center;gap:10px;text-decoration:none;}
   main{padding:40px 0 64px;}
-  .eyebrow{font-family:'IBM Plex Mono', monospace;font-size:12px;letter-spacing:0.05em;color:var(--blueprint);margin-bottom:10px;}
-  h1{font-family:'Space Grotesk', sans-serif;font-weight:700;font-size:34px;line-height:1.2;margin:0 0 14px;}
-  .meta-row{font-family:'IBM Plex Mono', monospace;font-size:13px;color:#555;margin-bottom:8px;}
-  .tier-tag{display:inline-block;font-family:'IBM Plex Mono', monospace;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;padding:3px 8px;border:1px solid var(--red);color:var(--red);margin-bottom:16px;}
+  .eyebrow{font-family:'Poppins', sans-serif;font-weight:600;font-size:12px;letter-spacing:0.05em;color:var(--orange);margin-bottom:10px;}
+  h1{font-family:'Baloo 2', sans-serif;font-weight:800;font-size:32px;line-height:1.25;margin:0 0 14px;color:var(--navy);}
+  .meta-row{font-family:'Poppins', sans-serif;font-size:13px;color:#555;margin-bottom:8px;}
+  .tier-tag{display:inline-block;font-family:'Poppins', sans-serif;font-weight:600;font-size:11px;letter-spacing:0.03em;text-transform:uppercase;padding:3px 10px;border-radius:4px;border:1px solid var(--red);color:var(--red);margin-bottom:16px;}
   .tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:28px;}
-  .tag{font-family:'IBM Plex Mono', monospace;font-size:11px;padding:3px 8px;border:1px solid var(--line);color:#555;}
-  article h2{font-family:'Space Grotesk', sans-serif;font-size:20px;margin:32px 0 12px;}
+  .tag{font-family:'Poppins', sans-serif;font-size:11px;padding:4px 10px;border-radius:10px;background:var(--paper-alt);color:#555;}
+  article h2{font-family:'Baloo 2', sans-serif;font-weight:700;font-size:20px;margin:32px 0 12px;color:var(--navy);}
   article p{font-size:15.5px;color:#292929;margin:0 0 14px;}
   article ul, article ol{padding-left:22px;margin:0 0 14px;}
   article li{font-size:15.5px;color:#292929;margin-bottom:8px;}
-  article strong{color:var(--ink);}
+  article strong{color:var(--navy);}
   .sources{margin-top:36px;padding-top:20px;border-top:1px solid var(--line);}
-  .sources h3{font-family:'IBM Plex Mono', monospace;font-size:12px;letter-spacing:0.05em;text-transform:uppercase;color:var(--blueprint);margin:0 0 10px;}
+  .sources h3{font-family:'Poppins', sans-serif;font-weight:600;font-size:12px;letter-spacing:0.05em;text-transform:uppercase;color:var(--orange);margin:0 0 10px;}
   .sources ul{padding-left:20px;margin:0;}
   .sources li{font-size:13.5px;color:#555;margin-bottom:4px;}
-  .back-link{display:inline-block;margin-top:36px;font-family:'IBM Plex Mono', monospace;font-size:13px;color:var(--blueprint);text-decoration:none;}
-  .back-link:hover{text-decoration:underline;}
+  .back-link{display:inline-block;margin-top:36px;font-family:'Poppins', sans-serif;font-weight:600;font-size:13px;color:var(--orange);text-decoration:none;}
+  .back-link:hover{color:var(--orange-dark);}
 </style>
 </head>
 <body>
 <header>
-  <div class="wrap"><a class="brand" href="../../"><img src="../../rskless-logo.svg" alt="RskLess" style="height:24px;width:auto;"> RskLess PSM Incidents Calendar</a></div>
+  <div class="wrap"><a class="brand" href="../../"><img src="../../rskless-logo.svg" alt="RskLess" style="height:24px;width:auto;"> RskLess PSM Calendar</a></div>
 </header>
 <main>
   <div class="wrap">
