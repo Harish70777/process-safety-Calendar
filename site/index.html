@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>RskLess PSM Incidents Calendar — subscribe to historical incident anniversaries</title>
+<link rel="icon" type="image/svg+xml" href="rskless-favicon.svg">
 <meta name="description" content="A subscribable calendar of historical process safety incidents. Get a native reminder on each anniversary, with root causes and lessons learned.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -52,17 +53,14 @@
   }
   nav a:hover{border-bottom-color:var(--ink);}
 
-  .hero{padding:56px 0 40px; position:relative;}
-  .hero-logo{
-    position:absolute;
-    top:56px;
-    right:24px;
-    height:160px;
-    width:auto;
-    opacity:0.92;
-  }
+  .hero{padding:56px 0 40px;}
+  .hero-flex{display:flex; align-items:center; gap:40px;}
+  .hero-text{flex:1 1 auto; min-width:0;}
+  .hero-visual{flex:0 0 auto; display:flex; align-items:center; justify-content:center; width:240px;}
+  .hero-visual img{width:100%; height:auto; opacity:0.95;}
   @media (max-width:800px){
-    .hero-logo{ display:none; } /* avoid overlapping headline text on narrow screens */
+    .hero-flex{flex-direction:column;}
+    .hero-visual{display:none;} /* avoid crowding narrow/mobile layouts */
   }
   .eyebrow{
     font-family:'IBM Plex Mono', monospace;
@@ -294,7 +292,7 @@
 
 <header>
   <div class="wrap">
-    <div class="brand"><img src="rskless-logo.png" alt="RskLess" style="height:28px;width:auto;"> RskLess PSM Incidents Calendar</div>
+    <div class="brand"><img src="rskless-logo.svg" alt="RskLess" style="height:28px;width:auto;"> RskLess PSM Incidents Calendar</div>
     <nav>
       <a href="#subscribe">Subscribe</a>
       <a href="archive.html">Archive</a>
@@ -303,20 +301,26 @@
 </header>
 
 <section class="hero">
-  <img src="rskless-logo.png" alt="RskLess" class="hero-logo">
   <div class="wrap">
-    <div class="eyebrow">Historical incidents, on their anniversary</div>
-    <h1>Keep process safety lessons alive, one anniversary at a time.</h1>
-    <p class="lede">Subscribe once. Your calendar app reminds you on the exact date a major incident happened — with what went wrong, the root causes, and what to check at your own site.</p>
+    <div class="hero-flex">
+      <div class="hero-text">
+        <div class="eyebrow">Historical incidents, on their anniversary</div>
+        <h1>Keep process safety lessons alive, one anniversary at a time.</h1>
+        <p class="lede">Subscribe once. Your calendar app reminds you on the exact date a major incident happened — with what went wrong, the root causes, and what to check at your own site.</p>
 
-    <div class="placard" id="hero-placard">
-      <div class="date-tab" id="hero-date">&nbsp;</div>
-      <span class="tier-tag" id="hero-tier" style="display:none;">&nbsp;</span>
-      <div class="eyebrow" id="hero-label" style="margin-bottom:4px;">&nbsp;</div>
-      <h2 id="hero-title">Loading…</h2>
-      <div class="meta" id="hero-meta">&nbsp;</div>
-      <p id="hero-blurb">&nbsp;</p>
-      <a id="hero-link" href="#" style="display:none;font-family:'IBM Plex Mono', monospace;font-size:13px;color:var(--blueprint);">Read the full brief &rarr;</a>
+        <div class="placard" id="hero-placard">
+          <div class="date-tab" id="hero-date">&nbsp;</div>
+          <span class="tier-tag" id="hero-tier" style="display:none;">&nbsp;</span>
+          <div class="eyebrow" id="hero-label" style="margin-bottom:4px;">&nbsp;</div>
+          <h2 id="hero-title">Loading…</h2>
+          <div class="meta" id="hero-meta">&nbsp;</div>
+          <p id="hero-blurb">&nbsp;</p>
+          <a id="hero-link" href="#" style="display:none;font-family:'IBM Plex Mono', monospace;font-size:13px;color:var(--blueprint);">Read the full brief &rarr;</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <img src="rskless-logo.svg" alt="RskLess">
+      </div>
     </div>
   </div>
 </section>
