@@ -90,10 +90,10 @@ function main() {
   const calendar = [
     "BEGIN:VCALENDAR",
     "VERSION:2.0",
-    "PRODID:-//Process Safety Calendar//EN",
+    "PRODID:-//RskLess PSM Incidents Calendar//EN",
     "CALSCALE:GREGORIAN",
     "METHOD:PUBLISH",
-    "X-WR-CALNAME:Process Safety Calendar",
+    "X-WR-CALNAME:RskLess PSM Incidents Calendar",
     "X-WR-CALDESC:Historical process safety incidents, on their anniversary date, with lessons learned.",
     ...published.map(buildEvent),
     "END:VCALENDAR",
