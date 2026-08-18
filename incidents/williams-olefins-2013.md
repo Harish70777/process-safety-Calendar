@@ -8,7 +8,7 @@ severity: 1
 fatalities: 2
 injuries: 167
 root_causes: [inadequate-moc-1990s-change, unprotected-overpressure, poor-safety-culture, unaddressed-hazard-12-years]
-psm_elements: [management-of-change, mechanical-integrity, process-hazard-analysis, safety-culture]
+psm_elements: [management-of-change, mechanical-integrity, incident-investigation]
 status: published
 source_verified: true
 sources:

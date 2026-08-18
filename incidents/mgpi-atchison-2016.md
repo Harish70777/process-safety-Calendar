@@ -8,7 +8,7 @@ severity: 1
 fatalities: 0
 injuries: 140
 root_causes: [visually-similar-unmarked-fill-lines, both-lines-left-unlocked, no-remote-shutdown, inadequate-unloading-procedures]
-psm_elements: [process-hazard-analysis, mechanical-integrity, emergency-planning]
+psm_elements: [operating-procedures, mechanical-integrity, process-safety-information]
 status: published
 source_verified: true
 sources:

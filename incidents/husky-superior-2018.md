@@ -8,7 +8,7 @@ severity: 1
 fatalities: 0
 injuries: 36
 root_causes: [worn-slide-valve, ineffective-safeguards, failure-to-learn-from-prior-incident, inadequate-process-knowledge, near-miss-hf-tank]
-psm_elements: [mechanical-integrity, process-hazard-analysis, facility-siting, management-of-change]
+psm_elements: [mechanical-integrity, incident-investigation, process-safety-information]
 status: published
 source_verified: true
 sources:

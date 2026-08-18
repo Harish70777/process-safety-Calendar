@@ -8,7 +8,7 @@ severity: 1
 fatalities: 6
 injuries: 38
 root_causes: [no-engineering-assessment-of-dust-hazard, no-fire-code-consultation, inadequate-hazard-communication, ignored-prior-ignition-incident, unrated-electrical-equipment]
-psm_elements: [process-hazard-analysis, mechanical-integrity, safety-culture]
+psm_elements: [process-hazard-analysis, incident-investigation, mechanical-integrity]
 status: published
 source_verified: true
 sources:

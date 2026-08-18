@@ -8,7 +8,7 @@ severity: 1
 fatalities: 11
 injuries: 17
 root_causes: [cement-barrier-failure, misinterpreted-pressure-test, missed-well-flow-indication, bop-failure, ambiguous-safety-roles]
-psm_elements: [process-hazard-analysis, mechanical-integrity, management-of-change, safety-culture, emergency-planning]
+psm_elements: [mechanical-integrity, operating-procedures, contractors]
 status: published
 source_verified: true
 sources:

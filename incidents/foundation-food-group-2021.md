@@ -8,7 +8,7 @@ severity: 1
 fatalities: 6
 injuries: 4
 root_causes: [bent-bubbler-tube-single-point-of-failure, no-gas-monitoring-or-alarms, inadequate-worker-training-on-asphyxiation-hazard, poor-emergency-preparedness, equipment-supplier-continued-despite-known-nonconformance]
-psm_elements: [mechanical-integrity, emergency-planning, safety-culture]
+psm_elements: [mechanical-integrity, training, emergency-planning-and-response]
 status: published
 source_verified: true
 sources:

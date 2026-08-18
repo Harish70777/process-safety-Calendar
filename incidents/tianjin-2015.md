@@ -8,7 +8,7 @@ severity: 1
 fatalities: 173
 injuries: 798
 root_causes: [spontaneous-ignition-improper-storage, incompatible-chemical-co-storage, illegal-storage-quantities, inadequate-regulatory-enforcement]
-psm_elements: [facility-siting, mechanical-integrity, process-hazard-analysis, emergency-planning]
+psm_elements: [process-hazard-analysis, compliance-audits, operating-procedures]
 status: published
 source_verified: true
 sources:

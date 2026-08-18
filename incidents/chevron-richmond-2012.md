@@ -8,7 +8,7 @@ severity: 1
 fatalities: 0
 injuries: 6
 root_causes: [sulfidation-corrosion, ignored-internal-recommendation-2002, incomplete-pha-corrosion-mechanisms, low-silicon-piping]
-psm_elements: [mechanical-integrity, process-hazard-analysis]
+psm_elements: [mechanical-integrity, process-hazard-analysis, incident-investigation]
 status: published
 source_verified: true
 sources:

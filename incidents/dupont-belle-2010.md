@@ -8,7 +8,7 @@ severity: 1
 fatalities: 1
 injuries: 2
 root_causes: [overdue-hose-replacement, ignored-near-miss-hours-earlier, undetected-5-day-leak, inadequate-mechanical-integrity-program, cost-rejected-safer-design]
-psm_elements: [mechanical-integrity, safety-culture, process-hazard-analysis, emergency-planning]
+psm_elements: [mechanical-integrity, incident-investigation, process-hazard-analysis]
 status: published
 source_verified: true
 sources:

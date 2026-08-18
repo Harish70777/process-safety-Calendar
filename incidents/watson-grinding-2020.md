@@ -8,7 +8,7 @@ severity: 1
 fatalities: 3
 injuries: 18
 root_causes: [degraded-welding-hose, valve-left-open-overnight, non-functional-gas-detection, no-worker-training-on-hazard, no-psm-program-below-threshold, facility-sited-near-homes]
-psm_elements: [mechanical-integrity, emergency-planning, facility-siting, safety-culture]
+psm_elements: [mechanical-integrity, training, process-hazard-analysis]
 status: published
 source_verified: true
 sources:

@@ -8,7 +8,7 @@ severity: 1
 fatalities: 2
 injuries: 8
 root_causes: [no-hazop-conducted, inadequate-training, poor-shift-communication, alarm-desensitization, staffing-cuts]
-psm_elements: [process-hazard-analysis, safety-culture, mechanical-integrity, emergency-planning]
+psm_elements: [process-hazard-analysis, training, operating-procedures]
 status: published
 source_verified: true
 sources:

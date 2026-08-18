@@ -8,7 +8,7 @@ severity: 1
 fatalities: 1
 injuries: 8
 root_causes: [manway-not-pressure-tested-for-service, no-engineering-control-for-agitator-status, no-gas-detection-or-alarms, no-flame-resistant-ppe-requirement, procedure-violated-solvent-added-with-agitator-off]
-psm_elements: [mechanical-integrity, process-hazard-analysis, emergency-planning]
+psm_elements: [mechanical-integrity, operating-procedures]
 status: published
 source_verified: true
 sources:

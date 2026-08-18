@@ -8,7 +8,7 @@ severity: 1
 fatalities: 28
 injuries: 36
 root_causes: [inadequate-moc, temporary-modification, no-engineering-review]
-psm_elements: [management-of-change, process-hazard-analysis, mechanical-integrity]
+psm_elements: [management-of-change, mechanical-integrity]
 status: published
 source_verified: true
 sources:

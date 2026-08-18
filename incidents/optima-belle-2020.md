@@ -8,7 +8,7 @@ severity: 1
 fatalities: 1
 injuries: 3
 root_causes: [inaccurate-safety-data-sheet, poor-process-knowledge-transfer-between-companies, no-thermal-hazard-assessment, equipment-not-designed-for-decomposition-reaction, regulatory-gap-reactive-chemicals]
-psm_elements: [process-hazard-analysis, mechanical-integrity, management-of-change]
+psm_elements: [process-safety-information, process-hazard-analysis, mechanical-integrity]
 status: published
 source_verified: true
 sources:

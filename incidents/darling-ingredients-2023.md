@@ -8,7 +8,7 @@ severity: 1
 fatalities: 1
 injuries: 0
 root_causes: [water-reactive-chemical-in-confined-space, unstable-solution-storage]
-psm_elements: [mechanical-integrity, process-hazard-analysis]
+psm_elements: [process-hazard-analysis, mechanical-integrity]
 status: published
 source_verified: true
 sources:

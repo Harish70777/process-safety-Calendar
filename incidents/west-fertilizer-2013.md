@@ -8,7 +8,7 @@ severity: 1
 fatalities: 15
 injuries: 260
 root_causes: [combustible-building-materials, no-sprinkler-system, inadequate-facility-siting, no-hazard-recognition]
-psm_elements: [facility-siting, emergency-planning, mechanical-integrity, process-hazard-analysis]
+psm_elements: [process-hazard-analysis, mechanical-integrity]
 status: published
 source_verified: true
 sources:

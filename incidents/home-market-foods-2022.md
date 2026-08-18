@@ -8,7 +8,7 @@ severity: 1
 fatalities: 1
 injuries: 1
 root_causes: [severed-ammonia-pipe-during-unrelated-work, rmp-accident-prevention-violations, inadequate-hazard-awareness-for-contractors, no-isolation-for-nearby-non-ammonia-work]
-psm_elements: [mechanical-integrity, emergency-planning, facility-siting]
+psm_elements: [contractors, mechanical-integrity, process-hazard-analysis]
 status: published
 source_verified: true
 sources:

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chemtool Rockton Plant Fire — Process Safety Calendar</title>
+<meta name="description" content="Chemtool Rockton Plant Fire, 2021: what happened, root causes, and lessons learned.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#EFF3F5; --ink:#101820; --blueprint:#0B4F6C;
+    --amber:#F2A900; --red:#C81E1E; --line:#C7D0D6; --paper-card:#FFFFFF;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:'IBM Plex Sans', sans-serif;line-height:1.65;}
+  .wrap{max-width:760px;margin:0 auto;padding:0 24px;}
+  header{border-bottom:1px solid var(--line);padding:20px 0;}
+  .brand{font-family:'IBM Plex Mono', monospace;font-size:13px;letter-spacing:0.08em;text-transform:uppercase;display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink);}
+  .brand .dot{width:8px;height:8px;background:var(--amber);border:1px solid var(--ink);}
+  main{padding:40px 0 64px;}
+  .eyebrow{font-family:'IBM Plex Mono', monospace;font-size:12px;letter-spacing:0.05em;color:var(--blueprint);margin-bottom:10px;}
+  h1{font-family:'Space Grotesk', sans-serif;font-weight:700;font-size:34px;line-height:1.2;margin:0 0 14px;}
+  .meta-row{font-family:'IBM Plex Mono', monospace;font-size:13px;color:#555;margin-bottom:8px;}
+  .tier-tag{display:inline-block;font-family:'IBM Plex Mono', monospace;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;padding:3px 8px;border:1px solid var(--red);color:var(--red);margin-bottom:16px;}
+  .tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:28px;}
+  .tag{font-family:'IBM Plex Mono', monospace;font-size:11px;padding:3px 8px;border:1px solid var(--line);color:#555;}
+  article h2{font-family:'Space Grotesk', sans-serif;font-size:20px;margin:32px 0 12px;}
+  article p{font-size:15.5px;color:#292929;margin:0 0 14px;}
+  article ul, article ol{padding-left:22px;margin:0 0 14px;}
+  article li{font-size:15.5px;color:#292929;margin-bottom:8px;}
+  article strong{color:var(--ink);}
+  .sources{margin-top:36px;padding-top:20px;border-top:1px solid var(--line);}
+  .sources h3{font-family:'IBM Plex Mono', monospace;font-size:12px;letter-spacing:0.05em;text-transform:uppercase;color:var(--blueprint);margin:0 0 10px;}
+  .sources ul{padding-left:20px;margin:0;}
+  .sources li{font-size:13.5px;color:#555;margin-bottom:4px;}
+  .back-link{display:inline-block;margin-top:36px;font-family:'IBM Plex Mono', monospace;font-size:13px;color:var(--blueprint);text-decoration:none;}
+  .back-link:hover{text-decoration:underline;}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap"><a class="brand" href="../../"><span class="dot"></span> Process Safety Calendar</a></div>
+</header>
+<main>
+  <div class="wrap">
+    <div class="eyebrow">Anniversary: June 14, 2021</div>
+    <h1>Chemtool Rockton Plant Fire</h1>
+    <div class="meta-row">Rockton, IL, USA &middot; 0 fatalities, 2 injuries</div>
+    <div class="tags"><span class="tag">Mechanical Integrity</span><span class="tag">Operating Procedures</span></div>
+    <article>
+<h2>What Happened</h2>
+<p>During an insulation replacement project on an elevated heat transfer piping network, a contractor operating a scissor lift struck a valve or section of piping with enough mechanical force to release mineral oil. Chemtool operators promptly detected the release and shut down the boiler, and were in the process of placing containment booms and de-pressuring the piping network when the released oil ignited — the exact ignition source was never conclusively determined. The resulting fire and explosion produced a massive fireball visible up to 100 miles away and forced evacuation of a one-mile radius around the plant; officials made the deliberate decision to let the fire burn itself out over several days rather than fight it directly, given the nature of the fuel involved. All 70 employees on site evacuated safely with no injuries; one firefighter suffered a minor leg injury during response efforts, and a second firefighter was hospitalized with breathing difficulties, both released within two days.</p>
+<h2>Root Causes</h2>
+<ul>
+  <li><strong>Mobile equipment struck elevated process piping:</strong> a scissor lift being used for an insulation project made contact with a valve or piping section with sufficient force to cause a release — a foreseeable risk whenever mobile equipment operates near live process piping.</li>
+  <li><strong>Undetermined ignition source:</strong> despite investigation, officials were never able to conclusively identify what ignited the released mineral oil, leaving a gap in fully understanding the complete failure sequence.</li>
+  <li><strong>Elevated piping vulnerable to mobile equipment operation nearby:</strong> the piping network's position and the nature of the insulation work created a physical interaction risk between equipment movement and process integrity that wasn't adequately controlled.</li>
+</ul>
+<h2>Lessons Learned</h2>
+<ol>
+  <li>Any work involving mobile equipment (scissor lifts, aerial platforms, similar) operating near live process piping needs a documented risk assessment addressing accidental contact — physical barriers, spotters, or exclusion zones are relevant controls worth considering.</li>
+  <li>Prompt operator response — shutting down the boiler and beginning containment measures immediately upon detecting the release — likely limited how much worse this incident became, even though it didn't prevent ignition; fast initial response remains valuable even when it doesn't fully avert an incident.</li>
+  <li>Not every ignition source can be conclusively identified after the fact, especially in a fire of this scale — this is a reminder that prevention (avoiding the release in the first place) carries more certainty than any post-release mitigation strategy, since the ignition mechanism itself may never be fully knowable.</li>
+  <li>Facilities handling large volumes of flammable material should have a pre-considered strategy for fires that may be safer to let burn out under control than to fight directly — this incident's emergency response decision reflects real operational judgment under uncertainty, worth understanding in advance rather than deciding in the moment.</li>
+</ol>
+
+    </article>
+    <div class="sources"><h3>Sources</h3><ul><li>CSB Incident Summary (2025, CSB Incident Reports Volume One)</li><li>CSB statement, June 15, 2021</li></ul></div>
+    <a class="back-link" href="../../#archive">&larr; Back to the full archive</a>
+  </div>
+</main>
+</body>
+</html>

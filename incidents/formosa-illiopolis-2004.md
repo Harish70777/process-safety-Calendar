@@ -8,7 +8,7 @@ severity: 1
 fatalities: 5
 injuries: 3
 root_causes: [bypassed-pressure-interlock, single-procedural-safeguard, ignored-prior-similar-incidents, operator-error-enabled-by-system-design]
-psm_elements: [process-hazard-analysis, management-of-change, safety-culture, permit-to-work]
+psm_elements: [mechanical-integrity, operating-procedures, incident-investigation]
 status: published
 source_verified: true
 sources:

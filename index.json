@@ -21,7 +21,6 @@
     ],
     "psm_elements": [
       "management-of-change",
-      "process-hazard-analysis",
       "mechanical-integrity"
     ],
     "status": "published",
@@ -57,10 +56,9 @@
       "poor-emergency-response"
     ],
     "psm_elements": [
-      "process-hazard-analysis",
       "mechanical-integrity",
-      "facility-siting",
-      "emergency-planning"
+      "operating-procedures",
+      "emergency-planning-and-response"
     ],
     "status": "published",
     "source_verified": true,
@@ -94,10 +92,9 @@
       "staffing-cuts"
     ],
     "psm_elements": [
-      "process-hazard-analysis",
       "mechanical-integrity",
-      "emergency-planning",
-      "safety-culture"
+      "emergency-planning-and-response",
+      "process-hazard-analysis"
     ],
     "status": "published",
     "source_verified": true,
@@ -133,10 +130,8 @@
     ],
     "psm_elements": [
       "management-of-change",
-      "permit-to-work",
-      "emergency-planning",
-      "facility-siting",
-      "safety-culture"
+      "operating-procedures",
+      "emergency-planning-and-response"
     ],
     "status": "published",
     "source_verified": true,
@@ -172,10 +167,9 @@
       "no-gas-detection"
     ],
     "psm_elements": [
-      "permit-to-work",
+      "operating-procedures",
       "process-hazard-analysis",
-      "contractor-safety",
-      "mechanical-integrity"
+      "contractors"
     ],
     "status": "published",
     "source_verified": true,
@@ -208,8 +202,7 @@
     ],
     "psm_elements": [
       "mechanical-integrity",
-      "management-of-change",
-      "process-hazard-analysis"
+      "management-of-change"
     ],
     "status": "published",
     "source_verified": true,
@@ -244,9 +237,8 @@
     ],
     "psm_elements": [
       "process-hazard-analysis",
-      "safety-culture",
-      "mechanical-integrity",
-      "emergency-planning"
+      "training",
+      "operating-procedures"
     ],
     "status": "published",
     "source_verified": true,
@@ -283,7 +275,7 @@
     "psm_elements": [
       "mechanical-integrity",
       "process-hazard-analysis",
-      "safety-culture"
+      "process-safety-information"
     ],
     "status": "published",
     "source_verified": true,
@@ -315,9 +307,8 @@
       "no-emergency-venting"
     ],
     "psm_elements": [
-      "mechanical-integrity",
-      "permit-to-work",
-      "process-hazard-analysis"
+      "hot-work-permit",
+      "mechanical-integrity"
     ],
     "status": "published",
     "source_verified": true,
@@ -351,8 +342,7 @@
     ],
     "psm_elements": [
       "process-hazard-analysis",
-      "facility-siting",
-      "mechanical-integrity"
+      "operating-procedures"
     ],
     "status": "published",
     "source_verified": true,
@@ -389,8 +379,8 @@
     ],
     "psm_elements": [
       "process-hazard-analysis",
-      "mechanical-integrity",
-      "safety-culture"
+      "incident-investigation",
+      "mechanical-integrity"
     ],
     "status": "published",
     "source_verified": true,
@@ -423,9 +413,9 @@
       "no-fire-marshal-inspection-32-years"
     ],
     "psm_elements": [
+      "process-safety-information",
       "process-hazard-analysis",
-      "facility-siting",
-      "mechanical-integrity"
+      "compliance-audits"
     ],
     "status": "published",
     "source_verified": true,
@@ -459,8 +449,8 @@
     ],
     "psm_elements": [
       "management-of-change",
-      "mechanical-integrity",
-      "safety-culture"
+      "incident-investigation",
+      "training"
     ],
     "status": "published",
     "source_verified": true,
@@ -493,10 +483,9 @@
       "operator-error-enabled-by-system-design"
     ],
     "psm_elements": [
-      "process-hazard-analysis",
-      "management-of-change",
-      "safety-culture",
-      "permit-to-work"
+      "mechanical-integrity",
+      "operating-procedures",
+      "incident-investigation"
     ],
     "status": "published",
     "source_verified": true,
@@ -530,10 +519,9 @@
       "inadequate-pssr"
     ],
     "psm_elements": [
-      "pre-startup-safety-review",
       "mechanical-integrity",
-      "facility-siting",
-      "safety-culture"
+      "process-hazard-analysis",
+      "pre-startup-safety-review"
     ],
     "status": "published",
     "source_verified": true,
@@ -567,14 +555,81 @@
     ],
     "psm_elements": [
       "mechanical-integrity",
-      "process-hazard-analysis",
-      "facility-siting"
+      "process-hazard-analysis"
     ],
     "status": "published",
     "source_verified": true,
     "sources": [
       "Buncefield Major Incident Investigation Board Reports",
       "UK HSE / COMAH investigation"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "valero-mckee-2007",
+    "file": "valero-mckee-2007.md",
+    "title": "Valero McKee Refinery Propane Fire (Frozen Dead-Leg Piping)",
+    "date": "2007-02-16",
+    "location": "Sunray, TX, USA",
+    "industry": [
+      "oil-gas-refining"
+    ],
+    "chemicals": [
+      "propane"
+    ],
+    "severity": 1,
+    "fatalities": 0,
+    "injuries": 4,
+    "root_causes": [
+      "frozen-dead-leg-piping",
+      "no-freeze-protection-program",
+      "leaking-valve-into-idle-piping",
+      "no-remote-shutoff"
+    ],
+    "psm_elements": [
+      "mechanical-integrity",
+      "process-hazard-analysis"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Final Investigation Report (2008)",
+      "C&EN, CSB report coverage"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "barton-solvents-2007",
+    "file": "barton-solvents-2007.md",
+    "title": "Barton Solvents Des Moines Fire and Explosions",
+    "date": "2007-10-29",
+    "location": "Des Moines, IA, USA",
+    "industry": [
+      "chemical-distribution"
+    ],
+    "chemicals": [
+      "ethyl-acetate"
+    ],
+    "severity": 1,
+    "fatalities": 0,
+    "injuries": 2,
+    "root_causes": [
+      "inadequate-bonding-and-grounding",
+      "equipment-not-rated-for-flammable-service",
+      "splash-filling-technique",
+      "no-sprinkler-in-packaging-area",
+      "repeat-incident-3-months-after-sister-facility"
+    ],
+    "psm_elements": [
+      "mechanical-integrity",
+      "operating-procedures",
+      "incident-investigation"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Case Study and Final Report (2008)",
+      "HazardEx, CSB report coverage"
     ],
     "hasBody": true
   },
@@ -604,7 +659,7 @@
     "psm_elements": [
       "process-hazard-analysis",
       "mechanical-integrity",
-      "safety-culture"
+      "incident-investigation"
     ],
     "status": "published",
     "source_verified": true,
@@ -638,8 +693,8 @@
     ],
     "psm_elements": [
       "mechanical-integrity",
-      "safety-culture",
-      "emergency-planning"
+      "process-hazard-analysis",
+      "incident-investigation"
     ],
     "status": "published",
     "source_verified": true,
@@ -674,9 +729,8 @@
     ],
     "psm_elements": [
       "mechanical-integrity",
-      "emergency-planning",
-      "permit-to-work",
-      "safety-culture"
+      "operating-procedures",
+      "emergency-planning-and-response"
     ],
     "status": "published",
     "source_verified": true,
@@ -711,16 +765,48 @@
       "poor-emergency-communication"
     ],
     "psm_elements": [
-      "process-hazard-analysis",
       "pre-startup-safety-review",
-      "emergency-planning",
-      "safety-culture"
+      "mechanical-integrity",
+      "emergency-planning-and-response"
     ],
     "status": "published",
     "source_verified": true,
     "sources": [
       "CSB Investigation Report No. 2008-08-I-WV (2011)",
       "Center for Public Integrity, CSB report coverage"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "allied-terminals-2008",
+    "file": "allied-terminals-2008.md",
+    "title": "Allied Terminals Fertilizer Tank Collapse",
+    "date": "2008-11-12",
+    "location": "Chesapeake, VA, USA",
+    "industry": [
+      "fertilizer-storage-terminal"
+    ],
+    "chemicals": [
+      "urea-ammonium-nitrate"
+    ],
+    "severity": 1,
+    "fatalities": 0,
+    "injuries": 2,
+    "root_causes": [
+      "welding-defects-in-tank-construction",
+      "no-state-regulation-of-storage-tanks",
+      "inadequate-containment-design",
+      "undetected-structural-flaw"
+    ],
+    "psm_elements": [
+      "mechanical-integrity",
+      "process-hazard-analysis"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Final Investigation Report (2009)",
+      "Occupational Health & Safety, CSB report coverage"
     ],
     "hasBody": true
   },
@@ -747,15 +833,84 @@
     ],
     "psm_elements": [
       "mechanical-integrity",
-      "process-hazard-analysis",
-      "emergency-planning",
-      "facility-siting"
+      "operating-procedures",
+      "emergency-planning-and-response"
     ],
     "status": "published",
     "source_verified": true,
     "sources": [
       "Independent Inquiry Committee Report, Ministry of Petroleum and Natural Gas (India)",
       "FABIG industrial accidents archive"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "silver-eagle-refinery-2009",
+    "file": "silver-eagle-refinery-2009.md",
+    "title": "Silver Eagle Refinery Pipe Rupture and Hydrogen Explosion",
+    "date": "2009-11-04",
+    "location": "Woods Cross, UT, USA",
+    "industry": [
+      "oil-gas-refining"
+    ],
+    "chemicals": [
+      "hydrogen",
+      "naphtha"
+    ],
+    "severity": 1,
+    "fatalities": 0,
+    "injuries": 0,
+    "root_causes": [
+      "sulfidation-corrosion",
+      "never-inspected-pipe",
+      "inspection-strategy-over-inherently-safer-design",
+      "facility-sited-near-residential-neighborhood"
+    ],
+    "psm_elements": [
+      "mechanical-integrity",
+      "process-hazard-analysis"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Metallurgical Analysis and News Release (2014)",
+      "Deseret News / KSL, CSB report coverage"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "ndk-crystal-2009",
+    "file": "ndk-crystal-2009.md",
+    "title": "NDK Crystal Pressure Vessel Explosion with Offsite Fatality",
+    "date": "2009-12-07",
+    "location": "Belvidere, IL, USA",
+    "industry": [
+      "specialty-materials-manufacturing"
+    ],
+    "chemicals": [
+      "sodium-hydroxide",
+      "synthetic-quartz-process-chemicals"
+    ],
+    "severity": 1,
+    "fatalities": 1,
+    "injuries": 1,
+    "root_causes": [
+      "stress-corrosion-cracking",
+      "ignored-insurance-consultant-warning-2007",
+      "no-vessel-inspection-for-years",
+      "unverified-protective-coating",
+      "inadequate-facility-siting-review"
+    ],
+    "psm_elements": [
+      "mechanical-integrity",
+      "incident-investigation",
+      "process-hazard-analysis"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Case Study and Final Report (2013)",
+      "CSB Safety Video: Falling Through the Cracks"
     ],
     "hasBody": true
   },
@@ -785,9 +940,8 @@
     ],
     "psm_elements": [
       "mechanical-integrity",
-      "safety-culture",
-      "process-hazard-analysis",
-      "emergency-planning"
+      "incident-investigation",
+      "process-hazard-analysis"
     ],
     "status": "published",
     "source_verified": true,
@@ -819,9 +973,8 @@
       "undetermined-ignition-source"
     ],
     "psm_elements": [
-      "process-hazard-analysis",
-      "mechanical-integrity",
-      "management-of-change"
+      "operating-procedures",
+      "process-hazard-analysis"
     ],
     "status": "published",
     "source_verified": true,
@@ -857,7 +1010,7 @@
     "psm_elements": [
       "mechanical-integrity",
       "process-hazard-analysis",
-      "safety-culture"
+      "incident-investigation"
     ],
     "status": "published",
     "source_verified": true,
@@ -892,11 +1045,9 @@
       "ambiguous-safety-roles"
     ],
     "psm_elements": [
-      "process-hazard-analysis",
       "mechanical-integrity",
-      "management-of-change",
-      "safety-culture",
-      "emergency-planning"
+      "operating-procedures",
+      "contractors"
     ],
     "status": "published",
     "source_verified": true,
@@ -931,7 +1082,8 @@
     ],
     "psm_elements": [
       "mechanical-integrity",
-      "process-hazard-analysis"
+      "process-hazard-analysis",
+      "incident-investigation"
     ],
     "status": "published",
     "source_verified": true,
@@ -964,10 +1116,8 @@
       "no-hazard-recognition"
     ],
     "psm_elements": [
-      "facility-siting",
-      "emergency-planning",
-      "mechanical-integrity",
-      "process-hazard-analysis"
+      "process-hazard-analysis",
+      "mechanical-integrity"
     ],
     "status": "published",
     "source_verified": true,
@@ -1003,8 +1153,7 @@
     "psm_elements": [
       "management-of-change",
       "mechanical-integrity",
-      "process-hazard-analysis",
-      "safety-culture"
+      "incident-investigation"
     ],
     "status": "published",
     "source_verified": true,
@@ -1038,8 +1187,7 @@
     ],
     "psm_elements": [
       "mechanical-integrity",
-      "emergency-planning",
-      "facility-siting"
+      "emergency-planning-and-response"
     ],
     "status": "published",
     "source_verified": true,
@@ -1075,8 +1223,7 @@
     "psm_elements": [
       "process-hazard-analysis",
       "mechanical-integrity",
-      "emergency-planning",
-      "safety-culture"
+      "operating-procedures"
     ],
     "status": "published",
     "source_verified": true,
@@ -1111,8 +1258,8 @@
     ],
     "psm_elements": [
       "mechanical-integrity",
-      "process-hazard-analysis",
-      "management-of-change"
+      "operating-procedures",
+      "process-hazard-analysis"
     ],
     "status": "published",
     "source_verified": true,
@@ -1147,10 +1294,9 @@
       "inadequate-regulatory-enforcement"
     ],
     "psm_elements": [
-      "facility-siting",
-      "mechanical-integrity",
       "process-hazard-analysis",
-      "emergency-planning"
+      "compliance-audits",
+      "operating-procedures"
     ],
     "status": "published",
     "source_verified": true,
@@ -1183,15 +1329,49 @@
       "no-clear-cleaning-inerting-guidance"
     ],
     "psm_elements": [
-      "permit-to-work",
-      "process-hazard-analysis",
-      "mechanical-integrity"
+      "hot-work-permit",
+      "contractors"
     ],
     "status": "published",
     "source_verified": true,
     "sources": [
       "CSB Final Investigation Report (2022)",
       "Bloomberg Law, CSB report coverage"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "airgas-cantonment-2016",
+    "file": "airgas-cantonment-2016.md",
+    "title": "Airgas Nitrous Oxide Explosion",
+    "date": "2016-08-28",
+    "location": "Cantonment, FL, USA",
+    "industry": [
+      "industrial-gas-manufacturing"
+    ],
+    "chemicals": [
+      "nitrous-oxide"
+    ],
+    "severity": 1,
+    "fatalities": 1,
+    "injuries": 0,
+    "root_causes": [
+      "no-safer-design-evaluation",
+      "no-moc-on-pump-installation",
+      "ineffective-safeguards",
+      "regulatory-gap-no-psm-coverage",
+      "pump-overheated-material"
+    ],
+    "psm_elements": [
+      "management-of-change",
+      "process-hazard-analysis",
+      "mechanical-integrity"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Final Investigation Report (2017)",
+      "C&EN, CSB report coverage"
     ],
     "hasBody": true
   },
@@ -1220,9 +1400,9 @@
       "inadequate-unloading-procedures"
     ],
     "psm_elements": [
-      "process-hazard-analysis",
+      "operating-procedures",
       "mechanical-integrity",
-      "emergency-planning"
+      "process-safety-information"
     ],
     "status": "published",
     "source_verified": true,
@@ -1255,10 +1435,9 @@
       "psm-standard-gap-non-condensable-gas-system"
     ],
     "psm_elements": [
-      "permit-to-work",
+      "hot-work-permit",
       "process-hazard-analysis",
-      "safety-culture",
-      "management-of-change"
+      "incident-investigation"
     ],
     "status": "published",
     "source_verified": true,
@@ -1293,8 +1472,8 @@
     ],
     "psm_elements": [
       "mechanical-integrity",
-      "safety-culture",
-      "process-hazard-analysis"
+      "incident-investigation",
+      "compliance-audits"
     ],
     "status": "published",
     "source_verified": true,
@@ -1328,8 +1507,8 @@
     ],
     "psm_elements": [
       "process-hazard-analysis",
-      "facility-siting",
-      "safety-culture"
+      "incident-investigation",
+      "compliance-audits"
     ],
     "status": "published",
     "source_verified": true,
@@ -1362,8 +1541,7 @@
     ],
     "psm_elements": [
       "process-hazard-analysis",
-      "emergency-planning",
-      "facility-siting"
+      "emergency-planning-and-response"
     ],
     "status": "published",
     "source_verified": true,
@@ -1399,15 +1577,85 @@
     ],
     "psm_elements": [
       "mechanical-integrity",
-      "process-hazard-analysis",
-      "facility-siting",
-      "management-of-change"
+      "incident-investigation",
+      "process-safety-information"
     ],
     "status": "published",
     "source_verified": true,
     "sources": [
       "CSB Final Investigation Report (2022)",
       "CSB Factual Investigative Update (2018)"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "kuraray-america-2018",
+    "file": "kuraray-america-2018.md",
+    "title": "Kuraray America EVAL Plant Ethylene Release and Fire",
+    "date": "2018-05-19",
+    "location": "Pasadena, TX, USA",
+    "industry": [
+      "chemical-manufacturing",
+      "plastics"
+    ],
+    "chemicals": [
+      "ethylene"
+    ],
+    "severity": 1,
+    "fatalities": 0,
+    "injuries": 23,
+    "root_causes": [
+      "relief-system-vented-toward-workers",
+      "nonessential-workers-present-during-startup",
+      "ignored-high-pressure-alarm",
+      "disabled-safety-interlock",
+      "inadequate-operator-training"
+    ],
+    "psm_elements": [
+      "mechanical-integrity",
+      "pre-startup-safety-review",
+      "training"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Final Investigation Report No. 2018-03-I-TX (2022)",
+      "HazardEx, CSB report coverage"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "kmco-crosby-2019",
+    "file": "kmco-crosby-2019.md",
+    "title": "KMCO Chemical Facility Fatal Explosion and Fire",
+    "date": "2019-04-02",
+    "location": "Crosby, TX, USA",
+    "industry": [
+      "specialty-chemical-manufacturing"
+    ],
+    "chemicals": [
+      "isobutylene"
+    ],
+    "severity": 1,
+    "fatalities": 1,
+    "injuries": 28,
+    "root_causes": [
+      "brittle-cast-iron-in-hazardous-service",
+      "no-pressure-relief-on-strainer",
+      "inadequate-emergency-response-training",
+      "no-remote-isolation",
+      "workers-approached-vapor-cloud"
+    ],
+    "psm_elements": [
+      "mechanical-integrity",
+      "training",
+      "emergency-planning-and-response"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Final Investigation Report (2023)",
+      "AIHA / The Chemical Engineer, CSB report coverage"
     ],
     "hasBody": true
   },
@@ -1437,7 +1685,7 @@
     ],
     "psm_elements": [
       "process-hazard-analysis",
-      "safety-culture",
+      "incident-investigation",
       "mechanical-integrity"
     ],
     "status": "published",
@@ -1473,8 +1721,7 @@
     ],
     "psm_elements": [
       "mechanical-integrity",
-      "facility-siting",
-      "process-hazard-analysis"
+      "process-safety-information"
     ],
     "status": "published",
     "source_verified": true,
@@ -1507,9 +1754,9 @@
       "no-shutdown-policy-for-popcorn-polymer"
     ],
     "psm_elements": [
-      "mechanical-integrity",
       "process-hazard-analysis",
-      "management-of-change"
+      "mechanical-integrity",
+      "operating-procedures"
     ],
     "status": "published",
     "source_verified": true,
@@ -1544,15 +1791,48 @@
     ],
     "psm_elements": [
       "mechanical-integrity",
-      "emergency-planning",
-      "facility-siting",
-      "safety-culture"
+      "training",
+      "process-hazard-analysis"
     ],
     "status": "published",
     "source_verified": true,
     "sources": [
       "CSB Final Investigation Report No. 2020-031-I-TX (2023)",
       "CSB Safety Video: No Detection — Explosion at Watson Grinding"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "evergreen-packaging-2020",
+    "file": "evergreen-packaging-2020.md",
+    "title": "Evergreen Packaging Paper Mill Fire During Hot Work",
+    "date": "2020-09-21",
+    "location": "Canton, NC, USA",
+    "industry": [
+      "pulp-paper-manufacturing"
+    ],
+    "chemicals": [
+      "epoxy-vinyl-ester-resin"
+    ],
+    "severity": 1,
+    "fatalities": 2,
+    "injuries": 0,
+    "root_causes": [
+      "heat-gun-used-near-flammable-resin",
+      "no-communication-between-contractor-crews",
+      "inadequate-pre-job-planning",
+      "combustible-vessel-construction"
+    ],
+    "psm_elements": [
+      "hot-work-permit",
+      "contractors",
+      "process-hazard-analysis"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Final Investigation Report (2021)",
+      "CSB Safety Video: Simultaneous Tragedy — Fire at Evergreen Packaging"
     ],
     "hasBody": true
   },
@@ -1580,9 +1860,9 @@
       "ignored-egress-recommendation"
     ],
     "psm_elements": [
-      "permit-to-work",
-      "mechanical-integrity",
-      "emergency-planning"
+      "operating-procedures",
+      "contractors",
+      "incident-investigation"
     ],
     "status": "published",
     "source_verified": true,
@@ -1617,9 +1897,9 @@
       "regulatory-gap-reactive-chemicals"
     ],
     "psm_elements": [
+      "process-safety-information",
       "process-hazard-analysis",
-      "mechanical-integrity",
-      "management-of-change"
+      "mechanical-integrity"
     ],
     "status": "published",
     "source_verified": true,
@@ -1654,8 +1934,8 @@
     ],
     "psm_elements": [
       "mechanical-integrity",
-      "emergency-planning",
-      "safety-culture"
+      "training",
+      "emergency-planning-and-response"
     ],
     "status": "published",
     "source_verified": true,
@@ -1691,14 +1971,46 @@
     ],
     "psm_elements": [
       "mechanical-integrity",
-      "process-hazard-analysis",
-      "emergency-planning"
+      "operating-procedures"
     ],
     "status": "published",
     "source_verified": true,
     "sources": [
       "CSB Final Investigation Report (2023)",
       "AIHA / NBC4 Columbus, CSB report coverage"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "chemtool-rockton-2021",
+    "file": "chemtool-rockton-2021.md",
+    "title": "Chemtool Rockton Plant Fire",
+    "date": "2021-06-14",
+    "location": "Rockton, IL, USA",
+    "industry": [
+      "petroleum-lubricant-manufacturing"
+    ],
+    "chemicals": [
+      "mineral-oil",
+      "petroleum-based-lubricants"
+    ],
+    "severity": 1,
+    "fatalities": 0,
+    "injuries": 2,
+    "root_causes": [
+      "mechanical-equipment-struck-piping",
+      "undetermined-ignition-source",
+      "elevated-piping-vulnerable-to-mobile-equipment"
+    ],
+    "psm_elements": [
+      "mechanical-integrity",
+      "operating-procedures"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Incident Summary (2025, CSB Incident Reports Volume One)",
+      "CSB statement, June 15, 2021"
     ],
     "hasBody": true
   },
@@ -1724,9 +2036,9 @@
       "no-isolation-for-nearby-non-ammonia-work"
     ],
     "psm_elements": [
+      "contractors",
       "mechanical-integrity",
-      "emergency-planning",
-      "facility-siting"
+      "process-hazard-analysis"
     ],
     "status": "published",
     "source_verified": true,
@@ -1756,8 +2068,8 @@
       "unstable-solution-storage"
     ],
     "psm_elements": [
-      "mechanical-integrity",
-      "process-hazard-analysis"
+      "process-hazard-analysis",
+      "mechanical-integrity"
     ],
     "status": "published",
     "source_verified": true,
@@ -1791,10 +2103,9 @@
       "ignored-2010-precedent"
     ],
     "psm_elements": [
-      "facility-siting",
+      "operating-procedures",
       "process-hazard-analysis",
-      "permit-to-work",
-      "management-of-change"
+      "incident-investigation"
     ],
     "status": "published",
     "source_verified": true,

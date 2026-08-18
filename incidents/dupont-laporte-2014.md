@@ -8,7 +8,7 @@ severity: 1
 fatalities: 4
 injuries: 1
 root_causes: [flawed-engineering-design, no-adequate-safeguards, ignored-prior-pha-finding, no-respiratory-protection-used, poor-shift-communication]
-psm_elements: [process-hazard-analysis, mechanical-integrity, emergency-planning, safety-culture]
+psm_elements: [process-hazard-analysis, mechanical-integrity, operating-procedures]
 status: published
 source_verified: true
 sources:

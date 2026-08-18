@@ -8,7 +8,7 @@ severity: 1
 fatalities: 1
 injuries: 4
 root_causes: [no-written-torque-procedure, ineffective-hazardous-energy-control, uncontrolled-simultaneous-operations, single-means-of-egress, ignored-egress-recommendation]
-psm_elements: [permit-to-work, mechanical-integrity, emergency-planning]
+psm_elements: [operating-procedures, contractors, incident-investigation]
 status: published
 source_verified: true
 sources:

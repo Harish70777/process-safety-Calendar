@@ -8,7 +8,7 @@ severity: 1
 fatalities: 15
 injuries: 180
 root_causes: [instrumentation-failure, facility-siting, cost-cutting, inadequate-pssr]
-psm_elements: [pre-startup-safety-review, mechanical-integrity, facility-siting, safety-culture]
+psm_elements: [mechanical-integrity, process-hazard-analysis, pre-startup-safety-review]
 status: published
 source_verified: true
 sources:

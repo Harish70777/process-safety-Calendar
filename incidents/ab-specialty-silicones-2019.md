@@ -8,7 +8,7 @@ severity: 1
 fatalities: 4
 injuries: 1
 root_causes: [incompatible-chemicals-mixed, identical-looking-containers, no-hazard-analysis-program, ignored-2014-near-miss, no-gas-detection, below-regulatory-threshold]
-psm_elements: [process-hazard-analysis, safety-culture, mechanical-integrity]
+psm_elements: [process-hazard-analysis, incident-investigation, mechanical-integrity]
 status: published
 source_verified: true
 sources:

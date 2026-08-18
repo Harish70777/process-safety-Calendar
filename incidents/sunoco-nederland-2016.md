@@ -8,7 +8,7 @@ severity: 1
 fatalities: 0
 injuries: 7
 root_causes: [hot-work-on-uncleaned-pipe, inadequate-hot-work-procedure, contractor-procedure-gaps, no-clear-cleaning-inerting-guidance]
-psm_elements: [permit-to-work, process-hazard-analysis, mechanical-integrity]
+psm_elements: [hot-work-permit, contractors]
 status: published
 source_verified: true
 sources:

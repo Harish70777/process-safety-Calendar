@@ -8,7 +8,7 @@ severity: 1
 fatalities: 2
 injuries: 11
 root_causes: [no-procedure-for-valve-washing-task, ad-hoc-informal-work-practice, control-rooms-sited-too-close-to-hazard, buildings-not-explosion-rated, ignored-2010-precedent]
-psm_elements: [facility-siting, process-hazard-analysis, permit-to-work, management-of-change]
+psm_elements: [operating-procedures, process-hazard-analysis, incident-investigation]
 status: published
 source_verified: true
 sources:

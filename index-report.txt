@@ -1,29 +1,35 @@
 === Process Safety Calendar — Index Report ===
-Generated: 2026-08-17T23:25:15.973Z
+Generated: 2026-08-18T00:34:56.071Z
 
-Total incidents:      50
-  Published:           50
+Total incidents:      60
+  Published:           60
   Draft/needs review:  0
 
 --- Data quality issues ---
 None found — all incidents have required fields. ✅
 
 --- Duplicate calendar dates (not an error, just FYI) ---
-10-29: Hayes Lemmerz Aluminum Dust Explosion | Jaipur Oil Terminal Fire
+9-21: AZF Toulouse Fertilizer Plant Explosion | Evergreen Packaging Paper Mill Fire During Hot Work
+10-29: Hayes Lemmerz Aluminum Dust Explosion | Barton Solvents Des Moines Fire and Explosions | Jaipur Oil Terminal Fire
 12-19: T2 Laboratories Reactive Chemical Explosion | Home Market Foods Ammonia Release
 2-7: Imperial Sugar Refinery Dust Explosion | Kleen Energy Plant Natural Gas Explosion
+8-28: Bayer CropScience Pesticide Waste Tank Explosion | Airgas Nitrous Oxide Explosion
+4-2: Tesoro Anacortes Refinery Heat Exchanger Explosion | KMCO Chemical Facility Fatal Explosion and Fire
 8-12: Tianjin Port Explosions | Sunoco Nederland Crude Oil Terminal Flash Fire and Explosion
 
 --- Coverage by PSM element (are we balanced, or overweight on one theme?) ---
-  mechanical-integrity: 43
-  process-hazard-analysis: 40
-  safety-culture: 23
-  emergency-planning: 21
-  facility-siting: 17
-  management-of-change: 14
-  permit-to-work: 9
-  pre-startup-safety-review: 2
-  contractor-safety: 1
+  mechanical-integrity: 45
+  process-hazard-analysis: 35
+  operating-procedures: 20
+  incident-investigation: 18
+  emergency-planning-and-response: 10
+  management-of-change: 6
+  contractors: 6
+  training: 6
+  process-safety-information: 6
+  hot-work-permit: 4
+  compliance-audits: 4
+  pre-startup-safety-review: 3
 
 --- Coverage by root cause tag ---
   design-deficiency: 3
@@ -36,7 +42,10 @@ None found — all incidents have required fields. ✅
   facility-siting: 2
   no-worker-training-on-hazard: 2
   instrumentation-failure: 2
+  sulfidation-corrosion: 2
+  undetermined-ignition-source: 2
   near-miss-hf-tank: 2
+  ineffective-safeguards: 2
   no-remote-isolation-valves: 2
   temporary-modification: 1
   no-engineering-review: 1
@@ -90,6 +99,15 @@ None found — all incidents have required fields. ✅
   inadequate-pssr: 1
   inadequate-independent-protection-layers: 1
   bund-design-failure: 1
+  frozen-dead-leg-piping: 1
+  no-freeze-protection-program: 1
+  leaking-valve-into-idle-piping: 1
+  no-remote-shutoff: 1
+  inadequate-bonding-and-grounding: 1
+  equipment-not-rated-for-flammable-service: 1
+  splash-filling-technique: 1
+  no-sprinkler-in-packaging-area: 1
+  repeat-incident-3-months-after-sister-facility: 1
   unrecognized-reactive-hazard-runaway-reaction: 1
   inadequate-cooling-system: 1
   no-pha: 1
@@ -108,9 +126,21 @@ None found — all incidents have required fields. ✅
   inadequate-pre-startup-review: 1
   operator-fatigue: 1
   poor-emergency-communication: 1
+  welding-defects-in-tank-construction: 1
+  no-state-regulation-of-storage-tanks: 1
+  inadequate-containment-design: 1
+  undetected-structural-flaw: 1
   no-remote-shutoff-valve: 1
   no-written-procedures: 1
   procedural-sequence-error: 1
+  never-inspected-pipe: 1
+  inspection-strategy-over-inherently-safer-design: 1
+  facility-sited-near-residential-neighborhood: 1
+  stress-corrosion-cracking: 1
+  ignored-insurance-consultant-warning-2007: 1
+  no-vessel-inspection-for-years: 1
+  unverified-protective-coating: 1
+  inadequate-facility-siting-review: 1
   overdue-hose-replacement: 1
   ignored-near-miss-hours-earlier: 1
   undetected-5-day-leak: 1
@@ -119,7 +149,6 @@ None found — all incidents have required fields. ✅
   inherently-unsafe-work-practice: 1
   no-regulatory-prohibition: 1
   congested-release-area: 1
-  undetermined-ignition-source: 1
   high-temperature-hydrogen-attack: 1
   undetected-equipment-degradation: 1
   weak-industry-inspection-standard: 1
@@ -130,7 +159,6 @@ None found — all incidents have required fields. ✅
   missed-well-flow-indication: 1
   bop-failure: 1
   ambiguous-safety-roles: 1
-  sulfidation-corrosion: 1
   ignored-internal-recommendation-2002: 1
   incomplete-pha-corrosion-mechanisms: 1
   low-silicon-piping: 1
@@ -162,6 +190,10 @@ None found — all incidents have required fields. ✅
   inadequate-hot-work-procedure: 1
   contractor-procedure-gaps: 1
   no-clear-cleaning-inerting-guidance: 1
+  no-safer-design-evaluation: 1
+  no-moc-on-pump-installation: 1
+  regulatory-gap-no-psm-coverage: 1
+  pump-overheated-material: 1
   visually-similar-unmarked-fill-lines: 1
   both-lines-left-unlocked: 1
   no-remote-shutdown: 1
@@ -185,9 +217,18 @@ None found — all incidents have required fields. ✅
   insufficient-backup-refrigeration-capacity: 1
   no-industry-guidance-for-flooding: 1
   worn-slide-valve: 1
-  ineffective-safeguards: 1
   failure-to-learn-from-prior-incident: 1
   inadequate-process-knowledge: 1
+  relief-system-vented-toward-workers: 1
+  nonessential-workers-present-during-startup: 1
+  ignored-high-pressure-alarm: 1
+  disabled-safety-interlock: 1
+  inadequate-operator-training: 1
+  brittle-cast-iron-in-hazardous-service: 1
+  no-pressure-relief-on-strainer: 1
+  inadequate-emergency-response-training: 1
+  no-remote-isolation: 1
+  workers-approached-vapor-cloud: 1
   incompatible-chemicals-mixed: 1
   identical-looking-containers: 1
   no-hazard-analysis-program: 1
@@ -204,6 +245,10 @@ None found — all incidents have required fields. ✅
   non-functional-gas-detection: 1
   no-psm-program-below-threshold: 1
   facility-sited-near-homes: 1
+  heat-gun-used-near-flammable-resin: 1
+  no-communication-between-contractor-crews: 1
+  inadequate-pre-job-planning: 1
+  combustible-vessel-construction: 1
   no-written-torque-procedure: 1
   ineffective-hazardous-energy-control: 1
   uncontrolled-simultaneous-operations: 1
@@ -224,6 +269,8 @@ None found — all incidents have required fields. ✅
   no-gas-detection-or-alarms: 1
   no-flame-resistant-ppe-requirement: 1
   procedure-violated-solvent-added-with-agitator-off: 1
+  mechanical-equipment-struck-piping: 1
+  elevated-piping-vulnerable-to-mobile-equipment: 1
   severed-ammonia-pipe-during-unrelated-work: 1
   rmp-accident-prevention-violations: 1
   inadequate-hazard-awareness-for-contractors: 1

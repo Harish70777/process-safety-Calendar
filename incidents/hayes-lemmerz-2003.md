@@ -8,7 +8,7 @@ severity: 1
 fatalities: 1
 injuries: 6
 root_causes: [no-moc-on-dust-collector-install, inadequate-dust-collector-design, unaddressed-prior-dust-fires, no-worker-training-on-hazard, poor-housekeeping]
-psm_elements: [management-of-change, mechanical-integrity, safety-culture]
+psm_elements: [management-of-change, incident-investigation, training]
 status: published
 source_verified: true
 sources:

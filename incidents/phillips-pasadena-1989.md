@@ -8,7 +8,7 @@ severity: 1
 fatalities: 23
 injuries: 314
 root_causes: [inadequate-lockout-tagout, no-process-hazard-analysis, contractor-management-failure, no-gas-detection]
-psm_elements: [permit-to-work, process-hazard-analysis, contractor-safety, mechanical-integrity]
+psm_elements: [operating-procedures, process-hazard-analysis, contractors]
 status: published
 source_verified: true
 sources:

@@ -8,7 +8,7 @@ severity: 1
 fatalities: 167
 injuries: 61
 root_causes: [inadequate-moc, permit-to-work-failure, shift-handover-failure, design-deficiency, poor-emergency-response]
-psm_elements: [management-of-change, permit-to-work, emergency-planning, facility-siting, safety-culture]
+psm_elements: [management-of-change, operating-procedures, emergency-planning-and-response]
 status: published
 source_verified: true
 sources:

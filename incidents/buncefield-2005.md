@@ -8,7 +8,7 @@ severity: 1
 fatalities: 0
 injuries: 43
 root_causes: [instrumentation-failure, inadequate-independent-protection-layers, bund-design-failure]
-psm_elements: [mechanical-integrity, process-hazard-analysis, facility-siting]
+psm_elements: [mechanical-integrity, process-hazard-analysis]
 status: published
 source_verified: true
 sources:

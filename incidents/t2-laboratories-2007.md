@@ -8,7 +8,7 @@ severity: 1
 fatalities: 4
 injuries: 32
 root_causes: [unrecognized-reactive-hazard-runaway-reaction, inadequate-cooling-system, no-pha, ignored-near-misses]
-psm_elements: [process-hazard-analysis, mechanical-integrity, safety-culture]
+psm_elements: [process-hazard-analysis, mechanical-integrity, incident-investigation]
 status: published
 source_verified: true
 sources:

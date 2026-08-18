@@ -8,7 +8,7 @@ severity: 1
 fatalities: 0
 injuries: 300
 root_causes: [pitting-corrosion-no-inspection-10-plus-years, degraded-secondary-containment, no-regulatory-inspection-requirement, deficient-emergency-communication]
-psm_elements: [mechanical-integrity, emergency-planning, facility-siting]
+psm_elements: [mechanical-integrity, emergency-planning-and-response]
 status: published
 source_verified: true
 sources:

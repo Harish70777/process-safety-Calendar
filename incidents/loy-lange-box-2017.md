@@ -8,7 +8,7 @@ severity: 1
 fatalities: 4
 injuries: 1
 root_causes: [oxygen-pitting-corrosion-known-since-2004, incomplete-2012-repair, no-inspection-program, unpermitted-unregistered-vessel, operated-while-known-leaking]
-psm_elements: [mechanical-integrity, safety-culture, process-hazard-analysis]
+psm_elements: [mechanical-integrity, incident-investigation, compliance-audits]
 status: published
 source_verified: true
 sources:

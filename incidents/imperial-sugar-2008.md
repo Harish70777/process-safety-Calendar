@@ -8,7 +8,7 @@ severity: 1
 fatalities: 14
 injuries: 36
 root_causes: [combustible-dust-accumulation, inadequate-housekeeping, no-explosion-protection, normalized-hazard]
-psm_elements: [mechanical-integrity, safety-culture, emergency-planning]
+psm_elements: [mechanical-integrity, process-hazard-analysis, incident-investigation]
 status: published
 source_verified: true
 sources:

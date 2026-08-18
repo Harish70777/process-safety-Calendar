@@ -8,7 +8,7 @@ severity: 1
 fatalities: 0
 injuries: 26
 root_causes: [valve-position-indication-mismatch, undersized-flare-system, inadequate-instrumentation-maintenance, unassessed-plant-modification]
-psm_elements: [mechanical-integrity, management-of-change, process-hazard-analysis]
+psm_elements: [mechanical-integrity, management-of-change]
 status: published
 source_verified: true
 sources:

@@ -8,7 +8,7 @@ severity: 1
 fatalities: 0
 injuries: 2
 root_causes: [faulty-slide-valve, no-safe-operating-limits, unsafe-isolation-methods, outdated-hazard-analysis, near-miss-hf-tank]
-psm_elements: [mechanical-integrity, process-hazard-analysis, management-of-change]
+psm_elements: [mechanical-integrity, operating-procedures, process-hazard-analysis]
 status: published
 source_verified: true
 sources:

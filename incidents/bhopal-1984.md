@@ -8,7 +8,7 @@ severity: 1
 fatalities: 3800
 injuries: 500000
 root_causes: [design-deficiency, deferred-maintenance, inadequate-emergency-response, staffing-cuts]
-psm_elements: [process-hazard-analysis, mechanical-integrity, emergency-planning, safety-culture]
+psm_elements: [mechanical-integrity, emergency-planning-and-response, process-hazard-analysis]
 status: published
 source_verified: true
 sources:

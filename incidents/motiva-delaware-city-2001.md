@@ -8,7 +8,7 @@ severity: 1
 fatalities: 1
 injuries: 8
 root_causes: [inadequate-hot-work-program, corroded-storage-tank, no-inspection-per-schedule, no-emergency-venting]
-psm_elements: [mechanical-integrity, permit-to-work, process-hazard-analysis]
+psm_elements: [hot-work-permit, mechanical-integrity]
 status: published
 source_verified: true
 sources:

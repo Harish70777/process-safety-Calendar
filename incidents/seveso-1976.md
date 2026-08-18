@@ -8,7 +8,7 @@ severity: 1
 fatalities: 0
 injuries: 0
 root_causes: [design-deficiency, no-automatic-cooling, inadequate-instrumentation, unsupervised-shutdown, poor-emergency-response]
-psm_elements: [process-hazard-analysis, mechanical-integrity, facility-siting, emergency-planning]
+psm_elements: [mechanical-integrity, operating-procedures, emergency-planning-and-response]
 status: published
 source_verified: true
 sources:

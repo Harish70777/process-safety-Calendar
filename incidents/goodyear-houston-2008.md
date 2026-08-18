@@ -8,7 +8,7 @@ severity: 1
 fatalities: 1
 injuries: 6
 root_causes: [valves-closed-blocking-relief-path, inadequate-maintenance-operations-handoff, no-emergency-drills-in-4-years, failed-worker-accountability-system, badge-tracking-system-malfunction]
-psm_elements: [mechanical-integrity, emergency-planning, permit-to-work, safety-culture]
+psm_elements: [mechanical-integrity, operating-procedures, emergency-planning-and-response]
 status: published
 source_verified: true
 sources:

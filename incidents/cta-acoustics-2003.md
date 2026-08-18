@@ -8,7 +8,7 @@ severity: 1
 fatalities: 7
 injuries: 37
 root_causes: [unknown-dust-hazard-communication-failure, supplier-withheld-prior-incident-knowledge, poor-facility-design, malfunctioning-oven-ignition, no-fire-marshal-inspection-32-years]
-psm_elements: [process-hazard-analysis, facility-siting, mechanical-integrity]
+psm_elements: [process-safety-information, process-hazard-analysis, compliance-audits]
 status: published
 source_verified: true
 sources:

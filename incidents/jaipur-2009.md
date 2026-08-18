@@ -8,7 +8,7 @@ severity: 1
 fatalities: 12
 injuries: 200
 root_causes: [no-remote-shutoff-valve, no-written-procedures, inadequate-emergency-response, procedural-sequence-error]
-psm_elements: [mechanical-integrity, process-hazard-analysis, emergency-planning, facility-siting]
+psm_elements: [mechanical-integrity, operating-procedures, emergency-planning-and-response]
 status: published
 source_verified: true
 sources:

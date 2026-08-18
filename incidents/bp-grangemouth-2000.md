@@ -8,7 +8,7 @@ severity: 1
 fatalities: 0
 injuries: 1
 root_causes: [inadequate-excavation-controls, incorrectly-fitted-pipe-tee-1950s, inadequately-supported-pipework, cyclic-stress-from-frequent-startups, overstated-safety-report]
-psm_elements: [mechanical-integrity, process-hazard-analysis, safety-culture]
+psm_elements: [mechanical-integrity, process-hazard-analysis, process-safety-information]
 status: published
 source_verified: true
 sources:

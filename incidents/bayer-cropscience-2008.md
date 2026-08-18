@@ -8,7 +8,7 @@ severity: 1
 fatalities: 2
 injuries: 8
 root_causes: [premature-startup, bypassed-safety-interlocks, inadequate-pre-startup-review, operator-fatigue, poor-emergency-communication]
-psm_elements: [process-hazard-analysis, pre-startup-safety-review, emergency-planning, safety-culture]
+psm_elements: [pre-startup-safety-review, mechanical-integrity, emergency-planning-and-response]
 status: published
 source_verified: true
 sources:

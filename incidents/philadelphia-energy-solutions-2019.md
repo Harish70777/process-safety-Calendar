@@ -8,7 +8,7 @@ severity: 1
 fatalities: 0
 injuries: 5
 root_causes: [corroded-pipe-elbow, outdated-material-standard, no-remote-isolation-valves, inadequate-mechanical-integrity-inspection]
-psm_elements: [mechanical-integrity, facility-siting, process-hazard-analysis]
+psm_elements: [mechanical-integrity, process-safety-information]
 status: published
 source_verified: true
 sources:

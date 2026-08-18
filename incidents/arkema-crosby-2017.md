@@ -8,7 +8,7 @@ severity: 1
 fatalities: 0
 injuries: 21
 root_causes: [inadequate-extreme-weather-planning, total-power-loss-not-anticipated, insufficient-backup-refrigeration-capacity, no-industry-guidance-for-flooding]
-psm_elements: [process-hazard-analysis, emergency-planning, facility-siting]
+psm_elements: [process-hazard-analysis, emergency-planning-and-response]
 status: published
 source_verified: true
 sources:

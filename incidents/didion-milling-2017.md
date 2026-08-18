@@ -8,7 +8,7 @@ severity: 1
 fatalities: 5
 injuries: 14
 root_causes: [no-dust-hazard-analysis, dust-managed-under-food-safety-not-safety-program, interconnected-processes-allowed-fire-spread, normalized-smoldering-fires, falsified-compliance-records]
-psm_elements: [process-hazard-analysis, facility-siting, safety-culture]
+psm_elements: [process-hazard-analysis, incident-investigation, compliance-audits]
 status: published
 source_verified: true
 sources:

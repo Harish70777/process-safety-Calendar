@@ -8,7 +8,7 @@ severity: 1
 fatalities: 3
 injuries: 7
 root_causes: [hot-work-above-flammable-tank, inadequate-hazard-identification, repeat-failure-same-company-2008, psm-standard-gap-non-condensable-gas-system]
-psm_elements: [permit-to-work, process-hazard-analysis, safety-culture, management-of-change]
+psm_elements: [hot-work-permit, process-hazard-analysis, incident-investigation]
 status: published
 source_verified: true
 sources:

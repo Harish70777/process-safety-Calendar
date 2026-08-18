@@ -8,7 +8,7 @@ severity: 1
 fatalities: 6
 injuries: 50
 root_causes: [inherently-unsafe-work-practice, no-regulatory-prohibition, congested-release-area, undetermined-ignition-source]
-psm_elements: [process-hazard-analysis, mechanical-integrity, management-of-change]
+psm_elements: [operating-procedures, process-hazard-analysis]
 status: published
 source_verified: true
 sources:

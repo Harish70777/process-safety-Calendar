@@ -8,7 +8,7 @@ severity: 1
 fatalities: 31
 injuries: 2500
 root_causes: [incompatible-chemical-mixing, off-spec-material-storage, inadequate-hazard-study, facility-siting]
-psm_elements: [process-hazard-analysis, facility-siting, mechanical-integrity]
+psm_elements: [process-hazard-analysis, operating-procedures]
 status: published
 source_verified: true
 sources:

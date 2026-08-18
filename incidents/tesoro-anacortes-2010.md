@@ -8,7 +8,7 @@ severity: 1
 fatalities: 7
 injuries: 1
 root_causes: [high-temperature-hydrogen-attack, undetected-equipment-degradation, weak-industry-inspection-standard, complacent-safety-culture, ineffective-pha-safeguards]
-psm_elements: [mechanical-integrity, process-hazard-analysis, safety-culture]
+psm_elements: [mechanical-integrity, process-hazard-analysis, incident-investigation]
 status: published
 source_verified: true
 sources:

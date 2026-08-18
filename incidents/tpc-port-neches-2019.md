@@ -8,7 +8,7 @@ severity: 1
 fatalities: 0
 injuries: 5
 root_causes: [unaddressed-dead-leg, ignored-2016-hazard-analysis-recommendation, no-remote-isolation-valves, no-shutdown-policy-for-popcorn-polymer]
-psm_elements: [mechanical-integrity, process-hazard-analysis, management-of-change]
+psm_elements: [process-hazard-analysis, mechanical-integrity, operating-procedures]
 status: published
 source_verified: true
 sources:
