@@ -354,6 +354,41 @@
     "hasBody": true
   },
   {
+    "id": "georgia-pacific-naheola-2002",
+    "file": "georgia-pacific-naheola-2002.md",
+    "title": "Georgia-Pacific Naheola Mill Hydrogen Sulfide Release",
+    "date": "2002-01-16",
+    "location": "Pennington, AL, USA",
+    "industry": [
+      "pulp-paper-manufacturing"
+    ],
+    "chemicals": [
+      "sodium-hydrosulfide",
+      "hydrogen-sulfide"
+    ],
+    "severity": 1,
+    "fatalities": 2,
+    "injuries": 8,
+    "root_causes": [
+      "reactive-chemical-mixing-in-sewer",
+      "no-hazard-analysis-of-sewer-system",
+      "contractors-unaware-of-hazard",
+      "decades-old-design-flaw"
+    ],
+    "psm_elements": [
+      "process-hazard-analysis",
+      "contractors",
+      "mechanical-integrity"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Investigation Report No. 2002-01-I-AL (2002)",
+      "CSB News Release, November 2002"
+    ],
+    "hasBody": true
+  },
+  {
     "id": "west-pharmaceutical-2003",
     "file": "west-pharmaceutical-2003.md",
     "title": "West Pharmaceutical Services Dust Explosion",
@@ -1059,6 +1094,77 @@
     "hasBody": true
   },
   {
+    "id": "horsehead-monaca-2010",
+    "file": "horsehead-monaca-2010.md",
+    "title": "Horsehead Zinc Refinery Explosion",
+    "date": "2010-07-22",
+    "location": "Monaca, PA, USA",
+    "industry": [
+      "metals-refining"
+    ],
+    "chemicals": [
+      "molten-zinc"
+    ],
+    "severity": 1,
+    "fatalities": 2,
+    "injuries": 1,
+    "root_causes": [
+      "blocked-sump-design-flaw",
+      "no-moc-on-column-rebuild",
+      "prior-blockages-normalized",
+      "missed-warning-signs-days-before"
+    ],
+    "psm_elements": [
+      "mechanical-integrity",
+      "management-of-change",
+      "incident-investigation",
+      "training"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Technical Analysis / Hunter Report (2015)",
+      "CSB News Release, March 11, 2015"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "millard-refrigerated-2010",
+    "file": "millard-refrigerated-2010.md",
+    "title": "Millard Refrigerated Services Ammonia Release",
+    "date": "2010-08-23",
+    "location": "Theodore, AL, USA",
+    "industry": [
+      "food-processing",
+      "cold-storage-logistics"
+    ],
+    "chemicals": [
+      "anhydrous-ammonia"
+    ],
+    "severity": 1,
+    "fatalities": 0,
+    "injuries": 152,
+    "root_causes": [
+      "hydraulic-shock",
+      "improper-restart-after-power-outage",
+      "prior-releases-not-addressed",
+      "inadequate-corrective-action"
+    ],
+    "psm_elements": [
+      "mechanical-integrity",
+      "process-hazard-analysis",
+      "incident-investigation"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Safety Bulletin: Key Lessons for Preventing Hydraulic Shock (2015)",
+      "CSB Safety Video: Shock to the System (2015)",
+      "EPA/DOJ Clean Air Act Settlement Announcement (2015)"
+    ],
+    "hasBody": true
+  },
+  {
     "id": "chevron-richmond-2012",
     "file": "chevron-richmond-2012.md",
     "title": "Chevron Richmond Refinery Pipe Rupture and Fire",
@@ -1413,6 +1519,41 @@
     "hasBody": true
   },
   {
+    "id": "exxonmobil-baton-rouge-2016",
+    "file": "exxonmobil-baton-rouge-2016.md",
+    "title": "ExxonMobil Baton Rouge Refinery Isobutane Fire",
+    "date": "2016-11-22",
+    "location": "Baton Rouge, LA, USA",
+    "industry": [
+      "oil-gas-refining"
+    ],
+    "chemicals": [
+      "isobutane"
+    ],
+    "severity": 1,
+    "fatalities": 0,
+    "injuries": 4,
+    "root_causes": [
+      "wrong-bolts-removed-from-valve",
+      "hazardous-minority-valve-design",
+      "accepted-practice-without-hazard-analysis",
+      "longstanding-gearbox-reliability-issues"
+    ],
+    "psm_elements": [
+      "operating-procedures",
+      "mechanical-integrity",
+      "process-hazard-analysis",
+      "training"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Safety Bulletin: Key Lessons from the ExxonMobil Baton Rouge Refinery Isobutane Release and Fire (2017)",
+      "CSB Safety Video: Fire in Baton Rouge"
+    ],
+    "hasBody": true
+  },
+  {
     "id": "pca-deridder-2017",
     "file": "pca-deridder-2017.md",
     "title": "Packaging Corporation of America DeRidder Mill Explosion",
@@ -1625,6 +1766,45 @@
     "hasBody": true
   },
   {
+    "id": "itc-deer-park-2019",
+    "file": "itc-deer-park-2019.md",
+    "title": "Intercontinental Terminals Company (ITC) Tank Farm Fire",
+    "date": "2019-03-17",
+    "location": "Deer Park, TX, USA",
+    "industry": [
+      "chemical-storage-distribution",
+      "oil-gas-terminal-logistics"
+    ],
+    "chemicals": [
+      "naphtha",
+      "butane",
+      "xylene",
+      "toluene"
+    ],
+    "severity": 1,
+    "fatalities": 0,
+    "injuries": 0,
+    "root_causes": [
+      "pump-bearing-failure",
+      "no-gas-detection-2014-recommendation-ignored",
+      "no-remote-isolation-valves",
+      "no-mechanical-integrity-procedure",
+      "regulatory-gap-psm-rmp"
+    ],
+    "psm_elements": [
+      "mechanical-integrity",
+      "process-hazard-analysis",
+      "incident-investigation"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Final Investigation Report No. 2019-01-I-TX (2023)",
+      "CSB Factual Update (2019)"
+    ],
+    "hasBody": true
+  },
+  {
     "id": "kmco-crosby-2019",
     "file": "kmco-crosby-2019.md",
     "title": "KMCO Chemical Facility Fatal Explosion and Fire",
@@ -1803,6 +1983,109 @@
     "hasBody": true
   },
   {
+    "id": "valero-meraux-2020",
+    "file": "valero-meraux-2020.md",
+    "title": "Valero Meraux Refinery Hydrocracker Explosion and Fire",
+    "date": "2020-04-10",
+    "location": "Meraux, LA, USA",
+    "industry": [
+      "oil-gas-refining"
+    ],
+    "chemicals": [
+      "hydrogen",
+      "hydrocarbons",
+      "sulfur-dioxide"
+    ],
+    "severity": 1,
+    "fatalities": 0,
+    "injuries": 1,
+    "root_causes": [
+      "psv-failed-to-reseat",
+      "field-deviation-from-approved-plan",
+      "wrong-valve-closed",
+      "inadequate-verification-of-field-changes"
+    ],
+    "psm_elements": [
+      "management-of-change",
+      "operating-procedures",
+      "mechanical-integrity"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Incident Reports Volume One (2025)"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "lacc-westlake-2020",
+    "file": "lacc-westlake-2020.md",
+    "title": "LACC Spent Caustic Release",
+    "date": "2020-04-11",
+    "location": "Westlake, LA, USA",
+    "industry": [
+      "chemical-manufacturing"
+    ],
+    "chemicals": [
+      "spent-caustic",
+      "sodium-hydroxide"
+    ],
+    "severity": 1,
+    "fatalities": 0,
+    "injuries": 1,
+    "root_causes": [
+      "unsecured-manway-hatch",
+      "procedure-gap-hose-clearing",
+      "no-appropriate-ppe",
+      "safety-shower-too-far"
+    ],
+    "psm_elements": [
+      "operating-procedures",
+      "mechanical-integrity"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Incident Reports Volume One (2025)"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "bio-lab-westlake-2020",
+    "file": "bio-lab-westlake-2020.md",
+    "title": "Bio-Lab Chemical Fire and Toxic Gas Release (Hurricane Laura)",
+    "date": "2020-08-27",
+    "location": "Westlake, LA, USA",
+    "industry": [
+      "chemical-manufacturing"
+    ],
+    "chemicals": [
+      "trichloroisocyanuric-acid"
+    ],
+    "severity": 1,
+    "fatalities": 0,
+    "injuries": 0,
+    "root_causes": [
+      "inadequate-hurricane-preparation",
+      "ignored-arkema-precedent",
+      "unimplemented-2010-pha-recommendation",
+      "delayed-emergency-response",
+      "no-regulatory-coverage"
+    ],
+    "psm_elements": [
+      "process-hazard-analysis",
+      "emergency-planning",
+      "incident-investigation"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Final Investigation Report (2023)",
+      "CSB Safety Video: Fire From the Storm (2025)"
+    ],
+    "hasBody": true
+  },
+  {
     "id": "evergreen-packaging-2020",
     "file": "evergreen-packaging-2020.md",
     "title": "Evergreen Packaging Paper Mill Fire During Hot Work",
@@ -1869,6 +2152,39 @@
     "sources": [
       "CSB Final Investigation Report No. 2021-01-I-TN (2023)",
       "C&EN, CSB report coverage"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "formosa-point-comfort-2020",
+    "file": "formosa-point-comfort-2020.md",
+    "title": "Formosa Plastics Point Comfort Chlorine Release",
+    "date": "2020-12-03",
+    "location": "Point Comfort, TX, USA",
+    "industry": [
+      "chemical-manufacturing",
+      "plastics"
+    ],
+    "chemicals": [
+      "chlorine"
+    ],
+    "severity": 1,
+    "fatalities": 0,
+    "injuries": 1,
+    "root_causes": [
+      "container-believed-empty-was-not",
+      "no-weight-verification-instrumentation",
+      "no-respiratory-protection-worn",
+      "inherently-safer-alternative-not-used"
+    ],
+    "psm_elements": [
+      "process-hazard-analysis",
+      "operating-procedures"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Incident Reports Volume One (2025)"
     ],
     "hasBody": true
   },
@@ -2015,6 +2331,38 @@
     "hasBody": true
   },
   {
+    "id": "rubicon-geismar-2022",
+    "file": "rubicon-geismar-2022.md",
+    "title": "Rubicon MDI Release",
+    "date": "2022-01-15",
+    "location": "Geismar, LA, USA",
+    "industry": [
+      "chemical-manufacturing"
+    ],
+    "chemicals": [
+      "methylene-diphenyl-diisocyanate-mdi"
+    ],
+    "severity": 1,
+    "fatalities": 0,
+    "injuries": 2,
+    "root_causes": [
+      "premature-rupture-disc-activation",
+      "relief-discharge-near-workers",
+      "identified-hazard-not-mitigated",
+      "non-essential-workers-not-restricted"
+    ],
+    "psm_elements": [
+      "process-hazard-analysis",
+      "mechanical-integrity"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Incident Reports Volume One (2025)"
+    ],
+    "hasBody": true
+  },
+  {
     "id": "home-market-foods-2022",
     "file": "home-market-foods-2022.md",
     "title": "Home Market Foods Ammonia Release",
@@ -2049,6 +2397,41 @@
     "hasBody": true
   },
   {
+    "id": "phillips-66-borger-2023",
+    "file": "phillips-66-borger-2023.md",
+    "title": "Phillips 66 Borger Refinery Natural Gas Liquid Fire",
+    "date": "2023-01-17",
+    "location": "Borger, TX, USA",
+    "industry": [
+      "oil-gas-refining",
+      "natural-gas-storage"
+    ],
+    "chemicals": [
+      "natural-gas-liquid",
+      "propane",
+      "butane"
+    ],
+    "severity": 1,
+    "fatalities": 1,
+    "injuries": 1,
+    "root_causes": [
+      "tool-left-in-reverse",
+      "lockdown-screw-inadvertently-removed",
+      "pressurized-residual-material-in-workover-unit",
+      "no-hand-tool-requirement"
+    ],
+    "psm_elements": [
+      "operating-procedures",
+      "mechanical-integrity"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Incident Reports Volume One (2025)"
+    ],
+    "hasBody": true
+  },
+  {
     "id": "darling-ingredients-2023",
     "file": "darling-ingredients-2023.md",
     "title": "Darling Ingredients Aluminum Chloride Tank Rupture",
@@ -2076,6 +2459,41 @@
     "sources": [
       "CSB Incident Reports Volume One (2025)",
       "Local news coverage (McClatchy/WBTV), Anson County Emergency Services"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "pemex-deer-park-2024",
+    "file": "pemex-deer-park-2024.md",
+    "title": "PEMEX Deer Park Refinery Hydrogen Sulfide Release",
+    "date": "2024-10-10",
+    "location": "Deer Park, TX, USA",
+    "industry": [
+      "oil-gas-refining"
+    ],
+    "chemicals": [
+      "hydrogen-sulfide"
+    ],
+    "severity": 1,
+    "fatalities": 2,
+    "injuries": 13,
+    "root_causes": [
+      "wrong-flange-opened",
+      "no-positive-equipment-id",
+      "overly-broad-work-permit",
+      "contractors-reassigned-without-hazard-briefing"
+    ],
+    "psm_elements": [
+      "operating-procedures",
+      "process-safety-information",
+      "contractors",
+      "training"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Final Investigation Report (February 2026)",
+      "CSB News Release, February 23, 2026"
     ],
     "hasBody": true
   },
@@ -2112,6 +2530,116 @@
     "sources": [
       "CSB Final Investigation Report (2026)",
       "WPXI / Spokesman-Review, CSB report coverage"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "accurate-energetic-systems-2025",
+    "file": "accurate-energetic-systems-2025.md",
+    "title": "Accurate Energetic Systems Explosives Plant Explosion",
+    "date": "2025-10-10",
+    "location": "McEwen, TN, USA",
+    "industry": [
+      "explosives-manufacturing",
+      "defense-manufacturing"
+    ],
+    "chemicals": [
+      "tnt",
+      "rdx",
+      "cast-explosive-compositions"
+    ],
+    "severity": 1,
+    "fatalities": 16,
+    "injuries": 7,
+    "root_causes": [
+      "explosives-heated-in-production-kettles",
+      "no-sprinkler-system",
+      "prior-fatal-incident-at-facility",
+      "investigation-ongoing"
+    ],
+    "psm_elements": [
+      "process-hazard-analysis",
+      "mechanical-integrity",
+      "incident-investigation"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Investigation Update (March 16, 2026)",
+      "CSB Investigation Opening Statement (October 27, 2025)"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "woodland-pulp-2026",
+    "file": "woodland-pulp-2026.md",
+    "title": "Woodland Pulp Mill Hydrogen Sulfide Release",
+    "date": "2026-01-27",
+    "location": "Baileyville, ME, USA",
+    "industry": [
+      "pulp-paper-manufacturing"
+    ],
+    "chemicals": [
+      "hydrogen-sulfide",
+      "sulfuric-acid"
+    ],
+    "severity": 1,
+    "fatalities": 2,
+    "injuries": 10,
+    "root_causes": [
+      "no-fixed-gas-detection",
+      "no-personal-monitors-issued",
+      "no-personnel-tracking-system",
+      "known-hazard-inadequately-controlled"
+    ],
+    "psm_elements": [
+      "mechanical-integrity",
+      "training",
+      "operating-procedures",
+      "emergency-planning"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Investigation Update (July 14, 2026)",
+      "OSHA Citation and Penalty Announcement (July 30, 2026)"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "catalyst-refiners-2026",
+    "file": "catalyst-refiners-2026.md",
+    "title": "Catalyst Refiners Hydrogen Sulfide Release",
+    "date": "2026-04-22",
+    "location": "Institute, WV, USA",
+    "industry": [
+      "chemical-manufacturing",
+      "metals-recovery"
+    ],
+    "chemicals": [
+      "hydrogen-sulfide",
+      "nitric-acid"
+    ],
+    "severity": 1,
+    "fatalities": 2,
+    "injuries": 4,
+    "root_causes": [
+      "incompatible-chemicals-mixed-during-decommissioning",
+      "no-decommissioning-procedure",
+      "respirators-not-required",
+      "no-personal-gas-monitors"
+    ],
+    "psm_elements": [
+      "operating-procedures",
+      "training",
+      "management-of-change",
+      "process-safety-information"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Investigation Update (August 13, 2026)",
+      "CSB Investigation Opening Statement (April 23, 2026)"
     ],
     "hasBody": true
   }

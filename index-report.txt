@@ -1,14 +1,15 @@
 === Process Safety Calendar — Index Report ===
-Generated: 2026-08-19T00:01:06.159Z
+Generated: 2026-08-19T22:14:55.484Z
 
-Total incidents:      60
-  Published:           60
+Total incidents:      75
+  Published:           75
   Draft/needs review:  0
 
 --- Data quality issues ---
 None found — all incidents have required fields. ✅
 
 --- Duplicate calendar dates (not an error, just FYI) ---
+12-3: Bhopal Gas Tragedy | Formosa Plastics Point Comfort Chlorine Release
 9-21: AZF Toulouse Fertilizer Plant Explosion | Evergreen Packaging Paper Mill Fire During Hot Work
 10-29: Hayes Lemmerz Aluminum Dust Explosion | Barton Solvents Des Moines Fire and Explosions | Jaipur Oil Terminal Fire
 12-19: T2 Laboratories Reactive Chemical Explosion | Home Market Foods Ammonia Release
@@ -16,23 +17,26 @@ None found — all incidents have required fields. ✅
 8-28: Bayer CropScience Pesticide Waste Tank Explosion | Airgas Nitrous Oxide Explosion
 4-2: Tesoro Anacortes Refinery Heat Exchanger Explosion | KMCO Chemical Facility Fatal Explosion and Fire
 8-12: Tianjin Port Explosions | Sunoco Nederland Crude Oil Terminal Flash Fire and Explosion
+10-10: PEMEX Deer Park Refinery Hydrogen Sulfide Release | Accurate Energetic Systems Explosives Plant Explosion
 
 --- Coverage by PSM element (are we balanced, or overweight on one theme?) ---
-  mechanical-integrity: 45
-  process-hazard-analysis: 35
-  operating-procedures: 20
-  incident-investigation: 18
+  mechanical-integrity: 56
+  process-hazard-analysis: 43
+  operating-procedures: 28
+  incident-investigation: 23
+  training: 11
   emergency-planning-and-response: 10
-  management-of-change: 6
-  contractors: 6
-  training: 6
-  process-safety-information: 6
+  management-of-change: 9
+  contractors: 8
+  process-safety-information: 8
   hot-work-permit: 4
   compliance-audits: 4
   pre-startup-safety-review: 3
+  emergency-planning: 2
 
 --- Coverage by root cause tag ---
   design-deficiency: 3
+  no-remote-isolation-valves: 3
   inadequate-moc: 2
   poor-emergency-response: 2
   inadequate-emergency-response: 2
@@ -44,9 +48,9 @@ None found — all incidents have required fields. ✅
   instrumentation-failure: 2
   sulfidation-corrosion: 2
   undetermined-ignition-source: 2
+  no-sprinkler-system: 2
   near-miss-hf-tank: 2
   ineffective-safeguards: 2
-  no-remote-isolation-valves: 2
   temporary-modification: 1
   no-engineering-review: 1
   no-automatic-cooling: 1
@@ -77,6 +81,10 @@ None found — all incidents have required fields. ✅
   incompatible-chemical-mixing: 1
   off-spec-material-storage: 1
   inadequate-hazard-study: 1
+  reactive-chemical-mixing-in-sewer: 1
+  no-hazard-analysis-of-sewer-system: 1
+  contractors-unaware-of-hazard: 1
+  decades-old-design-flaw: 1
   no-engineering-assessment-of-dust-hazard: 1
   no-fire-code-consultation: 1
   inadequate-hazard-communication: 1
@@ -159,11 +167,18 @@ None found — all incidents have required fields. ✅
   missed-well-flow-indication: 1
   bop-failure: 1
   ambiguous-safety-roles: 1
+  blocked-sump-design-flaw: 1
+  no-moc-on-column-rebuild: 1
+  prior-blockages-normalized: 1
+  missed-warning-signs-days-before: 1
+  hydraulic-shock: 1
+  improper-restart-after-power-outage: 1
+  prior-releases-not-addressed: 1
+  inadequate-corrective-action: 1
   ignored-internal-recommendation-2002: 1
   incomplete-pha-corrosion-mechanisms: 1
   low-silicon-piping: 1
   combustible-building-materials: 1
-  no-sprinkler-system: 1
   inadequate-facility-siting: 1
   no-hazard-recognition: 1
   inadequate-moc-1990s-change: 1
@@ -198,6 +213,10 @@ None found — all incidents have required fields. ✅
   both-lines-left-unlocked: 1
   no-remote-shutdown: 1
   inadequate-unloading-procedures: 1
+  wrong-bolts-removed-from-valve: 1
+  hazardous-minority-valve-design: 1
+  accepted-practice-without-hazard-analysis: 1
+  longstanding-gearbox-reliability-issues: 1
   hot-work-above-flammable-tank: 1
   inadequate-hazard-identification: 1
   repeat-failure-same-company-2008: 1
@@ -224,6 +243,10 @@ None found — all incidents have required fields. ✅
   ignored-high-pressure-alarm: 1
   disabled-safety-interlock: 1
   inadequate-operator-training: 1
+  pump-bearing-failure: 1
+  no-gas-detection-2014-recommendation-ignored: 1
+  no-mechanical-integrity-procedure: 1
+  regulatory-gap-psm-rmp: 1
   brittle-cast-iron-in-hazardous-service: 1
   no-pressure-relief-on-strainer: 1
   inadequate-emergency-response-training: 1
@@ -245,6 +268,19 @@ None found — all incidents have required fields. ✅
   non-functional-gas-detection: 1
   no-psm-program-below-threshold: 1
   facility-sited-near-homes: 1
+  psv-failed-to-reseat: 1
+  field-deviation-from-approved-plan: 1
+  wrong-valve-closed: 1
+  inadequate-verification-of-field-changes: 1
+  unsecured-manway-hatch: 1
+  procedure-gap-hose-clearing: 1
+  no-appropriate-ppe: 1
+  safety-shower-too-far: 1
+  inadequate-hurricane-preparation: 1
+  ignored-arkema-precedent: 1
+  unimplemented-2010-pha-recommendation: 1
+  delayed-emergency-response: 1
+  no-regulatory-coverage: 1
   heat-gun-used-near-flammable-resin: 1
   no-communication-between-contractor-crews: 1
   inadequate-pre-job-planning: 1
@@ -254,6 +290,10 @@ None found — all incidents have required fields. ✅
   uncontrolled-simultaneous-operations: 1
   single-means-of-egress: 1
   ignored-egress-recommendation: 1
+  container-believed-empty-was-not: 1
+  no-weight-verification-instrumentation: 1
+  no-respiratory-protection-worn: 1
+  inherently-safer-alternative-not-used: 1
   inaccurate-safety-data-sheet: 1
   poor-process-knowledge-transfer-between-companies: 1
   no-thermal-hazard-assessment: 1
@@ -271,14 +311,37 @@ None found — all incidents have required fields. ✅
   procedure-violated-solvent-added-with-agitator-off: 1
   mechanical-equipment-struck-piping: 1
   elevated-piping-vulnerable-to-mobile-equipment: 1
+  premature-rupture-disc-activation: 1
+  relief-discharge-near-workers: 1
+  identified-hazard-not-mitigated: 1
+  non-essential-workers-not-restricted: 1
   severed-ammonia-pipe-during-unrelated-work: 1
   rmp-accident-prevention-violations: 1
   inadequate-hazard-awareness-for-contractors: 1
   no-isolation-for-nearby-non-ammonia-work: 1
+  tool-left-in-reverse: 1
+  lockdown-screw-inadvertently-removed: 1
+  pressurized-residual-material-in-workover-unit: 1
+  no-hand-tool-requirement: 1
   water-reactive-chemical-in-confined-space: 1
   unstable-solution-storage: 1
+  wrong-flange-opened: 1
+  no-positive-equipment-id: 1
+  overly-broad-work-permit: 1
+  contractors-reassigned-without-hazard-briefing: 1
   no-procedure-for-valve-washing-task: 1
   ad-hoc-informal-work-practice: 1
   control-rooms-sited-too-close-to-hazard: 1
   buildings-not-explosion-rated: 1
   ignored-2010-precedent: 1
+  explosives-heated-in-production-kettles: 1
+  prior-fatal-incident-at-facility: 1
+  investigation-ongoing: 1
+  no-fixed-gas-detection: 1
+  no-personal-monitors-issued: 1
+  no-personnel-tracking-system: 1
+  known-hazard-inadequately-controlled: 1
+  incompatible-chemicals-mixed-during-decommissioning: 1
+  no-decommissioning-procedure: 1
+  respirators-not-required: 1
+  no-personal-gas-monitors: 1
