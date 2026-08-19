@@ -1,11 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 320" font-family="'Poppins', sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 340" font-family="'Poppins', sans-serif">
   <defs>
     <style>
       .label { font-family: 'Baloo 2', sans-serif; font-weight: 700; font-size: 15px; fill: #13567F; }
+      .sublabel { font-family: 'Poppins', sans-serif; font-size: 11px; fill: #666; }
       .arrow { stroke: #C9D6DE; stroke-width: 2; fill: none; }
     </style>
   </defs>
-  <rect width="960" height="320" fill="#F5F8FA"/>
+  <rect width="960" height="340" fill="#F5F8FA"/>
   <line x1="178" y1="130" x2="302" y2="130" class="arrow" stroke-dasharray="4 5"/>
   <line x1="418" y1="130" x2="542" y2="130" class="arrow" stroke-dasharray="4 5"/>
   <line x1="658" y1="130" x2="782" y2="130" class="arrow" stroke-dasharray="4 5"/>
@@ -17,6 +18,8 @@
     <circle cx="58" cy="80" r="4" fill="#C81E1E"/>
         <text x="60" y="160" text-anchor="middle" class="label">Cement Barrier</text>
         <text x="60" y="176" text-anchor="middle" class="label">Failed</text>
+        <text x="60" y="198" text-anchor="middle" class="sublabel">Failed to seal the</text>
+        <text x="60" y="211" text-anchor="middle" class="sublabel">hydrocarbon-bearing</text>
       </g>
 
   <g transform="translate(300,50)">
@@ -28,6 +31,8 @@
     <rect x="50" y="105" width="20" height="14" rx="3" fill="#13567F"/>
         <text x="60" y="160" text-anchor="middle" class="label">Pressure Test</text>
         <text x="60" y="176" text-anchor="middle" class="label">Misread</text>
+        <text x="60" y="198" text-anchor="middle" class="sublabel">Crew interpreted a</text>
+        <text x="60" y="211" text-anchor="middle" class="sublabel">failed test as</text>
       </g>
 
   <g transform="translate(540,50)">
@@ -35,6 +40,8 @@
     <circle cx="60" cy="80" r="58" fill="#FBE3D6"/>
     <path d="M60,35 C45,55 40,68 48,82 C42,80 38,72 40,64 C36,80 45,100 65,100 C82,100 90,85 82,68 C88,74 88,84 84,90 C92,80 90,60 76,45 C78,55 74,62 68,60 C72,50 68,40 60,35 Z" fill="#E8622C"/>
         <text x="60" y="160" text-anchor="middle" class="label">Blowout &amp; Fire</text>
+        <text x="60" y="182" text-anchor="middle" class="sublabel">Hydrocarbons flowed up</text>
+        <text x="60" y="195" text-anchor="middle" class="sublabel">the wellbore and ignited</text>
       </g>
 
   <g transform="translate(780,50)">
@@ -44,7 +51,9 @@
     <ellipse cx="40" cy="80" rx="20" ry="13" fill="#8FA9BC"/>
     <ellipse cx="82" cy="80" rx="20" ry="13" fill="#8FA9BC"/>
         <text x="60" y="160" text-anchor="middle" class="label">Oil Spill</text>
+        <text x="60" y="182" text-anchor="middle" class="sublabel">Largest marine oil spill</text>
+        <text x="60" y="195" text-anchor="middle" class="sublabel">in U.S. history</text>
       </g>
-  <rect x="0" y="290" width="960" height="30" fill="#13567F"/>
-  <text x="480" y="309" text-anchor="middle" fill="#fff" font-size="12" font-family="'Poppins', sans-serif" font-weight="500">Deepwater Horizon / Macondo Well Blowout — 11 killed, 17 injured</text>
+  <rect x="0" y="310" width="960" height="30" fill="#13567F"/>
+  <text x="480" y="329" text-anchor="middle" fill="#fff" font-size="12" font-family="'Poppins', sans-serif" font-weight="500">Deepwater Horizon / Macondo Well Blowout — 11 killed, 17 injured</text>
 </svg>

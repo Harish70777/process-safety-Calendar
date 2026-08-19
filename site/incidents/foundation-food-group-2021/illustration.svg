@@ -1,11 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 320" font-family="'Poppins', sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 340" font-family="'Poppins', sans-serif">
   <defs>
     <style>
       .label { font-family: 'Baloo 2', sans-serif; font-weight: 700; font-size: 15px; fill: #13567F; }
+      .sublabel { font-family: 'Poppins', sans-serif; font-size: 11px; fill: #666; }
       .arrow { stroke: #C9D6DE; stroke-width: 2; fill: none; }
     </style>
   </defs>
-  <rect width="960" height="320" fill="#F5F8FA"/>
+  <rect width="960" height="340" fill="#F5F8FA"/>
   <line x1="178" y1="130" x2="302" y2="130" class="arrow" stroke-dasharray="4 5"/>
   <line x1="418" y1="130" x2="542" y2="130" class="arrow" stroke-dasharray="4 5"/>
   <line x1="658" y1="130" x2="782" y2="130" class="arrow" stroke-dasharray="4 5"/>
@@ -16,6 +17,8 @@
     <path d="M55,72 L62,80 L52,84 L60,88" stroke="#C81E1E" stroke-width="3" fill="none"/>
     <circle cx="58" cy="80" r="4" fill="#C81E1E"/>
         <text x="60" y="160" text-anchor="middle" class="label">Bubbler Tube Bent</text>
+        <text x="60" y="182" text-anchor="middle" class="sublabel">Likely bent during</text>
+        <text x="60" y="195" text-anchor="middle" class="sublabel">maintenance work</text>
       </g>
 
   <g transform="translate(300,50)">
@@ -25,6 +28,8 @@
     <ellipse cx="40" cy="80" rx="20" ry="13" fill="#8FA9BC"/>
     <ellipse cx="82" cy="80" rx="20" ry="13" fill="#8FA9BC"/>
         <text x="60" y="160" text-anchor="middle" class="label">Nitrogen Overflow</text>
+        <text x="60" y="182" text-anchor="middle" class="sublabel">Freezer room filled with</text>
+        <text x="60" y="195" text-anchor="middle" class="sublabel">unsafe nitrogen levels</text>
       </g>
 
   <g transform="translate(540,50)">
@@ -35,6 +40,8 @@
     <circle cx="60" cy="90" r="4" fill="#F5F8FA"/>
         <text x="60" y="160" text-anchor="middle" class="label">Workers Entered to</text>
         <text x="60" y="176" text-anchor="middle" class="label">Help</text>
+        <text x="60" y="198" text-anchor="middle" class="sublabel">14 entered, unaware the</text>
+        <text x="60" y="211" text-anchor="middle" class="sublabel">air was lethal</text>
       </g>
 
   <g transform="translate(780,50)">
@@ -43,7 +50,9 @@
     <circle cx="60" cy="52" r="14" fill="#13567F"/>
     <path d="M38,105 C38,80 48,70 60,70 C72,70 82,80 82,105 Z" fill="#13567F"/>
         <text x="60" y="160" text-anchor="middle" class="label">Six Fatalities</text>
+        <text x="60" y="182" text-anchor="middle" class="sublabel">Several died trying to</text>
+        <text x="60" y="195" text-anchor="middle" class="sublabel">rescue coworkers</text>
       </g>
-  <rect x="0" y="290" width="960" height="30" fill="#13567F"/>
-  <text x="480" y="309" text-anchor="middle" fill="#fff" font-size="12" font-family="'Poppins', sans-serif" font-weight="500">Foundation Food Group Liquid Nitrogen Release — 6 killed, 4 injured</text>
+  <rect x="0" y="310" width="960" height="30" fill="#13567F"/>
+  <text x="480" y="329" text-anchor="middle" fill="#fff" font-size="12" font-family="'Poppins', sans-serif" font-weight="500">Foundation Food Group Liquid Nitrogen Release — 6 killed, 4 injured</text>
 </svg>

@@ -1,11 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 320" font-family="'Poppins', sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 340" font-family="'Poppins', sans-serif">
   <defs>
     <style>
       .label { font-family: 'Baloo 2', sans-serif; font-weight: 700; font-size: 15px; fill: #13567F; }
+      .sublabel { font-family: 'Poppins', sans-serif; font-size: 11px; fill: #666; }
       .arrow { stroke: #C9D6DE; stroke-width: 2; fill: none; }
     </style>
   </defs>
-  <rect width="960" height="320" fill="#F5F8FA"/>
+  <rect width="960" height="340" fill="#F5F8FA"/>
   <line x1="178" y1="130" x2="302" y2="130" class="arrow" stroke-dasharray="4 5"/>
   <line x1="418" y1="130" x2="542" y2="130" class="arrow" stroke-dasharray="4 5"/>
   <line x1="658" y1="130" x2="782" y2="130" class="arrow" stroke-dasharray="4 5"/>
@@ -16,6 +17,8 @@
     <path d="M55,72 L62,80 L52,84 L60,88" stroke="#C81E1E" stroke-width="3" fill="none"/>
     <circle cx="58" cy="80" r="4" fill="#C81E1E"/>
         <text x="60" y="160" text-anchor="middle" class="label">Reactor Cracked</text>
+        <text x="60" y="182" text-anchor="middle" class="sublabel">Crack found in one of</text>
+        <text x="60" y="195" text-anchor="middle" class="sublabel">six reactors</text>
       </g>
 
   <g transform="translate(300,50)">
@@ -27,6 +30,8 @@
     <rect x="46" y="52" width="28" height="10" rx="3" fill="#13567F"/>
         <text x="60" y="160" text-anchor="middle" class="label">Temporary Bypass</text>
         <text x="60" y="176" text-anchor="middle" class="label">Installed</text>
+        <text x="60" y="198" text-anchor="middle" class="sublabel">No proper engineering</text>
+        <text x="60" y="211" text-anchor="middle" class="sublabel">calculations done</text>
       </g>
 
   <g transform="translate(540,50)">
@@ -36,6 +41,8 @@
     <ellipse cx="40" cy="80" rx="20" ry="13" fill="#8FA9BC"/>
     <ellipse cx="82" cy="80" rx="20" ry="13" fill="#8FA9BC"/>
         <text x="60" y="160" text-anchor="middle" class="label">Cyclohexane Release</text>
+        <text x="60" y="182" text-anchor="middle" class="sublabel">30+ tons released,</text>
+        <text x="60" y="195" text-anchor="middle" class="sublabel">formed a vapor cloud</text>
       </g>
 
   <g transform="translate(780,50)">
@@ -44,7 +51,9 @@
     <path d="M60,30 L70,55 L95,50 L78,70 L100,90 L72,86 L75,112 L60,92 L45,112 L48,86 L20,90 L42,70 L25,50 L50,55 Z" fill="#E8622C"/>
     <circle cx="60" cy="78" r="14" fill="#C81E1E"/>
         <text x="60" y="160" text-anchor="middle" class="label">Explosion</text>
+        <text x="60" y="182" text-anchor="middle" class="sublabel">Force of roughly 15–45</text>
+        <text x="60" y="195" text-anchor="middle" class="sublabel">tons of TNT</text>
       </g>
-  <rect x="0" y="290" width="960" height="30" fill="#13567F"/>
-  <text x="480" y="309" text-anchor="middle" fill="#fff" font-size="12" font-family="'Poppins', sans-serif" font-weight="500">Flixborough Chemical Plant Explosion — 28 killed, 36 injured</text>
+  <rect x="0" y="310" width="960" height="30" fill="#13567F"/>
+  <text x="480" y="329" text-anchor="middle" fill="#fff" font-size="12" font-family="'Poppins', sans-serif" font-weight="500">Flixborough Chemical Plant Explosion — 28 killed, 36 injured</text>
 </svg>
