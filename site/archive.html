@@ -3,31 +3,28 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Full Incident Archive: RskLess PSM Incidents Calendar</title>
+<title>Full Incident Archive: PSM Events Calendar</title>
 <link rel="icon" type="image/svg+xml" href="rskless-favicon.svg">
 <meta name="description" content="Search and filter the full archive of historical process safety incidents, or browse them by month in the calendar view.">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Full Incident Archive: RskLess PSM Incidents Calendar">
+<meta property="og:title" content="Full Incident Archive: PSM Events Calendar">
 <meta property="og:description" content="Search and filter the full archive of historical process safety incidents, or browse them by month in the calendar view.">
 <meta property="og:url" content="https://harish70777.github.io/process-safety-Calendar/archive.html">
-<meta property="og:site_name" content="RskLess PSM Incidents Calendar">
+<meta property="og:site_name" content="PSM Events Calendar">
 <meta property="og:image" content="https://harish70777.github.io/process-safety-Calendar/rskless-icon.svg">
 <meta name="twitter:card" content="summary">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root{
     --orange:#E8622C; --orange-dark:#C94E1E; --navy:#13567F; --navy-dark:#0D3E5C;
     --paper:#FFFFFF; --paper-alt:#F5F8FA; --ink:#2B2B2B; --red:#C81E1E; --line:#E3E7EC;
   }
   *{box-sizing:border-box;}
-  body{margin:0;background:var(--paper);color:var(--ink);font-family:'Poppins', sans-serif;line-height:1.55;}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial, sans-serif;line-height:1.55;}
   .wrap{max-width:1080px;margin:0 auto;padding:0 24px;}
   header{background:var(--paper);border-bottom:1px solid var(--line);padding:16px 0;}
   header .wrap{display:flex;align-items:center;justify-content:space-between;}
-  .brand{font-family:'Baloo 2', sans-serif;font-weight:700;font-size:19px;color:var(--orange);display:flex;align-items:center;gap:10px;text-decoration:none;}
-  nav a{font-family:'Poppins', sans-serif;font-weight:500;font-size:14px;color:var(--ink);text-decoration:none;margin-left:8px;padding:10px 20px;border-radius:4px;display:inline-block;transition:background 0.15s ease, color 0.15s ease;}
+  .brand{font-family:Arial, sans-serif;font-weight:700;font-size:19px;color:var(--orange);display:flex;flex-direction:column;align-items:center;gap:4px;text-decoration:none;text-align:center;}
+  nav a{font-family:Arial, sans-serif;font-weight:500;font-size:14px;color:var(--ink);text-decoration:none;margin-left:8px;padding:10px 20px;border-radius:4px;display:inline-block;transition:background 0.15s ease, color 0.15s ease;}
   nav a:hover{background:var(--orange);color:#fff;}
   nav a.active{background:var(--orange);color:#fff;font-weight:600;}
   nav a.active:hover{background:var(--orange-dark);color:#fff;}
@@ -35,9 +32,9 @@
   nav a.nav-cta:hover{background:var(--orange-dark);color:#fff;}
 
   main{padding:40px 0 64px;}
-  .eyebrow{font-family:'Poppins', sans-serif;font-weight:600;font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:var(--orange);margin-bottom:10px;}
-  h1{font-family:'Baloo 2', sans-serif;font-weight:800;font-size:34px;line-height:1.15;margin:0 0 10px;color:var(--navy);}
-  .count{font-family:'Poppins', sans-serif;font-size:13px;color:#555;margin-bottom:28px;}
+  .eyebrow{font-family:Arial, sans-serif;font-weight:600;font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:var(--orange);margin-bottom:10px;}
+  h1{font-family:Arial, sans-serif;font-weight:800;font-size:34px;line-height:1.15;margin:0 0 10px;color:var(--navy);}
+  .count{font-family:Arial, sans-serif;font-size:13px;color:#555;margin-bottom:28px;}
 
   /* Controls */
   .controls{
@@ -46,7 +43,7 @@
     border:1px solid var(--line); border-radius:8px;
   }
   .controls input[type="text"], .controls select{
-    font-family:'Poppins', sans-serif;
+    font-family:Arial, sans-serif;
     font-size:14px;
     padding:9px 11px;
     border:1px solid var(--line);
@@ -58,24 +55,24 @@
   .controls select{flex:0 1 auto;}
   .view-toggle{display:flex; margin-left:auto; border:1.5px solid var(--orange); border-radius:4px; overflow:hidden;}
   .view-toggle button{
-    font-family:'Poppins', sans-serif; font-weight:600; font-size:12px; letter-spacing:0.02em;
+    font-family:Arial, sans-serif; font-weight:600; font-size:12px; letter-spacing:0.02em;
     padding:9px 16px; background:#fff; color:var(--orange); border:none; cursor:pointer;
   }
   .view-toggle button.active{background:var(--orange); color:#fff;}
   .view-toggle button:first-child{border-right:1.5px solid var(--orange);}
-  .result-count{font-family:'Poppins', sans-serif; font-size:12px; color:#666; margin-bottom:16px;}
+  .result-count{font-family:Arial, sans-serif; font-size:12px; color:#666; margin-bottom:16px;}
 
   /* List view (table) */
   table{width:100%; border-collapse:collapse; background:#fff; border:1px solid var(--line); border-radius:8px; overflow:hidden;}
   thead th{
-    text-align:left; font-family:'Poppins', sans-serif; font-weight:600; font-size:11px; letter-spacing:0.05em; text-transform:uppercase;
+    text-align:left; font-family:Arial, sans-serif; font-weight:600; font-size:11px; letter-spacing:0.05em; text-transform:uppercase;
     color:var(--navy); padding:12px 14px; border-bottom:1px solid var(--line); background:var(--paper-alt);
   }
   tbody tr{border-bottom:1px solid var(--line); cursor:pointer;}
   tbody tr:last-child{border-bottom:none;}
   tbody tr:hover{background:var(--paper-alt);}
   tbody td{padding:12px 14px; font-size:14px; vertical-align:top;}
-  td.date-cell{font-family:'Poppins', sans-serif; font-weight:500; font-size:13px; color:var(--orange); white-space:nowrap;}
+  td.date-cell{font-family:Arial, sans-serif; font-weight:500; font-size:13px; color:var(--orange); white-space:nowrap;}
   td.title-cell a{color:var(--navy); text-decoration:none; font-weight:600;}
   td.title-cell a:hover{color:var(--orange);}
   td.loc-cell{color:#555; font-size:13px;}
@@ -88,14 +85,14 @@
   @media (max-width:520px){ .cal-grid{grid-template-columns:1fr;} }
   .cal-month{background:#fff; border:1px solid var(--line); border-radius:8px; padding:14px;}
   .cal-month h4{
-    font-family:'Baloo 2', sans-serif; font-weight:700; font-size:16px; margin:0 0 10px; color:var(--navy);
+    font-family:Arial, sans-serif; font-weight:700; font-size:16px; margin:0 0 10px; color:var(--navy);
     padding-bottom:8px; border-bottom:2px solid var(--orange); display:flex; justify-content:space-between; align-items:baseline;
   }
-  .cal-month h4 .cal-count{font-family:'Poppins', sans-serif; font-size:11px; color:var(--orange); font-weight:600;}
+  .cal-month h4 .cal-count{font-family:Arial, sans-serif; font-size:11px; color:var(--orange); font-weight:600;}
   .cal-entry{display:block; padding:6px 0; border-bottom:1px dotted var(--line); text-decoration:none; color:var(--ink);}
   .cal-entry:last-child{border-bottom:none;}
   .cal-entry:hover .cal-entry-title{color:var(--orange);}
-  .cal-day{font-family:'Poppins', sans-serif; font-weight:500; font-size:11px; color:var(--orange); display:block;}
+  .cal-day{font-family:Arial, sans-serif; font-weight:500; font-size:11px; color:var(--orange); display:block;}
   .cal-entry-title{font-size:13px;}
   .cal-empty{font-size:13px; color:#999; font-style:italic;}
 
@@ -114,7 +111,7 @@
 
 <header>
   <div class="wrap">
-    <a class="brand" href="./"><img src="rskless-icon.svg" alt="RskLess" style="height:28px;width:auto;"> RskLess PSM Calendar</a>
+    <a class="brand" href="./"><img src="rskless-icon.svg" alt="RskLess" style="height:28px;width:auto;"> PSM Events Calendar</a>
     <nav>
       <a href="archive.html" class="nav-archive active">Archive</a>
       <a href="subscribe.html" class="nav-cta">Subscribe</a>
@@ -161,7 +158,7 @@
   </div>
 </main>
 
-<footer style="border-top:1px solid var(--line); padding:20px 0; font-family:'Poppins', sans-serif; font-size:12px; color:#777;">
+<footer style="border-top:1px solid var(--line); padding:20px 0; font-family:Arial, sans-serif; font-size:12px; color:#777;">
   <div class="wrap">
     <span id="last-updated"></span>
   </div>

@@ -3,32 +3,29 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Subscribe: RskLess PSM Incidents Calendar</title>
+<title>Subscribe: PSM Events Calendar</title>
 <link rel="icon" type="image/svg+xml" href="rskless-favicon.svg">
 <meta name="description" content="Subscribe to a calendar of historical process safety incidents. Get a native reminder on each anniversary, with root causes and lessons learned.">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Subscribe: RskLess PSM Incidents Calendar">
+<meta property="og:title" content="Subscribe: PSM Events Calendar">
 <meta property="og:description" content="Subscribe to a calendar of historical process safety incidents. Get a native reminder on each anniversary, with root causes and lessons learned.">
 <meta property="og:url" content="https://harish70777.github.io/process-safety-Calendar/subscribe.html">
-<meta property="og:site_name" content="RskLess PSM Incidents Calendar">
+<meta property="og:site_name" content="PSM Events Calendar">
 <meta property="og:image" content="https://harish70777.github.io/process-safety-Calendar/rskless-icon.svg">
 <meta name="twitter:card" content="summary">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root{
     --orange:#E8622C; --orange-dark:#C94E1E; --navy:#13567F; --navy-dark:#0D3E5C;
     --paper:#FFFFFF; --paper-alt:#F5F8FA; --ink:#2B2B2B; --red:#C81E1E; --line:#E3E7EC;
   }
   *{box-sizing:border-box;}
-  body{margin:0;background:var(--paper);color:var(--ink);font-family:'Poppins', sans-serif;line-height:1.55;}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial, sans-serif;line-height:1.55;}
   .wrap{max-width:760px;margin:0 auto;padding:0 24px;}
   header{background:var(--paper);border-bottom:1px solid var(--line);padding:16px 0;}
   header .wrap{max-width:1080px;display:flex;align-items:center;justify-content:space-between;}
-  .brand{font-family:'Baloo 2', sans-serif;font-weight:700;font-size:18px;color:var(--orange);text-decoration:none;display:flex;align-items:center;gap:10px;}
+  .brand{font-family:Arial, sans-serif;font-weight:700;font-size:18px;color:var(--orange);text-decoration:none;display:flex;flex-direction:column;align-items:center;gap:4px;text-align:center;}
   nav a{
-    font-family:'Poppins', sans-serif;
+    font-family:Arial, sans-serif;
     font-weight:500;
     font-size:14px;
     color:var(--ink);
@@ -46,12 +43,12 @@
   nav a.nav-cta:hover{background:var(--orange-dark); color:#fff;}
 
   main{padding:48px 0 64px;}
-  .eyebrow{font-family:'Poppins', sans-serif;font-weight:600;font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:var(--orange);margin-bottom:10px;}
-  h1{font-family:'Baloo 2', sans-serif;font-weight:800;font-size:34px;line-height:1.15;margin:0 0 10px;color:var(--navy);}
+  .eyebrow{font-family:Arial, sans-serif;font-weight:600;font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:var(--orange);margin-bottom:10px;}
+  h1{font-family:Arial, sans-serif;font-weight:800;font-size:34px;line-height:1.15;margin:0 0 10px;color:var(--navy);}
   .sub{color:#444;font-size:15px;margin-bottom:32px;max-width:34em;}
 
   .btn{
-    font-family:'Poppins', sans-serif;
+    font-family:Arial, sans-serif;
     font-weight:600;
     font-size:13px;
     letter-spacing:0.03em;
@@ -81,9 +78,9 @@
   }
 
   .copy-row{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:28px;}
-  .copy-link-url{font-family:'Poppins', sans-serif;font-size:13px;color:#555;}
+  .copy-link-url{font-family:Arial, sans-serif;font-size:13px;color:#555;}
   .copy-feedback{
-    font-family:'Poppins', sans-serif;
+    font-family:Arial, sans-serif;
     font-weight:500;
     font-size:13px;
     color:var(--orange);
@@ -101,7 +98,7 @@
     overflow:hidden;
   }
   details.howto summary{
-    font-family:'Poppins', sans-serif;
+    font-family:Arial, sans-serif;
     font-weight:600;
     font-size:14px;
     color:var(--navy);
@@ -119,7 +116,7 @@
   details.howto .howto-body{padding:14px 18px 18px;font-size:14px;color:#3a3a3a;}
   details.howto .howto-body ol{margin:8px 0 0;padding-left:20px;}
   details.howto .howto-body li{margin-bottom:6px;}
-  details.howto .howto-body code{background:var(--paper-alt);padding:1px 5px;font-family:'Poppins', sans-serif;font-size:12px;border-radius:3px;}
+  details.howto .howto-body code{background:var(--paper-alt);padding:1px 5px;font-family:Arial, sans-serif;font-size:12px;border-radius:3px;}
 
   footer{border-top:1px solid var(--line);padding:24px 0;font-size:13px;color:#777;margin-top:16px;}
   footer .wrap{max-width:1080px;}
@@ -134,7 +131,7 @@
 
 <header>
   <div class="wrap">
-    <a class="brand" href="./"><img src="rskless-icon.svg" alt="RskLess" style="height:28px;width:auto;"> RskLess PSM Calendar</a>
+    <a class="brand" href="./"><img src="rskless-icon.svg" alt="RskLess" style="height:28px;width:auto;"> PSM Events Calendar</a>
     <nav>
       <a href="archive.html" class="nav-archive">Archive</a>
       <a href="subscribe.html" class="nav-cta active">Subscribe</a>
