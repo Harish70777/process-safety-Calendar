@@ -32,7 +32,7 @@ function humanize(slug) {
     .join(" ");
 }
 
-function pageTemplate(data, bodyHtml) {
+function pageTemplate(data, bodyHtml, hasIllustration) {
   const d = new Date(data.date);
   const dateStr = d.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric", timeZone: "UTC" });
   const toll = [
@@ -102,6 +102,7 @@ function pageTemplate(data, bodyHtml) {
     <h1>${esc(data.title)}</h1>
     <div class="meta-row">${esc(data.location)}${toll ? " &middot; " + esc(toll) : ""}</div>
     <div class="tags">${tags}</div>
+    ${hasIllustration ? `<div class="illustration"><img src="illustration.svg" alt="Illustrated summary of ${esc(data.title)}" style="width:100%;height:auto;border-radius:8px;margin:16px 0;"></div>` : ""}
     <article>
 ${bodyHtml}
     </article>
@@ -126,10 +127,11 @@ function main() {
     if (data.status !== "published") continue;
 
     const id = file.replace(/\.md$/, "");
-    const bodyHtml = mdToHtml(content);
-    const html = pageTemplate({ ...data, id }, bodyHtml);
-
     const pageDir = path.join(OUT_DIR, id);
+    const hasIllustration = fs.existsSync(path.join(pageDir, "illustration.svg"));
+    const bodyHtml = mdToHtml(content);
+    const html = pageTemplate({ ...data, id }, bodyHtml, hasIllustration);
+
     fs.mkdirSync(pageDir, { recursive: true });
     fs.writeFileSync(path.join(pageDir, "index.html"), html);
     written++;

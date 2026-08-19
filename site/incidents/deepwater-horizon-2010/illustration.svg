@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 320" font-family="'Poppins', sans-serif">
+  <defs>
+    <style>
+      .label { font-family: 'Baloo 2', sans-serif; font-weight: 700; font-size: 15px; fill: #13567F; }
+      .arrow { stroke: #C9D6DE; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+  <rect width="960" height="320" fill="#F5F8FA"/>
+  <line x1="178" y1="130" x2="302" y2="130" class="arrow" stroke-dasharray="4 5"/>
+  <line x1="418" y1="130" x2="542" y2="130" class="arrow" stroke-dasharray="4 5"/>
+  <line x1="658" y1="130" x2="782" y2="130" class="arrow" stroke-dasharray="4 5"/>
+  <g transform="translate(60,50)">
+        
+    <circle cx="60" cy="80" r="58" fill="#FBE3D6"/>
+    <rect x="20" y="72" width="80" height="16" rx="4" fill="#8FA9BC"/>
+    <path d="M55,72 L62,80 L52,84 L60,88" stroke="#C81E1E" stroke-width="3" fill="none"/>
+    <circle cx="58" cy="80" r="4" fill="#C81E1E"/>
+        <text x="60" y="160" text-anchor="middle" class="label">Cement Barrier</text>
+        <text x="60" y="176" text-anchor="middle" class="label">Failed</text>
+      </g>
+
+  <g transform="translate(300,50)">
+        
+    <circle cx="60" cy="80" r="58" fill="#DCE9F2"/>
+    <circle cx="60" cy="75" r="30" fill="#fff" stroke="#13567F" stroke-width="4"/>
+    <line x1="60" y1="75" x2="78" y2="58" stroke="#C81E1E" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="60" cy="75" r="4" fill="#13567F"/>
+    <rect x="50" y="105" width="20" height="14" rx="3" fill="#13567F"/>
+        <text x="60" y="160" text-anchor="middle" class="label">Pressure Test</text>
+        <text x="60" y="176" text-anchor="middle" class="label">Misread</text>
+      </g>
+
+  <g transform="translate(540,50)">
+        
+    <circle cx="60" cy="80" r="58" fill="#FBE3D6"/>
+    <path d="M60,35 C45,55 40,68 48,82 C42,80 38,72 40,64 C36,80 45,100 65,100 C82,100 90,85 82,68 C88,74 88,84 84,90 C92,80 90,60 76,45 C78,55 74,62 68,60 C72,50 68,40 60,35 Z" fill="#E8622C"/>
+        <text x="60" y="160" text-anchor="middle" class="label">Blowout &amp; Fire</text>
+      </g>
+
+  <g transform="translate(780,50)">
+        
+    <circle cx="60" cy="80" r="58" fill="#DCE9F2"/>
+    <ellipse cx="60" cy="72" rx="34" ry="18" fill="#8FA9BC"/>
+    <ellipse cx="40" cy="80" rx="20" ry="13" fill="#8FA9BC"/>
+    <ellipse cx="82" cy="80" rx="20" ry="13" fill="#8FA9BC"/>
+        <text x="60" y="160" text-anchor="middle" class="label">Oil Spill</text>
+      </g>
+  <rect x="0" y="290" width="960" height="30" fill="#13567F"/>
+  <text x="480" y="309" text-anchor="middle" fill="#fff" font-size="12" font-family="'Poppins', sans-serif" font-weight="500">Deepwater Horizon / Macondo Well Blowout — 11 killed, 17 injured</text>
+</svg>

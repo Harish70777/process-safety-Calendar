@@ -1,0 +1,64 @@
+=== Illustration Audit Trail ===
+For each stage of each diagram, this shows the exact source text that
+justified using that icon/caption — spot-check any of these against
+the incident's own .md file at any time.
+
+--- Bhopal Gas Tragedy (bhopal-1984) ---
+  Stage 1 [tank] "MIC Storage Tank": 'a storage tank holding roughly 40 tons of methyl isocyanate'
+  Stage 2 [gauge] "Safety Systems Off": 'Refrigeration...had been shut down for cost reasons, the gas scrubber and flare tower...were both non-operational'
+  Stage 3 [vaporCloud] "Toxic Gas Release": 'sent a dense toxic gas cloud over the densely populated area'
+  Stage 4 [building] "Community Impact": fatalities/injuries frontmatter fields — surrounding population
+
+--- Deepwater Horizon / Macondo Well Blowout (deepwater-horizon-2010) ---
+  Stage 1 [corrosion] "Cement Barrier Failed": 'the cement job...failed to seal off the hydrocarbon-bearing formation'
+  Stage 2 [gauge] "Pressure Test Misread": 'a negative pressure test...was misinterpreted by the crew as successful'
+  Stage 3 [fire] "Blowout & Fire": 'hydrocarbons flowed uncontrolled up the wellbore and ignited'
+  Stage 4 [vaporCloud] "Oil Spill": 'triggering the largest marine oil spill in U.S. history'
+
+--- DuPont Belle Three Toxic Releases in 33 Hours (dupont-belle-2010) ---
+  Stage 1 [corrosion] "Hose Overdue for Replacement": 'the one that killed Fish had not been changed in seven months'
+  Stage 2 [warningIgnored] "Near-Miss Hours Earlier": 'during a "safety pause" prompted by an earlier near-miss'
+  Stage 3 [vaporCloud] "Phosgene Release": 'a second phosgene hose ruptured...spraying...phosgene'
+  Stage 4 [person] "Fatal Exposure": fatalities/injuries frontmatter fields
+
+--- Flixborough Chemical Plant Explosion (flixborough-1974) ---
+  Stage 1 [corrosion] "Reactor Cracked": 'a crack was found in one of six reactors'
+  Stage 2 [valve] "Temporary Bypass Installed": 'a temporary bypass pipe was installed...without proper engineering calculations'
+  Stage 3 [vaporCloud] "Cyclohexane Release": 'releasing an estimated 30+ tons of cyclohexane, which formed a vapor cloud'
+  Stage 4 [explosion] "Explosion": 'exploded with the force of roughly 15-45 tons of TNT'
+
+--- Foundation Food Group Liquid Nitrogen Release (foundation-food-group-2021) ---
+  Stage 1 [corrosion] "Bubbler Tube Bent": 'a "bubbler tube"...was bent, likely during maintenance work'
+  Stage 2 [vaporCloud] "Nitrogen Overflow": 'the freezer room to fill with an unsafe quantity of liquid nitrogen'
+  Stage 3 [warningIgnored] "Workers Entered to Help": '14 employees entered the freezer room...not realizing the air itself had become lethal'
+  Stage 4 [person] "Six Fatalities": fatalities/injuries frontmatter fields
+
+--- Husky Energy Superior Refinery FCC Explosion (husky-superior-2018) ---
+  Stage 1 [valve] "Worn Slide Valve": 'a worn slide valve failed to maintain the barrier...between air and hydrocarbons'
+  Stage 2 [vaporCloud] "Air-Hydrocarbon Mix": 'Air was inadvertently directed through the regenerator into the reactor'
+  Stage 3 [explosion] "Vessel Explosion": 'Two vessels...exploded, propelling over 100 metal fragments'
+  Stage 4 [warningIgnored] "Near-Miss with HF Tank": 'debris had come within 150 feet of the HF tank'
+
+--- Imperial Sugar Refinery Dust Explosion (imperial-sugar-2008) ---
+  Stage 1 [dustCloud] "Dust Accumulation": 'inches-thick layers of sugar dust had built up on horizontal surfaces'
+  Stage 2 [valve] "Enclosure Created Hazard": 'steel panels...inadvertently created an enclosed space where explosive concentrations...could accumulate'
+  Stage 3 [explosion] "Primary Explosion": 'a primary explosion inside that enclosure'
+  Stage 4 [fire] "Cascading Explosions": 'triggering a chain of much larger secondary explosions'
+
+--- Piper Alpha Offshore Platform Explosion (piper-alpha-1988) ---
+  Stage 1 [valve] "Valve Removed for Maintenance": 'A pressure safety valve was removed from a condensate pump for maintenance'
+  Stage 2 [warningIgnored] "Shift Handover Failed": 'permit-to-work...was not properly communicated across shift handover'
+  Stage 3 [fire] "Ignition": 'causing condensate to leak through the flange and ignite'
+  Stage 4 [explosion] "Platform Destroyed": 'The platform was destroyed; 167 of 226 workers died'
+
+--- BP Texas City Refinery Explosion (texas-city-2005) ---
+  Stage 1 [vessel] "Startup": 'During startup of the isomerization (ISOM) unit...'
+  Stage 2 [overfill] "Overfilled": 'operators overfilled a distillation tower... due to a faulty level indicator'
+  Stage 3 [vaporCloud] "Vapor Cloud": 'releasing a dense hydrocarbon vapor cloud'
+  Stage 4 [explosion] "Explosion": fatalities/injuries frontmatter fields
+
+--- West Fertilizer Company Fire and Explosion (west-fertilizer-2013) ---
+  Stage 1 [building] "Wood-Framed Storage": 'FGAN was stored in a wood-framed building with wood bins'
+  Stage 2 [fire] "Fire Breaks Out": 'A fire broke out inside a wooden storage building'
+  Stage 3 [warningIgnored] "Responders Unaware of Risk": 'firefighters...were not aware of the detonation risk'
+  Stage 4 [explosion] "Detonation": fatalities/injuries frontmatter fields — 12 of 15 killed were responders
