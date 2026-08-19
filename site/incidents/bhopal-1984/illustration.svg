@@ -29,8 +29,8 @@
     <circle cx="60" cy="75" r="4" fill="#13567F"/>
     <rect x="50" y="105" width="20" height="14" rx="3" fill="#13567F"/>
         <text x="60" y="160" text-anchor="middle" class="label">Safety Systems Off</text>
-        <text x="60" y="182" text-anchor="middle" class="sublabel">Refrigeration, scrubber,</text>
-        <text x="60" y="195" text-anchor="middle" class="sublabel">flare all</text>
+        <text x="60" y="182" text-anchor="middle" class="sublabel">Cooling, scrubber, and</text>
+        <text x="60" y="195" text-anchor="middle" class="sublabel">flare all shut down</text>
       </g>
 
   <g transform="translate(540,50)">
@@ -53,9 +53,9 @@
     <rect x="72" y="78" width="10" height="10" fill="#F5F8FA"/>
     <path d="M25,70 L60,48 L95,70 Z" fill="#13567F"/>
         <text x="60" y="160" text-anchor="middle" class="label">Community Impact</text>
-        <text x="60" y="182" text-anchor="middle" class="sublabel">Thousands killed,</text>
-        <text x="60" y="195" text-anchor="middle" class="sublabel">hundreds of thousands</text>
+        <text x="60" y="182" text-anchor="middle" class="sublabel">Death toll estimates</text>
+        <text x="60" y="195" text-anchor="middle" class="sublabel">vary widely</text>
       </g>
   <rect x="0" y="310" width="960" height="30" fill="#13567F"/>
-  <text x="480" y="329" text-anchor="middle" fill="#fff" font-size="12" font-family="'Poppins', sans-serif" font-weight="500">Bhopal Gas Tragedy — 3800 killed, 500000 injured</text>
+  <text x="480" y="329" text-anchor="middle" fill="#fff" font-size="12" font-family="'Poppins', sans-serif" font-weight="500">Bhopal Gas Tragedy — 3,800 killed, 500,000 injured</text>
 </svg>

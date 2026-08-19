@@ -40,8 +40,8 @@
     <circle cx="60" cy="80" r="58" fill="#FBE3D6"/>
     <path d="M60,35 C45,55 40,68 48,82 C42,80 38,72 40,64 C36,80 45,100 65,100 C82,100 90,85 82,68 C88,74 88,84 84,90 C92,80 90,60 76,45 C78,55 74,62 68,60 C72,50 68,40 60,35 Z" fill="#E8622C"/>
         <text x="60" y="160" text-anchor="middle" class="label">Ignition</text>
-        <text x="60" y="182" text-anchor="middle" class="sublabel">Condensate leaked</text>
-        <text x="60" y="195" text-anchor="middle" class="sublabel">through the flange and</text>
+        <text x="60" y="182" text-anchor="middle" class="sublabel">Leaked through the</text>
+        <text x="60" y="195" text-anchor="middle" class="sublabel">flange, then ignited</text>
       </g>
 
   <g transform="translate(780,50)">

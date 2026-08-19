@@ -44,16 +44,16 @@ const RECIPES = {
   "bhopal-1984": {
     stages: [
       { icon: "tank", label: "MIC Storage Tank", caption: "40 tons of methyl isocyanate on site", source: "'a storage tank holding roughly 40 tons of methyl isocyanate'" },
-      { icon: "gauge", label: "Safety Systems Off", caption: "Refrigeration, scrubber, flare all non-operational", source: "'Refrigeration...had been shut down for cost reasons, the gas scrubber and flare tower...were both non-operational'" },
+      { icon: "gauge", label: "Safety Systems Off", caption: "Cooling, scrubber, and flare all shut down", source: "'Refrigeration...had been shut down for cost reasons, the gas scrubber and flare tower...were both non-operational'" },
       { icon: "vaporCloud", label: "Toxic Gas Release", caption: "Dense cloud over densely populated area", source: "'sent a dense toxic gas cloud over the densely populated area'" },
-      { icon: "building", label: "Community Impact", caption: "Thousands killed, hundreds of thousands injured", source: "fatalities/injuries frontmatter fields — surrounding population" },
+      { icon: "building", label: "Community Impact", caption: "Death toll estimates vary widely", source: "fatalities/injuries frontmatter fields — surrounding population" },
     ],
   },
   "piper-alpha-1988": {
     stages: [
       { icon: "valve", label: "Valve Removed for Maintenance", caption: "Pump isolated, sealed with loose blind flange", source: "'A pressure safety valve was removed from a condensate pump for maintenance'" },
       { icon: "warningIgnored", label: "Shift Handover Failed", caption: "Night shift unaware the valve was offline", source: "'permit-to-work...was not properly communicated across shift handover'" },
-      { icon: "fire", label: "Ignition", caption: "Condensate leaked through the flange and ignited", source: "'causing condensate to leak through the flange and ignite'" },
+      { icon: "fire", label: "Ignition", caption: "Leaked through the flange, then ignited", source: "'causing condensate to leak through the flange and ignite'" },
       { icon: "explosion", label: "Platform Destroyed", caption: "167 of 226 workers died", source: "'The platform was destroyed; 167 of 226 workers died'" },
     ],
   },
@@ -67,8 +67,8 @@ const RECIPES = {
   },
   "deepwater-horizon-2010": {
     stages: [
-      { icon: "corrosion", label: "Cement Barrier Failed", caption: "Failed to seal the hydrocarbon-bearing formation", source: "'the cement job...failed to seal off the hydrocarbon-bearing formation'" },
-      { icon: "gauge", label: "Pressure Test Misread", caption: "Crew interpreted a failed test as successful", source: "'a negative pressure test...was misinterpreted by the crew as successful'" },
+      { icon: "corrosion", label: "Cement Barrier Failed", caption: "Failed to seal off the well", source: "'the cement job...failed to seal off the hydrocarbon-bearing formation'" },
+      { icon: "gauge", label: "Pressure Test Misread", caption: "Crew misread a failed test as passing", source: "'a negative pressure test...was misinterpreted by the crew as successful'" },
       { icon: "fire", label: "Blowout & Fire", caption: "Hydrocarbons flowed up the wellbore and ignited", source: "'hydrocarbons flowed uncontrolled up the wellbore and ignited'" },
       { icon: "vaporCloud", label: "Oil Spill", caption: "Largest marine oil spill in U.S. history", source: "'triggering the largest marine oil spill in U.S. history'" },
     ],
@@ -91,7 +91,7 @@ const RECIPES = {
   },
   "husky-superior-2018": {
     stages: [
-      { icon: "valve", label: "Worn Slide Valve", caption: "Failed to keep air separated from hydrocarbons", source: "'a worn slide valve failed to maintain the barrier...between air and hydrocarbons'" },
+      { icon: "valve", label: "Worn Slide Valve", caption: "Let air mix with hydrocarbons", source: "'a worn slide valve failed to maintain the barrier...between air and hydrocarbons'" },
       { icon: "vaporCloud", label: "Air-Hydrocarbon Mix", caption: "Air entered the reactor through the regenerator", source: "'Air was inadvertently directed through the regenerator into the reactor'" },
       { icon: "explosion", label: "Vessel Explosion", caption: "100+ metal fragments thrown up to 1,200 feet", source: "'Two vessels...exploded, propelling over 100 metal fragments'" },
       { icon: "warningIgnored", label: "Near-Miss with HF Tank", caption: "Debris came within 150 feet of an HF tank", source: "'debris had come within 150 feet of the HF tank'" },
@@ -122,7 +122,7 @@ function esc(str) {
     .replace(/>/g, "&gt;");
 }
 
-function wrapText(text, maxChars) {
+function wrapText(text, maxChars, context) {
   const words = text.split(" ");
   const lines = [];
   let current = "";
@@ -135,6 +135,9 @@ function wrapText(text, maxChars) {
     }
   }
   if (current.trim()) lines.push(current.trim());
+  if (lines.length > 2) {
+    console.warn(`WARNING: caption too long, text was cut off: "${text}"${context ? ` (${context})` : ""}`);
+  }
   return lines.slice(0, 2); // cap at 2 lines to keep layout consistent
 }
 
@@ -144,20 +147,20 @@ function buildSVG(data, recipe) {
   const height = 340;
 
   const toll = [
-    data.fatalities !== undefined ? `${data.fatalities} killed` : "",
-    data.injuries !== undefined ? `${data.injuries} injured` : "",
+    data.fatalities !== undefined ? `${Number(data.fatalities).toLocaleString("en-US")} killed` : "",
+    data.injuries !== undefined ? `${Number(data.injuries).toLocaleString("en-US")} injured` : "",
   ].filter(Boolean).join(", ");
 
   const stagesSVG = recipe.stages.map((stage, i) => {
     const x = 60 + i * stageWidth;
     const iconFn = ICONS[stage.icon];
     const iconSVG = iconFn ? iconFn() : ICONS.vessel();
-    const captionLines = wrapText(stage.label, 20);
+    const captionLines = wrapText(stage.label, 20, `${data.id} / label`);
     const labelSVG = captionLines.map((line, li) =>
       `<text x="60" y="${160 + li * 16}" text-anchor="middle" class="label">${esc(line)}</text>`
     ).join("\n        ");
 
-    const subLines = stage.caption ? wrapText(stage.caption, 24) : [];
+    const subLines = stage.caption ? wrapText(stage.caption, 24, `${data.id} / caption`) : [];
     const subY = 160 + captionLines.length * 16 + 6;
     const subSVG = subLines.map((line, li) =>
       `<text x="60" y="${subY + li * 13}" text-anchor="middle" class="sublabel">${esc(line)}</text>`

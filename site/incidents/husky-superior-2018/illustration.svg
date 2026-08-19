@@ -18,8 +18,8 @@
     <rect x="52" y="60" width="16" height="16" fill="#13567F"/>
     <rect x="46" y="52" width="28" height="10" rx="3" fill="#13567F"/>
         <text x="60" y="160" text-anchor="middle" class="label">Worn Slide Valve</text>
-        <text x="60" y="182" text-anchor="middle" class="sublabel">Failed to keep air</text>
-        <text x="60" y="195" text-anchor="middle" class="sublabel">separated from</text>
+        <text x="60" y="182" text-anchor="middle" class="sublabel">Let air mix with</text>
+        <text x="60" y="195" text-anchor="middle" class="sublabel">hydrocarbons</text>
       </g>
 
   <g transform="translate(300,50)">
