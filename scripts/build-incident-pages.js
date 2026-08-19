@@ -68,7 +68,7 @@ function pageTemplate(data, bodyHtml, hasIllustration) {
   body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial, sans-serif;line-height:1.65;}
   .wrap{max-width:760px;margin:0 auto;padding:0 24px;}
   header{background:var(--paper);border-bottom:1px solid var(--line);padding:16px 0;}
-  .brand{font-family:Arial, sans-serif;font-weight:700;font-size:19px;color:var(--orange);display:flex;flex-direction:column;align-items:center;gap:4px;text-decoration:none;text-align:center;}
+  .brand{font-family:Arial, sans-serif;font-weight:700;font-size:19px;color:var(--orange);display:flex;align-items:center;gap:10px;text-decoration:none;}
   main{padding:40px 0 64px;}
   .eyebrow{font-family:Arial, sans-serif;font-weight:600;font-size:12px;letter-spacing:0.05em;color:var(--orange);margin-bottom:10px;}
   h1{font-family:Arial, sans-serif;font-weight:800;font-size:32px;line-height:1.25;margin:0 0 14px;color:var(--navy);}
@@ -91,7 +91,7 @@ function pageTemplate(data, bodyHtml, hasIllustration) {
 </head>
 <body>
 <header>
-  <div class="wrap"><a class="brand" href="../../"><img src="../../rskless-icon.svg" alt="RskLess" style="height:24px;width:auto;"> PSM Events Calendar</a></div>
+  <div class="wrap"><a class="brand" href="../../"><img src="../../rskless-badge.svg" alt="RskLess" style="height:40px;width:auto;"> PSM Events Calendar</a></div>
 </header>
 <main>
   <div class="wrap">
