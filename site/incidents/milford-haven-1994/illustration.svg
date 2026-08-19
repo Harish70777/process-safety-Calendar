@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 380" font-family="-apple-system, 'Segoe UI', Roboto, Arial, sans-serif">
+  <defs>
+    <style>
+      .label { font-family: -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; font-weight: 700; font-size: 15px; fill: #13567F; }
+      .sublabel { font-family: -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 11px; fill: #666; }
+      .arrow { stroke: #C9D6DE; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+  <rect width="960" height="380" fill="#F5F8FA"/>
+  <line x1="178" y1="130" x2="302" y2="130" class="arrow" stroke-dasharray="4 5"/>
+  <line x1="418" y1="130" x2="542" y2="130" class="arrow" stroke-dasharray="4 5"/>
+  <line x1="658" y1="130" x2="782" y2="130" class="arrow" stroke-dasharray="4 5"/>
+  <g transform="translate(60,50)">
+        
+    <circle cx="60" cy="80" r="58" fill="#DCE9F2"/>
+    <circle cx="60" cy="75" r="30" fill="#fff" stroke="#13567F" stroke-width="4"/>
+    <line x1="60" y1="75" x2="78" y2="58" stroke="#C81E1E" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="60" cy="75" r="4" fill="#13567F"/>
+    <rect x="50" y="105" width="20" height="14" rx="3" fill="#13567F"/>
+        <text x="60" y="160" text-anchor="middle" class="label">Valve Indicator</text>
+        <text x="60" y="176" text-anchor="middle" class="label">Wrong</text>
+        <text x="60" y="198" text-anchor="middle" class="sublabel">Showed open while</text>
+        <text x="60" y="211" text-anchor="middle" class="sublabel">actually closed</text>
+      </g>
+
+  <g transform="translate(300,50)">
+        
+    <circle cx="60" cy="80" r="58" fill="#FBE3D6"/>
+    <rect x="38" y="45" width="44" height="75" rx="6" fill="#E8622C"/>
+    <rect x="46" y="52" width="28" height="6" rx="3" fill="#FBE3D6"/>
+    <rect x="46" y="63" width="28" height="6" rx="3" fill="#FBE3D6"/>
+    <rect x="46" y="74" width="28" height="6" rx="3" fill="#FBE3D6"/>
+    <path d="M60,38 L52,26 L68,26 Z" fill="#E8622C"/>
+    <line x1="30" y1="38" x2="90" y2="38" stroke="#C81E1E" stroke-width="2" stroke-dasharray="3 3"/>
+        <text x="60" y="160" text-anchor="middle" class="label">Vessel Kept Filling</text>
+        <text x="60" y="182" text-anchor="middle" class="sublabel">The outlet was shut,</text>
+        <text x="60" y="195" text-anchor="middle" class="sublabel">unknown to operators</text>
+      </g>
+
+  <g transform="translate(540,50)">
+        
+    <circle cx="60" cy="80" r="58" fill="#DCE9F2"/>
+    <rect x="20" y="72" width="80" height="16" rx="4" fill="#13567F"/>
+    <circle cx="60" cy="80" r="20" fill="#E8622C"/>
+    <rect x="52" y="60" width="16" height="16" fill="#13567F"/>
+    <rect x="46" y="52" width="28" height="10" rx="3" fill="#13567F"/>
+        <text x="60" y="160" text-anchor="middle" class="label">Flare Undersized</text>
+        <text x="60" y="182" text-anchor="middle" class="sublabel">System couldn't relieve</text>
+        <text x="60" y="195" text-anchor="middle" class="sublabel">the developing pressure</text>
+      </g>
+
+  <g transform="translate(780,50)">
+        
+    <circle cx="60" cy="80" r="58" fill="#FBE3D6"/>
+    <path d="M60,30 L70,55 L95,50 L78,70 L100,90 L72,86 L75,112 L60,92 L45,112 L48,86 L20,90 L42,70 L25,50 L50,55 Z" fill="#E8622C"/>
+    <circle cx="60" cy="78" r="14" fill="#C81E1E"/>
+        <text x="60" y="160" text-anchor="middle" class="label">Explosion</text>
+        <text x="60" y="182" text-anchor="middle" class="sublabel">26 injured — no</text>
+        <text x="60" y="195" text-anchor="middle" class="sublabel">fatalities, largely by</text>
+        <text x="60" y="208" text-anchor="middle" class="sublabel">chance</text>
+      </g>
+  <rect x="0" y="350" width="960" height="30" fill="#13567F"/>
+  <text x="480" y="369" text-anchor="middle" fill="#fff" font-size="12" font-family="-apple-system, 'Segoe UI', Roboto, Arial, sans-serif" font-weight="500">Texaco Milford Haven Refinery Explosion and Fires — 0 killed, 26 injured</text>
+</svg>

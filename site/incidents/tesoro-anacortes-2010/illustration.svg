@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 380" font-family="-apple-system, 'Segoe UI', Roboto, Arial, sans-serif">
+  <defs>
+    <style>
+      .label { font-family: -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; font-weight: 700; font-size: 15px; fill: #13567F; }
+      .sublabel { font-family: -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 11px; fill: #666; }
+      .arrow { stroke: #C9D6DE; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+  <rect width="960" height="380" fill="#F5F8FA"/>
+  <line x1="178" y1="130" x2="302" y2="130" class="arrow" stroke-dasharray="4 5"/>
+  <line x1="418" y1="130" x2="542" y2="130" class="arrow" stroke-dasharray="4 5"/>
+  <line x1="658" y1="130" x2="782" y2="130" class="arrow" stroke-dasharray="4 5"/>
+  <g transform="translate(60,50)">
+        
+    <circle cx="60" cy="80" r="58" fill="#FBE3D6"/>
+    <rect x="20" y="72" width="80" height="16" rx="4" fill="#8FA9BC"/>
+    <path d="M55,72 L62,80 L52,84 L60,88" stroke="#C81E1E" stroke-width="3" fill="none"/>
+    <circle cx="58" cy="80" r="4" fill="#C81E1E"/>
+        <text x="60" y="160" text-anchor="middle" class="label">High-Temp Hydrogen</text>
+        <text x="60" y="176" text-anchor="middle" class="label">Attack</text>
+        <text x="60" y="198" text-anchor="middle" class="sublabel">Invisible degradation</text>
+        <text x="60" y="211" text-anchor="middle" class="sublabel">over decades of service</text>
+      </g>
+
+  <g transform="translate(300,50)">
+        
+    <circle cx="60" cy="80" r="58" fill="#DCE9F2"/>
+    <circle cx="52" cy="70" r="22" fill="none" stroke="#13567F" stroke-width="6"/>
+    <line x1="68" y1="86" x2="88" y2="106" stroke="#13567F" stroke-width="7" stroke-linecap="round"/>
+    <rect x="42" y="60" width="20" height="4" fill="#E8622C"/>
+    <rect x="42" y="68" width="20" height="4" fill="#E8622C"/>
+        <text x="60" y="160" text-anchor="middle" class="label">Industry Standard</text>
+        <text x="60" y="176" text-anchor="middle" class="label">Inadequate</text>
+        <text x="60" y="198" text-anchor="middle" class="sublabel">Existing inspection</text>
+        <text x="60" y="211" text-anchor="middle" class="sublabel">guidance missed the risk</text>
+      </g>
+
+  <g transform="translate(540,50)">
+        
+    <circle cx="60" cy="80" r="58" fill="#FBE3D6"/>
+    <path d="M60,30 L70,55 L95,50 L78,70 L100,90 L72,86 L75,112 L60,92 L45,112 L48,86 L20,90 L42,70 L25,50 L50,55 Z" fill="#E8622C"/>
+    <circle cx="60" cy="78" r="14" fill="#C81E1E"/>
+        <text x="60" y="160" text-anchor="middle" class="label">Exchanger Ruptures</text>
+        <text x="60" y="182" text-anchor="middle" class="sublabel">Fire burned for more</text>
+        <text x="60" y="195" text-anchor="middle" class="sublabel">than three hours</text>
+      </g>
+
+  <g transform="translate(780,50)">
+        
+    <circle cx="60" cy="80" r="58" fill="#FBE3D6"/>
+    <circle cx="60" cy="52" r="14" fill="#13567F"/>
+    <path d="M38,105 C38,80 48,70 60,70 C72,70 82,80 82,105 Z" fill="#13567F"/>
+        <text x="60" y="160" text-anchor="middle" class="label">7 Fatalities</text>
+        <text x="60" y="182" text-anchor="middle" class="sublabel">Deadliest US refinery</text>
+        <text x="60" y="195" text-anchor="middle" class="sublabel">incident since 2005</text>
+      </g>
+  <rect x="0" y="350" width="960" height="30" fill="#13567F"/>
+  <text x="480" y="369" text-anchor="middle" fill="#fff" font-size="12" font-family="-apple-system, 'Segoe UI', Roboto, Arial, sans-serif" font-weight="500">Tesoro Anacortes Refinery Heat Exchanger Explosion — 7 killed, 1 injured</text>
+</svg>

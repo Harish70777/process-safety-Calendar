@@ -3,11 +3,89 @@ For each stage of each diagram, this shows the exact source text that
 justified using that icon/caption — spot-check any of these against
 the incident's own .md file at any time.
 
+--- AB Specialty Silicones Chemical Explosion (ab-specialty-silicones-2019) ---
+  Stage 1 [tank] "Identical Containers": 'Drums of KOH solution being brought to the area looked identical to drums of a different chemical, Andisil XL10'
+  Stage 2 [vaporCloud] "Hydrogen Generated": 'the reaction rapidly generated explosive quantities of flammable hydrogen gas'
+  Stage 3 [warningIgnored] "2014 Near-Miss Ignored": 'a near-identical 2014 incident had already occurred and gone uncorrected'
+  Stage 4 [explosion] "Explosion": 'Four workers were killed, including the company's owner and a second co-owner'
+
+--- Airgas Nitrous Oxide Explosion (airgas-cantonment-2016) ---
+  Stage 1 [gauge] "Pump Overheating": 'a pump heated the nitrous oxide above its safe operating limits'
+  Stage 2 [valve] "No Safer Design Evaluated": 'Airgas never evaluated safer design alternatives that could have eliminated the need for that specific pump'
+  Stage 3 [explosion] "Explosion": 'triggered a decomposition reaction...causing a catastrophic explosion'
+  Stage 4 [warningIgnored] "Regulatory Gap": 'most of the federal regulations requiring such systems at hazardous chemical facilities simply don't apply to nitrous oxide manufacturers'
+
+--- Allied Terminals Fertilizer Tank Collapse (allied-terminals-2008) ---
+  Stage 1 [corrosion] "Welding Defect": root causes: 'CSB's investigation pointed to flaws in the tank's welded construction'
+  Stage 2 [tank] "Tank Splits Open": 'splitting open vertically and releasing roughly 2.1 million gallons of fertilizer almost instantaneously'
+  Stage 3 [person] "Workers Caught": 'A welder and his helper...were caught in the collapse and immersed in the released liquid fertilizer'
+  Stage 4 [building] "Community Reached": 'flooded a nearby road...reached portions of a nearby residential neighborhood'
+
+--- Arkema Crosby Organic Peroxide Fire (Hurricane Harvey) (arkema-crosby-2017) ---
+  Stage 1 [building] "Hurricane Harvey Floods Site": 'Hurricane Harvey brought an unprecedented volume of rainfall to the Arkema plant'
+  Stage 2 [gauge] "Power and Refrigeration Lost": 'knocking out both primary power and backup power to the low-temperature warehouses'
+  Stage 3 [warningIgnored] "Trailers Couldn't Be Moved": 'Three trailers, however, could not be moved in time and were flooded, losing refrigeration entirely'
+  Stage 4 [fire] "Fire": 'more than 350,000 pounds of organic peroxide burned'
+
+--- AZF Toulouse Fertilizer Plant Explosion (azf-toulouse-2001) ---
+  Stage 1 [tank] "Off-Spec Storage": 'off-spec ammonium nitrate that had been dumped in the same storage area'
+  Stage 2 [warningIgnored] "Incompatible Chemicals Mixed": 'accidental mixing of a small quantity of sodium dichloroisocyanurate...with off-spec ammonium nitrate'
+  Stage 3 [explosion] "Explosion": 'An explosion equivalent to roughly 20-40 tons of TNT destroyed a warehouse'
+  Stage 4 [building] "City-Wide Damage": 'one of the largest industrial accidents in modern French history, with damage extending across southern Toulouse'
+
+--- Barton Solvents Des Moines Fire and Explosions (barton-solvents-2007) ---
+  Stage 1 [tank] "Splash-Filling a Tote": 'using a technique known as splash filling, pouring the liquid in from above rather than filling from the bottom'
+  Stage 2 [warningIgnored] "Equipment Not Grounded": 'none of the conductive metal components involved...were bonded and grounded'
+  Stage 3 [fire] "Ignition": 'a popping sound signaled the tote had ignited'
+  Stage 4 [building] "Second Incident in 3 Months": 'a similar static-spark, bonding-and-grounding failure had destroyed the company's Wichita, Kansas facility in July 2007'
+
+--- Bayer CropScience Pesticide Waste Tank Explosion (bayer-cropscience-2008) ---
+  Stage 1 [gauge] "Premature Startup": 'began startup of the process before completing a proper pre-startup safety review and while bypassing safety interlocks'
+  Stage 2 [valve] "Thermal Runaway": 'a thermal runaway reaction developed inside a pressure vessel called a residue treater'
+  Stage 3 [explosion] "Vessel Explosion": 'flying roughly 50 feet through the air, demolishing process equipment'
+  Stage 4 [warningIgnored] "Near-Miss with MIC Tank": 'the exploding vessel's trajectory came close to striking piping atop a nearby tank holding methyl isocyanate (MIC)'
+
 --- Bhopal Gas Tragedy (bhopal-1984) ---
   Stage 1 [tank] "MIC Storage Tank": 'a storage tank holding roughly 40 tons of methyl isocyanate'
   Stage 2 [gauge] "Safety Systems Off": 'Refrigeration...had been shut down for cost reasons, the gas scrubber and flare tower...were both non-operational'
   Stage 3 [vaporCloud] "Toxic Gas Release": 'sent a dense toxic gas cloud over the densely populated area'
   Stage 4 [building] "Community Impact": fatalities/injuries frontmatter fields — surrounding population
+
+--- BP Grangemouth Petrochemical Complex, Three Major Incidents (bp-grangemouth-2000) ---
+  Stage 1 [gauge] "Cable Cut During Excavation": 'an underground 33kV cable was damaged during excavation work...forcing an emergency shutdown'
+  Stage 2 [corrosion] "1950s Pipe Tee Failed": 'the failure originated at a pipe tee-connection incorrectly fitted decades earlier in the 1950s'
+  Stage 3 [fire] "FCCU Fire on Startup": 'a significant hydrocarbon leak created a vapor cloud that ignited into a serious fire'
+  Stage 4 [building] "Large-Scale Evacuation": 'triggering a large-scale evacuation before being brought under control in about 90 minutes'
+
+--- Buncefield Oil Storage Depot Explosion (buncefield-2005) ---
+  Stage 1 [gauge] "Level Gauge Failed": 'a storage tank's automatic tank gauge failed to register the rising level'
+  Stage 2 [warningIgnored] "Backup Switch Also Failed": 'an independent high-level switch...had also failed and was not detected because it was not being tested regularly'
+  Stage 3 [overfill] "Tank Overflows": 'The tank overflowed for around 40 minutes, releasing a large volume of gasoline'
+  Stage 4 [explosion] "Explosion": 'causing one of the largest peacetime explosions in Europe'
+
+--- Chemtool Rockton Plant Fire (chemtool-rockton-2021) ---
+  Stage 1 [valve] "Equipment Struck Piping": 'a contractor operating a scissor lift struck a valve or section of piping'
+  Stage 2 [vaporCloud] "Oil Released": 'with enough mechanical force to release mineral oil'
+  Stage 3 [fire] "Fire": 'the released oil ignited, the exact ignition source was never conclusively determined'
+  Stage 4 [building] "Days-Long Burn": 'officials made the deliberate decision to let the fire burn itself out over several days'
+
+--- Chevron Richmond Refinery Pipe Rupture and Fire (chevron-richmond-2012) ---
+  Stage 1 [corrosion] "Sulfidation Corrosion": 'ruptured after decades of sulfidation corrosion...had thinned the pipe wall well beyond safe limits'
+  Stage 2 [warningIgnored] "2002 Recommendation Ignored": root causes: 'Chevron's own metallurgists and pipe inspectors had recommended replacing this pipe roughly a decade before it ruptured'
+  Stage 3 [fire] "Pipe Ruptures & Fire": 'a large vapor cloud that engulfed 19 Chevron employees before igniting'
+  Stage 4 [building] "Community Impact": 'roughly 15,000 nearby residents sought medical treatment'
+
+--- CTA Acoustics Dust Explosion and Fire (cta-acoustics-2003) ---
+  Stage 1 [dustCloud] "Dust Hazard Unknown to Workers": 'The building itself was never designed to limit dust explosion severity'
+  Stage 2 [warningIgnored] "Supplier Withheld a Warning": root causes: 'Borden Chemical...was aware of a nearly identical 1999 dust explosion...but never passed that safety lesson on'
+  Stage 3 [fire] "Oven Left Open": 'a curing oven had been left open due to an unresolved temperature control problem'
+  Stage 4 [explosion] "Explosion & Fire": 'killing seven workers, injuring 37, and destroying the facility'
+
+--- Darling Ingredients Aluminum Chloride Tank Rupture (darling-ingredients-2023) ---
+  Stage 1 [tank] "Water-Reactive Chemical": 'tied to a tank containing aluminum chloride solution'
+  Stage 2 [warningIgnored] "Water Contact": 'Aluminum chloride solution is inherently unstable and reacts violently, potentially explosively, with water'
+  Stage 3 [explosion] "Explosion": 'An explosion occurred in an ancillary building'
+  Stage 4 [person] "One Fatality": 'One worker died in the incident'
 
 --- Deepwater Horizon / Macondo Well Blowout (deepwater-horizon-2010) ---
   Stage 1 [corrosion] "Cement Barrier Failed": 'the cement job...failed to seal off the hydrocarbon-bearing formation'
@@ -15,11 +93,35 @@ the incident's own .md file at any time.
   Stage 3 [fire] "Blowout & Fire": 'hydrocarbons flowed uncontrolled up the wellbore and ignited'
   Stage 4 [vaporCloud] "Oil Spill": 'triggering the largest marine oil spill in U.S. history'
 
+--- Didion Milling Combustible Dust Explosions and Fire (didion-milling-2017) ---
+  Stage 1 [dustCloud] "No Dust Hazard Analysis": 'no dust hazard analysis had ever been performed'
+  Stage 2 [warningIgnored] "Smoldering Treated as Routine": 'the facility's safety culture had normalized smoldering fires as a routine, unremarkable occurrence'
+  Stage 3 [explosion] "Initial Explosion": 'a "smoldering nest"...an accumulation of corn product that had ignited inside process piping'
+  Stage 4 [fire] "Cascading Explosions": 'spread through interconnected piping into other buildings...fueling a cascade of secondary explosions'
+
 --- DuPont Belle Three Toxic Releases in 33 Hours (dupont-belle-2010) ---
   Stage 1 [corrosion] "Hose Overdue for Replacement": 'the one that killed Fish had not been changed in seven months'
   Stage 2 [warningIgnored] "Near-Miss Hours Earlier": 'during a "safety pause" prompted by an earlier near-miss'
   Stage 3 [vaporCloud] "Phosgene Release": 'a second phosgene hose ruptured...spraying...phosgene'
   Stage 4 [person] "Fatal Exposure": fatalities/injuries frontmatter fields
+
+--- DuPont La Porte Methyl Mercaptan Release (dupont-laporte-2014) ---
+  Stage 1 [valve] "Hydrate Blockage": 'water inadvertently entered methyl mercaptan feed piping and...formed an ice-like hydrate that blocked the line'
+  Stage 2 [warningIgnored] "2011 PHA Finding Ignored": 'A 2011 process hazard analysis...had already identified hydrate formation in this piping as a risk, but adequate safeguards were never put in place'
+  Stage 3 [vaporCloud] "Toxic Release": 'roughly 24,000 pounds of the highly toxic, flammable chemical escaped and vaporized inside the building'
+  Stage 4 [person] "Four Fatalities": 'Personnel investigated the developing leak without respiratory protection; four workers died'
+
+--- Evergreen Packaging Paper Mill Fire During Hot Work (evergreen-packaging-2020) ---
+  Stage 1 [fire] "Heat Gun Used on Resin": 'the crew began using an electric heat gun to warm it'
+  Stage 2 [warningIgnored] "Crews Not Communicating": 'without communicating this decision to either Evergreen Packaging or the Rimcor crew'
+  Stage 3 [fire] "Fire Ignites": 'the heat gun fell into a five-gallon bucket of the flammable resin, igniting a fire'
+  Stage 4 [building] "Spread to Connected Tower": 'smoke and flames spread quickly through the connecting pipe into the downflow tower'
+
+--- ExxonMobil Torrance Refinery Electrostatic Precipitator Explosion (exxonmobil-torrance-2015) ---
+  Stage 1 [valve] "Faulty Slide Valve": 'a faulty slide valve failed to keep hydrocarbons separated from the unit's "air side"'
+  Stage 2 [vaporCloud] "Hydrocarbons Backflow": 'Hydrocarbons backflowed through the process and ignited inside the electrostatic precipitator'
+  Stage 3 [explosion] "Explosion": 'The blast dispersed large quantities of catalyst dust up to a mile from the refinery'
+  Stage 4 [warningIgnored] "Near-Miss with HF Tank": 'narrowly missing a tank holding tens of thousands of pounds of modified hydrofluoric acid'
 
 --- Flixborough Chemical Plant Explosion (flixborough-1974) ---
   Stage 1 [corrosion] "Reactor Cracked": 'a crack was found in one of six reactors'
@@ -27,11 +129,41 @@ the incident's own .md file at any time.
   Stage 3 [vaporCloud] "Cyclohexane Release": 'releasing an estimated 30+ tons of cyclohexane, which formed a vapor cloud'
   Stage 4 [explosion] "Explosion": 'exploded with the force of roughly 15-45 tons of TNT'
 
+--- Formosa Plastics Vinyl Chloride Explosion (formosa-illiopolis-2004) ---
+  Stage 1 [valve] "Wrong Reactor Opened": 'an operator mistakenly opened the bottom valve of a different, nearby reactor...apparently bypassing an active pressure safety interlock'
+  Stage 2 [warningIgnored] "Same Failure Happened Before": root causes: 'the exact same failure mode had happened before, twice, and was not corrected'
+  Stage 3 [vaporCloud] "VCM Release": 'released a large quantity of highly flammable vinyl chloride monomer (VCM), which formed a vapor cloud and detonated'
+  Stage 4 [explosion] "Explosion": 'Five workers were killed and three others severely injured; the facility was destroyed and never reopened'
+
 --- Foundation Food Group Liquid Nitrogen Release (foundation-food-group-2021) ---
   Stage 1 [corrosion] "Bubbler Tube Bent": 'a "bubbler tube"...was bent, likely during maintenance work'
   Stage 2 [vaporCloud] "Nitrogen Overflow": 'the freezer room to fill with an unsafe quantity of liquid nitrogen'
   Stage 3 [warningIgnored] "Workers Entered to Help": '14 employees entered the freezer room...not realizing the air itself had become lethal'
   Stage 4 [person] "Six Fatalities": fatalities/injuries frontmatter fields
+
+--- Freedom Industries Elk River Chemical Spill (freedom-industries-elk-river-2014) ---
+  Stage 1 [corrosion] "Undetected Pitting Corrosion": 'developed two small holes in its floor from pitting corrosion...had not been internally inspected in at least ten years'
+  Stage 2 [warningIgnored] "Containment Also Failed": 'The tank's secondary containment wall...had cracks and holes of its own from years of disrepair'
+  Stage 3 [vaporCloud] "Chemical Leak": 'Crude MCHM...leaked through the holes'
+  Stage 4 [building] "300,000 Without Water": 'forced a "do-not-use" order on tap water for up to 300,000 residents across nine counties'
+
+--- Goodyear Houston Heat Exchanger Rupture and Ammonia Release (goodyear-houston-2008) ---
+  Stage 1 [valve] "Relief Path Blocked": 'several valves...were closed, including a valve that isolated the exchanger from its relief valve'
+  Stage 2 [gauge] "Steam Reintroduced": 'When pressurized steam was later introduced...the exchanger had no path to safely relieve the resulting overpressure'
+  Stage 3 [explosion] "Explosion": 'ruptured violently, releasing ammonia and hurling debris that struck and fatally injured an employee'
+  Stage 4 [warningIgnored] "No Drills in 4 Years": 'Her body wasn't discovered...until roughly six hours after the explosion'
+
+--- Hayes Lemmerz Aluminum Dust Explosion (hayes-lemmerz-2003) ---
+  Stage 1 [dustCloud] "No MOC on Dust System": root causes: 'the company did not follow a management of change process'
+  Stage 2 [warningIgnored] "Prior Fires Never Investigated": root causes: 'The plant had experienced earlier fires involving the same dust hazard without any formal investigation'
+  Stage 3 [explosion] "Dust Collector Explodes": 'An explosion occurred in the dust collector and spread through connecting ductwork'
+  Stage 4 [fire] "Secondary Explosion": 'a secondary explosion when accumulated dust on overhead beams and structures also ignited'
+
+--- Home Market Foods Ammonia Release (home-market-foods-2022) ---
+  Stage 1 [valve] "Unrelated HVAC Work": "'they were doing nothing associated with the ammonia system'"
+  Stage 2 [corrosion] "Pipe Accidentally Severed": 'An ammonia pipe was accidentally severed during their work'
+  Stage 3 [vaporCloud] "Ammonia Release": 'firefighters measured levels exceeding 6,000 parts per million on arrival, more than 20 times the deadly threshold'
+  Stage 4 [person] "One Fatality": 'One contractor, 68-year-old Richard Arguin, died from the exposure'
 
 --- Husky Energy Superior Refinery FCC Explosion (husky-superior-2018) ---
   Stage 1 [valve] "Worn Slide Valve": 'a worn slide valve failed to maintain the barrier...between air and hydrocarbons'
@@ -45,11 +177,125 @@ the incident's own .md file at any time.
   Stage 3 [explosion] "Primary Explosion": 'a primary explosion inside that enclosure'
   Stage 4 [fire] "Cascading Explosions": 'triggering a chain of much larger secondary explosions'
 
+--- Jaipur Oil Terminal Fire (jaipur-2009) ---
+  Stage 1 [valve] "Valve Sequence Error": 'operators preparing the tank opened valves in the wrong sequence'
+  Stage 2 [vaporCloud] "Massive Vapor Cloud": 'grew to roughly 1,000 meters in diameter, about four times the size of the vapor cloud at Buncefield'
+  Stage 3 [warningIgnored] "No Remote Shutoff": 'The site had no remotely operated shutdown valve, so stopping the leak required someone to physically reach the valve'
+  Stage 4 [explosion] "Explosion After 75 Minutes": 'The leak continued uncontrolled for 75 minutes before the cloud found an ignition source and exploded'
+
+--- Kleen Energy Plant Natural Gas Explosion (kleen-energy-2010) ---
+  Stage 1 [valve] "Gas Blow to Clean Piping": 'using a "gas blow", a common industry practice of venting high-pressure natural gas...directly to atmosphere'
+  Stage 2 [vaporCloud] "Gas Accumulates": 'gas blows released an estimated 400,000 standard cubic feet of natural gas into a congested outdoor area'
+  Stage 3 [warningIgnored] "No Rule Against the Practice": root causes: 'the CSB found no specific federal workplace safety standard prohibited this practice'
+  Stage 4 [explosion] "Explosion": 'with an explosion large enough to register as a small earthquake'
+
+--- KMCO Chemical Facility Fatal Explosion and Fire (kmco-crosby-2019) ---
+  Stage 1 [corrosion] "Brittle Cast-Iron Strainer": 'a cast iron "y-strainer"...ruptured due to brittle overload fracture'
+  Stage 2 [vaporCloud] "Isobutylene Release": 'Isobutylene...escaped and formed a large vapor cloud'
+  Stage 3 [warningIgnored] "Trainee Approached the Cloud": 'the operator called for help assessing the situation rather than immediately retreating to safety'
+  Stage 4 [explosion] "Explosion": 'an explosion that killed one KMCO employee and seriously injured two others; at least 28 people in total were injured'
+
+--- Kuraray America EVAL Plant Ethylene Release and Fire (kuraray-america-2018) ---
+  Stage 1 [gauge] "High-Pressure Alarm Sounds": 'When the reactor's high-pressure alarm sounded...workers were not evacuated from the area'
+  Stage 2 [valve] "Safety Interlock Disabled": root causes: 'a disabled safety interlock was a contributing factor'
+  Stage 3 [vaporCloud] "Relief System Vents": 'its discharge piping was aimed horizontally into the air near where workers were positioned'
+  Stage 4 [fire] "Fire": '23 workers...were injured, most from burns and from injuries sustained while running to escape'
+
+--- Longford Esso Gas Plant Explosion (longford-1998) ---
+  Stage 1 [gauge] "No HAZOP Ever Conducted": root causes: 'a formal hazard and operability study would very likely have identified the low-temperature embrittlement risk'
+  Stage 2 [corrosion] "Metal Embrittled": 'the exchanger, no longer receiving the warm oil that kept it from embrittling, cooled dramatically'
+  Stage 3 [valve] "Warm Oil Reintroduced": 'the sudden reintroduction of heat caused the now brittle, supercooled metal to fracture'
+  Stage 4 [fire] "Release & Fire": 'cut gas supply to nearly all of Victoria state for about two weeks'
+
+--- Loy-Lange Box Company Pressure Vessel Explosion (loy-lange-box-2017) ---
+  Stage 1 [corrosion] "Corrosion Known Since 2004": 'The company had been aware of corrosion problems as far back as 2004'
+  Stage 2 [warningIgnored] "2012 Repair Incomplete": 'A 2012 repair attempt removed only part of the corroded metal...the original, still-compromised steel remained in place'
+  Stage 3 [gauge] "Operated While Leaking": 'employees had discovered the vessel was actively leaking...Loy-Lange continued operating the equipment anyway'
+  Stage 4 [explosion] "Explosion": 'launched the roughly 2,000-pound vessel through the air and through the roof of a neighboring business...roughly 500 feet away'
+
+--- MGPI Processing Toxic Chlorine Gas Release (mgpi-atchison-2016) ---
+  Stage 1 [tank] "Look-Alike Fill Lines": 'The two fill lines looked similar, were not clearly marked to distinguish them, and sat only about 18 inches apart'
+  Stage 2 [warningIgnored] "Both Lines Left Unlocked": 'did not notice that the adjacent sodium hypochlorite fill line was also already unlocked'
+  Stage 3 [vaporCloud] "Wrong Chemical Delivered": 'The driver connected the sulfuric acid delivery hose to the sodium hypochlorite line by mistake'
+  Stage 4 [building] "11,000 Sheltered in Place": 'local authorities ordered roughly 11,000 residents to shelter in place'
+
+--- Texaco Milford Haven Refinery Explosion and Fires (milford-haven-1994) ---
+  Stage 1 [gauge] "Valve Indicator Wrong": 'a control valve was actually closed while the control system's indication showed it as open'
+  Stage 2 [overfill] "Vessel Kept Filling": 'flammable hydrocarbon liquid continued to be pumped into a process vessel whose outlet was, unknown to operators, shut'
+  Stage 3 [valve] "Flare Undersized": 'The flare system...was not designed to handle an excursion of this scale'
+  Stage 4 [explosion] "Explosion": 'a stroke of good fortune investigators noted was a significant factor in there being no fatalities'
+
+--- Motiva Enterprises Delaware City Refinery Sulfuric Acid Tank Explosion (motiva-delaware-city-2001) ---
+  Stage 1 [corrosion] "Corroded Tank Undetected": 'holes caused by corrosion that had gone unaddressed'
+  Stage 2 [fire] "Hot Work Overhead": 'a crew of contract workers was repairing grating on a catwalk above a spent sulfuric acid storage tank farm'
+  Stage 3 [vaporCloud] "Spark Ignites Vapors": 'a spark from their hot work ignited flammable vapors escaping from holes in the roof and shell'
+  Stage 4 [person] "1.1M Gallons Released": 'Approximately 1.1 million gallons of spent sulfuric acid were released in total'
+
+--- NDK Crystal Pressure Vessel Explosion with Offsite Fatality (ndk-crystal-2009) ---
+  Stage 1 [corrosion] "Cracking Found in 2007": 'the company discovered stress corrosion cracking in four of the eight vessel lids'
+  Stage 2 [warningIgnored] "Warning Not Heeded": 'a consultant...expressed "serious reservations" about returning them to service...NDK...returned them to service anyway without independently testing them'
+  Stage 3 [explosion] "Vessel Ruptures": 'Nearly three years later, Vessel #2 catastrophically ruptured'
+  Stage 4 [person] "Offsite Fatality": 'A piece of the building structure was blown 650 feet and struck a truck driver...killing him'
+
+--- Optima Belle Double Cone Dryer Explosion (optima-belle-2020) ---
+  Stage 1 [investigation] "Inaccurate Safety Data Sheet": 'Clearon...knew...that the compound could decompose at temperatures far lower than the...figure listed on its own safety data sheet'
+  Stage 2 [gauge] "No Thermal Testing Done": 'the first time either company had used this equipment for this specific compound'
+  Stage 3 [explosion] "Dryer Explodes": 'the compound underwent an unanticipated decomposition reaction, releasing gases that pushed the dryer's internal pressure above its design limit'
+  Stage 4 [vaporCloud] "Chlorine Release": 'the dryer exploded, releasing toxic chlorine gas'
+
+--- Packaging Corporation of America DeRidder Mill Explosion (pca-deridder-2017) ---
+  Stage 1 [fire] "Hot Work on a Tank": 'a contract crew was performing welding and grinding...on a storage tank'
+  Stage 2 [warningIgnored] "2008 Sister-Site Fatality": 'in 2008, a nearly identical hot-work tank explosion at the company's Tomahawk, Wisconsin plant had also killed three workers'
+  Stage 3 [vaporCloud] "Gas Hazard Missed": 'The tank contained non-condensable gases and flammable material that had not been adequately identified'
+  Stage 4 [explosion] "Explosion": 'Three contract workers performing the hot work were killed, and seven others were injured'
+
+--- Philadelphia Energy Solutions Refinery Fire and HF Release (philadelphia-energy-solutions-2019) ---
+  Stage 1 [corrosion] "1973 Pipe Elbow": 'A steel pipe elbow installed in 1973...ruptured after decades of corrosion had eaten the pipe wall down to roughly 7% of its original thickness'
+  Stage 2 [investigation] "Outdated Material Standard": root causes: 'the alloy has not met international industry standards since they were updated in 1995'
+  Stage 3 [fire] "Fire": 'causing a major fire followed by a series of explosions'
+  Stage 4 [building] "Refinery Permanently Closed": 'the refinery, sitting less than a mile from roughly 117,000 residents, never reopened'
+
+--- Phillips 66 Pasadena Polyethylene Plant Explosion (phillips-pasadena-1989) ---
+  Stage 1 [valve] "Single-Valve Isolation": 'An 8-inch ball valve, the only barrier between the open line and the live reactor, was left unsecured'
+  Stage 2 [warningIgnored] "No Process Hazard Analysis": root causes: 'no process hazard analysis had been performed on the polyethylene unit'
+  Stage 3 [vaporCloud] "85,000 lbs Released": 'roughly 85,000 pounds of highly flammable process gas...escaped in under two minutes'
+  Stage 4 [explosion] "Explosion": '23 workers were killed and 314 injured'
+
 --- Piper Alpha Offshore Platform Explosion (piper-alpha-1988) ---
   Stage 1 [valve] "Valve Removed for Maintenance": 'A pressure safety valve was removed from a condensate pump for maintenance'
   Stage 2 [warningIgnored] "Shift Handover Failed": 'permit-to-work...was not properly communicated across shift handover'
   Stage 3 [fire] "Ignition": 'causing condensate to leak through the flange and ignite'
   Stage 4 [explosion] "Platform Destroyed": 'The platform was destroyed; 167 of 226 workers died'
+
+--- Seveso Dioxin Release (seveso-1976) ---
+  Stage 1 [valve] "Reactor Shut Down Mid-Cycle": 'shut down mid-cycle on a Friday evening...and abandoned unsupervised for the weekend'
+  Stage 2 [gauge] "No Automatic Cooling": 'With no stirring and no automatic cooling system, residual heat in the mixture drove a slow exothermic reaction'
+  Stage 3 [overfill] "Pressure Exceeds Relief Setting": 'pressure inside the reactor exceeded the rupture disc's set point...and it burst'
+  Stage 4 [vaporCloud] "Dioxin Release": 'The cloud carried an estimated 1-2 kg of TCDD dioxin...over the towns of Seveso and Meda'
+
+--- Silver Eagle Refinery Pipe Rupture and Hydrogen Explosion (silver-eagle-refinery-2009) ---
+  Stage 1 [corrosion] "Never-Inspected Pipe": 'CSB's metallurgical analysis found no inspection records for the pipe at any point in its service life'
+  Stage 2 [gauge] "Sulfidation Corrosion": 'sulfur compounds in the process stream had caused sulfidation corrosion to progressively thin the pipe walls, undetected, over 16 years'
+  Stage 3 [explosion] "Hydrogen Explosion": 'The rupture released a large quantity of hydrogen that ignited immediately'
+  Stage 4 [building] "100+ Homes Damaged": 'the resulting blast wave traveled from the refinery into an adjacent residential subdivision, damaging more than 100 homes'
+
+--- Sunoco Nederland Crude Oil Terminal Flash Fire and Explosion (sunoco-nederland-2016) ---
+  Stage 1 [fire] "Hot Work on Crude Pipe": 'conducting hot work...on a section of pipe that still contained residual crude oil'
+  Stage 2 [warningIgnored] "Procedure Gaps": root causes: 'both Sunoco's and L-Con's hot work procedures had similar, significant gaps'
+  Stage 3 [explosion] "Explosion": 'flammable vapor...ignited, causing a pressure buildup that led to an explosion at both ends'
+  Stage 4 [person] "7 Burned": 'Seven workers suffered burn injuries...with no fatalities'
+
+--- T2 Laboratories Reactive Chemical Explosion (t2-laboratories-2007) ---
+  Stage 1 [gauge] "Cooling Lost": 'the reactor's cooling system likely malfunctioned...while the reaction was underway'
+  Stage 2 [warningIgnored] "Prior Near-Misses Ignored": root causes: 'the company had experienced prior near-misses during earlier production runs...without recognizing them as warnings'
+  Stage 3 [explosion] "BLEVE": 'the exothermic reaction accelerated into a runaway...the reactor violently ruptured'
+  Stage 4 [building] "Debris Found a Mile Away": 'Wreckage was found up to a mile from the site'
+
+--- Tesoro Anacortes Refinery Heat Exchanger Explosion (tesoro-anacortes-2010) ---
+  Stage 1 [corrosion] "High-Temp Hydrogen Attack": 'the direct cause was high temperature hydrogen attack (HTHA)...gradually cracks and weakens carbon steel from the inside, invisibly, over years'
+  Stage 2 [investigation] "Industry Standard Inadequate": root causes: 'CSB found the American Petroleum Institute's standard for assessing equipment vulnerability to HTHA was inadequate'
+  Stage 3 [explosion] "Exchanger Ruptures": 'one of the exchangers catastrophically ruptured at its weld seams'
+  Stage 4 [person] "7 Fatalities": 'the deadliest incident at a U.S. refinery since 2005'
 
 --- BP Texas City Refinery Explosion (texas-city-2005) ---
   Stage 1 [vessel] "Startup": 'During startup of the isomerization (ISOM) unit...'
@@ -57,8 +303,62 @@ the incident's own .md file at any time.
   Stage 3 [vaporCloud] "Vapor Cloud": 'releasing a dense hydrocarbon vapor cloud'
   Stage 4 [explosion] "Explosion": fatalities/injuries frontmatter fields
 
+--- Tianjin Port Explosions (tianjin-2015) ---
+  Stage 1 [warningIgnored] "Nitrocellulose Dried Out": 'overheated in summer temperatures after its protective wetting agent evaporated'
+  Stage 2 [dustCloud] "Incompatible Co-Storage": 'dozens of different hazardous chemicals had been stored together in violation of separation requirements'
+  Stage 3 [fire] "Initial Fire": 'Nitrocellulose becomes unstable and prone to spontaneous ignition when it dries out'
+  Stage 4 [explosion] "Massive Detonation": 'killed 173 people, the majority of them firefighters and emergency responders'
+
+--- TPC Group Port Neches Butadiene Explosions and Fire (tpc-port-neches-2019) ---
+  Stage 1 [valve] "Dead Leg Unaddressed": 'a section of piping connected to out-of-service equipment, a "dead leg" left over when a process pump was taken offline'
+  Stage 2 [warningIgnored] "2016 Recommendation Ignored": root causes: 'a 2016 internal hazard analysis recommendation was never implemented'
+  Stage 3 [overfill] "Polymer Builds Up": 'For more than 100 days before the incident...popcorn polymer...had been steadily accumulating'
+  Stage 4 [explosion] "Explosion": 'Roughly 6,000 gallons of liquid butadiene emptied from the fractionator in under a minute'
+
+--- U.S. Steel Clairton Coke Works Coke Oven Gas Explosion (us-steel-clairton-2025) ---
+  Stage 1 [valve] "Ad Hoc Valve Washing": 'U.S. Steel had no written procedure specifying how this task should be safely performed'
+  Stage 2 [gauge] "Valve Cracks": 'The over-pressurization from this improvised approach cracked the valve'
+  Stage 3 [vaporCloud] "Gas Ignites": 'releasing highly flammable, toxic coke oven gas into the air, where it ignited'
+  Stage 4 [building] "Control Rooms Too Close": 'none of the buildings in the area...had been designed or constructed to withstand an explosion'
+
+--- Valero McKee Refinery Propane Fire (Frozen Dead-Leg Piping) (valero-mckee-2007) ---
+  Stage 1 [valve] "Leaking Valve into Idle Piping": 'was accidentally left partially open, allowing small amounts of propane and entrained water to seep into the idle pipe'
+  Stage 2 [gauge] "Water Freezes and Cracks Pipe": 'A period of unusually cold weather...froze that trapped water, which expanded and cracked the pipe'
+  Stage 3 [vaporCloud] "Propane Escapes": 'high-pressure liquid propane began escaping at an estimated rate of 4,500 pounds per minute'
+  Stage 4 [fire] "Fire": 'The refinery was completely shut down for nearly two months'
+
+--- Wacker Polysilicon Hydrogen Chloride Release (wacker-polysilicon-2020) ---
+  Stage 1 [valve] "No Written Torque Procedure": root causes: 'the contract pipefitters were tasked with torquing bolts...without documented, verified instructions'
+  Stage 2 [vaporCloud] "HCl Cloud Forms": 'cracking the pipe and releasing a rapidly expanding cloud of HCl gas across the platform'
+  Stage 3 [warningIgnored] "Single Means of Egress": 'The platform had only one way down, a staircase, and as the gas cloud spread, workers lost visibility'
+  Stage 4 [person] "Workers Fall 70 Feet": 'began climbing down the outside of the structure instead. All three fell approximately 70 feet'
+
+--- Watson Grinding and Manufacturing Propylene Explosion (watson-grinding-2020) ---
+  Stage 1 [corrosion] "Degraded Welding Hose": 'a degraded and poorly crimped rubber welding hose came off its fitting'
+  Stage 2 [valve] "Valve Left Open": 'A manual shutoff valve at the tank had also not been closed at the end of the previous workday'
+  Stage 3 [warningIgnored] "Gas Detection Not Working": root causes: 'a gas detection alarm, exhaust fan startup system, and automatic gas shutoff system were all not working properly'
+  Stage 4 [explosion] "Explosion": 'causing a massive explosion that destroyed the building and scattered debris up to half a mile away'
+
 --- West Fertilizer Company Fire and Explosion (west-fertilizer-2013) ---
   Stage 1 [building] "Wood-Framed Storage": 'FGAN was stored in a wood-framed building with wood bins'
   Stage 2 [fire] "Fire Breaks Out": 'A fire broke out inside a wooden storage building'
   Stage 3 [warningIgnored] "Responders Unaware of Risk": 'firefighters...were not aware of the detonation risk'
   Stage 4 [explosion] "Detonation": fatalities/injuries frontmatter fields — 12 of 15 killed were responders
+
+--- West Pharmaceutical Services Dust Explosion (west-pharmaceutical-2003) ---
+  Stage 1 [dustCloud] "Dust Above the Ceiling": 'had accumulated above a suspended ceiling over the manufacturing area, a space that was never designed or maintained to prevent dust buildup'
+  Stage 2 [warningIgnored] "Fire Code Never Consulted": root causes: 'CSB found the company's engineering management systems did not ensure relevant industry fire codes...were referenced or applied'
+  Stage 3 [explosion] "Explosion": 'An explosion and fire destroyed the plant...the blast was felt 25 miles away'
+  Stage 4 [fire] "Debris Ignites Woods": 'burning debris ignited wooded areas up to two miles from the site'
+
+--- Williams Olefins Plant Reboiler Explosion (williams-olefins-2013) ---
+  Stage 1 [valve] "1990s Change Removed Protection": 'Williams changed operating practice to run the fractionator with only one reboiler in service at a time...without adequately addressing the resulting loss of overpressure protection'
+  Stage 2 [warningIgnored] "Gap Unaddressed for 12 Years": 'went unresolved for roughly 12 years'
+  Stage 3 [gauge] "Trapped Propane Flashes": 'had liquid propane trapped inside despite that isolation. When hot water was directed into it...the trapped liquid flashed to vapor'
+  Stage 4 [explosion] "BLEVE": 'The reboiler's shell catastrophically ruptured in a boiling liquid expanding vapor explosion (BLEVE)'
+
+--- Yenkin-Majestic Resin Plant Vapor Cloud Explosion and Fire (yenkin-majestic-2021) ---
+  Stage 1 [valve] "Manway Not Pressure Tested": 'an access port that had been newly installed on the kettle only three months earlier'
+  Stage 2 [warningIgnored] "Procedure Violated": 'an operator added liquid solvent to a kettle of hot resin while the kettle's agitator was turned off, contrary to established procedure'
+  Stage 3 [overfill] "Pressure Builds": 'the sudden mixing caused the solvent to rapidly vaporize, building pressure inside the kettle'
+  Stage 4 [explosion] "Explosion & Fire": 'triggering an explosion that was seen, heard, and felt throughout parts of Columbus'
