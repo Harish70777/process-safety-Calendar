@@ -44,9 +44,9 @@ const RECIPES = {
   "bhopal-1984": {
     stages: [
       { icon: "tank", label: "MIC Storage Tank", caption: "40 tons of methyl isocyanate on site", source: "'a storage tank holding roughly 40 tons of methyl isocyanate'" },
-      { icon: "gauge", label: "Safety Systems Off", caption: "Cooling, scrubber, and flare all shut down", source: "'Refrigeration...had been shut down for cost reasons, the gas scrubber and flare tower...were both non-operational'" },
+      { icon: "gauge", label: "Safety Systems Off", caption: "Refrigeration, scrubber, and flare tower all shut down", source: "'Refrigeration...had been shut down for cost reasons, the gas scrubber and flare tower...were both non-operational'" },
       { icon: "vaporCloud", label: "Toxic Gas Release", caption: "Dense cloud over densely populated area", source: "'sent a dense toxic gas cloud over the densely populated area'" },
-      { icon: "building", label: "Community Impact", caption: "Death toll estimates vary widely", source: "fatalities/injuries frontmatter fields — surrounding population" },
+      { icon: "building", label: "Community Impact", caption: "Estimates range from 3,800 to over 15,000 deaths", source: "fatalities/injuries frontmatter fields — surrounding population" },
     ],
   },
   "piper-alpha-1988": {
@@ -67,7 +67,7 @@ const RECIPES = {
   },
   "deepwater-horizon-2010": {
     stages: [
-      { icon: "corrosion", label: "Cement Barrier Failed", caption: "Failed to seal off the well", source: "'the cement job...failed to seal off the hydrocarbon-bearing formation'" },
+      { icon: "corrosion", label: "Cement Barrier Failed", caption: "Failed to seal off the hydrocarbon-bearing formation", source: "'the cement job...failed to seal off the hydrocarbon-bearing formation'" },
       { icon: "gauge", label: "Pressure Test Misread", caption: "Crew misread a failed test as passing", source: "'a negative pressure test...was misinterpreted by the crew as successful'" },
       { icon: "fire", label: "Blowout & Fire", caption: "Hydrocarbons flowed up the wellbore and ignited", source: "'hydrocarbons flowed uncontrolled up the wellbore and ignited'" },
       { icon: "vaporCloud", label: "Oil Spill", caption: "Largest marine oil spill in U.S. history", source: "'triggering the largest marine oil spill in U.S. history'" },
@@ -91,7 +91,7 @@ const RECIPES = {
   },
   "husky-superior-2018": {
     stages: [
-      { icon: "valve", label: "Worn Slide Valve", caption: "Let air mix with hydrocarbons", source: "'a worn slide valve failed to maintain the barrier...between air and hydrocarbons'" },
+      { icon: "valve", label: "Worn Slide Valve", caption: "Failed to keep air separated from hydrocarbons", source: "'a worn slide valve failed to maintain the barrier...between air and hydrocarbons'" },
       { icon: "vaporCloud", label: "Air-Hydrocarbon Mix", caption: "Air entered the reactor through the regenerator", source: "'Air was inadvertently directed through the regenerator into the reactor'" },
       { icon: "explosion", label: "Vessel Explosion", caption: "100+ metal fragments thrown up to 1,200 feet", source: "'Two vessels...exploded, propelling over 100 metal fragments'" },
       { icon: "warningIgnored", label: "Near-Miss with HF Tank", caption: "Debris came within 150 feet of an HF tank", source: "'debris had come within 150 feet of the HF tank'" },
@@ -135,16 +135,16 @@ function wrapText(text, maxChars, context) {
     }
   }
   if (current.trim()) lines.push(current.trim());
-  if (lines.length > 2) {
-    console.warn(`WARNING: caption too long, text was cut off: "${text}"${context ? ` (${context})` : ""}`);
+  if (lines.length > 3) {
+    console.warn(`WARNING: caption too long even at 3 lines, text was cut off: "${text}"${context ? ` (${context})` : ""}`);
   }
-  return lines.slice(0, 2); // cap at 2 lines to keep layout consistent
+  return lines.slice(0, 3); // cap at 3 lines — enough room for a full clear caption
 }
 
 function buildSVG(data, recipe) {
   const stageWidth = 240;
   const totalWidth = stageWidth * 4;
-  const height = 340;
+  const height = 380;
 
   const toll = [
     data.fatalities !== undefined ? `${Number(data.fatalities).toLocaleString("en-US")} killed` : "",
@@ -180,11 +180,11 @@ function buildSVG(data, recipe) {
     connectorLines.push(`<line x1="${x1}" y1="130" x2="${x2}" y2="130" class="arrow" stroke-dasharray="4 5"/>`);
   }
 
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${totalWidth} ${height}" font-family="'Poppins', sans-serif">
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${totalWidth} ${height}" font-family="-apple-system, 'Segoe UI', Roboto, Arial, sans-serif">
   <defs>
     <style>
-      .label { font-family: 'Baloo 2', sans-serif; font-weight: 700; font-size: 15px; fill: #13567F; }
-      .sublabel { font-family: 'Poppins', sans-serif; font-size: 11px; fill: #666; }
+      .label { font-family: -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; font-weight: 700; font-size: 15px; fill: #13567F; }
+      .sublabel { font-family: -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 11px; fill: #666; }
       .arrow { stroke: #C9D6DE; stroke-width: 2; fill: none; }
     </style>
   </defs>
@@ -192,7 +192,7 @@ function buildSVG(data, recipe) {
   ${connectorLines.join("\n  ")}
 ${stagesSVG}
   <rect x="0" y="${height - 30}" width="${totalWidth}" height="30" fill="${NAVY}"/>
-  <text x="${totalWidth / 2}" y="${height - 11}" text-anchor="middle" fill="#fff" font-size="12" font-family="'Poppins', sans-serif" font-weight="500">${esc(data.title)}${toll ? " \u2014 " + esc(toll) : ""}</text>
+  <text x="${totalWidth / 2}" y="${height - 11}" text-anchor="middle" fill="#fff" font-size="12" font-family="-apple-system, 'Segoe UI', Roboto, Arial, sans-serif" font-weight="500">${esc(data.title)}${toll ? " \u2014 " + esc(toll) : ""}</text>
 </svg>`;
 }
 
