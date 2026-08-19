@@ -13,6 +13,8 @@ const path = require("path");
 const { matter } = require("./frontmatter");
 const { mdToHtml } = require("./markdown-lite");
 
+const SITE_URL = "https://harish70777.github.io/process-safety-Calendar"; // Update if/when a custom domain is set up
+
 const INCIDENTS_DIR = path.join(__dirname, "..", "incidents");
 const OUT_DIR = path.join(__dirname, "..", "site", "incidents");
 
@@ -48,6 +50,15 @@ function pageTemplate(data, bodyHtml) {
 <title>${esc(data.title)}: RskLess PSM Incidents Calendar</title>
 <link rel="icon" type="image/svg+xml" href="../../rskless-favicon.svg">
 <meta name="description" content="${esc(data.title)}, ${d.getUTCFullYear()}: what happened, root causes, and lessons learned.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="${esc(data.title)} (${d.getUTCFullYear()})">
+<meta property="og:description" content="${esc(data.location)}${toll ? " — " + esc(toll) : ""}. Root causes, and lessons learned, from RskLess.">
+<meta property="og:url" content="${SITE_URL}/incidents/${esc(data.id || "")}/">
+<meta property="og:site_name" content="RskLess PSM Incidents Calendar">
+<meta property="og:image" content="${SITE_URL}/rskless-icon.svg">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="${esc(data.title)} (${d.getUTCFullYear()})">
+<meta name="twitter:description" content="${esc(data.location)}${toll ? " — " + esc(toll) : ""}. Root causes, and lessons learned, from RskLess.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -116,7 +127,7 @@ function main() {
 
     const id = file.replace(/\.md$/, "");
     const bodyHtml = mdToHtml(content);
-    const html = pageTemplate(data, bodyHtml);
+    const html = pageTemplate({ ...data, id }, bodyHtml);
 
     const pageDir = path.join(OUT_DIR, id);
     fs.mkdirSync(pageDir, { recursive: true });

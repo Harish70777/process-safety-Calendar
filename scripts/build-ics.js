@@ -12,7 +12,7 @@ const path = require("path");
 
 const INDEX_JSON = path.join(__dirname, "..", "index.json");
 const OUT_ICS = path.join(__dirname, "..", "site", "calendar.ics");
-const SITE_URL = "https://harish70777.github.io/process-safety-Calendar";
+const SITE_URL = "https://harish70777.github.io/process-safety-Calendar"; // Update if/when a custom domain is set up
 
 function escapeICS(text) {
   return String(text)
@@ -56,7 +56,7 @@ function buildDescription(inc) {
 function buildEvent(inc) {
   const dt = new Date(inc.date);
   const dtStr = dt.toISOString().slice(0, 10).replace(/-/g, "");
-  const uid = `${inc.id}@processsafetycalendar.com`;
+  const uid = `${inc.id}@rskless-psm-calendar`;
 
   const lines = [
     "BEGIN:VEVENT",

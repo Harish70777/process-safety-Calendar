@@ -1,5 +1,5 @@
 === Process Safety Calendar — Index Report ===
-Generated: 2026-08-18T18:24:31.073Z
+Generated: 2026-08-19T00:01:06.159Z
 
 Total incidents:      60
   Published:           60
