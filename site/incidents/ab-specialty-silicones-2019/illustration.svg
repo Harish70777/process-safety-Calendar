@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 380" font-family="-apple-system, 'Segoe UI', Roboto, Arial, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 380" font-family="Arial, sans-serif">
   <defs>
     <style>
-      .label { font-family: -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; font-weight: 700; font-size: 15px; fill: #13567F; }
-      .sublabel { font-family: -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 11px; fill: #666; }
+      .label { font-family: Arial, sans-serif; font-weight: 700; font-size: 15px; fill: #13567F; }
+      .sublabel { font-family: Arial, sans-serif; font-size: 11px; fill: #666; }
       .arrow { stroke: #C9D6DE; stroke-width: 2; fill: none; }
     </style>
   </defs>
@@ -54,5 +54,5 @@
         <text x="60" y="195" text-anchor="middle" class="sublabel">company's owners</text>
       </g>
   <rect x="0" y="350" width="960" height="30" fill="#13567F"/>
-  <text x="480" y="369" text-anchor="middle" fill="#fff" font-size="12" font-family="-apple-system, 'Segoe UI', Roboto, Arial, sans-serif" font-weight="500">AB Specialty Silicones Chemical Explosion — 4 killed, 1 injured</text>
+  <text x="480" y="369" text-anchor="middle" fill="#fff" font-size="12" font-family="Arial, sans-serif" font-weight="500">AB Specialty Silicones Chemical Explosion — 4 killed, 1 injured</text>
 </svg>

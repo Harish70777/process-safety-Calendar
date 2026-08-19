@@ -3,19 +3,16 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>RskLess PSM Incidents Calendar: subscribe to historical incident anniversaries</title>
+<title>PSM Events Calendar: subscribe to historical incident anniversaries</title>
 <link rel="icon" type="image/svg+xml" href="rskless-favicon.svg">
 <meta name="description" content="A subscribable calendar of historical process safety incidents. Get a native reminder on each anniversary, with root causes and lessons learned.">
 <meta property="og:type" content="website">
-<meta property="og:title" content="RskLess PSM Incidents Calendar">
+<meta property="og:title" content="PSM Events Calendar">
 <meta property="og:description" content="A subscribable calendar of historical process safety incidents. Get a native reminder on each anniversary, with root causes and lessons learned.">
 <meta property="og:url" content="https://harish70777.github.io/process-safety-Calendar/">
-<meta property="og:site_name" content="RskLess PSM Incidents Calendar">
+<meta property="og:site_name" content="PSM Events Calendar">
 <meta property="og:image" content="https://harish70777.github.io/process-safety-Calendar/rskless-icon.svg">
 <meta name="twitter:card" content="summary">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root{
     --orange:#E8622C;
@@ -33,7 +30,7 @@
     margin:0;
     background:var(--paper);
     color:var(--ink);
-    font-family:'Poppins', sans-serif;
+    font-family:Arial, sans-serif;
     line-height:1.65;
   }
   .wrap{max-width:1080px;margin:0 auto;padding:0 24px;}
@@ -44,7 +41,7 @@
   }
   header .wrap{display:flex;align-items:center;justify-content:space-between;}
   .brand{
-    font-family:'Baloo 2', sans-serif;
+    font-family:Arial, sans-serif;
     font-weight:700;
     font-size:19px;
     color:var(--orange);
@@ -55,7 +52,7 @@
   }
   nav{display:flex;align-items:center;}
   nav a{
-    font-family:'Poppins', sans-serif;
+    font-family:Arial, sans-serif;
     font-weight:500;
     font-size:14px;
     color:var(--ink);
@@ -100,7 +97,7 @@
     .hero-visual{display:none;}
   }
   .eyebrow{
-    font-family:'Poppins', sans-serif;
+    font-family:Arial, sans-serif;
     font-weight:600;
     font-size:12px;
     letter-spacing:0.08em;
@@ -109,7 +106,7 @@
     margin-bottom:12px;
   }
   h1{
-    font-family:'Baloo 2', sans-serif;
+    font-family:Arial, sans-serif;
     font-weight:800;
     font-size:46px;
     line-height:1.15;
@@ -135,7 +132,7 @@
     left:24px;
     background:var(--orange);
     color:#fff;
-    font-family:'Poppins', sans-serif;
+    font-family:Arial, sans-serif;
     font-weight:600;
     font-size:12px;
     letter-spacing:0.03em;
@@ -143,14 +140,14 @@
     border-radius:4px;
   }
   .placard h2{
-    font-family:'Baloo 2', sans-serif;
+    font-family:Arial, sans-serif;
     font-weight:700;
     font-size:24px;
     margin:14px 0 8px;
     color:var(--navy);
   }
   .placard .meta{
-    font-family:'Poppins', sans-serif;
+    font-family:Arial, sans-serif;
     font-size:13px;
     color:var(--navy);
     font-weight:500;
@@ -159,7 +156,7 @@
   .placard p{font-size:15px;color:#3a3a3a;margin:0;}
   .tier-tag{
     display:inline-block;
-    font-family:'Poppins', sans-serif;
+    font-family:Arial, sans-serif;
     font-weight:600;
     font-size:11px;
     letter-spacing:0.03em;
@@ -174,7 +171,7 @@
   .sub{color:#444;font-size:15px;margin-bottom:24px;max-width:34em;}
   .btn-row{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:20px;}
   .btn{
-    font-family:'Poppins', sans-serif;
+    font-family:Arial, sans-serif;
     font-weight:600;
     font-size:13px;
     letter-spacing:0.03em;
@@ -205,12 +202,12 @@
 
   .copy-row{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:28px;}
   .copy-link-url{
-    font-family:'Poppins', sans-serif;
+    font-family:Arial, sans-serif;
     font-size:13px;
     color:#555;
   }
   .copy-feedback{
-    font-family:'Poppins', sans-serif;
+    font-family:Arial, sans-serif;
     font-weight:500;
     font-size:13px;
     color:var(--orange);
@@ -228,7 +225,7 @@
     overflow:hidden;
   }
   details.howto summary{
-    font-family:'Poppins', sans-serif;
+    font-family:Arial, sans-serif;
     font-weight:600;
     font-size:14px;
     color:var(--navy);
@@ -253,14 +250,14 @@
   details.howto .howto-body code{
     background:var(--paper-alt);
     padding:1px 5px;
-    font-family:'Poppins', sans-serif;
+    font-family:Arial, sans-serif;
     font-size:12px;
     border-radius:3px;
   }
 
   .archive{padding:56px 0 64px;}
   .archive h3{
-    font-family:'Baloo 2', sans-serif;
+    font-family:Arial, sans-serif;
     font-weight:700;
     font-size:24px;
     margin:0 0 20px;
@@ -287,14 +284,14 @@
     transform:translateY(-2px);
   }
   .card .tab{
-    font-family:'Poppins', sans-serif;
+    font-family:Arial, sans-serif;
     font-weight:600;
     font-size:11px;
     color:var(--orange);
     margin-bottom:8px;
   }
   .card h4{
-    font-family:'Baloo 2', sans-serif;
+    font-family:Arial, sans-serif;
     font-size:17px;
     margin:0 0 6px;
     font-weight:700;
@@ -307,7 +304,7 @@
   }
   .card .tags{display:flex;flex-wrap:wrap;gap:6px;}
   .tag{
-    font-family:'Poppins', sans-serif;
+    font-family:Arial, sans-serif;
     font-size:10px;
     padding:3px 8px;
     border-radius:10px;
@@ -352,7 +349,7 @@
 
 <header>
   <div class="wrap">
-    <a href="./" class="brand"><img src="rskless-icon.svg" alt="RskLess" style="height:28px;width:auto;"> RskLess PSM Calendar</a>
+    <a href="./" class="brand"><img src="rskless-icon.svg" alt="RskLess" style="height:28px;width:auto;"> PSM Events Calendar</a>
     <nav>
       <a href="archive.html" class="nav-archive">Archive</a>
       <a href="subscribe.html" class="nav-cta">Subscribe</a>
@@ -376,7 +373,7 @@
           <h2 id="hero-title">Loading…</h2>
           <div class="meta" id="hero-meta">&nbsp;</div>
           <p id="hero-blurb">&nbsp;</p>
-          <a id="hero-link" href="#" style="display:none;font-family:'IBM Plex Mono', monospace;font-size:13px;color:var(--blueprint);">Read the full brief &rarr;</a>
+          <a id="hero-link" href="#" style="display:none;font-family:Arial, sans-serif;font-size:13px;color:var(--blueprint);">Read the full brief &rarr;</a>
         </div>
       </div>
       <div class="hero-visual">
@@ -498,7 +495,7 @@
 <footer>
   <div class="footer-flex">
     <div class="footer-brand">
-      <div class="brand"><img src="rskless-icon.svg" alt="RskLess" style="height:24px;width:auto;"> RskLess PSM Calendar</div>
+      <div class="brand"><img src="rskless-icon.svg" alt="RskLess" style="height:24px;width:auto;"> PSM Events Calendar</div>
       <p>Safer than yesterday.</p>
       <p>Sources: CSB &middot; UK HSE &middot; BARPI/ARIA &middot; CCPS &middot; IChemE</p>
     </div>

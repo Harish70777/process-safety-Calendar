@@ -480,11 +480,11 @@ function buildSVG(data, recipe) {
     connectorLines.push(`<line x1="${x1}" y1="130" x2="${x2}" y2="130" class="arrow" stroke-dasharray="4 5"/>`);
   }
 
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${totalWidth} ${height}" font-family="-apple-system, 'Segoe UI', Roboto, Arial, sans-serif">
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${totalWidth} ${height}" font-family="Arial, sans-serif">
   <defs>
     <style>
-      .label { font-family: -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; font-weight: 700; font-size: 15px; fill: #13567F; }
-      .sublabel { font-family: -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 11px; fill: #666; }
+      .label { font-family: Arial, sans-serif; font-weight: 700; font-size: 15px; fill: #13567F; }
+      .sublabel { font-family: Arial, sans-serif; font-size: 11px; fill: #666; }
       .arrow { stroke: #C9D6DE; stroke-width: 2; fill: none; }
     </style>
   </defs>
@@ -492,7 +492,7 @@ function buildSVG(data, recipe) {
   ${connectorLines.join("\n  ")}
 ${stagesSVG}
   <rect x="0" y="${height - 30}" width="${totalWidth}" height="30" fill="${NAVY}"/>
-  <text x="${totalWidth / 2}" y="${height - 11}" text-anchor="middle" fill="#fff" font-size="12" font-family="-apple-system, 'Segoe UI', Roboto, Arial, sans-serif" font-weight="500">${esc(data.title)}${toll ? " \u2014 " + esc(toll) : ""}</text>
+  <text x="${totalWidth / 2}" y="${height - 11}" text-anchor="middle" fill="#fff" font-size="12" font-family="Arial, sans-serif" font-weight="500">${esc(data.title)}${toll ? " \u2014 " + esc(toll) : ""}</text>
 </svg>`;
 }
 
