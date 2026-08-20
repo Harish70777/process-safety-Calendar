@@ -11,6 +11,7 @@ root_causes: [premature-startup, bypassed-safety-interlocks, inadequate-pre-star
 psm_elements: [pre-startup-safety-review, mechanical-integrity, emergency-planning-and-response]
 status: published
 source_verified: true
+csb_video_id: "lbIz3vWeqcU"
 sources:
   - "CSB Investigation Report No. 2008-08-I-WV (2011)"
   - "Center for Public Integrity, CSB report coverage"

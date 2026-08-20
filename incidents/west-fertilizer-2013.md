@@ -11,6 +11,7 @@ root_causes: [combustible-building-materials, no-sprinkler-system, inadequate-fa
 psm_elements: [process-hazard-analysis, mechanical-integrity]
 status: published
 source_verified: true
+csb_video_id: "pdDuHxwD5R4"
 sources:
   - "CSB Investigation Report 2013-02-I-TX (2016)"
   - "CSB safety video: Dangerously Close"

@@ -11,6 +11,7 @@ root_causes: [design-deficiency, deferred-maintenance, inadequate-emergency-resp
 psm_elements: [mechanical-integrity, emergency-planning-and-response, process-hazard-analysis]
 status: published
 source_verified: true
+csb_video_id: "HZirRB32qzU"
 sources:
   - "Indian Council of Medical Research reports"
   - "Trevor Kletz, 'Still Going Wrong!'"

@@ -11,6 +11,7 @@ root_causes: [inadequate-extreme-weather-planning, total-power-loss-not-anticipa
 psm_elements: [process-hazard-analysis, emergency-planning-and-response]
 status: published
 source_verified: true
+csb_video_id: "jtWyBMwRt-A"
 sources:
   - "CSB Investigation Report No. 2017-08-I-TX (2018)"
   - "CSB Safety Video: Caught in the Storm, Extreme Weather Hazards"

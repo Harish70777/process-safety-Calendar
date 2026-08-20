@@ -11,6 +11,7 @@ root_causes: [combustible-dust-accumulation, inadequate-housekeeping, no-explosi
 psm_elements: [mechanical-integrity, process-hazard-analysis, incident-investigation]
 status: published
 source_verified: true
+csb_video_id: "Jg7mLSG-Yws"
 sources:
   - "CSB Investigation Report (2009)"
   - "Vorderbrueggen, Process Safety Progress (2011)"

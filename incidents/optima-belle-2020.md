@@ -11,6 +11,7 @@ root_causes: [inaccurate-safety-data-sheet, poor-process-knowledge-transfer-betw
 psm_elements: [process-safety-information, process-hazard-analysis, mechanical-integrity]
 status: published
 source_verified: true
+csb_video_id: "_ZkOLxHTo1c"
 sources:
   - "CSB Final Investigation Report (2023)"
   - "The Chemical Engineer / WV Gazette-Mail, CSB report coverage"

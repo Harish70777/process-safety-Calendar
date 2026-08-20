@@ -11,6 +11,7 @@ root_causes: [worn-slide-valve, ineffective-safeguards, failure-to-learn-from-pr
 psm_elements: [mechanical-integrity, incident-investigation, process-safety-information]
 status: published
 source_verified: true
+csb_video_id: "sFhkzK7jkKg"
 sources:
   - "CSB Final Investigation Report (2022)"
   - "CSB Factual Investigative Update (2018)"

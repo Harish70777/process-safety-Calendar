@@ -11,6 +11,7 @@ root_causes: [faulty-slide-valve, no-safe-operating-limits, unsafe-isolation-met
 psm_elements: [mechanical-integrity, operating-procedures, process-hazard-analysis]
 status: published
 source_verified: true
+csb_video_id: "JplAKJrgyew"
 sources:
   - "CSB Investigation Report No. 2015-02-I-CA (2017)"
   - "Oil & Gas Journal, CSB final report coverage"

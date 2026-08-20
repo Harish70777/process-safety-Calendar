@@ -11,6 +11,7 @@ root_causes: [relief-system-vented-toward-workers, nonessential-workers-present-
 psm_elements: [mechanical-integrity, pre-startup-safety-review, training]
 status: published
 source_verified: true
+csb_video_id: "0DA--nMkWeA"
 sources:
   - "CSB Final Investigation Report No. 2018-03-I-TX (2022)"
   - "HazardEx, CSB report coverage"

@@ -11,6 +11,7 @@ root_causes: [flawed-engineering-design, no-adequate-safeguards, ignored-prior-p
 psm_elements: [process-hazard-analysis, mechanical-integrity, operating-procedures]
 status: published
 source_verified: true
+csb_video_id: "ISNGimMXL7M"
 sources:
   - "CSB Investigation Report No. 2015-01-I-TX (2019)"
   - "CSB Winterization Safety Digest (2018)"

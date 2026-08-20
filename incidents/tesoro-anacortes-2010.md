@@ -11,6 +11,7 @@ root_causes: [high-temperature-hydrogen-attack, undetected-equipment-degradation
 psm_elements: [mechanical-integrity, process-hazard-analysis, incident-investigation]
 status: published
 source_verified: true
+csb_video_id: "8vPaQYM-tWs"
 sources:
   - "CSB Final Investigation Report (2014)"
   - "CSB Safety Alert: Preventing High Temperature Hydrogen Attack (HTHA)"

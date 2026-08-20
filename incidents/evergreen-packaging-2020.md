@@ -11,6 +11,7 @@ root_causes: [heat-gun-used-near-flammable-resin, no-communication-between-contr
 psm_elements: [hot-work-permit, contractors, process-hazard-analysis]
 status: published
 source_verified: true
+csb_video_id: "mF1fHHUcstg"
 sources:
   - "CSB Final Investigation Report (2021)"
   - "CSB Safety Video: Simultaneous Tragedy, Fire at Evergreen Packaging"

@@ -11,6 +11,7 @@ root_causes: [unrecognized-reactive-hazard-runaway-reaction, inadequate-cooling-
 psm_elements: [process-hazard-analysis, mechanical-integrity, incident-investigation]
 status: published
 source_verified: true
+csb_video_id: "C561PCq5E1g"
 sources:
   - "CSB Investigation Report (2009)"
   - "CSB safety video and public meeting findings"

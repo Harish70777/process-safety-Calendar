@@ -11,6 +11,7 @@ root_causes: [incompatible-chemicals-mixed, identical-looking-containers, no-haz
 psm_elements: [process-hazard-analysis, incident-investigation, mechanical-integrity]
 status: published
 source_verified: true
+csb_video_id: "8j8EprZP4IE"
 sources:
   - "CSB Safety Video and Investigation Update (2022)"
   - "C&EN, CSB preliminary report coverage (2019)"

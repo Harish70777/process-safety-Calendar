@@ -11,6 +11,7 @@ root_causes: [pump-bearing-failure, no-gas-detection-2014-recommendation-ignored
 psm_elements: [mechanical-integrity, process-hazard-analysis, incident-investigation]
 status: published
 source_verified: true
+csb_video_id: "ReYsPKwVy64"
 sources:
   - "CSB Final Investigation Report No. 2019-01-I-TX (2023)"
   - "CSB Factual Update (2019)"

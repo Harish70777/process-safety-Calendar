@@ -11,6 +11,7 @@ root_causes: [sulfidation-corrosion, ignored-internal-recommendation-2002, incom
 psm_elements: [mechanical-integrity, process-hazard-analysis, incident-investigation]
 status: published
 source_verified: true
+csb_video_id: "QiILbGbk8Qk"
 sources:
   - "CSB Regulatory Report (2014)"
   - "CSB/Cal-OSHA Technical Evaluation Report (2013)"

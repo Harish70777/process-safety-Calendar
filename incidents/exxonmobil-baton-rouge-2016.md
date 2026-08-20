@@ -11,6 +11,7 @@ root_causes: [wrong-bolts-removed-from-valve, hazardous-minority-valve-design, a
 psm_elements: [operating-procedures, mechanical-integrity, process-hazard-analysis, training]
 status: published
 source_verified: true
+csb_video_id: "QyIIe5T5beM"
 sources:
   - "CSB Safety Bulletin: Key Lessons from the ExxonMobil Baton Rouge Refinery Isobutane Release and Fire (2017)"
   - "CSB Safety Video: Fire in Baton Rouge"

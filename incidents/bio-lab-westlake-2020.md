@@ -11,6 +11,7 @@ root_causes: [inadequate-hurricane-preparation, ignored-arkema-precedent, unimpl
 psm_elements: [process-hazard-analysis, emergency-planning, incident-investigation]
 status: published
 source_verified: true
+csb_video_id: "sqqIxWlCfd0"
 sources:
   - "CSB Final Investigation Report (2023)"
   - "CSB Safety Video: Fire From the Storm (2025)"

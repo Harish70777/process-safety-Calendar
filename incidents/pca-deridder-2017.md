@@ -11,6 +11,7 @@ root_causes: [hot-work-above-flammable-tank, inadequate-hazard-identification, r
 psm_elements: [hot-work-permit, process-hazard-analysis, incident-investigation]
 status: published
 source_verified: true
+csb_video_id: "j4iv4HvrfSU"
 sources:
   - "CSB Investigation Report No. 2017-03-I-LA (2018)"
   - "CSB Safety Bulletin: Seven Key Lessons to Prevent Worker Deaths during Hot Work In and Around Tanks"

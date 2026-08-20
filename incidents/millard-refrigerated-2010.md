@@ -11,6 +11,7 @@ root_causes: [hydraulic-shock, improper-restart-after-power-outage, prior-releas
 psm_elements: [mechanical-integrity, process-hazard-analysis, incident-investigation]
 status: published
 source_verified: true
+csb_video_id: "_icf-5uoZbc"
 sources:
   - "CSB Safety Bulletin: Key Lessons for Preventing Hydraulic Shock (2015)"
   - "CSB Safety Video: Shock to the System (2015)"

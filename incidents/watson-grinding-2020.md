@@ -11,6 +11,7 @@ root_causes: [degraded-welding-hose, valve-left-open-overnight, non-functional-g
 psm_elements: [mechanical-integrity, training, process-hazard-analysis]
 status: published
 source_verified: true
+csb_video_id: "CFVUSDzHL8A"
 sources:
   - "CSB Final Investigation Report No. 2020-031-I-TX (2023)"
   - "CSB Safety Video: No Detection, Explosion at Watson Grinding"

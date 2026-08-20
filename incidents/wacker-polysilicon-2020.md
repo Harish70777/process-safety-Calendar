@@ -11,6 +11,7 @@ root_causes: [no-written-torque-procedure, ineffective-hazardous-energy-control,
 psm_elements: [operating-procedures, contractors, incident-investigation]
 status: published
 source_verified: true
+csb_video_id: "CcMnf86n8_U"
 sources:
   - "CSB Final Investigation Report No. 2021-01-I-TN (2023)"
   - "C&EN, CSB report coverage"

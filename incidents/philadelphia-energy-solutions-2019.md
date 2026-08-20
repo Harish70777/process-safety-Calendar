@@ -11,6 +11,7 @@ root_causes: [corroded-pipe-elbow, outdated-material-standard, no-remote-isolati
 psm_elements: [mechanical-integrity, process-safety-information]
 status: published
 source_verified: true
+csb_video_id: "gc8qXTh6tTY"
 sources:
   - "CSB Investigation Report No. 2019-06-I-PA (2022)"
   - "CSB Factual Update (2019)"

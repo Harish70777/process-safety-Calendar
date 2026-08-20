@@ -11,6 +11,7 @@ root_causes: [visually-similar-unmarked-fill-lines, both-lines-left-unlocked, no
 psm_elements: [operating-procedures, mechanical-integrity, process-safety-information]
 status: published
 source_verified: true
+csb_video_id: "Tflm9mttAAI"
 sources:
   - "CSB Investigation Report (2018)"
   - "CSB Safety Video: Mixed Connection, Toxic Result"

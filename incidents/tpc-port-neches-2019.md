@@ -11,6 +11,7 @@ root_causes: [unaddressed-dead-leg, ignored-2016-hazard-analysis-recommendation,
 psm_elements: [process-hazard-analysis, mechanical-integrity, operating-procedures]
 status: published
 source_verified: true
+csb_video_id: "6-3BFXpBcjc"
 sources:
   - "CSB Final Investigation Report No. 2020-02-I-TX (2022)"
   - "U.S. Department of Justice, TPC Group LLC Investigation notice"

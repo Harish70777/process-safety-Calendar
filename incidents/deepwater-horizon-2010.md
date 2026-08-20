@@ -11,6 +11,7 @@ root_causes: [cement-barrier-failure, misinterpreted-pressure-test, missed-well-
 psm_elements: [mechanical-integrity, operating-procedures, contractors]
 status: published
 source_verified: true
+csb_video_id: "FCVCOWejlag"
 sources:
   - "CSB Investigation Report, Volume 2 (2016) - BOP Failure Analysis"
   - "BOEMRE/USCG Joint Investigation Report (2011)"

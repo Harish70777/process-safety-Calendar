@@ -11,6 +11,7 @@ root_causes: [instrumentation-failure, facility-siting, cost-cutting, inadequate
 psm_elements: [mechanical-integrity, process-hazard-analysis, pre-startup-safety-review]
 status: published
 source_verified: true
+csb_video_id: "c9JY3eT4cdM"
 sources:
   - "CSB Final Investigation Report (2007)"
   - "Baker Panel Report (2007)"

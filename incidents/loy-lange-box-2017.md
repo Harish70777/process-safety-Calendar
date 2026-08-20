@@ -11,6 +11,7 @@ root_causes: [oxygen-pitting-corrosion-known-since-2004, incomplete-2012-repair,
 psm_elements: [mechanical-integrity, incident-investigation, compliance-audits]
 status: published
 source_verified: true
+csb_video_id: "rGVbGNdx7g0"
 sources:
   - "CSB Final Investigation Report (2022)"
   - "CSB Safety Video: Ignored Warnings, Explosion in St. Louis, Missouri"

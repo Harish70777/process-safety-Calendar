@@ -11,6 +11,7 @@ root_causes: [stress-corrosion-cracking, ignored-insurance-consultant-warning-20
 psm_elements: [mechanical-integrity, incident-investigation, process-hazard-analysis]
 status: published
 source_verified: true
+csb_video_id: "uo7H_ILs1qc"
 sources:
   - "CSB Case Study and Final Report (2013)"
   - "CSB Safety Video: Falling Through the Cracks"

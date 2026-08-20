@@ -100,6 +100,7 @@ function pageTemplate(data, bodyHtml, hasIllustration) {
     <div class="meta-row">${esc(data.location)}${toll ? " &middot; " + esc(toll) : ""}</div>
     <div class="tags">${tags}</div>
     ${hasIllustration ? `<div class="illustration"><img src="illustration.svg" alt="Illustrated summary of ${esc(data.title)}" style="width:100%;height:auto;border-radius:8px;margin:16px 0;"></div>` : ""}
+    ${data.csb_video_id ? `<div class="csb-video" style="margin:16px 0;"><div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:8px;"><iframe src="https://www.youtube.com/embed/${esc(data.csb_video_id)}" title="CSB Safety Video: ${esc(data.title)}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div><p style="font-size:12px;color:#777;margin-top:6px;">Official CSB Safety Video, via the U.S. Chemical Safety Board's YouTube channel.</p></div>` : ""}
     <article>
 ${bodyHtml}
     </article>
