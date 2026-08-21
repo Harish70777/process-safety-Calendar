@@ -214,6 +214,41 @@
     "hasBody": true
   },
   {
+    "id": "morton-international-1998",
+    "file": "morton-international-1998.md",
+    "title": "Morton International Runaway Chemical Reaction",
+    "date": "1998-04-08",
+    "location": "Paterson, NJ, USA",
+    "industry": [
+      "chemical-manufacturing"
+    ],
+    "chemicals": [
+      "ortho-nitrochlorobenzene",
+      "ethylhexylamine"
+    ],
+    "severity": 1,
+    "fatalities": 0,
+    "injuries": 9,
+    "root_causes": [
+      "runaway-reaction-not-anticipated",
+      "insufficient-cooling-capacity",
+      "no-emergency-venting-system",
+      "process-changed-without-full-hazard-evaluation"
+    ],
+    "psm_elements": [
+      "process-hazard-analysis",
+      "mechanical-integrity",
+      "management-of-change"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Final Investigation Report No. 1998-06-I-NJ (2000)",
+      "CSB Investigation Digest: Morton International Explosion"
+    ],
+    "hasBody": true
+  },
+  {
     "id": "longford-1998",
     "file": "longford-1998.md",
     "title": "Longford Esso Gas Plant Explosion",
@@ -246,6 +281,111 @@
     "sources": [
       "Longford Royal Commission Final Report (1999)",
       "Andrew Hopkins, 'Lessons from Longford' (2000)"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "condea-vista-1998",
+    "file": "condea-vista-1998.md",
+    "title": "CONDEA Vista Detergent Alkylate Reactor Explosion",
+    "date": "1998-10-13",
+    "location": "Baltimore, MD, USA",
+    "industry": [
+      "chemical-manufacturing"
+    ],
+    "chemicals": [
+      "aluminum-chloride",
+      "hydrogen-chloride",
+      "benzene"
+    ],
+    "severity": 1,
+    "fatalities": 0,
+    "injuries": 5,
+    "root_causes": [
+      "process-change-without-moc",
+      "powdered-aluminum-created-sludge",
+      "steam-injection-into-plugged-reactor",
+      "no-hazard-analysis-of-process-change"
+    ],
+    "psm_elements": [
+      "management-of-change",
+      "process-hazard-analysis",
+      "mechanical-integrity"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Safety Bulletin: Management of Change (2001)",
+      "MDE Consent Agreement (1999)"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "concept-sciences-1999",
+    "file": "concept-sciences-1999.md",
+    "title": "Concept Sciences Hydroxylamine Explosion",
+    "date": "1999-02-19",
+    "location": "Hanover Township, PA, USA",
+    "industry": [
+      "chemical-manufacturing"
+    ],
+    "chemicals": [
+      "hydroxylamine"
+    ],
+    "severity": 1,
+    "fatalities": 5,
+    "injuries": 14,
+    "root_causes": [
+      "explosive-decomposition-not-recognized",
+      "high-concentration-and-temperature",
+      "inadequate-facility-siting",
+      "first-large-scale-commercial-batch"
+    ],
+    "psm_elements": [
+      "process-hazard-analysis",
+      "facility-siting",
+      "process-safety-information"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Case Study Report No. 1999-13-C-PA (2002)"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "tosco-avon-1999",
+    "file": "tosco-avon-1999.md",
+    "title": "Tosco Avon Refinery Naphtha Fire",
+    "date": "1999-02-23",
+    "location": "Martinez, CA, USA",
+    "industry": [
+      "oil-gas-refining"
+    ],
+    "chemicals": [
+      "naphtha"
+    ],
+    "severity": 1,
+    "fatalities": 4,
+    "injuries": 1,
+    "root_causes": [
+      "work-permit-requirements-not-met",
+      "no-hazard-evaluation-for-repair",
+      "13-days-of-missed-reassessment",
+      "no-job-planning-authorization-process",
+      "no-audits-of-line-breaking-procedures"
+    ],
+    "psm_elements": [
+      "operating-procedures",
+      "process-hazard-analysis",
+      "management-of-change",
+      "compliance-audits"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Final Investigation Report (2001)",
+      "CSB Safety Digest: Tosco Avon Refinery Fire"
     ],
     "hasBody": true
   },

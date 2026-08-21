@@ -111,6 +111,18 @@ the incident's own .md file at any time.
   Stage 3 [fire] "Pipe Ruptures & Fire": 'a large vapor cloud that engulfed 19 Chevron employees before igniting'
   Stage 4 [building] "Community Impact": 'roughly 15,000 nearby residents sought medical treatment'
 
+--- Concept Sciences Hydroxylamine Explosion (concept-sciences-1999) ---
+  Stage 1 [tank] "First Large-Scale Batch": 'Concept Sciences was attempting its first large-scale commercial batch of hydroxylamine'
+  Stage 2 [gauge] "Concentration Rises After Shutdown": 'now at a higher concentration than during active processing and still at an elevated temperature'
+  Stage 3 [explosion] "Explosive Decomposition": 'registered 0.7 on a seismograph five miles away'
+  Stage 4 [building] "5 Killed, 14 Injured": fatalities/injuries frontmatter fields
+
+--- CONDEA Vista Detergent Alkylate Reactor Explosion (condea-vista-1998) ---
+  Stage 1 [valve] "Process Changed Without MOC": 'switching from direct aluminum chloride addition to powdered aluminum...wasn't run through the kind of systematic MOC review'
+  Stage 2 [corrosion] "Sludge Plugs the Reactor": 'roughly 180 gallons of it by the time of the incident'
+  Stage 3 [vaporCloud] "Steam Injected to Clear It": 'The steam immediately triggered a runaway reaction with the trapped aluminum'
+  Stage 4 [explosion] "Explosion": fatalities/injuries frontmatter fields
+
 --- CTA Acoustics Dust Explosion and Fire (cta-acoustics-2003) ---
   Stage 1 [dustCloud] "Dust Hazard Unknown to Workers": 'The building itself was never designed to limit dust explosion severity'
   Stage 2 [warningIgnored] "Supplier Withheld a Warning": root causes: 'Borden Chemical...was aware of a nearly identical 1999 dust explosion...but never passed that safety lesson on'
@@ -321,6 +333,12 @@ the incident's own .md file at any time.
   Stage 3 [vaporCloud] "32,000 lbs of Ammonia Released": 'The ammonia cloud drifted directly over a nearby site where more than 800 people were working'
   Stage 4 [warningIgnored] "Third Release at This Site": 'the company had experienced two earlier releases (2007 and January 2010) at the same site'
 
+--- Morton International Runaway Chemical Reaction (morton-international-1998) ---
+  Stage 1 [gauge] "Routine Batch Begins": 'workers began what they expected to be a routine six to eight hour production run'
+  Stage 2 [valve] "Reaction Accelerates": 'the reaction accelerated beyond what the kettle's cooling system could remove'
+  Stage 3 [warningIgnored] "No Emergency Venting": 'no emergency shutdown or venting system existed'
+  Stage 4 [explosion] "Kettle Ruptures": fatalities/injuries frontmatter fields
+
 --- Motiva Enterprises Delaware City Refinery Sulfuric Acid Tank Explosion (motiva-delaware-city-2001) ---
   Stage 1 [corrosion] "Corroded Tank Undetected": 'holes caused by corrosion that had gone unaddressed'
   Stage 2 [fire] "Hot Work Overhead": 'a crew of contract workers was repairing grating on a catwalk above a spent sulfuric acid storage tank farm'
@@ -428,6 +446,12 @@ the incident's own .md file at any time.
   Stage 2 [dustCloud] "Incompatible Co-Storage": 'dozens of different hazardous chemicals had been stored together in violation of separation requirements'
   Stage 3 [fire] "Initial Fire": 'Nitrocellulose becomes unstable and prone to spontaneous ignition when it dries out'
   Stage 4 [explosion] "Massive Detonation": 'killed 173 people, the majority of them firefighters and emergency responders'
+
+--- Tosco Avon Refinery Naphtha Fire (tosco-avon-1999) ---
+  Stage 1 [valve] "Permit Requirements Skipped": 'these requirements were not met, and the work proceeded anyway'
+  Stage 2 [warningIgnored] "13 Days, No Reassessment": 'the job was never re-evaluated and the unit was never shut down'
+  Stage 3 [fire] "Naphtha Ignites on Hot Tower": 'naphtha released directly onto the hot fractionator tower and ignited'
+  Stage 4 [person] "4 Killed": fatalities/injuries frontmatter fields
 
 --- TPC Group Port Neches Butadiene Explosions and Fire (tpc-port-neches-2019) ---
   Stage 1 [valve] "Dead Leg Unaddressed": 'a section of piping connected to out-of-service equipment, a "dead leg" left over when a process pump was taken offline'

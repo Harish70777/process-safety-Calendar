@@ -551,6 +551,30 @@ const RECIPES = {
     { icon: "warningIgnored", label: "Prior Near-Misses Not Investigated", caption: "Plugged drains, minor fires before", source: "'prior near-miss incidents were not adequately investigated'" },
     { icon: "explosion", label: "Cover Blows Off", caption: "3 workers killed", source: "fatalities/injuries frontmatter fields" },
   ]},
+"concept-sciences-1999": { stages: [
+    { icon: "tank", label: "First Large-Scale Batch", caption: "First commercial run at this scale", source: "'Concept Sciences was attempting its first large-scale commercial batch of hydroxylamine'" },
+    { icon: "gauge", label: "Concentration Rises After Shutdown", caption: "Material grew more hazardous, not less", source: "'now at a higher concentration than during active processing and still at an elevated temperature'" },
+    { icon: "explosion", label: "Explosive Decomposition", caption: "Registered on a seismograph 5 miles away", source: "'registered 0.7 on a seismograph five miles away'" },
+    { icon: "building", label: "5 Killed, 14 Injured", caption: "Destroyed 11 nearby buildings", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "tosco-avon-1999": { stages: [
+    { icon: "valve", label: "Permit Requirements Skipped", caption: "Line not drained, steamed, or isolated", source: "'these requirements were not met, and the work proceeded anyway'" },
+    { icon: "warningIgnored", label: "13 Days, No Reassessment", caption: "Job never re-evaluated", source: "'the job was never re-evaluated and the unit was never shut down'" },
+    { icon: "fire", label: "Naphtha Ignites on Hot Tower", caption: "5 workers engulfed on the structure", source: "'naphtha released directly onto the hot fractionator tower and ignited'" },
+    { icon: "person", label: "4 Killed", caption: "Second fatal incident in 2 years", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "condea-vista-1998": { stages: [
+    { icon: "valve", label: "Process Changed Without MOC", caption: "Powdered aluminum replaced direct addition", source: "'switching from direct aluminum chloride addition to powdered aluminum...wasn't run through the kind of systematic MOC review'" },
+    { icon: "corrosion", label: "Sludge Plugs the Reactor", caption: "180 gallons of reactive residue", source: "'roughly 180 gallons of it by the time of the incident'" },
+    { icon: "vaporCloud", label: "Steam Injected to Clear It", caption: "Triggered a runaway reaction", source: "'The steam immediately triggered a runaway reaction with the trapped aluminum'" },
+    { icon: "explosion", label: "Explosion", caption: "5 injured, homes shaken", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "morton-international-1998": { stages: [
+    { icon: "gauge", label: "Routine Batch Begins", caption: "Expected 6-8 hour production run", source: "'workers began what they expected to be a routine six to eight hour production run'" },
+    { icon: "valve", label: "Reaction Accelerates", caption: "Exceeded the kettle's cooling capacity", source: "'the reaction accelerated beyond what the kettle's cooling system could remove'" },
+    { icon: "warningIgnored", label: "No Emergency Venting", caption: "Two hazard reviews missed this risk", source: "'no emergency shutdown or venting system existed'" },
+    { icon: "explosion", label: "Kettle Ruptures", caption: "9 injured, community sheltered", source: "fatalities/injuries frontmatter fields" },
+  ]},
 };
 
 function esc(str) {
