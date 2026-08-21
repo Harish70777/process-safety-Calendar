@@ -413,6 +413,96 @@ const RECIPES = {
     { icon: "overfill", label: "Pressure Builds", caption: "Sudden mixing rapidly vaporized the solvent", source: "'the sudden mixing caused the solvent to rapidly vaporize, building pressure inside the kettle'" },
     { icon: "explosion", label: "Explosion & Fire", caption: "1 killed, 8 injured, burned 11 hours", source: "'triggering an explosion that was seen, heard, and felt throughout parts of Columbus'" },
   ]},
+"formosa-point-comfort-2020": { stages: [
+    { icon: "tank", label: "Container Believed Empty", caption: "Still held 1,250 lbs of chlorine", source: "'The container was not actually empty at all, still holding 1,250 pounds of chlorine'" },
+    { icon: "vaporCloud", label: "Chlorine Escapes", caption: "Worker wasn't wearing respiratory protection", source: "'Because the container was believed empty, the worker wasn't wearing respiratory protection'" },
+    { icon: "warningIgnored", label: "Three Attempts Failed", caption: "Took 50 minutes to close the vapor valve", source: "'Three attempts to stop the release failed before an emergency responder was able to close the container's vapor valve'" },
+    { icon: "person", label: "Worker Hospitalized", caption: "Flown to hospital with respiratory difficulties", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "bio-lab-westlake-2020": { stages: [
+    { icon: "building", label: "Hurricane Laura Hits", caption: "Category 4 storm tore roofs off the facility", source: "'Category 4 Hurricane Laura tore roofs off portions of the Bio-Lab facility'" },
+    { icon: "vaporCloud", label: "Rainwater Reaches TCCA", caption: "Wetting triggers heat and chlorine gas", source: "'rainwater reached stored TCCA and triggered exactly that reaction, initiating a fire'" },
+    { icon: "warningIgnored", label: "2010 Recommendation Unimplemented", caption: "Roof vulnerability flagged a decade earlier", source: "'a process hazard analysis a decade before the incident that recommended assessing whether facility buildings...could withstand hurricane-strength winds'" },
+    { icon: "fire", label: "Fire & Toxic Plume", caption: "$250 million rebuild, closed over two years", source: "'stayed closed for over two years, and was eventually rebuilt at a cost of $250 million'" },
+  ]},
+  "accurate-energetic-systems-2025": { stages: [
+    { icon: "tank", label: "Explosives Melted in Kettles", caption: "24,600 lbs of material present", source: "'melting explosive material in agitated, steam-jacketed kettles'" },
+    { icon: "warningIgnored", label: "No Sprinkler System", caption: "Fire protection gap under active review", source: "'the absence of a sprinkler system in Building 602'" },
+    { icon: "explosion", label: "Catastrophic Explosion", caption: "Building destroyed, felt 20+ miles away", source: "'The explosions completely destroyed Building 602...felt more than 20 miles away'" },
+    { icon: "person", label: "16 Killed", caption: "One of the deadliest US industrial incidents in years", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "rubicon-geismar-2022": { stages: [
+    { icon: "gauge", label: "Rupture Disc Activates Early", caption: "Opened at 13 psi, not its 30 psi design", source: "'process data showed it actually opened at about 13 psi'" },
+    { icon: "vaporCloud", label: "Hot MDI Discharges", caption: "Piping ended just 8 inches above the floor", source: "'discharged into vertically-oriented piping that ended only about eight inches above a solid concrete floor'" },
+    { icon: "warningIgnored", label: "Known Hazard Not Mitigated", caption: "PHA had already identified this exact risk", source: "'Rubicon's process hazard analysis had already identified personnel exposure to hot MDI as a potential consequence'" },
+    { icon: "person", label: "Two Workers Sprayed", caption: "Hospitalized with thermal burns", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "pemex-deer-park-2024": { stages: [
+    { icon: "valve", label: "Wrong Flange Opened", caption: "Correct one was 5 feet away", source: "'mistakenly opened a flange on piping...when they had actually been assigned to open a different flange located about five feet away'" },
+    { icon: "vaporCloud", label: "H2S Vapor Travels Downwind", caption: "Reached an adjacent occupied unit", source: "'The hydrogen sulfide vapor then traveled downwind into an adjacent unit'" },
+    { icon: "warningIgnored", label: "No Positive Equipment ID", caption: "Drawings weren't precise enough to tell pipes apart", source: "'the refinery lacked an effective method to clearly distinguish the correct flange before work began'" },
+    { icon: "person", label: "Two Fatalities", caption: "27,000 lbs of hydrogen sulfide released", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "millard-refrigerated-2010": { stages: [
+    { icon: "gauge", label: "Power Restored After Outage", caption: "Operator cleared alarms mid-defrost cycle", source: "'an operator troubleshooting the restart cleared alarms in the control system, which reset a group of freezer evaporators mid-cycle'" },
+    { icon: "valve", label: "Hydraulic Shock", caption: "Hot gas met liquid ammonia in the same line", source: "'hydraulic shock\", a sudden, localized pressure surge caused by a rapid change in flow velocity'" },
+    { icon: "vaporCloud", label: "32,000 lbs of Ammonia Released", caption: "Cloud drifted over 800 nearby workers", source: "'The ammonia cloud drifted directly over a nearby site where more than 800 people were working'" },
+    { icon: "warningIgnored", label: "Third Release at This Site", caption: "Two prior releases hadn't been fully addressed", source: "'the company had experienced two earlier releases (2007 and January 2010) at the same site'" },
+  ]},
+  "itc-deer-park-2019": { stages: [
+    { icon: "corrosion", label: "Pump Bearing Fails", caption: "Kept running 30 minutes after failure", source: "'The pump kept running for roughly 30 minutes after the failure, releasing flammable product'" },
+    { icon: "warningIgnored", label: "2014 Recommendation Ignored", caption: "Gas detection was never added", source: "'a hazard review team had specifically recommended adding flammable gas detection near this tank five years earlier'" },
+    { icon: "fire", label: "Fire Spreads to 14 Tanks", caption: "Burned for three days", source: "'The fire spread to 14 neighboring tanks in the same containment area and burned for three days'" },
+    { icon: "building", label: "$150M+ in Damage", caption: "Ship Channel closed, no injuries", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "catalyst-refiners-2026": { stages: [
+    { icon: "tank", label: "Chemicals Mixed During Disposal", caption: "Nitric acid added to a wastewater tank", source: "'began adding diluted nitric acid into the same tank'" },
+    { icon: "vaporCloud", label: "Toxic Fog Forms", caption: "Two workers lost consciousness", source: "'Workers noticed a chemical reaction developing and fog forming over the tank'" },
+    { icon: "warningIgnored", label: "Coworkers Went to Help", caption: "Both inhaled the fumes and later died", source: "'Two other employees then went into the area to help their collapsed colleagues. Both inhaled the resulting hydrogen sulfide fumes'" },
+    { icon: "person", label: "Two Fatalities", caption: "Investigation still ongoing", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "valero-meraux-2020": { stages: [
+    { icon: "gauge", label: "PSV Fails to Reseat", caption: "Approved plan: close an inlet valve", source: "'the valve failed to fully \"reseat\" back into its closed position'" },
+    { icon: "warningIgnored", label: "Field Deviation from Plan", caption: "Operators closed a different valve instead", source: "'made a decision on the spot to close a different valve instead, a 20-inch outlet valve'" },
+    { icon: "explosion", label: "Substitute Valve Fails", caption: "Triggered an explosion and fire", source: "'That substituted valve immediately failed when closed, triggering an explosion and fire'" },
+    { icon: "person", label: "One Worker Injured", caption: "$5.15 million in property damage", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "lacc-westlake-2020": { stages: [
+    { icon: "tank", label: "Clearing a Chemical Hose", caption: "Temporary workaround for unreliable equipment", source: "'a workaround the company had adopted to manage a reliability problem with its regular oxidizing reactor equipment'" },
+    { icon: "overfill", label: "Unsecured Hatch", caption: "Pressurized caustic erupted outward", source: "'erupted spent caustic out through its unsecured top hatch, splashing the corrosive liquid onto her'" },
+    { icon: "warningIgnored", label: "Safety Shower Too Far", caption: "Took two minutes to reach it", source: "'was far enough away that it took her roughly two minutes to reach it'" },
+    { icon: "person", label: "Chemical Burns", caption: "Hospitalized for treatment", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "horsehead-monaca-2010": { stages: [
+    { icon: "valve", label: "Column Rebuilt", caption: "Reused a sump designed for lower flow", source: "'reused a sump at its base that had originally been designed for a different column configuration with a much lower liquid flow rate'" },
+    { icon: "corrosion", label: "Sump Blocks, Zinc Traps", caption: "Became superheated inside the column", source: "'the liquid zinc became superheated by heat from the combustion chamber'" },
+    { icon: "warningIgnored", label: "Warning Signs Missed", caption: "Visible days before, not recognized", source: "'symptoms of the developing blockage had been visible in the days before the explosion but were not recognized'" },
+    { icon: "explosion", label: "Explosive Decompression", caption: "Two operators killed", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "georgia-pacific-naheola-2002": { stages: [
+    { icon: "tank", label: "Routine Spillage into Pit", caption: "Up to 5 gallons lost per delivery", source: "'each losing up to five gallons of NaSH into a collection pit at the site, a normal, expected part of the unloading process'" },
+    { icon: "vaporCloud", label: "Reacts in Acidic Sewer", caption: "Generated lethal hydrogen sulfide gas", source: "'it reacted to release hydrogen sulfide gas, a highly toxic gas that can cause immediate death'" },
+    { icon: "warningIgnored", label: "Contractors Had No Idea", caption: "Unrelated construction work nearby", source: "'Nearly everyone affected was a contractor from Burkes Construction working on an unrelated construction project'" },
+    { icon: "person", label: "Two Killed, Eight Injured", caption: "A decades-old design flaw", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "woodland-pulp-2026": { stages: [
+    { icon: "gauge", label: "Abrupt Shutdown Ordered", caption: "Driven by rising natural gas prices", source: "'Facing a sharp rise in natural gas prices...Woodland Pulp management decided to shut down most of the mill'" },
+    { icon: "vaporCloud", label: "Automatic Dosing Reacts", caption: "pH correction generated hydrogen sulfide", source: "'automatically increased sulfuric acid dosing into the sewer to compensate...reacted with the sulfur-containing fluids'" },
+    { icon: "warningIgnored", label: "No Personnel Tracking", caption: "Workers not found for over 3 hours", source: "'the two collapsed workers weren't discovered until more than three hours after'" },
+    { icon: "person", label: "Two Fatalities", caption: "Investigation still ongoing", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "exxonmobil-baton-rouge-2016": { stages: [
+    { icon: "valve", label: "Wrong Bolts Removed", caption: "Top-cap screws, not gearbox screws", source: "'the operator instead removed four vertical screws that actually secured the valve's pressure-retaining top-cap'" },
+    { icon: "vaporCloud", label: "Isobutane Vapor Cloud", caption: "Reached a welder in 30 seconds", source: "'The cloud reached a welding machine operating about 70 feet away within roughly 30 seconds'" },
+    { icon: "warningIgnored", label: "Rare Valve Design", caption: "Only 3% of 500 valves shared this design", source: "'only about 15 of the roughly 500 manually operated plug valves in the unit, some 3%, shared this particular design'" },
+    { icon: "fire", label: "Fireball", caption: "Four workers severely burned", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "phillips-66-borger-2023": { stages: [
+    { icon: "valve", label: "Impact Wrench Set to Reverse", caption: "Left in the wrong setting", source: "'A contractor used a battery-operated impact wrench that had inadvertently been left set to reverse'" },
+    { icon: "corrosion", label: "Screw Backs Out", caption: "Released pressurized gas liquid at 400 psi", source: "'the wrench instead backed the screw out entirely, removing it and releasing pressurized natural gas liquid'" },
+    { icon: "fire", label: "Residual Pressure Ignites", caption: "Cavern itself was properly sealed", source: "'Although the cavern itself had been properly sealed for the maintenance work, the residual pressurized material in the snubbing unit ignited'" },
+    { icon: "person", label: "One Fatality", caption: "Died from burns", source: "fatalities/injuries frontmatter fields" },
+  ]},
 };
 
 function esc(str) {
