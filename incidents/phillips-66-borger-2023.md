@@ -17,7 +17,7 @@ sources:
 
 ## What Happened
 
-Contractors were finishing maintenance work on a natural gas liquid storage cavern wellhead, needing to tighten eight lockdown screws back into place. A contractor used a battery-operated impact wrench that had inadvertently been left set to reverse. When he attempted to tighten one of the screws, the wrench instead backed the screw out entirely, removing it and releasing pressurized natural gas liquid — a mixture of mostly propane and butane — that had been left in a piece of equipment called a "snubbing unit" at 400 pounds per square inch. Although the cavern itself had been properly sealed for the maintenance work, the residual pressurized material in the snubbing unit ignited. Two workers were injured; one later died from his burns.
+Contractors were finishing maintenance work on a natural gas liquid storage cavern wellhead, needing to tighten eight lockdown screws back into place. A contractor used a battery-operated impact wrench that had inadvertently been left set to reverse. When he attempted to tighten one of the screws, the wrench instead backed the screw out entirely, removing it and releasing pressurized natural gas liquid, a mixture of mostly propane and butane, that had been left in a piece of equipment called a "snubbing unit" at 400 pounds per square inch. Although the cavern itself had been properly sealed for the maintenance work, the residual pressurized material in the snubbing unit ignited. Two workers were injured; one later died from his burns.
 
 ## Root Causes
 
@@ -29,6 +29,6 @@ Contractors were finishing maintenance work on a natural gas liquid storage cave
 ## Lessons Learned
 
 1. Power tools used near pressurized equipment connections need their setting verified before each use, especially for tasks like tightening fasteners where a reversed setting produces the opposite, hazard-creating action.
-2. Precision fastening tasks on safety-critical connections (like wellhead lockdown screws) may warrant a hand-tool-only requirement specifically to eliminate the failure mode a power tool introduces — this is exactly the kind of corrective action the company adopted after this incident.
-3. "The cavern was properly sealed" isn't the same as "there's no pressurized material anywhere in the work area" — residual pressure in auxiliary equipment (like this snubbing unit) needs its own venting verification before final assembly steps proceed.
+2. Precision fastening tasks on safety-critical connections (like wellhead lockdown screws) may warrant a hand-tool-only requirement specifically to eliminate the failure mode a power tool introduces. This is exactly the kind of corrective action the company adopted after this incident.
+3. "The cavern was properly sealed" isn't the same as "there's no pressurized material anywhere in the work area." Residual pressure in auxiliary equipment (like this snubbing unit) needs its own venting verification before final assembly steps proceed.
 4. Establishing a practice of venting residual pressure to a flare system before final mechanical work, rather than leaving equipment pressurized through the last steps of a task, removes the consequence of exactly the kind of human/tool error that occurred here.

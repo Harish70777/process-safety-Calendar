@@ -17,7 +17,7 @@ sources:
 
 ## What Happened
 
-An operator was carrying out a temporary procedure to clear liquid from a chemical hose connected to a portable frac tank being used to store spent caustic (a corrosive mixture including sodium hydroxide) — a workaround the company had adopted to manage a reliability problem with its regular oxidizing reactor equipment. Once the tank was full, air was used to clear the hose before moving it to an empty tank. When the operator opened the valve at the frac tank, pressurized fluid still in the hose flowed into the nearly-full tank and erupted spent caustic out through its unsecured top hatch, splashing the corrosive liquid onto her. Her personal protective equipment did not protect against caustic exposure, and the nearest safety shower — required by site policy to be within 25 feet of the tank — was far enough away that it took her roughly two minutes to reach it. She was hospitalized for treatment of chemical burns. Approximately 20 gallons of spent caustic were released.
+An operator was carrying out a temporary procedure to clear liquid from a chemical hose connected to a portable frac tank being used to store spent caustic (a corrosive mixture including sodium hydroxide), a workaround the company had adopted to manage a reliability problem with its regular oxidizing reactor equipment. Once the tank was full, air was used to clear the hose before moving it to an empty tank. When the operator opened the valve at the frac tank, pressurized fluid still in the hose flowed into the nearly-full tank and erupted spent caustic out through its unsecured top hatch, splashing the corrosive liquid onto her. Her personal protective equipment did not protect against caustic exposure, and the nearest safety shower, required by site policy to be within 25 feet of the tank, was far enough away that it took her roughly two minutes to reach it. She was hospitalized for treatment of chemical burns. Approximately 20 gallons of spent caustic were released.
 
 ## Root Causes
 
@@ -28,7 +28,7 @@ An operator was carrying out a temporary procedure to clear liquid from a chemic
 
 ## Lessons Learned
 
-1. Any procedure for handling pressurized transfer lines needs to explicitly address the state of downstream containment — an open or unsecured hatch on the receiving vessel turns a routine liquid-clearing step into an uncontrolled release path.
-2. A temporary equipment workaround adopted to solve a short-term problem needs the same procedural rigor as permanent equipment if its use continues indefinitely — "temporary" shouldn't mean "less carefully specified."
-3. PPE selection needs to match the actual chemical hazard present, not a generic standard — protective equipment that doesn't stop caustic exposure isn't protective equipment for a caustic-handling task.
-4. Safety shower placement requirements exist for a reason — verify actual distances match policy, since the difference between an immediate rinse and a two-minute delay can meaningfully affect injury severity for a corrosive chemical exposure.
+1. Any procedure for handling pressurized transfer lines needs to explicitly address the state of downstream containment. An open or unsecured hatch on the receiving vessel turns a routine liquid-clearing step into an uncontrolled release path.
+2. A temporary equipment workaround adopted to solve a short-term problem needs the same procedural rigor as permanent equipment if its use continues indefinitely. "Temporary" shouldn't mean "less carefully specified."
+3. PPE selection needs to match the actual chemical hazard present, not a generic standard. Protective equipment that doesn't stop caustic exposure isn't protective equipment for a caustic-handling task.
+4. Safety shower placement requirements exist for a reason. Verify actual distances match policy, since the difference between an immediate rinse and a two-minute delay can meaningfully affect injury severity for a corrosive chemical exposure.
