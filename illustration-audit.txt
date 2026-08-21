@@ -63,11 +63,29 @@ the incident's own .md file at any time.
   Stage 3 [warningIgnored] "2010 Recommendation Unimplemented": 'a process hazard analysis a decade before the incident that recommended assessing whether facility buildings...could withstand hurricane-strength winds'
   Stage 4 [fire] "Fire & Toxic Plume": 'stayed closed for over two years, and was eventually rebuilt at a cost of $250 million'
 
+--- BioLab Conyers Warehouse Fire and Toxic Smoke Plume (biolab-conyers-2024) ---
+  Stage 1 [corrosion] "Corroded Sprinkler Fails": 'a corroded sprinkler component failed...allowing water to leak onto stored chlorinated isocyanurate'
+  Stage 2 [warningIgnored] "Inventory Doubled vs. Declared": 'nearly 14 million pounds of reactive chemicals...more than double'
+  Stage 3 [fire] "Warehouse Fires": 'a second, larger fire broke out...ultimately destroying the warehouse entirely'
+  Stage 4 [building] "90,000 Sheltered in Place": fatalities/injuries frontmatter fields
+
+--- BP Amoco Polymers Thermal Decomposition Explosion (bp-amoco-augusta-2001) ---
+  Stage 1 [tank] "Aborted Startup": 'an unusually large amount of partially reacted waste plastic was diverted into a polymer catch tank'
+  Stage 2 [gauge] "Blocked Pressure Gauge": 'a blocked pressure gauge hid the vessel's true condition'
+  Stage 3 [warningIgnored] "Prior Near-Misses Not Investigated": 'prior near-miss incidents were not adequately investigated'
+  Stage 4 [explosion] "Cover Blows Off": fatalities/injuries frontmatter fields
+
 --- BP Grangemouth Petrochemical Complex, Three Major Incidents (bp-grangemouth-2000) ---
   Stage 1 [gauge] "Cable Cut During Excavation": 'an underground 33kV cable was damaged during excavation work...forcing an emergency shutdown'
   Stage 2 [corrosion] "1950s Pipe Tee Failed": 'the failure originated at a pipe tee-connection incorrectly fitted decades earlier in the 1950s'
   Stage 3 [fire] "FCCU Fire on Startup": 'a significant hydrocarbon leak created a vapor cloud that ignited into a serious fire'
   Stage 4 [building] "Large-Scale Evacuation": 'triggering a large-scale evacuation before being brought under control in about 90 minutes'
+
+--- BP-Husky Toledo Refinery Naphtha Fire (bp-husky-toledo-2022) ---
+  Stage 1 [overfill] "Naphtha Overflows Vapor Drum": 'liquid naphtha was released from a pressurized vessel, which resulted in a vapor cloud'
+  Stage 2 [gauge] "Alarm Flood": 'board operators had been managing an alarm flood of more than 3,700 alarms'
+  Stage 3 [warningIgnored] "2019 Precedent Missed": 'a nearly identical 2019 incident had already provided a warning'
+  Stage 4 [fire] "Flash Fire": fatalities/injuries frontmatter fields
 
 --- Buncefield Oil Storage Depot Explosion (buncefield-2005) ---
   Stage 1 [gauge] "Level Gauge Failed": 'a storage tank's automatic tank gauge failed to register the rising level'
@@ -146,6 +164,12 @@ the incident's own .md file at any time.
   Stage 2 [vaporCloud] "Hydrocarbons Backflow": 'Hydrocarbons backflowed through the process and ignited inside the electrostatic precipitator'
   Stage 3 [explosion] "Explosion": 'The blast dispersed large quantities of catalyst dust up to a mile from the refinery'
   Stage 4 [warningIgnored] "Near-Miss with HF Tank": 'narrowly missing a tank holding tens of thousands of pounds of modified hydrofluoric acid'
+
+--- First Chemical Corporation Distillation Column Explosion (first-chemical-2002) ---
+  Stage 1 [corrosion] "Leaking Steam Valves": 'steam was slowly leaking through deteriorated shut-off valves'
+  Stage 2 [warningIgnored] "Alarm Ignored": 'a liquid-level alarm activated the day before the explosion, no action was taken'
+  Stage 3 [explosion] "Column Explodes": 'located only 50 feet from the column's base'
+  Stage 4 [person] "3 Injured": fatalities/injuries frontmatter fields
 
 --- Flixborough Chemical Plant Explosion (flixborough-1974) ---
   Stage 1 [corrosion] "Reactor Cracked": 'a crack was found in one of six reactors'
@@ -267,6 +291,18 @@ the incident's own .md file at any time.
   Stage 3 [gauge] "Operated While Leaking": 'employees had discovered the vessel was actively leaking...Loy-Lange continued operating the equipment anyway'
   Stage 4 [explosion] "Explosion": 'launched the roughly 2,000-pound vessel through the air and through the roof of a neighboring business...roughly 500 feet away'
 
+--- Marcus Oil and Chemical Pressure Vessel Explosion (marcus-oil-2004) ---
+  Stage 1 [corrosion] "Defective Repair Weld": 'reduced the vessel's structural strength by more than 75 percent'
+  Stage 2 [warningIgnored] "No Pressure Test After Repair": 'no pressure test was performed after the repair'
+  Stage 3 [explosion] "Vessel Ruptures": 'steel fragments were thrown up to a quarter mile from the plant'
+  Stage 4 [fire] "7-Hour Fire": fatalities/injuries frontmatter fields
+
+--- MFG Chemical Runaway Reaction and Toxic Vapor Release (mfg-chemical-2004) ---
+  Stage 1 [tank] "First Production-Scale Batch": 'MFG moved directly from laboratory-scale testing to a full 4,000-gallon production batch'
+  Stage 2 [gauge] "Reaction Goes Out of Control": 'the reaction went out of control, rapidly over-pressurizing a 4,000-gallon reactor'
+  Stage 3 [vaporCloud] "Toxic Vapor Released 8+ Hours": 'releasing highly toxic and flammable allyl alcohol...for more than eight hours'
+  Stage 4 [person] "154 Treated for Exposure": fatalities/injuries frontmatter fields
+
 --- MGPI Processing Toxic Chlorine Gas Release (mgpi-atchison-2016) ---
   Stage 1 [tank] "Look-Alike Fill Lines": 'The two fill lines looked similar, were not clearly marked to distinguish them, and sat only about 18 inches apart'
   Stage 2 [warningIgnored] "Both Lines Left Unlocked": 'did not notice that the adjacent sodium hypochlorite fill line was also already unlocked'
@@ -363,6 +399,12 @@ the incident's own .md file at any time.
   Stage 3 [explosion] "Explosion": 'flammable vapor...ignited, causing a pressure buildup that led to an explosion at both ends'
   Stage 4 [person] "7 Burned": 'Seven workers suffered burn injuries...with no fatalities'
 
+--- Synthron Runaway Reaction and Vapor Cloud Explosion (synthron-2006) ---
+  Stage 1 [valve] "Batch Size Increased 45%": 'increasing the total monomer charge by 45 percent'
+  Stage 2 [corrosion] "Fouled Condenser": 'had not been cleaned or inspected in 30 years'
+  Stage 3 [vaporCloud] "Reaction Runs Away": 'secured with only 4 of the 18 clamps the manufacturer recommended'
+  Stage 4 [explosion] "Explosion": fatalities/injuries frontmatter fields
+
 --- T2 Laboratories Reactive Chemical Explosion (t2-laboratories-2007) ---
   Stage 1 [gauge] "Cooling Lost": 'the reactor's cooling system likely malfunctioned...while the reaction was underway'
   Stage 2 [warningIgnored] "Prior Near-Misses Ignored": root causes: 'the company had experienced prior near-misses during earlier production runs...without recognizing them as warnings'
@@ -446,6 +488,12 @@ the incident's own .md file at any time.
   Stage 2 [vaporCloud] "Automatic Dosing Reacts": 'automatically increased sulfuric acid dosing into the sewer to compensate...reacted with the sulfur-containing fluids'
   Stage 3 [warningIgnored] "No Personnel Tracking": 'the two collapsed workers weren't discovered until more than three hours after'
   Stage 4 [person] "Two Fatalities": fatalities/injuries frontmatter fields
+
+--- Wynnewood Refinery Boiler Explosion (wynnewood-refinery-2012) ---
+  Stage 1 [gauge] "Boiler Restart During Turnaround": 'operators worked to restart the refinery's Wickes boiler, which had been taken offline during the turnaround'
+  Stage 2 [vaporCloud] "Natural Gas Accumulates": 'excess natural gas accumulated inside the boiler instead of being properly purged'
+  Stage 3 [warningIgnored] "Repeat PSM Violations": 'several of the citations issued were classified as repeat violations'
+  Stage 4 [explosion] "Explosion": fatalities/injuries frontmatter fields
 
 --- Yenkin-Majestic Resin Plant Vapor Cloud Explosion and Fire (yenkin-majestic-2021) ---
   Stage 1 [valve] "Manway Not Pressure Tested": 'an access port that had been newly installed on the kettle only three months earlier'

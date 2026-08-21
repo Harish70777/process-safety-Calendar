@@ -503,6 +503,54 @@ const RECIPES = {
     { icon: "fire", label: "Residual Pressure Ignites", caption: "Cavern itself was properly sealed", source: "'Although the cavern itself had been properly sealed for the maintenance work, the residual pressurized material in the snubbing unit ignited'" },
     { icon: "person", label: "One Fatality", caption: "Died from burns", source: "fatalities/injuries frontmatter fields" },
   ]},
+"wynnewood-refinery-2012": { stages: [
+    { icon: "gauge", label: "Boiler Restart During Turnaround", caption: "Wickes boiler brought back online", source: "'operators worked to restart the refinery's Wickes boiler, which had been taken offline during the turnaround'" },
+    { icon: "vaporCloud", label: "Natural Gas Accumulates", caption: "Not properly purged before restart", source: "'excess natural gas accumulated inside the boiler instead of being properly purged'" },
+    { icon: "warningIgnored", label: "Repeat PSM Violations", caption: "Same gaps found before", source: "'several of the citations issued were classified as repeat violations'" },
+    { icon: "explosion", label: "Explosion", caption: "2 workers killed", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "marcus-oil-2004": { stages: [
+    { icon: "corrosion", label: "Defective Repair Weld", caption: "Reduced vessel strength by 75%", source: "'reduced the vessel's structural strength by more than 75 percent'" },
+    { icon: "warningIgnored", label: "No Pressure Test After Repair", caption: "Defective weld went undetected", source: "'no pressure test was performed after the repair'" },
+    { icon: "explosion", label: "Vessel Ruptures", caption: "Fragments thrown a quarter mile", source: "'steel fragments were thrown up to a quarter mile from the plant'" },
+    { icon: "fire", label: "7-Hour Fire", caption: "3 firefighters, several residents injured", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "bp-husky-toledo-2022": { stages: [
+    { icon: "overfill", label: "Naphtha Overflows Vapor Drum", caption: "Vessel meant to hold only vapor", source: "'liquid naphtha was released from a pressurized vessel, which resulted in a vapor cloud'" },
+    { icon: "gauge", label: "Alarm Flood", caption: "3,700+ alarms in 12 hours", source: "'board operators had been managing an alarm flood of more than 3,700 alarms'" },
+    { icon: "warningIgnored", label: "2019 Precedent Missed", caption: "Same vessel overflowed before", source: "'a nearly identical 2019 incident had already provided a warning'" },
+    { icon: "fire", label: "Flash Fire", caption: "Two brothers killed", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "mfg-chemical-2004": { stages: [
+    { icon: "tank", label: "First Production-Scale Batch", caption: "No scale-up hazard analysis done", source: "'MFG moved directly from laboratory-scale testing to a full 4,000-gallon production batch'" },
+    { icon: "gauge", label: "Reaction Goes Out of Control", caption: "Over-pressurized the reactor", source: "'the reaction went out of control, rapidly over-pressurizing a 4,000-gallon reactor'" },
+    { icon: "vaporCloud", label: "Toxic Vapor Released 8+ Hours", caption: "200+ families evacuated", source: "'releasing highly toxic and flammable allyl alcohol...for more than eight hours'" },
+    { icon: "person", label: "154 Treated for Exposure", caption: "Responders lacked proper PPE", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "synthron-2006": { stages: [
+    { icon: "valve", label: "Batch Size Increased 45%", caption: "Combined two batches into one", source: "'increasing the total monomer charge by 45 percent'" },
+    { icon: "corrosion", label: "Fouled Condenser", caption: "30 years without cleaning", source: "'had not been cleaned or inspected in 30 years'" },
+    { icon: "vaporCloud", label: "Reaction Runs Away", caption: "Vapor escaped through a poorly secured hatch", source: "'secured with only 4 of the 18 clamps the manufacturer recommended'" },
+    { icon: "explosion", label: "Explosion", caption: "1 killed, 14 injured", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "biolab-conyers-2024": { stages: [
+    { icon: "corrosion", label: "Corroded Sprinkler Fails", caption: "1,100+ corroded heads found 9 months earlier", source: "'a corroded sprinkler component failed...allowing water to leak onto stored chlorinated isocyanurate'" },
+    { icon: "warningIgnored", label: "Inventory Doubled vs. Declared", caption: "14 million lbs vs. 6.2 million declared", source: "'nearly 14 million pounds of reactive chemicals...more than double'" },
+    { icon: "fire", label: "Warehouse Fires", caption: "Entire warehouse destroyed", source: "'a second, larger fire broke out...ultimately destroying the warehouse entirely'" },
+    { icon: "building", label: "90,000 Sheltered in Place", caption: "17,000 evacuated, no injuries", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "first-chemical-2002": { stages: [
+    { icon: "corrosion", label: "Leaking Steam Valves", caption: "Heated \"isolated\" material for weeks", source: "'steam was slowly leaking through deteriorated shut-off valves'" },
+    { icon: "warningIgnored", label: "Alarm Ignored", caption: "Level alarm the day before, no action taken", source: "'a liquid-level alarm activated the day before the explosion, no action was taken'" },
+    { icon: "explosion", label: "Column Explodes", caption: "Control room only 50 feet away", source: "'located only 50 feet from the column's base'" },
+    { icon: "person", label: "3 Injured", caption: "Cuts from shattered glass", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "bp-amoco-augusta-2001": { stages: [
+    { icon: "tank", label: "Aborted Startup", caption: "Waste plastic diverted to catch tank", source: "'an unusually large amount of partially reacted waste plastic was diverted into a polymer catch tank'" },
+    { icon: "gauge", label: "Blocked Pressure Gauge", caption: "Foam obstructed the one warning sign", source: "'a blocked pressure gauge hid the vessel's true condition'" },
+    { icon: "warningIgnored", label: "Prior Near-Misses Not Investigated", caption: "Plugged drains, minor fires before", source: "'prior near-miss incidents were not adequately investigated'" },
+    { icon: "explosion", label: "Cover Blows Off", caption: "3 workers killed", source: "fatalities/injuries frontmatter fields" },
+  ]},
 };
 
 function esc(str) {

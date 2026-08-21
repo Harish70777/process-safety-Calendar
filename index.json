@@ -287,6 +287,41 @@
     "hasBody": true
   },
   {
+    "id": "bp-amoco-augusta-2001",
+    "file": "bp-amoco-augusta-2001.md",
+    "title": "BP Amoco Polymers Thermal Decomposition Explosion",
+    "date": "2001-03-13",
+    "location": "Augusta, GA, USA",
+    "industry": [
+      "chemical-manufacturing",
+      "plastics"
+    ],
+    "chemicals": [
+      "amodel-nylon-polymer"
+    ],
+    "severity": 1,
+    "fatalities": 3,
+    "injuries": 0,
+    "root_causes": [
+      "reactive-hazard-not-recognized",
+      "no-hazard-analysis-for-abnormal-conditions",
+      "near-misses-not-investigated",
+      "blocked-pressure-gauge-hid-pressurization"
+    ],
+    "psm_elements": [
+      "process-hazard-analysis",
+      "incident-investigation",
+      "operating-procedures"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Final Investigation Report No. 2001-03-I-GA (2002)",
+      "OSHA Citation and Penalty Announcement (2001)"
+    ],
+    "hasBody": true
+  },
+  {
     "id": "motiva-delaware-city-2001",
     "file": "motiva-delaware-city-2001.md",
     "title": "Motiva Enterprises Delaware City Refinery Sulfuric Acid Tank Explosion",
@@ -386,6 +421,42 @@
     "sources": [
       "CSB Investigation Report No. 2002-01-I-AL (2002)",
       "CSB News Release, November 2002"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "first-chemical-2002",
+    "file": "first-chemical-2002.md",
+    "title": "First Chemical Corporation Distillation Column Explosion",
+    "date": "2002-10-13",
+    "location": "Pascagoula, MS, USA",
+    "industry": [
+      "chemical-manufacturing"
+    ],
+    "chemicals": [
+      "mononitrotoluene"
+    ],
+    "severity": 1,
+    "fatalities": 0,
+    "injuries": 3,
+    "root_causes": [
+      "leaking-steam-valves-heated-idle-material",
+      "no-temperature-monitoring-during-shutdown",
+      "ignored-liquid-level-alarm",
+      "control-room-too-close-and-unreinforced",
+      "no-hazard-analysis-for-continuous-process"
+    ],
+    "psm_elements": [
+      "process-hazard-analysis",
+      "mechanical-integrity",
+      "facility-siting",
+      "emergency-planning"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Final Investigation Report (2003)",
+      "CSB Investigation Digest: Reactive Explosion at First Chemical Corp."
     ],
     "hasBody": true
   },
@@ -500,6 +571,43 @@
     "hasBody": true
   },
   {
+    "id": "mfg-chemical-2004",
+    "file": "mfg-chemical-2004.md",
+    "title": "MFG Chemical Runaway Reaction and Toxic Vapor Release",
+    "date": "2004-04-12",
+    "location": "Dalton, GA, USA",
+    "industry": [
+      "chemical-manufacturing"
+    ],
+    "chemicals": [
+      "allyl-alcohol",
+      "allyl-chloride"
+    ],
+    "severity": 1,
+    "fatalities": 0,
+    "injuries": 154,
+    "root_causes": [
+      "no-scale-up-hazard-analysis",
+      "inadequate-cooling-for-actual-heat-output",
+      "no-appropriate-ppe-for-responders",
+      "poor-community-emergency-planning"
+    ],
+    "psm_elements": [
+      "process-hazard-analysis",
+      "emergency-planning",
+      "training"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "csb_video_id": "sRuz9bzBrtY",
+    "sources": [
+      "CSB Final Investigation Report No. 2004-09-I-GA (2006)",
+      "CSB Safety Video: Reactive Hazards",
+      "DOJ Clean Air Act Settlement Announcement"
+    ],
+    "hasBody": true
+  },
+  {
     "id": "formosa-illiopolis-2004",
     "file": "formosa-illiopolis-2004.md",
     "title": "Formosa Plastics Vinyl Chloride Explosion",
@@ -531,6 +639,40 @@
     "sources": [
       "CSB Investigation Report (2007)",
       "Long et al., Process Safety Progress (2008)"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "marcus-oil-2004",
+    "file": "marcus-oil-2004.md",
+    "title": "Marcus Oil and Chemical Pressure Vessel Explosion",
+    "date": "2004-12-03",
+    "location": "Houston, TX, USA",
+    "industry": [
+      "chemical-manufacturing"
+    ],
+    "chemicals": [
+      "hexane",
+      "polyethylene-wax"
+    ],
+    "severity": 1,
+    "fatalities": 0,
+    "injuries": 3,
+    "root_causes": [
+      "defective-repair-welds",
+      "no-qualified-welder-used",
+      "no-pressure-test-after-repair",
+      "no-state-pressure-vessel-code-required"
+    ],
+    "psm_elements": [
+      "mechanical-integrity",
+      "management-of-change",
+      "process-safety-information"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Case Study No. 2005-02-I-TX (2006)"
     ],
     "hasBody": true
   },
@@ -602,6 +744,43 @@
     "sources": [
       "Buncefield Major Incident Investigation Board Reports",
       "UK HSE / COMAH investigation"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "synthron-2006",
+    "file": "synthron-2006.md",
+    "title": "Synthron Runaway Reaction and Vapor Cloud Explosion",
+    "date": "2006-01-31",
+    "location": "Morganton, NC, USA",
+    "industry": [
+      "chemical-manufacturing"
+    ],
+    "chemicals": [
+      "acrylic-monomers",
+      "flammable-solvents"
+    ],
+    "severity": 1,
+    "fatalities": 1,
+    "injuries": 14,
+    "root_causes": [
+      "batch-size-increased-without-hazard-review",
+      "fouled-condenser-reduced-cooling",
+      "inexperienced-staff",
+      "no-process-hazard-analysis-ever-performed"
+    ],
+    "psm_elements": [
+      "process-hazard-analysis",
+      "training",
+      "mechanical-integrity",
+      "management-of-change"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "csb_video_id": "sRuz9bzBrtY",
+    "sources": [
+      "CSB Final Investigation Report (2007)",
+      "CSB Safety Video: Reactive Hazards"
     ],
     "hasBody": true
   },
@@ -1212,6 +1391,40 @@
       "CSB Regulatory Report (2014)",
       "CSB/Cal-OSHA Technical Evaluation Report (2013)",
       "CSB Final Investigation Report No. 2012-03-I-CA (2015)"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "wynnewood-refinery-2012",
+    "file": "wynnewood-refinery-2012.md",
+    "title": "Wynnewood Refinery Boiler Explosion",
+    "date": "2012-09-28",
+    "location": "Wynnewood, OK, USA",
+    "industry": [
+      "oil-gas-refining"
+    ],
+    "chemicals": [
+      "natural-gas"
+    ],
+    "severity": 1,
+    "fatalities": 2,
+    "injuries": 0,
+    "root_causes": [
+      "natural-gas-accumulated-in-boiler",
+      "improper-restart-procedure",
+      "repeat-psm-violations",
+      "inadequate-boiler-purge"
+    ],
+    "psm_elements": [
+      "operating-procedures",
+      "mechanical-integrity",
+      "training"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "OSHA Citation and Investigation Findings (2013)",
+      "OSHRC Decision, Secretary of Labor v. Wynnewood Refining Co. LLC"
     ],
     "hasBody": true
   },
@@ -2399,6 +2612,41 @@
     "hasBody": true
   },
   {
+    "id": "bp-husky-toledo-2022",
+    "file": "bp-husky-toledo-2022.md",
+    "title": "BP-Husky Toledo Refinery Naphtha Fire",
+    "date": "2022-09-20",
+    "location": "Oregon, OH, USA",
+    "industry": [
+      "oil-gas-refining"
+    ],
+    "chemicals": [
+      "naphtha"
+    ],
+    "severity": 1,
+    "fatalities": 2,
+    "injuries": 0,
+    "root_causes": [
+      "liquid-overflow-into-vapor-only-vessel",
+      "alarm-flood-overwhelmed-operators",
+      "no-timely-shutdown",
+      "2019-precedent-not-acted-on"
+    ],
+    "psm_elements": [
+      "process-hazard-analysis",
+      "operating-procedures",
+      "incident-investigation",
+      "training"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Final Investigation Report (June 2024)",
+      "CSB News Release, June 24, 2024"
+    ],
+    "hasBody": true
+  },
+  {
     "id": "home-market-foods-2022",
     "file": "home-market-foods-2022.md",
     "title": "Home Market Foods Ammonia Release",
@@ -2495,6 +2743,44 @@
     "sources": [
       "CSB Incident Reports Volume One (2025)",
       "Local news coverage (McClatchy/WBTV), Anson County Emergency Services"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "biolab-conyers-2024",
+    "file": "biolab-conyers-2024.md",
+    "title": "BioLab Conyers Warehouse Fire and Toxic Smoke Plume",
+    "date": "2024-09-29",
+    "location": "Conyers, GA, USA",
+    "industry": [
+      "chemical-manufacturing"
+    ],
+    "chemicals": [
+      "trichloroisocyanuric-acid",
+      "sodium-dichloroisocyanurate",
+      "chlorine"
+    ],
+    "severity": 1,
+    "fatalities": 0,
+    "injuries": 0,
+    "root_causes": [
+      "corroded-sprinkler-component-failed",
+      "corrosion-known-9-months-earlier",
+      "inventory-doubled-vs-declared",
+      "no-regulatory-coverage-for-reactive-hazard",
+      "run-to-failure-maintenance-culture"
+    ],
+    "psm_elements": [
+      "mechanical-integrity",
+      "process-hazard-analysis",
+      "incident-investigation",
+      "management-of-change"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Final Investigation Report (July 2026)",
+      "CSB Investigation Updates (November 2024, May 2025)"
     ],
     "hasBody": true
   },
