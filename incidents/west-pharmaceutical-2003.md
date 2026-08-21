@@ -11,6 +11,7 @@ root_causes: [no-engineering-assessment-of-dust-hazard, no-fire-code-consultatio
 psm_elements: [process-hazard-analysis, incident-investigation, mechanical-integrity]
 status: published
 source_verified: true
+csb_video_id: "3d37Ca3E4fA"
 sources:
   - "CSB Investigation Report No. 2003-07-I-NC (2004)"
   - "CSB Combustible Dust Hazard Study (2006)"

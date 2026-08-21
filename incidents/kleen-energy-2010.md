@@ -11,6 +11,7 @@ root_causes: [inherently-unsafe-work-practice, no-regulatory-prohibition, conges
 psm_elements: [operating-procedures, process-hazard-analysis]
 status: published
 source_verified: true
+csb_video_id: "rjxBtwl8-Tc"
 sources:
   - "CSB Urgent Recommendation and Investigation Findings (2010)"
   - "CSB press statements, Feb-Mar 2010"

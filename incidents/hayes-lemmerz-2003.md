@@ -11,6 +11,7 @@ root_causes: [no-moc-on-dust-collector-install, inadequate-dust-collector-design
 psm_elements: [management-of-change, incident-investigation, training]
 status: published
 source_verified: true
+csb_video_id: "3d37Ca3E4fA"
 sources:
   - "CSB Investigation Report No. 2004-01-I-IN (2005)"
   - "CSB Combustible Dust Hazard Study (2006)"

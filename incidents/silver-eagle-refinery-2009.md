@@ -11,6 +11,7 @@ root_causes: [sulfidation-corrosion, never-inspected-pipe, inspection-strategy-o
 psm_elements: [mechanical-integrity, process-hazard-analysis]
 status: published
 source_verified: true
+csb_video_id: "yDmuaR6rkgU"
 sources:
   - "CSB Metallurgical Analysis and News Release (2014)"
   - "Deseret News / KSL, CSB report coverage"

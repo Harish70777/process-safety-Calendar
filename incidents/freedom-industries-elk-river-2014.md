@@ -11,6 +11,7 @@ root_causes: [pitting-corrosion-no-inspection-10-plus-years, degraded-secondary-
 psm_elements: [mechanical-integrity, emergency-planning-and-response]
 status: published
 source_verified: true
+csb_video_id: "BeFokqIiBkM"
 sources:
   - "CSB Final Investigation Report (2016, revised 2017)"
   - "West Virginia Public Broadcasting, CSB report coverage"

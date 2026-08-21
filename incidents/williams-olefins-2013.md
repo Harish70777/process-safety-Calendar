@@ -11,6 +11,7 @@ root_causes: [inadequate-moc-1990s-change, unprotected-overpressure, poor-safety
 psm_elements: [management-of-change, mechanical-integrity, incident-investigation]
 status: published
 source_verified: true
+csb_video_id: "Z1KaykPaF8M"
 sources:
   - "CSB Final Case Study (2016)"
   - "The Advocate, Baton Rouge, CSB report coverage"

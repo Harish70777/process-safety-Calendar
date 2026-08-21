@@ -11,6 +11,7 @@ root_causes: [unknown-dust-hazard-communication-failure, supplier-withheld-prior
 psm_elements: [process-safety-information, process-hazard-analysis, compliance-audits]
 status: published
 source_verified: true
+csb_video_id: "3d37Ca3E4fA"
 sources:
   - "CSB Investigation Report (2005)"
   - "CSB Combustible Dust Hazard Study (2006)"
