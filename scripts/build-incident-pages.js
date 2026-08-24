@@ -13,7 +13,7 @@ const path = require("path");
 const { matter } = require("./frontmatter");
 const { mdToHtml } = require("./markdown-lite");
 
-const SITE_URL = "https://calendar.rskless.com"; // Update if/when a custom domain is set up
+const SITE_URL = "https://harish70777.github.io/process-safety-Calendar"; // Update if/when a custom domain is set up
 
 const INCIDENTS_DIR = path.join(__dirname, "..", "incidents");
 const OUT_DIR = path.join(__dirname, "..", "site", "incidents");

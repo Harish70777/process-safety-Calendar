@@ -8,12 +8,13 @@ X-WR-CALDESC:Historical process safety incidents, on their anniversary date, wit
 BEGIN:VEVENT
 UID:flixborough-1974@rskless-psm-calendar
 DTSTART;VALUE=DATE:19740601
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Flixborough Chemical Plant Explosion (1974)
 DESCRIPTION:28 fatalities\, 36 injuries.\n\nRoot causes: inadequate-moc\, 
  temporary-modification\, no-engineering-review.\n\nFull brief and lessons
-  learned: https://calendar.rskless.com/incidents/flixborough-1974
+  learned: https://harish70777.github.io/process-safety-Calendar/incidents
+ /flixborough-1974
 LOCATION:Flixborough\, England
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -24,13 +25,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:seveso-1976@rskless-psm-calendar
 DTSTART;VALUE=DATE:19760710
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Seveso Dioxin Release (1976)
 DESCRIPTION:0 fatalities\, 0 injuries.\n\nRoot causes: design-deficiency\,
   no-automatic-cooling\, inadequate-instrumentation\, unsupervised-shutdow
- n\, poor-emergency-response.\n\nFull brief and lessons learned: https://c
- alendar.rskless.com/incidents/seveso-1976
+ n\, poor-emergency-response.\n\nFull brief and lessons learned: https://h
+ arish70777.github.io/process-safety-Calendar/incidents/seveso-1976
 LOCATION:Meda/Seveso\, Lombardy\, Italy
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -41,13 +42,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:bhopal-1984@rskless-psm-calendar
 DTSTART;VALUE=DATE:19841203
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Bhopal Gas Tragedy (1984)
 DESCRIPTION:3800 fatalities\, 500000 injuries.\n\nRoot causes: design-defi
  ciency\, deferred-maintenance\, inadequate-emergency-response\, staffing-
- cuts.\n\nFull brief and lessons learned: https://calendar.rskless.com/inc
- idents/bhopal-1984
+ cuts.\n\nFull brief and lessons learned: https://harish70777.github.io/pr
+ ocess-safety-Calendar/incidents/bhopal-1984
 LOCATION:Bhopal\, Madhya Pradesh\, India
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -58,13 +59,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:piper-alpha-1988@rskless-psm-calendar
 DTSTART;VALUE=DATE:19880706
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Piper Alpha Offshore Platform Explosion (1988)
 DESCRIPTION:167 fatalities\, 61 injuries.\n\nRoot causes: inadequate-moc\,
   permit-to-work-failure\, shift-handover-failure\, design-deficiency\, po
- or-emergency-response.\n\nFull brief and lessons learned: https://calenda
- r.rskless.com/incidents/piper-alpha-1988
+ or-emergency-response.\n\nFull brief and lessons learned: https://harish7
+ 0777.github.io/process-safety-Calendar/incidents/piper-alpha-1988
 LOCATION:North Sea\, off Aberdeen\, Scotland
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -75,14 +76,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:phillips-pasadena-1989@rskless-psm-calendar
 DTSTART;VALUE=DATE:19891023
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Phillips 66 Pasadena Polyethylene Plant Explosion 
  (1989)
 DESCRIPTION:23 fatalities\, 314 injuries.\n\nRoot causes: inadequate-locko
  ut-tagout\, no-process-hazard-analysis\, contractor-management-failure\, 
- no-gas-detection.\n\nFull brief and lessons learned: https://calendar.rsk
- less.com/incidents/phillips-pasadena-1989
+ no-gas-detection.\n\nFull brief and lessons learned: https://harish70777.
+ github.io/process-safety-Calendar/incidents/phillips-pasadena-1989
 LOCATION:Pasadena\, TX\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -93,14 +94,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:milford-haven-1994@rskless-psm-calendar
 DTSTART;VALUE=DATE:19940724
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Texaco Milford Haven Refinery Explosion and Fires 
  (1994)
 DESCRIPTION:0 fatalities\, 26 injuries.\n\nRoot causes: valve-position-ind
  ication-mismatch\, undersized-flare-system\, inadequate-instrumentation-m
  aintenance\, unassessed-plant-modification.\n\nFull brief and lessons lea
- rned: https://calendar.rskless.com/incidents/milford-haven-1994
+ rned: https://harish70777.github.io/process-safety-Calendar/incidents/mil
+ ford-haven-1994
 LOCATION:Milford Haven\, Wales\, UK
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -111,15 +113,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:morton-international-1998@rskless-psm-calendar
 DTSTART;VALUE=DATE:19980408
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Morton International Runaway Chemical Reaction (19
  98)
 DESCRIPTION:0 fatalities\, 9 injuries.\n\nRoot causes: runaway-reaction-no
  t-anticipated\, insufficient-cooling-capacity\, no-emergency-venting-syst
  em\, process-changed-without-full-hazard-evaluation.\n\nFull brief and le
- ssons learned: https://calendar.rskless.com/incidents/morton-internationa
- l-1998
+ ssons learned: https://harish70777.github.io/process-safety-Calendar/inci
+ dents/morton-international-1998
 LOCATION:Paterson\, NJ\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -130,13 +132,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:longford-1998@rskless-psm-calendar
 DTSTART;VALUE=DATE:19980925
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Longford Esso Gas Plant Explosion (1998)
 DESCRIPTION:2 fatalities\, 8 injuries.\n\nRoot causes: no-hazop-conducted\
  , inadequate-training\, poor-shift-communication\, alarm-desensitization\
- , staffing-cuts.\n\nFull brief and lessons learned: https://calendar.rskl
- ess.com/incidents/longford-1998
+ , staffing-cuts.\n\nFull brief and lessons learned: https://harish70777.g
+ ithub.io/process-safety-Calendar/incidents/longford-1998
 LOCATION:Longford\, Victoria\, Australia
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -147,14 +149,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:condea-vista-1998@rskless-psm-calendar
 DTSTART;VALUE=DATE:19981013
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: CONDEA Vista Detergent Alkylate Reactor Explosion 
  (1998)
 DESCRIPTION:0 fatalities\, 5 injuries.\n\nRoot causes: process-change-with
  out-moc\, powdered-aluminum-created-sludge\, steam-injection-into-plugged
  -reactor\, no-hazard-analysis-of-process-change.\n\nFull brief and lesson
- s learned: https://calendar.rskless.com/incidents/condea-vista-1998
+ s learned: https://harish70777.github.io/process-safety-Calendar/incident
+ s/condea-vista-1998
 LOCATION:Baltimore\, MD\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -165,14 +168,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:concept-sciences-1999@rskless-psm-calendar
 DTSTART;VALUE=DATE:19990219
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Concept Sciences Hydroxylamine Explosion (1999)
 DESCRIPTION:5 fatalities\, 14 injuries.\n\nRoot causes: explosive-decompos
  ition-not-recognized\, high-concentration-and-temperature\, inadequate-fa
  cility-siting\, first-large-scale-commercial-batch.\n\nFull brief and les
- sons learned: https://calendar.rskless.com/incidents/concept-sciences-199
- 9
+ sons learned: https://harish70777.github.io/process-safety-Calendar/incid
+ ents/concept-sciences-1999
 LOCATION:Hanover Township\, PA\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -183,14 +186,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:tosco-avon-1999@rskless-psm-calendar
 DTSTART;VALUE=DATE:19990223
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Tosco Avon Refinery Naphtha Fire (1999)
 DESCRIPTION:4 fatalities\, 1 injuries.\n\nRoot causes: work-permit-require
  ments-not-met\, no-hazard-evaluation-for-repair\, 13-days-of-missed-reass
  essment\, no-job-planning-authorization-process\, no-audits-of-line-break
- ing-procedures.\n\nFull brief and lessons learned: https://calendar.rskle
- ss.com/incidents/tosco-avon-1999
+ ing-procedures.\n\nFull brief and lessons learned: https://harish70777.gi
+ thub.io/process-safety-Calendar/incidents/tosco-avon-1999
 LOCATION:Martinez\, CA\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -201,15 +204,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:bp-grangemouth-2000@rskless-psm-calendar
 DTSTART;VALUE=DATE:20000529
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: BP Grangemouth Petrochemical Complex\, Three Major
   Incidents (2000)
 DESCRIPTION:0 fatalities\, 1 injuries.\n\nRoot causes: inadequate-excavati
  on-controls\, incorrectly-fitted-pipe-tee-1950s\, inadequately-supported-
  pipework\, cyclic-stress-from-frequent-startups\, overstated-safety-repor
- t.\n\nFull brief and lessons learned: https://calendar.rskless.com/incide
- nts/bp-grangemouth-2000
+ t.\n\nFull brief and lessons learned: https://harish70777.github.io/proce
+ ss-safety-Calendar/incidents/bp-grangemouth-2000
 LOCATION:Grangemouth\, Scotland\, UK
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -220,15 +223,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:bp-amoco-augusta-2001@rskless-psm-calendar
 DTSTART;VALUE=DATE:20010313
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: BP Amoco Polymers Thermal Decomposition Explosion 
  (2001)
 DESCRIPTION:3 fatalities\, 0 injuries.\n\nRoot causes: reactive-hazard-not
  -recognized\, no-hazard-analysis-for-abnormal-conditions\, near-misses-no
  t-investigated\, blocked-pressure-gauge-hid-pressurization.\n\nFull brief
-  and lessons learned: https://calendar.rskless.com/incidents/bp-amoco-aug
- usta-2001
+  and lessons learned: https://harish70777.github.io/process-safety-Calend
+ ar/incidents/bp-amoco-augusta-2001
 LOCATION:Augusta\, GA\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -239,14 +242,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:motiva-delaware-city-2001@rskless-psm-calendar
 DTSTART;VALUE=DATE:20010717
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Motiva Enterprises Delaware City Refinery Sulfuric
   Acid Tank Explosion (2001)
 DESCRIPTION:1 fatalities\, 8 injuries.\n\nRoot causes: inadequate-hot-work
  -program\, corroded-storage-tank\, no-inspection-per-schedule\, no-emerge
- ncy-venting.\n\nFull brief and lessons learned: https://calendar.rskless.
- com/incidents/motiva-delaware-city-2001
+ ncy-venting.\n\nFull brief and lessons learned: https://harish70777.githu
+ b.io/process-safety-Calendar/incidents/motiva-delaware-city-2001
 LOCATION:Delaware City\, DE\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -257,13 +260,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:azf-toulouse-2001@rskless-psm-calendar
 DTSTART;VALUE=DATE:20010921
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: AZF Toulouse Fertilizer Plant Explosion (2001)
 DESCRIPTION:31 fatalities\, 2500 injuries.\n\nRoot causes: incompatible-ch
  emical-mixing\, off-spec-material-storage\, inadequate-hazard-study\, fac
- ility-siting.\n\nFull brief and lessons learned: https://calendar.rskless
- .com/incidents/azf-toulouse-2001
+ ility-siting.\n\nFull brief and lessons learned: https://harish70777.gith
+ ub.io/process-safety-Calendar/incidents/azf-toulouse-2001
 LOCATION:Toulouse\, France
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -274,14 +277,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:georgia-pacific-naheola-2002@rskless-psm-calendar
 DTSTART;VALUE=DATE:20020116
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Georgia-Pacific Naheola Mill Hydrogen Sulfide Rele
  ase (2002)
 DESCRIPTION:2 fatalities\, 8 injuries.\n\nRoot causes: reactive-chemical-m
  ixing-in-sewer\, no-hazard-analysis-of-sewer-system\, contractors-unaware
  -of-hazard\, decades-old-design-flaw.\n\nFull brief and lessons learned: 
- https://calendar.rskless.com/incidents/georgia-pacific-naheola-2002
+ https://harish70777.github.io/process-safety-Calendar/incidents/georgia-p
+ acific-naheola-2002
 LOCATION:Pennington\, AL\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -292,7 +296,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:first-chemical-2002@rskless-psm-calendar
 DTSTART;VALUE=DATE:20021013
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: First Chemical Corporation Distillation Column Exp
  losion (2002)
@@ -300,7 +304,8 @@ DESCRIPTION:0 fatalities\, 3 injuries.\n\nRoot causes: leaking-steam-valve
  s-heated-idle-material\, no-temperature-monitoring-during-shutdown\, igno
  red-liquid-level-alarm\, control-room-too-close-and-unreinforced\, no-haz
  ard-analysis-for-continuous-process.\n\nFull brief and lessons learned: h
- ttps://calendar.rskless.com/incidents/first-chemical-2002
+ ttps://harish70777.github.io/process-safety-Calendar/incidents/first-chem
+ ical-2002
 LOCATION:Pascagoula\, MS\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -311,14 +316,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:west-pharmaceutical-2003@rskless-psm-calendar
 DTSTART;VALUE=DATE:20030129
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: West Pharmaceutical Services Dust Explosion (2003)
 DESCRIPTION:6 fatalities\, 38 injuries.\n\nRoot causes: no-engineering-ass
  essment-of-dust-hazard\, no-fire-code-consultation\, inadequate-hazard-co
  mmunication\, ignored-prior-ignition-incident\, unrated-electrical-equipm
- ent.\n\nFull brief and lessons learned: https://calendar.rskless.com/inci
- dents/west-pharmaceutical-2003
+ ent.\n\nFull brief and lessons learned: https://harish70777.github.io/pro
+ cess-safety-Calendar/incidents/west-pharmaceutical-2003
 LOCATION:Kinston\, NC\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -329,14 +334,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:cta-acoustics-2003@rskless-psm-calendar
 DTSTART;VALUE=DATE:20030220
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: CTA Acoustics Dust Explosion and Fire (2003)
 DESCRIPTION:7 fatalities\, 37 injuries.\n\nRoot causes: unknown-dust-hazar
  d-communication-failure\, supplier-withheld-prior-incident-knowledge\, po
  or-facility-design\, malfunctioning-oven-ignition\, no-fire-marshal-inspe
- ction-32-years.\n\nFull brief and lessons learned: https://calendar.rskle
- ss.com/incidents/cta-acoustics-2003
+ ction-32-years.\n\nFull brief and lessons learned: https://harish70777.gi
+ thub.io/process-safety-Calendar/incidents/cta-acoustics-2003
 LOCATION:Corbin\, KY\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -347,14 +352,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hayes-lemmerz-2003@rskless-psm-calendar
 DTSTART;VALUE=DATE:20031029
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Hayes Lemmerz Aluminum Dust Explosion (2003)
 DESCRIPTION:1 fatalities\, 6 injuries.\n\nRoot causes: no-moc-on-dust-coll
  ector-install\, inadequate-dust-collector-design\, unaddressed-prior-dust
  -fires\, no-worker-training-on-hazard\, poor-housekeeping.\n\nFull brief 
- and lessons learned: https://calendar.rskless.com/incidents/hayes-lemmerz
- -2003
+ and lessons learned: https://harish70777.github.io/process-safety-Calenda
+ r/incidents/hayes-lemmerz-2003
 LOCATION:Huntington\, IN\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -365,14 +370,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:dpc-enterprises-glendale-2003@rskless-psm-calendar
 DTSTART;VALUE=DATE:20031117
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: DPC Enterprises Glendale Chlorine Release (2003)
 DESCRIPTION:0 fatalities\, 16 injuries.\n\nRoot causes: alarms-ignored-com
  mon-practice\, insufficient-safety-margin-in-scrubber\, no-engineering-sa
  feguard-to-stop-transfer\, prior-similar-incident-at-sister-facility.\n\n
- Full brief and lessons learned: https://calendar.rskless.com/incidents/dp
- c-enterprises-glendale-2003
+ Full brief and lessons learned: https://harish70777.github.io/process-saf
+ ety-Calendar/incidents/dpc-enterprises-glendale-2003
 LOCATION:Glendale\, AZ\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -383,14 +388,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:mfg-chemical-2004@rskless-psm-calendar
 DTSTART;VALUE=DATE:20040412
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: MFG Chemical Runaway Reaction and Toxic Vapor Rele
  ase (2004)
 DESCRIPTION:0 fatalities\, 154 injuries.\n\nRoot causes: no-scale-up-hazar
  d-analysis\, inadequate-cooling-for-actual-heat-output\, no-appropriate-p
  pe-for-responders\, poor-community-emergency-planning.\n\nFull brief and 
- lessons learned: https://calendar.rskless.com/incidents/mfg-chemical-2004
+ lessons learned: https://harish70777.github.io/process-safety-Calendar/in
+ cidents/mfg-chemical-2004
 LOCATION:Dalton\, GA\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -401,13 +407,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:formosa-illiopolis-2004@rskless-psm-calendar
 DTSTART;VALUE=DATE:20040423
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Formosa Plastics Vinyl Chloride Explosion (2004)
 DESCRIPTION:5 fatalities\, 3 injuries.\n\nRoot causes: bypassed-pressure-i
  nterlock\, single-procedural-safeguard\, ignored-prior-similar-incidents\
  , operator-error-enabled-by-system-design.\n\nFull brief and lessons lear
- ned: https://calendar.rskless.com/incidents/formosa-illiopolis-2004
+ ned: https://harish70777.github.io/process-safety-Calendar/incidents/form
+ osa-illiopolis-2004
 LOCATION:Illiopolis\, IL\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -418,14 +425,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:marcus-oil-2004@rskless-psm-calendar
 DTSTART;VALUE=DATE:20041203
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Marcus Oil and Chemical Pressure Vessel Explosion 
  (2004)
 DESCRIPTION:0 fatalities\, 3 injuries.\n\nRoot causes: defective-repair-we
  lds\, no-qualified-welder-used\, no-pressure-test-after-repair\, no-state
  -pressure-vessel-code-required.\n\nFull brief and lessons learned: https:
- //calendar.rskless.com/incidents/marcus-oil-2004
+ //harish70777.github.io/process-safety-Calendar/incidents/marcus-oil-2004
 LOCATION:Houston\, TX\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -436,13 +443,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:texas-city-2005@rskless-psm-calendar
 DTSTART;VALUE=DATE:20050323
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: BP Texas City Refinery Explosion (2005)
 DESCRIPTION:15 fatalities\, 180 injuries.\n\nRoot causes: instrumentation-
  failure\, facility-siting\, cost-cutting\, inadequate-pssr.\n\nFull brief
-  and lessons learned: https://calendar.rskless.com/incidents/texas-city-2
- 005
+  and lessons learned: https://harish70777.github.io/process-safety-Calend
+ ar/incidents/texas-city-2005
 LOCATION:Texas City\, TX\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -453,13 +460,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:buncefield-2005@rskless-psm-calendar
 DTSTART;VALUE=DATE:20051211
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Buncefield Oil Storage Depot Explosion (2005)
 DESCRIPTION:0 fatalities\, 43 injuries.\n\nRoot causes: instrumentation-fa
  ilure\, inadequate-independent-protection-layers\, bund-design-failure.\n
- \nFull brief and lessons learned: https://calendar.rskless.com/incidents/
- buncefield-2005
+ \nFull brief and lessons learned: https://harish70777.github.io/process-s
+ afety-Calendar/incidents/buncefield-2005
 LOCATION:Hemel Hempstead\, England
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -470,14 +477,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:synthron-2006@rskless-psm-calendar
 DTSTART;VALUE=DATE:20060131
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Synthron Runaway Reaction and Vapor Cloud Explosio
  n (2006)
 DESCRIPTION:1 fatalities\, 14 injuries.\n\nRoot causes: batch-size-increas
  ed-without-hazard-review\, fouled-condenser-reduced-cooling\, inexperienc
  ed-staff\, no-process-hazard-analysis-ever-performed.\n\nFull brief and l
- essons learned: https://calendar.rskless.com/incidents/synthron-2006
+ essons learned: https://harish70777.github.io/process-safety-Calendar/inc
+ idents/synthron-2006
 LOCATION:Morganton\, NC\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -488,14 +496,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:little-general-store-2007@rskless-psm-calendar
 DTSTART;VALUE=DATE:20070130
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Little General Store Propane Explosion (2007)
 DESCRIPTION:4 fatalities\, 6 injuries.\n\nRoot causes: tank-sited-too-clos
  e-to-building\, valve-malfunction-during-service-transfer\, inadequate-te
  chnician-training\, inadequate-responder-training\, no-immediate-evacuati
- on-ordered.\n\nFull brief and lessons learned: https://calendar.rskless.c
- om/incidents/little-general-store-2007
+ on-ordered.\n\nFull brief and lessons learned: https://harish70777.github
+ .io/process-safety-Calendar/incidents/little-general-store-2007
 LOCATION:Ghent\, WV\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -506,14 +514,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:valero-mckee-2007@rskless-psm-calendar
 DTSTART;VALUE=DATE:20070216
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Valero McKee Refinery Propane Fire (Frozen Dead-Le
  g Piping) (2007)
 DESCRIPTION:0 fatalities\, 4 injuries.\n\nRoot causes: frozen-dead-leg-pip
  ing\, no-freeze-protection-program\, leaking-valve-into-idle-piping\, no-
- remote-shutoff.\n\nFull brief and lessons learned: https://calendar.rskle
- ss.com/incidents/valero-mckee-2007
+ remote-shutoff.\n\nFull brief and lessons learned: https://harish70777.gi
+ thub.io/process-safety-Calendar/incidents/valero-mckee-2007
 LOCATION:Sunray\, TX\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -524,15 +532,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:xcel-cabin-creek-2007@rskless-psm-calendar
 DTSTART;VALUE=DATE:20071002
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Xcel Energy Cabin Creek Hydroelectric Plant Pensto
  ck Fire (2007)
 DESCRIPTION:5 fatalities\, 3 injuries.\n\nRoot causes: flammable-solvent-i
  n-confined-space\, single-point-of-egress-known-and-unaddressed\, contrac
  tor-selected-despite-zero-safety-rating\, no-technically-qualified-rescue
- -responders.\n\nFull brief and lessons learned: https://calendar.rskless.
- com/incidents/xcel-cabin-creek-2007
+ -responders.\n\nFull brief and lessons learned: https://harish70777.githu
+ b.io/process-safety-Calendar/incidents/xcel-cabin-creek-2007
 LOCATION:Georgetown\, CO\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -543,15 +551,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:barton-solvents-2007@rskless-psm-calendar
 DTSTART;VALUE=DATE:20071029
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Barton Solvents Des Moines Fire and Explosions (20
  07)
 DESCRIPTION:0 fatalities\, 2 injuries.\n\nRoot causes: inadequate-bonding-
  and-grounding\, equipment-not-rated-for-flammable-service\, splash-fillin
  g-technique\, no-sprinkler-in-packaging-area\, repeat-incident-3-months-a
- fter-sister-facility.\n\nFull brief and lessons learned: https://calendar
- .rskless.com/incidents/barton-solvents-2007
+ fter-sister-facility.\n\nFull brief and lessons learned: https://harish70
+ 777.github.io/process-safety-Calendar/incidents/barton-solvents-2007
 LOCATION:Des Moines\, IA\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -562,13 +570,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:t2-laboratories-2007@rskless-psm-calendar
 DTSTART;VALUE=DATE:20071219
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: T2 Laboratories Reactive Chemical Explosion (2007)
 DESCRIPTION:4 fatalities\, 32 injuries.\n\nRoot causes: unrecognized-react
  ive-hazard-runaway-reaction\, inadequate-cooling-system\, no-pha\, ignore
- d-near-misses.\n\nFull brief and lessons learned: https://calendar.rskles
- s.com/incidents/t2-laboratories-2007
+ d-near-misses.\n\nFull brief and lessons learned: https://harish70777.git
+ hub.io/process-safety-Calendar/incidents/t2-laboratories-2007
 LOCATION:Jacksonville\, FL\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -579,13 +587,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:imperial-sugar-2008@rskless-psm-calendar
 DTSTART;VALUE=DATE:20080207
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Imperial Sugar Refinery Dust Explosion (2008)
 DESCRIPTION:14 fatalities\, 36 injuries.\n\nRoot causes: combustible-dust-
  accumulation\, inadequate-housekeeping\, no-explosion-protection\, normal
- ized-hazard.\n\nFull brief and lessons learned: https://calendar.rskless.
- com/incidents/imperial-sugar-2008
+ ized-hazard.\n\nFull brief and lessons learned: https://harish70777.githu
+ b.io/process-safety-Calendar/incidents/imperial-sugar-2008
 LOCATION:Port Wentworth\, GA\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -596,15 +604,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:goodyear-houston-2008@rskless-psm-calendar
 DTSTART;VALUE=DATE:20080611
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Goodyear Houston Heat Exchanger Rupture and Ammoni
  a Release (2008)
 DESCRIPTION:1 fatalities\, 6 injuries.\n\nRoot causes: valves-closed-block
  ing-relief-path\, inadequate-maintenance-operations-handoff\, no-emergenc
  y-drills-in-4-years\, failed-worker-accountability-system\, badge-trackin
- g-system-malfunction.\n\nFull brief and lessons learned: https://calendar
- .rskless.com/incidents/goodyear-houston-2008
+ g-system-malfunction.\n\nFull brief and lessons learned: https://harish70
+ 777.github.io/process-safety-Calendar/incidents/goodyear-houston-2008
 LOCATION:Houston\, TX\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -615,14 +623,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:bayer-cropscience-2008@rskless-psm-calendar
 DTSTART;VALUE=DATE:20080828
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Bayer CropScience Pesticide Waste Tank Explosion (
  2008)
 DESCRIPTION:2 fatalities\, 8 injuries.\n\nRoot causes: premature-startup\,
   bypassed-safety-interlocks\, inadequate-pre-startup-review\, operator-fa
  tigue\, poor-emergency-communication.\n\nFull brief and lessons learned: 
- https://calendar.rskless.com/incidents/bayer-cropscience-2008
+ https://harish70777.github.io/process-safety-Calendar/incidents/bayer-cro
+ pscience-2008
 LOCATION:Institute\, WV\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -633,13 +642,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:allied-terminals-2008@rskless-psm-calendar
 DTSTART;VALUE=DATE:20081112
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Allied Terminals Fertilizer Tank Collapse (2008)
 DESCRIPTION:0 fatalities\, 2 injuries.\n\nRoot causes: welding-defects-in-
  tank-construction\, no-state-regulation-of-storage-tanks\, inadequate-con
  tainment-design\, undetected-structural-flaw.\n\nFull brief and lessons l
- earned: https://calendar.rskless.com/incidents/allied-terminals-2008
+ earned: https://harish70777.github.io/process-safety-Calendar/incidents/a
+ llied-terminals-2008
 LOCATION:Chesapeake\, VA\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -650,13 +660,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:jaipur-2009@rskless-psm-calendar
 DTSTART;VALUE=DATE:20091029
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Jaipur Oil Terminal Fire (2009)
 DESCRIPTION:12 fatalities\, 200 injuries.\n\nRoot causes: no-remote-shutof
  f-valve\, no-written-procedures\, inadequate-emergency-response\, procedu
- ral-sequence-error.\n\nFull brief and lessons learned: https://calendar.r
- skless.com/incidents/jaipur-2009
+ ral-sequence-error.\n\nFull brief and lessons learned: https://harish7077
+ 7.github.io/process-safety-Calendar/incidents/jaipur-2009
 LOCATION:Sitapura\, Jaipur\, Rajasthan\, India
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -667,15 +677,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:silver-eagle-refinery-2009@rskless-psm-calendar
 DTSTART;VALUE=DATE:20091104
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Silver Eagle Refinery Pipe Rupture and Hydrogen Ex
  plosion (2009)
 DESCRIPTION:0 fatalities\, 0 injuries.\n\nRoot causes: sulfidation-corrosi
  on\, never-inspected-pipe\, inspection-strategy-over-inherently-safer-des
  ign\, facility-sited-near-residential-neighborhood.\n\nFull brief and les
- sons learned: https://calendar.rskless.com/incidents/silver-eagle-refiner
- y-2009
+ sons learned: https://harish70777.github.io/process-safety-Calendar/incid
+ ents/silver-eagle-refinery-2009
 LOCATION:Woods Cross\, UT\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -686,15 +696,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ndk-crystal-2009@rskless-psm-calendar
 DTSTART;VALUE=DATE:20091207
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: NDK Crystal Pressure Vessel Explosion with Offsite
   Fatality (2009)
 DESCRIPTION:1 fatalities\, 1 injuries.\n\nRoot causes: stress-corrosion-cr
  acking\, ignored-insurance-consultant-warning-2007\, no-vessel-inspection
  -for-years\, unverified-protective-coating\, inadequate-facility-siting-r
- eview.\n\nFull brief and lessons learned: https://calendar.rskless.com/in
- cidents/ndk-crystal-2009
+ eview.\n\nFull brief and lessons learned: https://harish70777.github.io/p
+ rocess-safety-Calendar/incidents/ndk-crystal-2009
 LOCATION:Belvidere\, IL\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -705,15 +715,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:dupont-belle-2010@rskless-psm-calendar
 DTSTART;VALUE=DATE:20100122
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: DuPont Belle Three Toxic Releases in 33 Hours (201
  0)
 DESCRIPTION:1 fatalities\, 2 injuries.\n\nRoot causes: overdue-hose-replac
  ement\, ignored-near-miss-hours-earlier\, undetected-5-day-leak\, inadequ
  ate-mechanical-integrity-program\, cost-rejected-safer-design.\n\nFull br
- ief and lessons learned: https://calendar.rskless.com/incidents/dupont-be
- lle-2010
+ ief and lessons learned: https://harish70777.github.io/process-safety-Cal
+ endar/incidents/dupont-belle-2010
 LOCATION:Belle\, WV\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -724,13 +734,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:kleen-energy-2010@rskless-psm-calendar
 DTSTART;VALUE=DATE:20100207
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Kleen Energy Plant Natural Gas Explosion (2010)
 DESCRIPTION:6 fatalities\, 50 injuries.\n\nRoot causes: inherently-unsafe-
  work-practice\, no-regulatory-prohibition\, congested-release-area\, unde
- termined-ignition-source.\n\nFull brief and lessons learned: https://cale
- ndar.rskless.com/incidents/kleen-energy-2010
+ termined-ignition-source.\n\nFull brief and lessons learned: https://hari
+ sh70777.github.io/process-safety-Calendar/incidents/kleen-energy-2010
 LOCATION:Middletown\, CT\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -741,15 +751,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:tesoro-anacortes-2010@rskless-psm-calendar
 DTSTART;VALUE=DATE:20100402
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Tesoro Anacortes Refinery Heat Exchanger Explosion
   (2010)
 DESCRIPTION:7 fatalities\, 1 injuries.\n\nRoot causes: high-temperature-hy
  drogen-attack\, undetected-equipment-degradation\, weak-industry-inspecti
  on-standard\, complacent-safety-culture\, ineffective-pha-safeguards.\n\n
- Full brief and lessons learned: https://calendar.rskless.com/incidents/te
- soro-anacortes-2010
+ Full brief and lessons learned: https://harish70777.github.io/process-saf
+ ety-Calendar/incidents/tesoro-anacortes-2010
 LOCATION:Anacortes\, WA\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -760,13 +770,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:deepwater-horizon-2010@rskless-psm-calendar
 DTSTART;VALUE=DATE:20100420
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Deepwater Horizon / Macondo Well Blowout (2010)
 DESCRIPTION:11 fatalities\, 17 injuries.\n\nRoot causes: cement-barrier-fa
  ilure\, misinterpreted-pressure-test\, missed-well-flow-indication\, bop-
  failure\, ambiguous-safety-roles.\n\nFull brief and lessons learned: http
- s://calendar.rskless.com/incidents/deepwater-horizon-2010
+ s://harish70777.github.io/process-safety-Calendar/incidents/deepwater-hor
+ izon-2010
 LOCATION:Gulf of Mexico\, ~41 miles off Louisiana\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -777,13 +788,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:horsehead-monaca-2010@rskless-psm-calendar
 DTSTART;VALUE=DATE:20100722
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Horsehead Zinc Refinery Explosion (2010)
 DESCRIPTION:2 fatalities\, 1 injuries.\n\nRoot causes: blocked-sump-design
  -flaw\, no-moc-on-column-rebuild\, prior-blockages-normalized\, missed-wa
- rning-signs-days-before.\n\nFull brief and lessons learned: https://calen
- dar.rskless.com/incidents/horsehead-monaca-2010
+ rning-signs-days-before.\n\nFull brief and lessons learned: https://haris
+ h70777.github.io/process-safety-Calendar/incidents/horsehead-monaca-2010
 LOCATION:Monaca\, PA\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -794,14 +805,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:millard-refrigerated-2010@rskless-psm-calendar
 DTSTART;VALUE=DATE:20100823
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Millard Refrigerated Services Ammonia Release (201
  0)
 DESCRIPTION:0 fatalities\, 152 injuries.\n\nRoot causes: hydraulic-shock\,
   improper-restart-after-power-outage\, prior-releases-not-addressed\, ina
- dequate-corrective-action.\n\nFull brief and lessons learned: https://cal
- endar.rskless.com/incidents/millard-refrigerated-2010
+ dequate-corrective-action.\n\nFull brief and lessons learned: https://har
+ ish70777.github.io/process-safety-Calendar/incidents/millard-refrigerated
+ -2010
 LOCATION:Theodore\, AL\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -812,14 +824,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:chevron-richmond-2012@rskless-psm-calendar
 DTSTART;VALUE=DATE:20120806
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Chevron Richmond Refinery Pipe Rupture and Fire (2
  012)
 DESCRIPTION:0 fatalities\, 6 injuries.\n\nRoot causes: sulfidation-corrosi
  on\, ignored-internal-recommendation-2002\, incomplete-pha-corrosion-mech
- anisms\, low-silicon-piping.\n\nFull brief and lessons learned: https://c
- alendar.rskless.com/incidents/chevron-richmond-2012
+ anisms\, low-silicon-piping.\n\nFull brief and lessons learned: https://h
+ arish70777.github.io/process-safety-Calendar/incidents/chevron-richmond-2
+ 012
 LOCATION:Richmond\, CA\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -830,13 +843,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:wynnewood-refinery-2012@rskless-psm-calendar
 DTSTART;VALUE=DATE:20120928
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Wynnewood Refinery Boiler Explosion (2012)
 DESCRIPTION:2 fatalities\, 0 injuries.\n\nRoot causes: natural-gas-accumul
  ated-in-boiler\, improper-restart-procedure\, repeat-psm-violations\, ina
- dequate-boiler-purge.\n\nFull brief and lessons learned: https://calendar
- .rskless.com/incidents/wynnewood-refinery-2012
+ dequate-boiler-purge.\n\nFull brief and lessons learned: https://harish70
+ 777.github.io/process-safety-Calendar/incidents/wynnewood-refinery-2012
 LOCATION:Wynnewood\, OK\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -847,13 +860,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:west-fertilizer-2013@rskless-psm-calendar
 DTSTART;VALUE=DATE:20130417
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: West Fertilizer Company Fire and Explosion (2013)
 DESCRIPTION:15 fatalities\, 260 injuries.\n\nRoot causes: combustible-buil
  ding-materials\, no-sprinkler-system\, inadequate-facility-siting\, no-ha
- zard-recognition.\n\nFull brief and lessons learned: https://calendar.rsk
- less.com/incidents/west-fertilizer-2013
+ zard-recognition.\n\nFull brief and lessons learned: https://harish70777.
+ github.io/process-safety-Calendar/incidents/west-fertilizer-2013
 LOCATION:West\, TX\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -864,13 +877,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:williams-olefins-2013@rskless-psm-calendar
 DTSTART;VALUE=DATE:20130613
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Williams Olefins Plant Reboiler Explosion (2013)
 DESCRIPTION:2 fatalities\, 167 injuries.\n\nRoot causes: inadequate-moc-19
  90s-change\, unprotected-overpressure\, poor-safety-culture\, unaddressed
- -hazard-12-years.\n\nFull brief and lessons learned: https://calendar.rsk
- less.com/incidents/williams-olefins-2013
+ -hazard-12-years.\n\nFull brief and lessons learned: https://harish70777.
+ github.io/process-safety-Calendar/incidents/williams-olefins-2013
 LOCATION:Geismar\, LA\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -881,14 +894,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:freedom-industries-elk-river-2014@rskless-psm-calendar
 DTSTART;VALUE=DATE:20140109
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Freedom Industries Elk River Chemical Spill (2014)
 DESCRIPTION:0 fatalities\, 300 injuries.\n\nRoot causes: pitting-corrosion
  -no-inspection-10-plus-years\, degraded-secondary-containment\, no-regula
  tory-inspection-requirement\, deficient-emergency-communication.\n\nFull 
- brief and lessons learned: https://calendar.rskless.com/incidents/freedom
- -industries-elk-river-2014
+ brief and lessons learned: https://harish70777.github.io/process-safety-C
+ alendar/incidents/freedom-industries-elk-river-2014
 LOCATION:Charleston\, WV\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -899,13 +912,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:dupont-laporte-2014@rskless-psm-calendar
 DTSTART;VALUE=DATE:20141115
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: DuPont La Porte Methyl Mercaptan Release (2014)
 DESCRIPTION:4 fatalities\, 1 injuries.\n\nRoot causes: flawed-engineering-
  design\, no-adequate-safeguards\, ignored-prior-pha-finding\, no-respirat
  ory-protection-used\, poor-shift-communication.\n\nFull brief and lessons
-  learned: https://calendar.rskless.com/incidents/dupont-laporte-2014
+  learned: https://harish70777.github.io/process-safety-Calendar/incidents
+ /dupont-laporte-2014
 LOCATION:La Porte\, TX\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -916,14 +930,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:exxonmobil-torrance-2015@rskless-psm-calendar
 DTSTART;VALUE=DATE:20150218
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: ExxonMobil Torrance Refinery Electrostatic Precipi
  tator Explosion (2015)
 DESCRIPTION:0 fatalities\, 2 injuries.\n\nRoot causes: faulty-slide-valve\
  , no-safe-operating-limits\, unsafe-isolation-methods\, outdated-hazard-a
- nalysis\, near-miss-hf-tank.\n\nFull brief and lessons learned: https://c
- alendar.rskless.com/incidents/exxonmobil-torrance-2015
+ nalysis\, near-miss-hf-tank.\n\nFull brief and lessons learned: https://h
+ arish70777.github.io/process-safety-Calendar/incidents/exxonmobil-torranc
+ e-2015
 LOCATION:Torrance\, CA\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -934,13 +949,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:tianjin-2015@rskless-psm-calendar
 DTSTART;VALUE=DATE:20150812
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Tianjin Port Explosions (2015)
 DESCRIPTION:173 fatalities\, 798 injuries.\n\nRoot causes: spontaneous-ign
  ition-improper-storage\, incompatible-chemical-co-storage\, illegal-stora
  ge-quantities\, inadequate-regulatory-enforcement.\n\nFull brief and less
- ons learned: https://calendar.rskless.com/incidents/tianjin-2015
+ ons learned: https://harish70777.github.io/process-safety-Calendar/incide
+ nts/tianjin-2015
 LOCATION:Binhai New Area\, Tianjin\, China
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -951,14 +967,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sunoco-nederland-2016@rskless-psm-calendar
 DTSTART;VALUE=DATE:20160812
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Sunoco Nederland Crude Oil Terminal Flash Fire and
   Explosion (2016)
 DESCRIPTION:0 fatalities\, 7 injuries.\n\nRoot causes: hot-work-on-unclean
  ed-pipe\, inadequate-hot-work-procedure\, contractor-procedure-gaps\, no-
  clear-cleaning-inerting-guidance.\n\nFull brief and lessons learned: http
- s://calendar.rskless.com/incidents/sunoco-nederland-2016
+ s://harish70777.github.io/process-safety-Calendar/incidents/sunoco-nederl
+ and-2016
 LOCATION:Nederland\, TX\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -969,14 +986,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:airgas-cantonment-2016@rskless-psm-calendar
 DTSTART;VALUE=DATE:20160828
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Airgas Nitrous Oxide Explosion (2016)
 DESCRIPTION:1 fatalities\, 0 injuries.\n\nRoot causes: no-safer-design-eva
  luation\, no-moc-on-pump-installation\, ineffective-safeguards\, regulato
  ry-gap-no-psm-coverage\, pump-overheated-material.\n\nFull brief and less
- ons learned: https://calendar.rskless.com/incidents/airgas-cantonment-201
- 6
+ ons learned: https://harish70777.github.io/process-safety-Calendar/incide
+ nts/airgas-cantonment-2016
 LOCATION:Cantonment\, FL\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -987,13 +1004,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:mgpi-atchison-2016@rskless-psm-calendar
 DTSTART;VALUE=DATE:20161021
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: MGPI Processing Toxic Chlorine Gas Release (2016)
 DESCRIPTION:0 fatalities\, 140 injuries.\n\nRoot causes: visually-similar-
  unmarked-fill-lines\, both-lines-left-unlocked\, no-remote-shutdown\, ina
  dequate-unloading-procedures.\n\nFull brief and lessons learned: https://
- calendar.rskless.com/incidents/mgpi-atchison-2016
+ harish70777.github.io/process-safety-Calendar/incidents/mgpi-atchison-201
+ 6
 LOCATION:Atchison\, KS\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1004,15 +1022,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:exxonmobil-baton-rouge-2016@rskless-psm-calendar
 DTSTART;VALUE=DATE:20161122
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: ExxonMobil Baton Rouge Refinery Isobutane Fire (20
  16)
 DESCRIPTION:0 fatalities\, 4 injuries.\n\nRoot causes: wrong-bolts-removed
  -from-valve\, hazardous-minority-valve-design\, accepted-practice-without
  -hazard-analysis\, longstanding-gearbox-reliability-issues.\n\nFull brief
-  and lessons learned: https://calendar.rskless.com/incidents/exxonmobil-b
- aton-rouge-2016
+  and lessons learned: https://harish70777.github.io/process-safety-Calend
+ ar/incidents/exxonmobil-baton-rouge-2016
 LOCATION:Baton Rouge\, LA\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1023,14 +1041,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:pca-deridder-2017@rskless-psm-calendar
 DTSTART;VALUE=DATE:20170208
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Packaging Corporation of America DeRidder Mill Exp
  losion (2017)
 DESCRIPTION:3 fatalities\, 7 injuries.\n\nRoot causes: hot-work-above-flam
  mable-tank\, inadequate-hazard-identification\, repeat-failure-same-compa
  ny-2008\, psm-standard-gap-non-condensable-gas-system.\n\nFull brief and 
- lessons learned: https://calendar.rskless.com/incidents/pca-deridder-2017
+ lessons learned: https://harish70777.github.io/process-safety-Calendar/in
+ cidents/pca-deridder-2017
 LOCATION:DeRidder\, LA\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1041,15 +1060,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:loy-lange-box-2017@rskless-psm-calendar
 DTSTART;VALUE=DATE:20170403
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Loy-Lange Box Company Pressure Vessel Explosion (2
  017)
 DESCRIPTION:4 fatalities\, 1 injuries.\n\nRoot causes: oxygen-pitting-corr
  osion-known-since-2004\, incomplete-2012-repair\, no-inspection-program\,
   unpermitted-unregistered-vessel\, operated-while-known-leaking.\n\nFull 
- brief and lessons learned: https://calendar.rskless.com/incidents/loy-lan
- ge-box-2017
+ brief and lessons learned: https://harish70777.github.io/process-safety-C
+ alendar/incidents/loy-lange-box-2017
 LOCATION:St. Louis\, MO\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1060,15 +1079,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:didion-milling-2017@rskless-psm-calendar
 DTSTART;VALUE=DATE:20170531
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Didion Milling Combustible Dust Explosions and Fir
  e (2017)
 DESCRIPTION:5 fatalities\, 14 injuries.\n\nRoot causes: no-dust-hazard-ana
  lysis\, dust-managed-under-food-safety-not-safety-program\, interconnecte
  d-processes-allowed-fire-spread\, normalized-smoldering-fires\, falsified
- -compliance-records.\n\nFull brief and lessons learned: https://calendar.
- rskless.com/incidents/didion-milling-2017
+ -compliance-records.\n\nFull brief and lessons learned: https://harish707
+ 77.github.io/process-safety-Calendar/incidents/didion-milling-2017
 LOCATION:Cambria\, WI\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1079,15 +1098,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:arkema-crosby-2017@rskless-psm-calendar
 DTSTART;VALUE=DATE:20170831
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Arkema Crosby Organic Peroxide Fire (Hurricane Har
  vey) (2017)
 DESCRIPTION:0 fatalities\, 21 injuries.\n\nRoot causes: inadequate-extreme
  -weather-planning\, total-power-loss-not-anticipated\, insufficient-backu
  p-refrigeration-capacity\, no-industry-guidance-for-flooding.\n\nFull bri
- ef and lessons learned: https://calendar.rskless.com/incidents/arkema-cro
- sby-2017
+ ef and lessons learned: https://harish70777.github.io/process-safety-Cale
+ ndar/incidents/arkema-crosby-2017
 LOCATION:Crosby\, TX\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1098,14 +1117,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:husky-superior-2018@rskless-psm-calendar
 DTSTART;VALUE=DATE:20180426
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Husky Energy Superior Refinery FCC Explosion (2018
  )
 DESCRIPTION:0 fatalities\, 36 injuries.\n\nRoot causes: worn-slide-valve\,
   ineffective-safeguards\, failure-to-learn-from-prior-incident\, inadequa
  te-process-knowledge\, near-miss-hf-tank.\n\nFull brief and lessons learn
- ed: https://calendar.rskless.com/incidents/husky-superior-2018
+ ed: https://harish70777.github.io/process-safety-Calendar/incidents/husky
+ -superior-2018
 LOCATION:Superior\, WI\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1116,15 +1136,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:kuraray-america-2018@rskless-psm-calendar
 DTSTART;VALUE=DATE:20180519
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Kuraray America EVAL Plant Ethylene Release and Fi
  re (2018)
 DESCRIPTION:0 fatalities\, 23 injuries.\n\nRoot causes: relief-system-vent
  ed-toward-workers\, nonessential-workers-present-during-startup\, ignored
  -high-pressure-alarm\, disabled-safety-interlock\, inadequate-operator-tr
- aining.\n\nFull brief and lessons learned: https://calendar.rskless.com/i
- ncidents/kuraray-america-2018
+ aining.\n\nFull brief and lessons learned: https://harish70777.github.io/
+ process-safety-Calendar/incidents/kuraray-america-2018
 LOCATION:Pasadena\, TX\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1135,15 +1155,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itc-deer-park-2019@rskless-psm-calendar
 DTSTART;VALUE=DATE:20190317
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Intercontinental Terminals Company (ITC) Tank Farm
   Fire (2019)
 DESCRIPTION:0 fatalities\, 0 injuries.\n\nRoot causes: pump-bearing-failur
  e\, no-gas-detection-2014-recommendation-ignored\, no-remote-isolation-va
  lves\, no-mechanical-integrity-procedure\, regulatory-gap-psm-rmp.\n\nFul
- l brief and lessons learned: https://calendar.rskless.com/incidents/itc-d
- eer-park-2019
+ l brief and lessons learned: https://harish70777.github.io/process-safety
+ -Calendar/incidents/itc-deer-park-2019
 LOCATION:Deer Park\, TX\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1154,15 +1174,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:kmco-crosby-2019@rskless-psm-calendar
 DTSTART;VALUE=DATE:20190402
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: KMCO Chemical Facility Fatal Explosion and Fire (2
  019)
 DESCRIPTION:1 fatalities\, 28 injuries.\n\nRoot causes: brittle-cast-iron-
  in-hazardous-service\, no-pressure-relief-on-strainer\, inadequate-emerge
  ncy-response-training\, no-remote-isolation\, workers-approached-vapor-cl
- oud.\n\nFull brief and lessons learned: https://calendar.rskless.com/inci
- dents/kmco-crosby-2019
+ oud.\n\nFull brief and lessons learned: https://harish70777.github.io/pro
+ cess-safety-Calendar/incidents/kmco-crosby-2019
 LOCATION:Crosby\, TX\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1173,14 +1193,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ab-specialty-silicones-2019@rskless-psm-calendar
 DTSTART;VALUE=DATE:20190503
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: AB Specialty Silicones Chemical Explosion (2019)
 DESCRIPTION:4 fatalities\, 1 injuries.\n\nRoot causes: incompatible-chemic
  als-mixed\, identical-looking-containers\, no-hazard-analysis-program\, i
  gnored-2014-near-miss\, no-gas-detection\, below-regulatory-threshold.\n\
- nFull brief and lessons learned: https://calendar.rskless.com/incidents/a
- b-specialty-silicones-2019
+ nFull brief and lessons learned: https://harish70777.github.io/process-sa
+ fety-Calendar/incidents/ab-specialty-silicones-2019
 LOCATION:Waukegan\, IL\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1191,14 +1211,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:philadelphia-energy-solutions-2019@rskless-psm-calendar
 DTSTART;VALUE=DATE:20190621
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Philadelphia Energy Solutions Refinery Fire and HF
   Release (2019)
 DESCRIPTION:0 fatalities\, 5 injuries.\n\nRoot causes: corroded-pipe-elbow
  \, outdated-material-standard\, no-remote-isolation-valves\, inadequate-m
  echanical-integrity-inspection.\n\nFull brief and lessons learned: https:
- //calendar.rskless.com/incidents/philadelphia-energy-solutions-2019
+ //harish70777.github.io/process-safety-Calendar/incidents/philadelphia-en
+ ergy-solutions-2019
 LOCATION:Philadelphia\, PA\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1209,14 +1230,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:tpc-port-neches-2019@rskless-psm-calendar
 DTSTART;VALUE=DATE:20191127
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: TPC Group Port Neches Butadiene Explosions and Fir
  e (2019)
 DESCRIPTION:0 fatalities\, 5 injuries.\n\nRoot causes: unaddressed-dead-le
  g\, ignored-2016-hazard-analysis-recommendation\, no-remote-isolation-val
  ves\, no-shutdown-policy-for-popcorn-polymer.\n\nFull brief and lessons l
- earned: https://calendar.rskless.com/incidents/tpc-port-neches-2019
+ earned: https://harish70777.github.io/process-safety-Calendar/incidents/t
+ pc-port-neches-2019
 LOCATION:Port Neches\, TX\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1227,15 +1249,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:watson-grinding-2020@rskless-psm-calendar
 DTSTART;VALUE=DATE:20200124
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Watson Grinding and Manufacturing Propylene Explos
  ion (2020)
 DESCRIPTION:3 fatalities\, 18 injuries.\n\nRoot causes: degraded-welding-h
  ose\, valve-left-open-overnight\, non-functional-gas-detection\, no-worke
  r-training-on-hazard\, no-psm-program-below-threshold\, facility-sited-ne
- ar-homes.\n\nFull brief and lessons learned: https://calendar.rskless.com
- /incidents/watson-grinding-2020
+ ar-homes.\n\nFull brief and lessons learned: https://harish70777.github.i
+ o/process-safety-Calendar/incidents/watson-grinding-2020
 LOCATION:Houston\, TX\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1246,14 +1268,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:valero-meraux-2020@rskless-psm-calendar
 DTSTART;VALUE=DATE:20200410
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Valero Meraux Refinery Hydrocracker Explosion and 
  Fire (2020)
 DESCRIPTION:0 fatalities\, 1 injuries.\n\nRoot causes: psv-failed-to-resea
  t\, field-deviation-from-approved-plan\, wrong-valve-closed\, inadequate-
  verification-of-field-changes.\n\nFull brief and lessons learned: https:/
- /calendar.rskless.com/incidents/valero-meraux-2020
+ /harish70777.github.io/process-safety-Calendar/incidents/valero-meraux-20
+ 20
 LOCATION:Meraux\, LA\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1264,13 +1287,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lacc-westlake-2020@rskless-psm-calendar
 DTSTART;VALUE=DATE:20200411
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: LACC Spent Caustic Release (2020)
 DESCRIPTION:0 fatalities\, 1 injuries.\n\nRoot causes: unsecured-manway-ha
  tch\, procedure-gap-hose-clearing\, no-appropriate-ppe\, safety-shower-to
- o-far.\n\nFull brief and lessons learned: https://calendar.rskless.com/in
- cidents/lacc-westlake-2020
+ o-far.\n\nFull brief and lessons learned: https://harish70777.github.io/p
+ rocess-safety-Calendar/incidents/lacc-westlake-2020
 LOCATION:Westlake\, LA\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1281,15 +1304,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:bio-lab-westlake-2020@rskless-psm-calendar
 DTSTART;VALUE=DATE:20200827
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Bio-Lab Chemical Fire and Toxic Gas Release (Hurri
  cane Laura) (2020)
 DESCRIPTION:0 fatalities\, 0 injuries.\n\nRoot causes: inadequate-hurrican
  e-preparation\, ignored-arkema-precedent\, unimplemented-2010-pha-recomme
  ndation\, delayed-emergency-response\, no-regulatory-coverage.\n\nFull br
- ief and lessons learned: https://calendar.rskless.com/incidents/bio-lab-w
- estlake-2020
+ ief and lessons learned: https://harish70777.github.io/process-safety-Cal
+ endar/incidents/bio-lab-westlake-2020
 LOCATION:Westlake\, LA\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1300,15 +1323,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:evergreen-packaging-2020@rskless-psm-calendar
 DTSTART;VALUE=DATE:20200921
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Evergreen Packaging Paper Mill Fire During Hot Wor
  k (2020)
 DESCRIPTION:2 fatalities\, 0 injuries.\n\nRoot causes: heat-gun-used-near-
  flammable-resin\, no-communication-between-contractor-crews\, inadequate-
  pre-job-planning\, combustible-vessel-construction.\n\nFull brief and les
- sons learned: https://calendar.rskless.com/incidents/evergreen-packaging-
- 2020
+ sons learned: https://harish70777.github.io/process-safety-Calendar/incid
+ ents/evergreen-packaging-2020
 LOCATION:Canton\, NC\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1319,15 +1342,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:wacker-polysilicon-2020@rskless-psm-calendar
 DTSTART;VALUE=DATE:20201113
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Wacker Polysilicon Hydrogen Chloride Release (2020
  )
 DESCRIPTION:1 fatalities\, 4 injuries.\n\nRoot causes: no-written-torque-p
  rocedure\, ineffective-hazardous-energy-control\, uncontrolled-simultaneo
  us-operations\, single-means-of-egress\, ignored-egress-recommendation.\n
- \nFull brief and lessons learned: https://calendar.rskless.com/incidents/
- wacker-polysilicon-2020
+ \nFull brief and lessons learned: https://harish70777.github.io/process-s
+ afety-Calendar/incidents/wacker-polysilicon-2020
 LOCATION:Charleston\, TN\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1338,15 +1361,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:formosa-point-comfort-2020@rskless-psm-calendar
 DTSTART;VALUE=DATE:20201203
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Formosa Plastics Point Comfort Chlorine Release (2
  020)
 DESCRIPTION:0 fatalities\, 1 injuries.\n\nRoot causes: container-believed-
  empty-was-not\, no-weight-verification-instrumentation\, no-respiratory-p
  rotection-worn\, inherently-safer-alternative-not-used.\n\nFull brief and
-  lessons learned: https://calendar.rskless.com/incidents/formosa-point-co
- mfort-2020
+  lessons learned: https://harish70777.github.io/process-safety-Calendar/i
+ ncidents/formosa-point-comfort-2020
 LOCATION:Point Comfort\, TX\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1357,14 +1380,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:optima-belle-2020@rskless-psm-calendar
 DTSTART;VALUE=DATE:20201208
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Optima Belle Double Cone Dryer Explosion (2020)
 DESCRIPTION:1 fatalities\, 3 injuries.\n\nRoot causes: inaccurate-safety-d
  ata-sheet\, poor-process-knowledge-transfer-between-companies\, no-therma
  l-hazard-assessment\, equipment-not-designed-for-decomposition-reaction\,
   regulatory-gap-reactive-chemicals.\n\nFull brief and lessons learned: ht
- tps://calendar.rskless.com/incidents/optima-belle-2020
+ tps://harish70777.github.io/process-safety-Calendar/incidents/optima-bell
+ e-2020
 LOCATION:Belle\, WV\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1375,7 +1399,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:foundation-food-group-2021@rskless-psm-calendar
 DTSTART;VALUE=DATE:20210128
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Foundation Food Group Liquid Nitrogen Release (202
  1)
@@ -1383,8 +1407,8 @@ DESCRIPTION:6 fatalities\, 4 injuries.\n\nRoot causes: bent-bubbler-tube-s
  ingle-point-of-failure\, no-gas-monitoring-or-alarms\, inadequate-worker-
  training-on-asphyxiation-hazard\, poor-emergency-preparedness\, equipment
  -supplier-continued-despite-known-nonconformance.\n\nFull brief and lesso
- ns learned: https://calendar.rskless.com/incidents/foundation-food-group-
- 2021
+ ns learned: https://harish70777.github.io/process-safety-Calendar/inciden
+ ts/foundation-food-group-2021
 LOCATION:Gainesville\, GA\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1395,7 +1419,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:yenkin-majestic-2021@rskless-psm-calendar
 DTSTART;VALUE=DATE:20210408
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Yenkin-Majestic Resin Plant Vapor Cloud Explosion 
  and Fire (2021)
@@ -1403,7 +1427,8 @@ DESCRIPTION:1 fatalities\, 8 injuries.\n\nRoot causes: manway-not-pressure
  -tested-for-service\, no-engineering-control-for-agitator-status\, no-gas
  -detection-or-alarms\, no-flame-resistant-ppe-requirement\, procedure-vio
  lated-solvent-added-with-agitator-off.\n\nFull brief and lessons learned:
-  https://calendar.rskless.com/incidents/yenkin-majestic-2021
+  https://harish70777.github.io/process-safety-Calendar/incidents/yenkin-m
+ ajestic-2021
 LOCATION:Columbus\, OH\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1414,13 +1439,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:chemtool-rockton-2021@rskless-psm-calendar
 DTSTART;VALUE=DATE:20210614
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Chemtool Rockton Plant Fire (2021)
 DESCRIPTION:0 fatalities\, 2 injuries.\n\nRoot causes: mechanical-equipmen
  t-struck-piping\, undetermined-ignition-source\, elevated-piping-vulnerab
- le-to-mobile-equipment.\n\nFull brief and lessons learned: https://calend
- ar.rskless.com/incidents/chemtool-rockton-2021
+ le-to-mobile-equipment.\n\nFull brief and lessons learned: https://harish
+ 70777.github.io/process-safety-Calendar/incidents/chemtool-rockton-2021
 LOCATION:Rockton\, IL\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1431,13 +1456,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:rubicon-geismar-2022@rskless-psm-calendar
 DTSTART;VALUE=DATE:20220115
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Rubicon MDI Release (2022)
 DESCRIPTION:0 fatalities\, 2 injuries.\n\nRoot causes: premature-rupture-d
  isc-activation\, relief-discharge-near-workers\, identified-hazard-not-mi
  tigated\, non-essential-workers-not-restricted.\n\nFull brief and lessons
-  learned: https://calendar.rskless.com/incidents/rubicon-geismar-2022
+  learned: https://harish70777.github.io/process-safety-Calendar/incidents
+ /rubicon-geismar-2022
 LOCATION:Geismar\, LA\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1448,13 +1474,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:bp-husky-toledo-2022@rskless-psm-calendar
 DTSTART;VALUE=DATE:20220920
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: BP-Husky Toledo Refinery Naphtha Fire (2022)
 DESCRIPTION:2 fatalities\, 0 injuries.\n\nRoot causes: liquid-overflow-int
  o-vapor-only-vessel\, alarm-flood-overwhelmed-operators\, no-timely-shutd
  own\, 2019-precedent-not-acted-on.\n\nFull brief and lessons learned: htt
- ps://calendar.rskless.com/incidents/bp-husky-toledo-2022
+ ps://harish70777.github.io/process-safety-Calendar/incidents/bp-husky-tol
+ edo-2022
 LOCATION:Oregon\, OH\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1465,14 +1492,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:home-market-foods-2022@rskless-psm-calendar
 DTSTART;VALUE=DATE:20221219
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Home Market Foods Ammonia Release (2022)
 DESCRIPTION:1 fatalities\, 1 injuries.\n\nRoot causes: severed-ammonia-pip
  e-during-unrelated-work\, rmp-accident-prevention-violations\, inadequate
  -hazard-awareness-for-contractors\, no-isolation-for-nearby-non-ammonia-w
- ork.\n\nFull brief and lessons learned: https://calendar.rskless.com/inci
- dents/home-market-foods-2022
+ ork.\n\nFull brief and lessons learned: https://harish70777.github.io/pro
+ cess-safety-Calendar/incidents/home-market-foods-2022
 LOCATION:Norwood\, MA\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1483,14 +1510,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:phillips-66-borger-2023@rskless-psm-calendar
 DTSTART;VALUE=DATE:20230117
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Phillips 66 Borger Refinery Natural Gas Liquid Fir
  e (2023)
 DESCRIPTION:1 fatalities\, 1 injuries.\n\nRoot causes: tool-left-in-revers
  e\, lockdown-screw-inadvertently-removed\, pressurized-residual-material-
  in-workover-unit\, no-hand-tool-requirement.\n\nFull brief and lessons le
- arned: https://calendar.rskless.com/incidents/phillips-66-borger-2023
+ arned: https://harish70777.github.io/process-safety-Calendar/incidents/ph
+ illips-66-borger-2023
 LOCATION:Borger\, TX\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1501,14 +1529,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:darling-ingredients-2023@rskless-psm-calendar
 DTSTART;VALUE=DATE:20230622
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Darling Ingredients Aluminum Chloride Tank Rupture
   (2023)
 DESCRIPTION:1 fatalities\, 0 injuries.\n\nRoot causes: water-reactive-chem
  ical-in-confined-space\, unstable-solution-storage.\n\nFull brief and les
- sons learned: https://calendar.rskless.com/incidents/darling-ingredients-
- 2023
+ sons learned: https://harish70777.github.io/process-safety-Calendar/incid
+ ents/darling-ingredients-2023
 LOCATION:Wadesboro\, NC\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1519,15 +1547,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:biolab-conyers-2024@rskless-psm-calendar
 DTSTART;VALUE=DATE:20240929
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: BioLab Conyers Warehouse Fire and Toxic Smoke Plum
  e (2024)
 DESCRIPTION:0 fatalities\, 0 injuries.\n\nRoot causes: corroded-sprinkler-
  component-failed\, corrosion-known-9-months-earlier\, inventory-doubled-v
  s-declared\, no-regulatory-coverage-for-reactive-hazard\, run-to-failure-
- maintenance-culture.\n\nFull brief and lessons learned: https://calendar.
- rskless.com/incidents/biolab-conyers-2024
+ maintenance-culture.\n\nFull brief and lessons learned: https://harish707
+ 77.github.io/process-safety-Calendar/incidents/biolab-conyers-2024
 LOCATION:Conyers\, GA\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1538,14 +1566,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:pemex-deer-park-2024@rskless-psm-calendar
 DTSTART;VALUE=DATE:20241010
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: PEMEX Deer Park Refinery Hydrogen Sulfide Release 
  (2024)
 DESCRIPTION:2 fatalities\, 13 injuries.\n\nRoot causes: wrong-flange-opene
  d\, no-positive-equipment-id\, overly-broad-work-permit\, contractors-rea
  ssigned-without-hazard-briefing.\n\nFull brief and lessons learned: https
- ://calendar.rskless.com/incidents/pemex-deer-park-2024
+ ://harish70777.github.io/process-safety-Calendar/incidents/pemex-deer-par
+ k-2024
 LOCATION:Deer Park\, TX\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1556,15 +1585,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:us-steel-clairton-2025@rskless-psm-calendar
 DTSTART;VALUE=DATE:20250811
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: U.S. Steel Clairton Coke Works Coke Oven Gas Explo
  sion (2025)
 DESCRIPTION:2 fatalities\, 11 injuries.\n\nRoot causes: no-procedure-for-v
  alve-washing-task\, ad-hoc-informal-work-practice\, control-rooms-sited-t
  oo-close-to-hazard\, buildings-not-explosion-rated\, ignored-2010-precede
- nt.\n\nFull brief and lessons learned: https://calendar.rskless.com/incid
- ents/us-steel-clairton-2025
+ nt.\n\nFull brief and lessons learned: https://harish70777.github.io/proc
+ ess-safety-Calendar/incidents/us-steel-clairton-2025
 LOCATION:Clairton\, PA\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1575,14 +1604,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:accurate-energetic-systems-2025@rskless-psm-calendar
 DTSTART;VALUE=DATE:20251010
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Accurate Energetic Systems Explosives Plant Explos
  ion (2025)
 DESCRIPTION:16 fatalities\, 7 injuries.\n\nRoot causes: explosives-heated-
  in-production-kettles\, no-sprinkler-system\, prior-fatal-incident-at-fac
  ility\, investigation-ongoing.\n\nFull brief and lessons learned: https:/
- /calendar.rskless.com/incidents/accurate-energetic-systems-2025
+ /harish70777.github.io/process-safety-Calendar/incidents/accurate-energet
+ ic-systems-2025
 LOCATION:McEwen\, TN\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1593,13 +1623,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:woodland-pulp-2026@rskless-psm-calendar
 DTSTART;VALUE=DATE:20260127
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Woodland Pulp Mill Hydrogen Sulfide Release (2026)
 DESCRIPTION:2 fatalities\, 10 injuries.\n\nRoot causes: no-fixed-gas-detec
  tion\, no-personal-monitors-issued\, no-personnel-tracking-system\, known
  -hazard-inadequately-controlled.\n\nFull brief and lessons learned: https
- ://calendar.rskless.com/incidents/woodland-pulp-2026
+ ://harish70777.github.io/process-safety-Calendar/incidents/woodland-pulp-
+ 2026
 LOCATION:Baileyville\, ME\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1610,13 +1641,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:catalyst-refiners-2026@rskless-psm-calendar
 DTSTART;VALUE=DATE:20260422
-DTSTAMP:20260824T173307Z
+DTSTAMP:20260824T175658Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Catalyst Refiners Hydrogen Sulfide Release (2026)
 DESCRIPTION:2 fatalities\, 4 injuries.\n\nRoot causes: incompatible-chemic
  als-mixed-during-decommissioning\, no-decommissioning-procedure\, respira
  tors-not-required\, no-personal-gas-monitors.\n\nFull brief and lessons l
- earned: https://calendar.rskless.com/incidents/catalyst-refiners-2026
+ earned: https://harish70777.github.io/process-safety-Calendar/incidents/c
+ atalyst-refiners-2026
 LOCATION:Institute\, WV\, USA
 BEGIN:VALARM
 ACTION:DISPLAY
