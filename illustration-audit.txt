@@ -147,6 +147,12 @@ the incident's own .md file at any time.
   Stage 3 [explosion] "Initial Explosion": 'a "smoldering nest"...an accumulation of corn product that had ignited inside process piping'
   Stage 4 [fire] "Cascading Explosions": 'spread through interconnected piping into other buildings...fueling a cascade of secondary explosions'
 
+--- DPC Enterprises Glendale Chlorine Release (dpc-enterprises-glendale-2003) ---
+  Stage 1 [tank] "Scrubber Caustic Depleted": 'routinely run down to less than 0.5 percent'
+  Stage 2 [warningIgnored] "Alarms Commonly Ignored": 'it was common practice at the facility to allow chlorine transfer to continue even after the alarms activated'
+  Stage 3 [vaporCloud] "Chlorine Vents to Atmosphere": 'continuing to generate and release chlorine gas for approximately six hours'
+  Stage 4 [building] "4,000+ Evacuated": fatalities/injuries frontmatter fields
+
 --- DuPont Belle Three Toxic Releases in 33 Hours (dupont-belle-2010) ---
   Stage 1 [corrosion] "Hose Overdue for Replacement": 'the one that killed Fish had not been changed in seven months'
   Stage 2 [warningIgnored] "Near-Miss Hours Earlier": 'during a "safety pause" prompted by an earlier near-miss'
@@ -290,6 +296,12 @@ the incident's own .md file at any time.
   Stage 2 [overfill] "Unsecured Hatch": 'erupted spent caustic out through its unsecured top hatch, splashing the corrosive liquid onto her'
   Stage 3 [warningIgnored] "Safety Shower Too Far": 'was far enough away that it took her roughly two minutes to reach it'
   Stage 4 [person] "Chemical Burns": fatalities/injuries frontmatter fields
+
+--- Little General Store Propane Explosion (little-general-store-2007) ---
+  Stage 1 [tank] "Tank Sited Against Building": 'installed directly against the store's exterior wall since 1994'
+  Stage 2 [valve] "Valve Malfunctions": 'The technician had inadequate training and was working unsupervised'
+  Stage 3 [warningIgnored] "No Evacuation for 30 Minutes": 'No one present ordered an evacuation during the nearly thirty minutes before ignition'
+  Stage 4 [explosion] "Explosion": fatalities/injuries frontmatter fields
 
 --- Longford Esso Gas Plant Explosion (longford-1998) ---
   Stage 1 [gauge] "No HAZOP Ever Conducted": root causes: 'a formal hazard and operability study would very likely have identified the low-temperature embrittlement risk'
@@ -518,6 +530,12 @@ the incident's own .md file at any time.
   Stage 2 [vaporCloud] "Natural Gas Accumulates": 'excess natural gas accumulated inside the boiler instead of being properly purged'
   Stage 3 [warningIgnored] "Repeat PSM Violations": 'several of the citations issued were classified as repeat violations'
   Stage 4 [explosion] "Explosion": fatalities/injuries frontmatter fields
+
+--- Xcel Energy Cabin Creek Hydroelectric Plant Penstock Fire (xcel-cabin-creek-2007) ---
+  Stage 1 [valve] "Cleaning Solvent in Tunnel": 'cleaning spray equipment with MEK in the open penstock atmosphere'
+  Stage 2 [warningIgnored] "Single Exit Flagged, Unaddressed": 'neither company took action to address it'
+  Stage 3 [fire] "Flash Fire Traps Workers": 'Xcel had no technically qualified confined-space rescue responders on duty'
+  Stage 4 [person] "5 Killed": fatalities/injuries frontmatter fields
 
 --- Yenkin-Majestic Resin Plant Vapor Cloud Explosion and Fire (yenkin-majestic-2021) ---
   Stage 1 [valve] "Manway Not Pressure Tested": 'an access port that had been newly installed on the kettle only three months earlier'

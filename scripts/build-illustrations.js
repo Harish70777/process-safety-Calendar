@@ -575,6 +575,24 @@ const RECIPES = {
     { icon: "warningIgnored", label: "No Emergency Venting", caption: "Two hazard reviews missed this risk", source: "'no emergency shutdown or venting system existed'" },
     { icon: "explosion", label: "Kettle Ruptures", caption: "9 injured, community sheltered", source: "fatalities/injuries frontmatter fields" },
   ]},
+"dpc-enterprises-glendale-2003": { stages: [
+    { icon: "tank", label: "Scrubber Caustic Depleted", caption: "Routinely run down below 0.5%", source: "'routinely run down to less than 0.5 percent'" },
+    { icon: "warningIgnored", label: "Alarms Commonly Ignored", caption: "Violated the company's own procedures", source: "'it was common practice at the facility to allow chlorine transfer to continue even after the alarms activated'" },
+    { icon: "vaporCloud", label: "Chlorine Vents to Atmosphere", caption: "Continued for about 6 hours", source: "'continuing to generate and release chlorine gas for approximately six hours'" },
+    { icon: "building", label: "4,000+ Evacuated", caption: "16 treated, second DPC incident in 2 years", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "little-general-store-2007": { stages: [
+    { icon: "tank", label: "Tank Sited Against Building", caption: "Violated required clearance since 1994", source: "'installed directly against the store's exterior wall since 1994'" },
+    { icon: "valve", label: "Valve Malfunctions", caption: "Junior technician, 45 days training", source: "'The technician had inadequate training and was working unsupervised'" },
+    { icon: "warningIgnored", label: "No Evacuation for 30 Minutes", caption: "Responders stayed near the leak", source: "'No one present ordered an evacuation during the nearly thirty minutes before ignition'" },
+    { icon: "explosion", label: "Explosion", caption: "4 killed, 6 injured", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "xcel-cabin-creek-2007": { stages: [
+    { icon: "valve", label: "Cleaning Solvent in Tunnel", caption: "1,000+ feet underground, one exit", source: "'cleaning spray equipment with MEK in the open penstock atmosphere'" },
+    { icon: "warningIgnored", label: "Single Exit Flagged, Unaddressed", caption: "Both companies knew, neither acted", source: "'neither company took action to address it'" },
+    { icon: "fire", label: "Flash Fire Traps Workers", caption: "No qualified rescue responders on site", source: "'Xcel had no technically qualified confined-space rescue responders on duty'" },
+    { icon: "person", label: "5 Killed", caption: "Contractor chosen despite zero safety rating", source: "fatalities/injuries frontmatter fields" },
+  ]},
 };
 
 function esc(str) {

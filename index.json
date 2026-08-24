@@ -711,6 +711,41 @@
     "hasBody": true
   },
   {
+    "id": "dpc-enterprises-glendale-2003",
+    "file": "dpc-enterprises-glendale-2003.md",
+    "title": "DPC Enterprises Glendale Chlorine Release",
+    "date": "2003-11-17",
+    "location": "Glendale, AZ, USA",
+    "industry": [
+      "chemical-manufacturing",
+      "chemical-distribution"
+    ],
+    "chemicals": [
+      "chlorine"
+    ],
+    "severity": 1,
+    "fatalities": 0,
+    "injuries": 16,
+    "root_causes": [
+      "alarms-ignored-common-practice",
+      "insufficient-safety-margin-in-scrubber",
+      "no-engineering-safeguard-to-stop-transfer",
+      "prior-similar-incident-at-sister-facility"
+    ],
+    "psm_elements": [
+      "operating-procedures",
+      "mechanical-integrity",
+      "incident-investigation"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Final Investigation Report (2007)",
+      "CSB Investigation Digest: DPC Enterprises Chlorine Release"
+    ],
+    "hasBody": true
+  },
+  {
     "id": "mfg-chemical-2004",
     "file": "mfg-chemical-2004.md",
     "title": "MFG Chemical Runaway Reaction and Toxic Vapor Release",
@@ -925,6 +960,41 @@
     "hasBody": true
   },
   {
+    "id": "little-general-store-2007",
+    "file": "little-general-store-2007.md",
+    "title": "Little General Store Propane Explosion",
+    "date": "2007-01-30",
+    "location": "Ghent, WV, USA",
+    "industry": [
+      "retail-fuel-distribution"
+    ],
+    "chemicals": [
+      "propane"
+    ],
+    "severity": 1,
+    "fatalities": 4,
+    "injuries": 6,
+    "root_causes": [
+      "tank-sited-too-close-to-building",
+      "valve-malfunction-during-service-transfer",
+      "inadequate-technician-training",
+      "inadequate-responder-training",
+      "no-immediate-evacuation-ordered"
+    ],
+    "psm_elements": [
+      "facility-siting",
+      "training",
+      "emergency-planning"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Final Investigation Report (2008)",
+      "CSB Safety Video: Half an Hour to Tragedy"
+    ],
+    "hasBody": true
+  },
+  {
     "id": "valero-mckee-2007",
     "file": "valero-mckee-2007.md",
     "title": "Valero McKee Refinery Propane Fire (Frozen Dead-Leg Piping)",
@@ -954,6 +1024,43 @@
     "sources": [
       "CSB Final Investigation Report (2008)",
       "C&EN, CSB report coverage"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "xcel-cabin-creek-2007",
+    "file": "xcel-cabin-creek-2007.md",
+    "title": "Xcel Energy Cabin Creek Hydroelectric Plant Penstock Fire",
+    "date": "2007-10-02",
+    "location": "Georgetown, CO, USA",
+    "industry": [
+      "power-generation"
+    ],
+    "chemicals": [
+      "methyl-ethyl-ketone",
+      "epoxy-coating"
+    ],
+    "severity": 1,
+    "fatalities": 5,
+    "injuries": 3,
+    "root_causes": [
+      "flammable-solvent-in-confined-space",
+      "single-point-of-egress-known-and-unaddressed",
+      "contractor-selected-despite-zero-safety-rating",
+      "no-technically-qualified-rescue-responders"
+    ],
+    "psm_elements": [
+      "contractors",
+      "emergency-planning",
+      "training",
+      "process-hazard-analysis"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "csb_video_id": "BeaX0IRjyd8",
+    "sources": [
+      "CSB Final Investigation Report (2010)",
+      "CSB Safety Video: No Escape, Dangers of Confined Spaces"
     ],
     "hasBody": true
   },
