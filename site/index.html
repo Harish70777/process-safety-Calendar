@@ -9,9 +9,9 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="PSM Events Calendar">
 <meta property="og:description" content="A subscribable calendar of historical process safety incidents. Get a native reminder on each anniversary, with root causes and lessons learned.">
-<meta property="og:url" content="https://harish70777.github.io/process-safety-Calendar/">
+<meta property="og:url" content="https://calendar.rskless.com/">
 <meta property="og:site_name" content="PSM Events Calendar">
-<meta property="og:image" content="https://harish70777.github.io/process-safety-Calendar/rskless-icon.svg">
+<meta property="og:image" content="https://calendar.rskless.com/rskless-icon.svg">
 <meta name="twitter:card" content="summary">
 <style>
   :root{
@@ -90,8 +90,8 @@
   }
   .hero-flex{display:flex; align-items:center; gap:40px;}
   .hero-text{flex:1 1 auto; min-width:0;}
-  .hero-visual{flex:0 0 auto; display:flex; align-items:center; justify-content:center; width:220px;}
-  .hero-visual img{width:100%; height:auto; opacity:0.95;}
+  .hero-visual{flex:0 0 auto; display:flex; align-items:center; justify-content:center; width:340px;}
+  .hero-visual img{width:100%; height:auto; opacity:0.98;}
   @media (max-width:800px){
     .hero-flex{flex-direction:column;}
     .hero-visual{display:none;}
@@ -111,10 +111,10 @@
     font-size:46px;
     line-height:1.15;
     margin:0 0 18px;
-    max-width:10em;
+    max-width:none;
     color:#fff;
   }
-  .lede{font-size:17px;max-width:38em;color:#DCE6EC;margin-bottom:32px;}
+  .lede{font-size:18px;max-width:none;color:#DCE6EC;margin-bottom:32px;}
 
   /* Hero incident placard: rounded semi-transparent card, echoing their
      "Why RskLess?" overlay box treatment */
@@ -335,9 +335,20 @@
     color:#fff;
     padding:40px 32px;
     display:flex;
-    align-items:center;
+    flex-direction:column;
+    justify-content:center;
+    gap:16px;
   }
   .footer-info p{font-size:13px; color:#DCE6EC; margin:0;}
+  .footer-nav{display:flex; flex-wrap:wrap; gap:24px;}
+  .footer-nav a{
+    font-family:Arial, sans-serif;
+    font-weight:700;
+    font-size:14px;
+    color:#fff;
+    text-decoration:none;
+  }
+  .footer-nav a:hover{color:var(--orange);}
 
   @media (max-width:600px){
     h1{font-size:32px;}
@@ -362,8 +373,8 @@
     <div class="hero-flex">
       <div class="hero-text">
         <div class="eyebrow">Historical incidents, on their anniversary</div>
-        <h1>Keep process safety lessons alive, one anniversary at a time.</h1>
-        <p class="lede">Subscribe once. Your calendar app reminds you on the exact date a major incident happened, with what went wrong, the root causes, and what to check at your own site.</p>
+        <h1>Keep process safety lessons alive,<br>one anniversary at a time.</h1>
+        <p class="lede">Subscribe once. Your calendar app reminds you on the exact date a major incident happened,<br>with what went wrong, the root causes, and what to check at your own site.</p>
         <a class="btn" href="subscribe.html" style="display:inline-flex;margin-bottom:28px;">Subscribe to the Calendar &rarr;</a>
 
         <div class="placard" id="hero-placard">
@@ -377,7 +388,7 @@
         </div>
       </div>
       <div class="hero-visual">
-        <img src="rskless-logo.svg" alt="RskLess">
+        <img src="rskless-wordmark.svg" alt="RskLess">
       </div>
     </div>
   </div>
@@ -500,6 +511,11 @@
       <p>Sources: CSB &middot; UK HSE &middot; BARPI/ARIA &middot; CCPS &middot; IChemE</p>
     </div>
     <div class="footer-info">
+      <div class="footer-nav">
+        <a href="./">Home</a>
+        <a href="archive.html">Archive</a>
+        <a href="subscribe.html">Subscribe</a>
+      </div>
       <p id="last-updated"></p>
     </div>
   </div>
