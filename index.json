@@ -321,6 +321,39 @@
     "hasBody": true
   },
   {
+    "id": "equilon-anacortes-1998",
+    "file": "equilon-anacortes-1998.md",
+    "title": "Equilon Enterprises Delayed Coker Fire",
+    "date": "1998-11-25",
+    "location": "Anacortes, WA, USA",
+    "industry": [
+      "oil-gas-refining"
+    ],
+    "chemicals": [
+      "hydrocarbon-vapor"
+    ],
+    "severity": 1,
+    "fatalities": 6,
+    "injuries": 0,
+    "root_causes": [
+      "power-and-steam-loss-created-abnormal-conditions",
+      "no-moc-for-abnormal-restart-conditions",
+      "insufficient-time-taken-for-analysis",
+      "prior-warning-signs-not-acted-on"
+    ],
+    "psm_elements": [
+      "management-of-change",
+      "process-hazard-analysis",
+      "incident-investigation"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Safety Bulletin No. 2001-04-SB: Management of Change (2001)"
+    ],
+    "hasBody": true
+  },
+  {
     "id": "concept-sciences-1999",
     "file": "concept-sciences-1999.md",
     "title": "Concept Sciences Hydroxylamine Explosion",
@@ -488,6 +521,7 @@
     ],
     "status": "published",
     "source_verified": true,
+    "csb_video_id": "zWkcuR0adeI",
     "sources": [
       "CSB Investigation Report (2002)",
       "CSB News Release, August 28, 2002"
@@ -671,6 +705,42 @@
     "sources": [
       "CSB Investigation Report (2005)",
       "CSB Combustible Dust Hazard Study (2006)"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "honeywell-baton-rouge-2003",
+    "file": "honeywell-baton-rouge-2003.md",
+    "title": "Honeywell Baton Rouge Chlorine Release and Antimony Pentachloride Fatality",
+    "date": "2003-07-20",
+    "location": "Baton Rouge, LA, USA",
+    "industry": [
+      "chemical-manufacturing"
+    ],
+    "chemicals": [
+      "chlorine",
+      "antimony-pentachloride",
+      "hydrogen-fluoride"
+    ],
+    "severity": 1,
+    "fatalities": 1,
+    "injuries": 9,
+    "root_causes": [
+      "hazard-analyses-incomplete-equipment-coverage",
+      "three-related-releases-in-24-days",
+      "cylinder-valve-failed-during-transfer",
+      "inadequate-management-of-change"
+    ],
+    "psm_elements": [
+      "process-hazard-analysis",
+      "mechanical-integrity",
+      "management-of-change",
+      "emergency-planning"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Final Investigation Report (2005)"
     ],
     "hasBody": true
   },
@@ -890,6 +960,42 @@
     "hasBody": true
   },
   {
+    "id": "praxair-st-louis-2005",
+    "file": "praxair-st-louis-2005.md",
+    "title": "Praxair St. Louis Propylene Cylinder Fire and Explosions",
+    "date": "2005-06-24",
+    "location": "St. Louis, MO, USA",
+    "industry": [
+      "industrial-gas-distribution"
+    ],
+    "chemicals": [
+      "propylene",
+      "propane",
+      "acetylene"
+    ],
+    "severity": 1,
+    "fatalities": 1,
+    "injuries": 0,
+    "root_causes": [
+      "pressure-relief-valves-set-too-low-for-propylene",
+      "cylinders-stored-on-heat-radiating-asphalt",
+      "no-deluge-system-to-cool-cylinders",
+      "four-similar-incidents-since-1997"
+    ],
+    "psm_elements": [
+      "mechanical-integrity",
+      "facility-siting",
+      "process-hazard-analysis"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Safety Bulletin: Fire at Praxair St. Louis (June 2006)",
+      "CSB Safety Video: Dangers of Propylene Cylinders"
+    ],
+    "hasBody": true
+  },
+  {
     "id": "buncefield-2005",
     "file": "buncefield-2005.md",
     "title": "Buncefield Oil Storage Depot Explosion",
@@ -919,6 +1025,43 @@
     "sources": [
       "Buncefield Major Incident Investigation Board Reports",
       "UK HSE / COMAH investigation"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "bethune-point-2006",
+    "file": "bethune-point-2006.md",
+    "title": "Bethune Point Wastewater Treatment Plant Methanol Explosion",
+    "date": "2006-01-11",
+    "location": "Daytona Beach, FL, USA",
+    "industry": [
+      "water-wastewater-treatment"
+    ],
+    "chemicals": [
+      "methanol"
+    ],
+    "severity": 1,
+    "fatalities": 2,
+    "injuries": 1,
+    "root_causes": [
+      "hot-work-directly-above-methanol-vent",
+      "inadequate-hot-work-controls",
+      "hazard-communication-program-ineffective",
+      "pvc-piping-used-instead-of-steel",
+      "no-non-routine-task-safety-evaluation"
+    ],
+    "psm_elements": [
+      "operating-procedures",
+      "training",
+      "mechanical-integrity",
+      "process-safety-information"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "csb_video_id": "zWkcuR0adeI",
+    "sources": [
+      "CSB Final Investigation Report (2007)",
+      "CSB Safety Video: Dangers of Hot Work"
     ],
     "hasBody": true
   },
@@ -956,6 +1099,76 @@
     "sources": [
       "CSB Final Investigation Report (2007)",
       "CSB Safety Video: Reactive Hazards"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "partridge-raleigh-2006",
+    "file": "partridge-raleigh-2006.md",
+    "title": "Partridge-Raleigh Oilfield Hot Work Explosion",
+    "date": "2006-06-05",
+    "location": "Raleigh, MS, USA",
+    "industry": [
+      "oil-gas-production"
+    ],
+    "chemicals": [
+      "crude-oil",
+      "flammable-hydrocarbon-vapor"
+    ],
+    "severity": 1,
+    "fatalities": 3,
+    "injuries": 1,
+    "root_causes": [
+      "only-one-of-four-tanks-emptied-and-cleaned",
+      "torch-used-to-test-for-vapors",
+      "no-osha-inspection-in-3-years",
+      "no-planned-oilfield-inspection-program-in-state"
+    ],
+    "psm_elements": [
+      "operating-procedures",
+      "training",
+      "compliance-audits"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Case Study Report (2007)",
+      "CSB Safety Video: Death in the Oilfield"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "chevron-richmond-2007",
+    "file": "chevron-richmond-2007.md",
+    "title": "Chevron Richmond Refinery Sulfidation Corrosion Fire",
+    "date": "2007-01-15",
+    "location": "Richmond, CA, USA",
+    "industry": [
+      "oil-gas-refining"
+    ],
+    "chemicals": [
+      "hydrocarbon-process-fluid"
+    ],
+    "severity": 2,
+    "fatalities": 0,
+    "injuries": 1,
+    "root_causes": [
+      "sulfidation-corrosion-low-silicon-piping",
+      "recommended-100-percent-inspection-not-implemented",
+      "moc-narrowed-scope-of-upgrade",
+      "five-year-warning-before-fatal-2012-repeat"
+    ],
+    "psm_elements": [
+      "mechanical-integrity",
+      "management-of-change",
+      "process-hazard-analysis"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "Chevron Corporation Press Release, January 15, 2007",
+      "CSB Interim Investigation Report on the 2012 Chevron Richmond Incident (2013)",
+      "CSB Regulatory Report: Chevron Richmond Refinery Pipe Rupture and Fire (2014)"
     ],
     "hasBody": true
   },
@@ -1276,6 +1489,42 @@
     "sources": [
       "CSB Final Investigation Report (2009)",
       "Occupational Health & Safety, CSB report coverage"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "conagra-slim-jim-2009",
+    "file": "conagra-slim-jim-2009.md",
+    "title": "ConAgra Slim Jim Plant Natural Gas Explosion",
+    "date": "2009-06-09",
+    "location": "Garner, NC, USA",
+    "industry": [
+      "food-manufacturing"
+    ],
+    "chemicals": [
+      "natural-gas",
+      "anhydrous-ammonia"
+    ],
+    "severity": 1,
+    "fatalities": 3,
+    "injuries": 41,
+    "root_causes": [
+      "natural-gas-vented-indoors-instead-of-outdoors",
+      "gas-blow-practice-not-recognized-as-hazardous",
+      "refrigeration-piping-ruptured-releasing-ammonia",
+      "ignition-source-never-determined"
+    ],
+    "psm_elements": [
+      "operating-procedures",
+      "training",
+      "emergency-planning"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "csb_video_id": "rjxBtwl8-Tc",
+    "sources": [
+      "CSB Safety Bulletin: Key Lessons for Prevention of Fires and Explosions During Hot Tap Work and Vessel/Tank Repurposing (2009)",
+      "CSB Safety Video: Deadly Practices"
     ],
     "hasBody": true
   },
@@ -1605,6 +1854,41 @@
     "hasBody": true
   },
   {
+    "id": "dupont-buffalo-2010",
+    "file": "dupont-buffalo-2010.md",
+    "title": "DuPont Yerkes Facility Hot Work Explosion",
+    "date": "2010-11-09",
+    "location": "Tonawanda, NY, USA",
+    "industry": [
+      "chemical-manufacturing"
+    ],
+    "chemicals": [
+      "vinyl-fluoride"
+    ],
+    "severity": 1,
+    "fatalities": 1,
+    "injuries": 1,
+    "root_causes": [
+      "hazard-analysis-wrongly-assumed-vapor-could-not-reach-flammable-levels",
+      "tanks-not-isolated-before-hot-work",
+      "no-interior-tank-gas-monitoring",
+      "permit-signer-unfamiliar-with-process-hazards"
+    ],
+    "psm_elements": [
+      "operating-procedures",
+      "process-hazard-analysis",
+      "mechanical-integrity",
+      "training"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Final Investigation Report No. 2011-01-I-NY (2012)",
+      "CSB Safety Video: Hot Work, Hidden Hazards"
+    ],
+    "hasBody": true
+  },
+  {
     "id": "chevron-richmond-2012",
     "file": "chevron-richmond-2012.md",
     "title": "Chevron Richmond Refinery Pipe Rupture and Fire",
@@ -1743,6 +2027,39 @@
     "sources": [
       "CSB Final Case Study (2016)",
       "The Advocate, Baton Rouge, CSB report coverage"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "chevron-pascagoula-2013",
+    "file": "chevron-pascagoula-2013.md",
+    "title": "Chevron Pascagoula Refinery Furnace Explosion",
+    "date": "2013-11-15",
+    "location": "Pascagoula, MS, USA",
+    "industry": [
+      "oil-gas-refining"
+    ],
+    "chemicals": [
+      "hydrocarbon-process-gas"
+    ],
+    "severity": 1,
+    "fatalities": 1,
+    "injuries": 0,
+    "root_causes": [
+      "power-outage-forced-emergency-shutdown",
+      "furnace-not-properly-purged-before-restart",
+      "inadequate-hazard-training-documentation",
+      "moc-did-not-address-safety-impact"
+    ],
+    "psm_elements": [
+      "operating-procedures",
+      "training",
+      "management-of-change"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "OSHA Citation and Penalty Announcement (2014)"
     ],
     "hasBody": true
   },
@@ -2990,6 +3307,40 @@
     "sources": [
       "CSB Incident Reports Volume One (2025)",
       "Local news coverage (McClatchy/WBTV), Anson County Emergency Services"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "dow-plaquemine-2023",
+    "file": "dow-plaquemine-2023.md",
+    "title": "Dow Louisiana Operations Glycol II Explosion and Ethylene Oxide Release",
+    "date": "2023-07-14",
+    "location": "Plaquemine, LA, USA",
+    "industry": [
+      "chemical-manufacturing"
+    ],
+    "chemicals": [
+      "ethylene-oxide"
+    ],
+    "severity": 1,
+    "fatalities": 0,
+    "injuries": 0,
+    "root_causes": [
+      "ten-prior-emergency-incidents-in-4-years",
+      "glycol-2-unit-recurring-problems",
+      "explosion-and-fire-burned-nearly-2-days",
+      "31000-lbs-carcinogen-released"
+    ],
+    "psm_elements": [
+      "mechanical-integrity",
+      "incident-investigation",
+      "process-hazard-analysis"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Final Investigation Report (February 2026)",
+      "CSB Investigation Update (April 2024)"
     ],
     "hasBody": true
   },

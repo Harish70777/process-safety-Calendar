@@ -593,6 +593,66 @@ const RECIPES = {
     { icon: "fire", label: "Flash Fire Traps Workers", caption: "No qualified rescue responders on site", source: "'Xcel had no technically qualified confined-space rescue responders on duty'" },
     { icon: "person", label: "5 Killed", caption: "Contractor chosen despite zero safety rating", source: "fatalities/injuries frontmatter fields" },
   ]},
+"equilon-anacortes-1998": { stages: [
+    { icon: "gauge", label: "Power and Steam Lost", caption: "Abnormal conditions for 37 hours", source: "'Approximately 37 hours before the fire, the Equilon Enterprises oil refinery...lost electric power and steam supply'" },
+    { icon: "warningIgnored", label: "No MOC for Abnormal Conditions", caption: "Unit kept running outside normal parameters", source: "'resuming and continuing operations under these unusual circumstances did not go through the kind of formal MOC review'" },
+    { icon: "fire", label: "Delayed Coker Fire", caption: "Time was available to analyze more carefully", source: "'neither incident involved an emergency requiring rapid, split-second decisions'" },
+    { icon: "person", label: "6 Killed", caption: "Grouped with CONDEA Vista in CSB's MOC bulletin", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "bethune-point-2006": { stages: [
+    { icon: "fire", label: "Hot Work Above Methanol Vent", caption: "Cutting a storm-damaged roof", source: "'workers using a cutting torch on a roof above the methanol storage tank accidentally ignited vapors coming from the tank vent'" },
+    { icon: "warningIgnored", label: "No Hot Work Controls", caption: "City had no program to assess non-routine tasks", source: "'The City of Daytona Beach did not implement adequate controls for hot work'" },
+    { icon: "corrosion", label: "PVC Piping, Not Steel", caption: "Contributed to how the fire cascaded", source: "'methanol piping and valves were built of polyvinyl chloride rather than steel'" },
+    { icon: "person", label: "2 Killed, 1 Injured", caption: "City safety programs found inadequate", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "honeywell-baton-rouge-2003": { stages: [
+    { icon: "vaporCloud", label: "Chlorine Release", caption: "7 injured, shelter-in-place issued", source: "'a release of chlorine gas from the Honeywell International...resulted in injuries to seven plant workers'" },
+    { icon: "warningIgnored", label: "Two More Releases in 24 Days", caption: "Common deficiencies ran through all three", source: "'CSB's overall analysis found that changes to equipment or procedures...had not consistently gone through the kind of review needed'" },
+    { icon: "tank", label: "Cylinder Releases Antimony Pentachloride", caption: "9 days after the first incident", source: "'a 1-ton cylinder at the same plant released its contents to the atmosphere'" },
+    { icon: "person", label: "1 Killed, 9 Injured Total", caption: "Third release involved hydrogen fluoride", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "dow-plaquemine-2023": { stages: [
+    { icon: "warningIgnored", label: "10 Prior Incidents in 4 Years", caption: "Half at the same Glycol II unit", source: "'the Plaquemine facility had already experienced ten separate emergency incidents'" },
+    { icon: "explosion", label: "Explosions and Fire", caption: "Burned for nearly two days", source: "'a series of explosions and fires occurred...causing significant damage'" },
+    { icon: "vaporCloud", label: "31,000 lbs of EtO Released", caption: "A known human carcinogen", source: "'More than 31,000 pounds of ethylene oxide...were released into the atmosphere'" },
+    { icon: "building", label: "Hundreds Sheltered in Place", caption: "No injuries, by fortunate circumstance", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "chevron-richmond-2007": { stages: [
+    { icon: "corrosion", label: "Low-Silicon Piping Fails", caption: "Same corrosion that would recur in 2012", source: "'The failed piping was later found to contain a low percentage of silicon'" },
+    { icon: "fire", label: "Fire, Shelter-in-Place", caption: "1 minor injury", source: "'Contra Costa Health Services issued a shelter-in-place order'" },
+    { icon: "warningIgnored", label: "Inspection Recommendation Ignored", caption: "Company's own engineers flagged the risk", source: "'Chevron's own internal engineering group issued a technical report specifically recommending 100 percent component inspection'" },
+    { icon: "explosion", label: "5.5-Year Warning Before 2012", caption: "Same failure mode recurred, far worse", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "chevron-pascagoula-2013": { stages: [
+    { icon: "gauge", label: "Power Outage Forces Shutdown", caption: "Emergency restart of the furnace unit", source: "'A power outage...forced an emergency shutdown of the Cracking II processing unit'" },
+    { icon: "warningIgnored", label: "Furnace Not Properly Purged", caption: "Same pattern as Wynnewood Refinery", source: "'proper furnace purging procedures had not been performed on the unit before the restart'" },
+    { icon: "explosion", label: "Furnace Explodes", caption: "A dozen operators were nearby", source: "'the furnace exploded at approximately 2:00 a.m.'" },
+    { icon: "person", label: "1 Killed", caption: "5-year Chevron employee", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "dupont-buffalo-2010": { stages: [
+    { icon: "valve", label: "Tanks Not Isolated", caption: "Overflow line connected to live tanks", source: "'an overflow line connected the tank undergoing hot work to two operating tanks'" },
+    { icon: "gauge", label: "Only Exterior Air Monitored", caption: "Interior of the tank was never tested", source: "'no monitoring was performed inside the tank itself'" },
+    { icon: "fire", label: "Welding Ignites Hidden Vapor", caption: "Tank cover blown off", source: "'sparks or heat from the welding ignited vinyl fluoride vapor that had silently accumulated inside the tank'" },
+    { icon: "person", label: "1 Killed, 1 Injured", caption: "Permit signer unfamiliar with the hazard", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "praxair-st-louis-2005": { stages: [
+    { icon: "tank", label: "Cylinders Stored on Hot Asphalt", caption: "97°F day, heat radiating from pavement", source: "'cylinders stored in the open on asphalt absorbed heat radiating from the pavement'" },
+    { icon: "gauge", label: "Relief Valve Vents, Ignites", caption: "Set point too low for propylene", source: "'CSB found the industry-standard set points specified for these valves allowed venting well below the pressure that would actually damage the cylinders'" },
+    { icon: "explosion", label: "8,000+ Cylinders Explode", caption: "Fragments flew up to 800 feet", source: "'more than 8,000 cylinders caught fire, with many launching like rockets'" },
+    { icon: "person", label: "1 Killed (Delayed)", caption: "Resident died 11 days later from smoke", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "partridge-raleigh-2006": { stages: [
+    { icon: "tank", label: "Only One Tank Cleaned", caption: "Adjacent tanks still held crude oil", source: "'only one of the tanks involved...was emptied and cleaned; the adjacent tanks were not'" },
+    { icon: "warningIgnored", label: "Torch Used to Test for Vapor", caption: "No combustible gas detector used", source: "'The welder used a lit oxy-acetylene welding torch itself to test one tank for the presence of flammable vapor'" },
+    { icon: "explosion", label: "Vapor Ignites, Tank Tops Blow Off", caption: "3 workers thrown by the blast", source: "'pressure from the burning vapor blew the tops off two of them'" },
+    { icon: "person", label: "3 Killed, 1 Injured", caption: "Survivor's harness prevented a fatal fall", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "conagra-slim-jim-2009": { stages: [
+    { icon: "valve", label: "Gas Vented Indoors", caption: "Gas blow purge done inside the building", source: "'Rather than directing this purge outdoors, the contractors vented the gas inside the building'" },
+    { icon: "vaporCloud", label: "Flammable Cloud Accumulates", caption: "Ignition source never determined", source: "'The escaping natural gas accumulated and formed a flammable cloud inside the plant'" },
+    { icon: "explosion", label: "Explosion Collapses Roof", caption: "Ruptured refrigeration piping too", source: "'The explosion's force ruptured ammonia refrigeration lines'" },
+    { icon: "person", label: "3 Killed, 41 Injured", caption: "Ammonia release complicated response", source: "fatalities/injuries frontmatter fields" },
+  ]},
 };
 
 function esc(str) {

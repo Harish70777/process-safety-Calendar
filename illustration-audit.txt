@@ -51,6 +51,12 @@ the incident's own .md file at any time.
   Stage 3 [explosion] "Vessel Explosion": 'flying roughly 50 feet through the air, demolishing process equipment'
   Stage 4 [warningIgnored] "Near-Miss with MIC Tank": 'the exploding vessel's trajectory came close to striking piping atop a nearby tank holding methyl isocyanate (MIC)'
 
+--- Bethune Point Wastewater Treatment Plant Methanol Explosion (bethune-point-2006) ---
+  Stage 1 [fire] "Hot Work Above Methanol Vent": 'workers using a cutting torch on a roof above the methanol storage tank accidentally ignited vapors coming from the tank vent'
+  Stage 2 [warningIgnored] "No Hot Work Controls": 'The City of Daytona Beach did not implement adequate controls for hot work'
+  Stage 3 [corrosion] "PVC Piping, Not Steel": 'methanol piping and valves were built of polyvinyl chloride rather than steel'
+  Stage 4 [person] "2 Killed, 1 Injured": fatalities/injuries frontmatter fields
+
 --- Bhopal Gas Tragedy (bhopal-1984) ---
   Stage 1 [tank] "MIC Storage Tank": 'a storage tank holding roughly 40 tons of methyl isocyanate'
   Stage 2 [gauge] "Safety Systems Off": 'Refrigeration...had been shut down for cost reasons, the gas scrubber and flare tower...were both non-operational'
@@ -105,11 +111,29 @@ the incident's own .md file at any time.
   Stage 3 [fire] "Fire": 'the released oil ignited, the exact ignition source was never conclusively determined'
   Stage 4 [building] "Days-Long Burn": 'officials made the deliberate decision to let the fire burn itself out over several days'
 
+--- Chevron Pascagoula Refinery Furnace Explosion (chevron-pascagoula-2013) ---
+  Stage 1 [gauge] "Power Outage Forces Shutdown": 'A power outage...forced an emergency shutdown of the Cracking II processing unit'
+  Stage 2 [warningIgnored] "Furnace Not Properly Purged": 'proper furnace purging procedures had not been performed on the unit before the restart'
+  Stage 3 [explosion] "Furnace Explodes": 'the furnace exploded at approximately 2:00 a.m.'
+  Stage 4 [person] "1 Killed": fatalities/injuries frontmatter fields
+
+--- Chevron Richmond Refinery Sulfidation Corrosion Fire (chevron-richmond-2007) ---
+  Stage 1 [corrosion] "Low-Silicon Piping Fails": 'The failed piping was later found to contain a low percentage of silicon'
+  Stage 2 [fire] "Fire, Shelter-in-Place": 'Contra Costa Health Services issued a shelter-in-place order'
+  Stage 3 [warningIgnored] "Inspection Recommendation Ignored": 'Chevron's own internal engineering group issued a technical report specifically recommending 100 percent component inspection'
+  Stage 4 [explosion] "5.5-Year Warning Before 2012": fatalities/injuries frontmatter fields
+
 --- Chevron Richmond Refinery Pipe Rupture and Fire (chevron-richmond-2012) ---
   Stage 1 [corrosion] "Sulfidation Corrosion": 'ruptured after decades of sulfidation corrosion...had thinned the pipe wall well beyond safe limits'
   Stage 2 [warningIgnored] "2002 Recommendation Ignored": root causes: 'Chevron's own metallurgists and pipe inspectors had recommended replacing this pipe roughly a decade before it ruptured'
   Stage 3 [fire] "Pipe Ruptures & Fire": 'a large vapor cloud that engulfed 19 Chevron employees before igniting'
   Stage 4 [building] "Community Impact": 'roughly 15,000 nearby residents sought medical treatment'
+
+--- ConAgra Slim Jim Plant Natural Gas Explosion (conagra-slim-jim-2009) ---
+  Stage 1 [valve] "Gas Vented Indoors": 'Rather than directing this purge outdoors, the contractors vented the gas inside the building'
+  Stage 2 [vaporCloud] "Flammable Cloud Accumulates": 'The escaping natural gas accumulated and formed a flammable cloud inside the plant'
+  Stage 3 [explosion] "Explosion Collapses Roof": 'The explosion's force ruptured ammonia refrigeration lines'
+  Stage 4 [person] "3 Killed, 41 Injured": fatalities/injuries frontmatter fields
 
 --- Concept Sciences Hydroxylamine Explosion (concept-sciences-1999) ---
   Stage 1 [tank] "First Large-Scale Batch": 'Concept Sciences was attempting its first large-scale commercial batch of hydroxylamine'
@@ -147,6 +171,12 @@ the incident's own .md file at any time.
   Stage 3 [explosion] "Initial Explosion": 'a "smoldering nest"...an accumulation of corn product that had ignited inside process piping'
   Stage 4 [fire] "Cascading Explosions": 'spread through interconnected piping into other buildings...fueling a cascade of secondary explosions'
 
+--- Dow Louisiana Operations Glycol II Explosion and Ethylene Oxide Release (dow-plaquemine-2023) ---
+  Stage 1 [warningIgnored] "10 Prior Incidents in 4 Years": 'the Plaquemine facility had already experienced ten separate emergency incidents'
+  Stage 2 [explosion] "Explosions and Fire": 'a series of explosions and fires occurred...causing significant damage'
+  Stage 3 [vaporCloud] "31,000 lbs of EtO Released": 'More than 31,000 pounds of ethylene oxide...were released into the atmosphere'
+  Stage 4 [building] "Hundreds Sheltered in Place": fatalities/injuries frontmatter fields
+
 --- DPC Enterprises Glendale Chlorine Release (dpc-enterprises-glendale-2003) ---
   Stage 1 [tank] "Scrubber Caustic Depleted": 'routinely run down to less than 0.5 percent'
   Stage 2 [warningIgnored] "Alarms Commonly Ignored": 'it was common practice at the facility to allow chlorine transfer to continue even after the alarms activated'
@@ -159,11 +189,23 @@ the incident's own .md file at any time.
   Stage 3 [vaporCloud] "Phosgene Release": 'a second phosgene hose ruptured...spraying...phosgene'
   Stage 4 [person] "Fatal Exposure": fatalities/injuries frontmatter fields
 
+--- DuPont Yerkes Facility Hot Work Explosion (dupont-buffalo-2010) ---
+  Stage 1 [valve] "Tanks Not Isolated": 'an overflow line connected the tank undergoing hot work to two operating tanks'
+  Stage 2 [gauge] "Only Exterior Air Monitored": 'no monitoring was performed inside the tank itself'
+  Stage 3 [fire] "Welding Ignites Hidden Vapor": 'sparks or heat from the welding ignited vinyl fluoride vapor that had silently accumulated inside the tank'
+  Stage 4 [person] "1 Killed, 1 Injured": fatalities/injuries frontmatter fields
+
 --- DuPont La Porte Methyl Mercaptan Release (dupont-laporte-2014) ---
   Stage 1 [valve] "Hydrate Blockage": 'water inadvertently entered methyl mercaptan feed piping and...formed an ice-like hydrate that blocked the line'
   Stage 2 [warningIgnored] "2011 PHA Finding Ignored": 'A 2011 process hazard analysis...had already identified hydrate formation in this piping as a risk, but adequate safeguards were never put in place'
   Stage 3 [vaporCloud] "Toxic Release": 'roughly 24,000 pounds of the highly toxic, flammable chemical escaped and vaporized inside the building'
   Stage 4 [person] "Four Fatalities": 'Personnel investigated the developing leak without respiratory protection; four workers died'
+
+--- Equilon Enterprises Delayed Coker Fire (equilon-anacortes-1998) ---
+  Stage 1 [gauge] "Power and Steam Lost": 'Approximately 37 hours before the fire, the Equilon Enterprises oil refinery...lost electric power and steam supply'
+  Stage 2 [warningIgnored] "No MOC for Abnormal Conditions": 'resuming and continuing operations under these unusual circumstances did not go through the kind of formal MOC review'
+  Stage 3 [fire] "Delayed Coker Fire": 'neither incident involved an emergency requiring rapid, split-second decisions'
+  Stage 4 [person] "6 Killed": fatalities/injuries frontmatter fields
 
 --- Evergreen Packaging Paper Mill Fire During Hot Work (evergreen-packaging-2020) ---
   Stage 1 [fire] "Heat Gun Used on Resin": 'the crew began using an electric heat gun to warm it'
@@ -242,6 +284,12 @@ the incident's own .md file at any time.
   Stage 2 [corrosion] "Pipe Accidentally Severed": 'An ammonia pipe was accidentally severed during their work'
   Stage 3 [vaporCloud] "Ammonia Release": 'firefighters measured levels exceeding 6,000 parts per million on arrival, more than 20 times the deadly threshold'
   Stage 4 [person] "One Fatality": 'One contractor, 68-year-old Richard Arguin, died from the exposure'
+
+--- Honeywell Baton Rouge Chlorine Release and Antimony Pentachloride Fatality (honeywell-baton-rouge-2003) ---
+  Stage 1 [vaporCloud] "Chlorine Release": 'a release of chlorine gas from the Honeywell International...resulted in injuries to seven plant workers'
+  Stage 2 [warningIgnored] "Two More Releases in 24 Days": 'CSB's overall analysis found that changes to equipment or procedures...had not consistently gone through the kind of review needed'
+  Stage 3 [tank] "Cylinder Releases Antimony Pentachloride": 'a 1-ton cylinder at the same plant released its contents to the atmosphere'
+  Stage 4 [person] "1 Killed, 9 Injured Total": fatalities/injuries frontmatter fields
 
 --- Horsehead Zinc Refinery Explosion (horsehead-monaca-2010) ---
   Stage 1 [valve] "Column Rebuilt": 'reused a sump at its base that had originally been designed for a different column configuration with a much lower liquid flow rate'
@@ -369,6 +417,12 @@ the incident's own .md file at any time.
   Stage 3 [explosion] "Dryer Explodes": 'the compound underwent an unanticipated decomposition reaction, releasing gases that pushed the dryer's internal pressure above its design limit'
   Stage 4 [vaporCloud] "Chlorine Release": 'the dryer exploded, releasing toxic chlorine gas'
 
+--- Partridge-Raleigh Oilfield Hot Work Explosion (partridge-raleigh-2006) ---
+  Stage 1 [tank] "Only One Tank Cleaned": 'only one of the tanks involved...was emptied and cleaned; the adjacent tanks were not'
+  Stage 2 [warningIgnored] "Torch Used to Test for Vapor": 'The welder used a lit oxy-acetylene welding torch itself to test one tank for the presence of flammable vapor'
+  Stage 3 [explosion] "Vapor Ignites, Tank Tops Blow Off": 'pressure from the burning vapor blew the tops off two of them'
+  Stage 4 [person] "3 Killed, 1 Injured": fatalities/injuries frontmatter fields
+
 --- Packaging Corporation of America DeRidder Mill Explosion (pca-deridder-2017) ---
   Stage 1 [fire] "Hot Work on a Tank": 'a contract crew was performing welding and grinding...on a storage tank'
   Stage 2 [warningIgnored] "2008 Sister-Site Fatality": 'in 2008, a nearly identical hot-work tank explosion at the company's Tomahawk, Wisconsin plant had also killed three workers'
@@ -404,6 +458,12 @@ the incident's own .md file at any time.
   Stage 2 [warningIgnored] "Shift Handover Failed": 'permit-to-work...was not properly communicated across shift handover'
   Stage 3 [fire] "Ignition": 'causing condensate to leak through the flange and ignite'
   Stage 4 [explosion] "Platform Destroyed": 'The platform was destroyed; 167 of 226 workers died'
+
+--- Praxair St. Louis Propylene Cylinder Fire and Explosions (praxair-st-louis-2005) ---
+  Stage 1 [tank] "Cylinders Stored on Hot Asphalt": 'cylinders stored in the open on asphalt absorbed heat radiating from the pavement'
+  Stage 2 [gauge] "Relief Valve Vents, Ignites": 'CSB found the industry-standard set points specified for these valves allowed venting well below the pressure that would actually damage the cylinders'
+  Stage 3 [explosion] "8,000+ Cylinders Explode": 'more than 8,000 cylinders caught fire, with many launching like rockets'
+  Stage 4 [person] "1 Killed (Delayed)": fatalities/injuries frontmatter fields
 
 --- Rubicon MDI Release (rubicon-geismar-2022) ---
   Stage 1 [gauge] "Rupture Disc Activates Early": 'process data showed it actually opened at about 13 psi'

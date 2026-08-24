@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 380" font-family="Arial, sans-serif">
+  <defs>
+    <style>
+      .label { font-family: Arial, sans-serif; font-weight: 700; font-size: 15px; fill: #13567F; }
+      .sublabel { font-family: Arial, sans-serif; font-size: 11px; fill: #666; }
+      .arrow { stroke: #C9D6DE; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+  <rect width="960" height="380" fill="#F5F8FA"/>
+  <line x1="178" y1="130" x2="302" y2="130" class="arrow" stroke-dasharray="4 5"/>
+  <line x1="418" y1="130" x2="542" y2="130" class="arrow" stroke-dasharray="4 5"/>
+  <line x1="658" y1="130" x2="782" y2="130" class="arrow" stroke-dasharray="4 5"/>
+  <g transform="translate(60,50)">
+        
+    <circle cx="60" cy="80" r="58" fill="#FBE3D6"/>
+    <rect x="20" y="72" width="80" height="16" rx="4" fill="#8FA9BC"/>
+    <path d="M55,72 L62,80 L52,84 L60,88" stroke="#C81E1E" stroke-width="3" fill="none"/>
+    <circle cx="58" cy="80" r="4" fill="#C81E1E"/>
+        <text x="60" y="160" text-anchor="middle" class="label">Low-Silicon Piping</text>
+        <text x="60" y="176" text-anchor="middle" class="label">Fails</text>
+        <text x="60" y="198" text-anchor="middle" class="sublabel">Same corrosion that</text>
+        <text x="60" y="211" text-anchor="middle" class="sublabel">would recur in 2012</text>
+      </g>
+
+  <g transform="translate(300,50)">
+        
+    <circle cx="60" cy="80" r="58" fill="#FBE3D6"/>
+    <path d="M60,35 C45,55 40,68 48,82 C42,80 38,72 40,64 C36,80 45,100 65,100 C82,100 90,85 82,68 C88,74 88,84 84,90 C92,80 90,60 76,45 C78,55 74,62 68,60 C72,50 68,40 60,35 Z" fill="#E8622C"/>
+        <text x="60" y="160" text-anchor="middle" class="label">Fire,</text>
+        <text x="60" y="176" text-anchor="middle" class="label">Shelter-in-Place</text>
+        <text x="60" y="198" text-anchor="middle" class="sublabel">1 minor injury</text>
+      </g>
+
+  <g transform="translate(540,50)">
+        
+    <circle cx="60" cy="80" r="58" fill="#FBE3D6"/>
+    <path d="M60,35 L95,100 L25,100 Z" fill="#E8622C"/>
+    <rect x="56" y="58" width="8" height="24" rx="3" fill="#F5F8FA"/>
+    <circle cx="60" cy="90" r="4" fill="#F5F8FA"/>
+        <text x="60" y="160" text-anchor="middle" class="label">Inspection</text>
+        <text x="60" y="176" text-anchor="middle" class="label">Recommendation</text>
+        <text x="60" y="192" text-anchor="middle" class="label">Ignored</text>
+        <text x="60" y="214" text-anchor="middle" class="sublabel">Company's own engineers</text>
+        <text x="60" y="227" text-anchor="middle" class="sublabel">flagged the risk</text>
+      </g>
+
+  <g transform="translate(780,50)">
+        
+    <circle cx="60" cy="80" r="58" fill="#FBE3D6"/>
+    <path d="M60,30 L70,55 L95,50 L78,70 L100,90 L72,86 L75,112 L60,92 L45,112 L48,86 L20,90 L42,70 L25,50 L50,55 Z" fill="#E8622C"/>
+    <circle cx="60" cy="78" r="14" fill="#C81E1E"/>
+        <text x="60" y="160" text-anchor="middle" class="label">5.5-Year Warning</text>
+        <text x="60" y="176" text-anchor="middle" class="label">Before 2012</text>
+        <text x="60" y="198" text-anchor="middle" class="sublabel">Same failure mode</text>
+        <text x="60" y="211" text-anchor="middle" class="sublabel">recurred, far worse</text>
+      </g>
+  <rect x="0" y="350" width="960" height="30" fill="#13567F"/>
+  <text x="480" y="369" text-anchor="middle" fill="#fff" font-size="12" font-family="Arial, sans-serif" font-weight="500">Chevron Richmond Refinery Sulfidation Corrosion Fire — 0 killed, 1 injured</text>
+</svg>

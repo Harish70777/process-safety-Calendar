@@ -11,6 +11,7 @@ root_causes: [inadequate-hot-work-program, corroded-storage-tank, no-inspection-
 psm_elements: [hot-work-permit, mechanical-integrity]
 status: published
 source_verified: true
+csb_video_id: "zWkcuR0adeI"
 sources:
   - "CSB Investigation Report (2002)"
   - "CSB News Release, August 28, 2002"
