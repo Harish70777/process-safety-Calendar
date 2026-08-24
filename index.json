@@ -181,6 +181,76 @@
     "hasBody": true
   },
   {
+    "id": "arco-channelview-1990",
+    "file": "arco-channelview-1990.md",
+    "title": "ARCO Chemical Channelview Wastewater Tank Explosion",
+    "date": "1990-07-05",
+    "location": "Channelview, TX, USA",
+    "industry": [
+      "chemical-manufacturing"
+    ],
+    "chemicals": [
+      "hydrocarbon-wastewater",
+      "organic-peroxides"
+    ],
+    "severity": 1,
+    "fatalities": 17,
+    "injuries": 5,
+    "root_causes": [
+      "nitrogen-purge-reduced-during-maintenance",
+      "oxygen-analyzer-positioned-in-dead-zone",
+      "peroxide-decomposition-generated-oxygen",
+      "ignition-source-near-tank-during-cleaning"
+    ],
+    "psm_elements": [
+      "mechanical-integrity",
+      "management-of-change",
+      "process-hazard-analysis"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "OSHA Investigation Findings (1990-1991)",
+      "ARCO Chemical Company Public Statement (January 1991)"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "angus-sterlington-1991",
+    "file": "angus-sterlington-1991.md",
+    "title": "Angus Chemical Sterlington Nitroparaffin Plant Explosion",
+    "date": "1991-05-01",
+    "location": "Sterlington, LA, USA",
+    "industry": [
+      "chemical-manufacturing"
+    ],
+    "chemicals": [
+      "nitromethane",
+      "nitroparaffin-compounds"
+    ],
+    "severity": 1,
+    "fatalities": 8,
+    "injuries": 120,
+    "root_causes": [
+      "compressor-fire-preceded-explosion",
+      "insufficient-safety-protocols-per-federal-investigation",
+      "first-fatality-in-plant-35-year-history",
+      "cascading-secondary-explosions"
+    ],
+    "psm_elements": [
+      "mechanical-integrity",
+      "incident-investigation",
+      "emergency-planning"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "Federal Investigation Findings and OSHA Fine Announcement (1991)",
+      "Chemical & Engineering News Coverage (1991)"
+    ],
+    "hasBody": true
+  },
+  {
     "id": "milford-haven-1994",
     "file": "milford-haven-1994.md",
     "title": "Texaco Milford Haven Refinery Explosion and Fires",
@@ -210,6 +280,112 @@
     "sources": [
       "HSE Investigation Report (1997), ISBN 0 7176 1413 1",
       "FABIG industrial accidents archive"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "terra-industries-port-neal-1994",
+    "file": "terra-industries-port-neal-1994.md",
+    "title": "Terra Industries Port Neal Ammonium Nitrate Explosion",
+    "date": "1994-12-13",
+    "location": "Sergeant Bluff, IA, USA",
+    "industry": [
+      "chemical-manufacturing",
+      "fertilizer-production"
+    ],
+    "chemicals": [
+      "ammonium-nitrate",
+      "nitric-acid"
+    ],
+    "severity": 1,
+    "fatalities": 4,
+    "injuries": 18,
+    "root_causes": [
+      "acidic-conditions-in-neutralizer",
+      "prolonged-steam-application",
+      "no-monitoring-after-shutdown-with-vessels-charged",
+      "no-written-safe-operating-procedures"
+    ],
+    "psm_elements": [
+      "operating-procedures",
+      "training",
+      "mechanical-integrity"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "EPA Chemical Accident Investigation Report (1996)"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "napp-technologies-1995",
+    "file": "napp-technologies-1995.md",
+    "title": "Napp Technologies Water-Reactive Chemical Explosion",
+    "date": "1995-04-21",
+    "location": "Lodi, NJ, USA",
+    "industry": [
+      "chemical-manufacturing",
+      "pharmaceutical-manufacturing"
+    ],
+    "chemicals": [
+      "aluminum-powder",
+      "sodium-hydrosulfite"
+    ],
+    "severity": 1,
+    "fatalities": 5,
+    "injuries": 35,
+    "root_causes": [
+      "water-introduced-to-water-reactive-mixture",
+      "blending-ran-24-hours-instead-of-1",
+      "fire-department-not-notified-for-12-hours",
+      "no-information-on-chemicals-provided-to-responders"
+    ],
+    "psm_elements": [
+      "process-hazard-analysis",
+      "emergency-planning",
+      "operating-procedures"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "Joint EPA/OSHA Investigation Report (1997)",
+      "New Jersey Department of Health: Health Impact of the Napp Technologies Fire (1997)"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "bps-west-helena-1997",
+    "file": "bps-west-helena-1997.md",
+    "title": "BPS West Helena Pesticide Warehouse Explosion",
+    "date": "1997-05-08",
+    "location": "West Helena, AR, USA",
+    "industry": [
+      "chemical-manufacturing",
+      "pesticide-packaging"
+    ],
+    "chemicals": [
+      "azinphos-methyl"
+    ],
+    "severity": 1,
+    "fatalities": 3,
+    "injuries": 17,
+    "root_causes": [
+      "pesticide-decomposed-against-hot-compressor-pipe",
+      "firefighters-misinformed-about-explosion-risk",
+      "responders-sent-to-locate-smoke-source",
+      "no-hazard-information-given-to-fire-department"
+    ],
+    "psm_elements": [
+      "process-safety-information",
+      "emergency-planning",
+      "facility-siting"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "EPA/OSHA Joint Chemical Accident Investigation Report (1999)",
+      "NFPA Fire Investigations Report (1998)"
     ],
     "hasBody": true
   },
@@ -419,6 +595,41 @@
     "sources": [
       "CSB Final Investigation Report (2001)",
       "CSB Safety Digest: Tosco Avon Refinery Fire"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "whitehall-leather-1999",
+    "file": "whitehall-leather-1999.md",
+    "title": "Whitehall Leather Company Toxic Gas Release",
+    "date": "1999-06-04",
+    "location": "Whitehall, MI, USA",
+    "industry": [
+      "leather-manufacturing"
+    ],
+    "chemicals": [
+      "sodium-hydrosulfide",
+      "ferrous-sulfate"
+    ],
+    "severity": 1,
+    "fatalities": 1,
+    "injuries": 1,
+    "root_causes": [
+      "chemicals-unloaded-into-wrong-tank",
+      "unwritten-onsite-nickname-caused-confusion",
+      "no-verification-before-unloading",
+      "incompatible-chemicals-not-labeled-for-cross-contact-risk"
+    ],
+    "psm_elements": [
+      "operating-procedures",
+      "training",
+      "process-safety-information"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "NTSB Investigation Report (2000)",
+      "CSB Hazard Investigation: Improving Reactive Hazard Management (2002)"
     ],
     "hasBody": true
   },
@@ -3414,6 +3625,41 @@
     "sources": [
       "CSB Final Investigation Report (February 2026)",
       "CSB News Release, February 23, 2026"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "givaudan-louisville-2024",
+    "file": "givaudan-louisville-2024.md",
+    "title": "Givaudan Sense Colour Caramel Reactor Explosion",
+    "date": "2024-11-12",
+    "location": "Louisville, KY, USA",
+    "industry": [
+      "food-manufacturing"
+    ],
+    "chemicals": [
+      "caramel-coloring-sugar-solution"
+    ],
+    "severity": 1,
+    "fatalities": 2,
+    "injuries": 3,
+    "root_causes": [
+      "runaway-decomposition-reaction-not-recognized",
+      "relief-system-4-times-too-small",
+      "decades-old-reactor-relocated-and-modified",
+      "control-room-not-blast-resistant-40-feet-away"
+    ],
+    "psm_elements": [
+      "process-hazard-analysis",
+      "mechanical-integrity",
+      "facility-siting",
+      "management-of-change"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Final Investigation Report (May 27, 2026)",
+      "CSB Investigation Updates (February 2025, June 2025)"
     ],
     "hasBody": true
   },

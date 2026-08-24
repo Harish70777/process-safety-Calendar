@@ -27,6 +27,18 @@ the incident's own .md file at any time.
   Stage 3 [person] "Workers Caught": 'A welder and his helper...were caught in the collapse and immersed in the released liquid fertilizer'
   Stage 4 [building] "Community Reached": 'flooded a nearby road...reached portions of a nearby residential neighborhood'
 
+--- Angus Chemical Sterlington Nitroparaffin Plant Explosion (angus-sterlington-1991) ---
+  Stage 1 [fire] "Small Fire Noticed": 'workers preparing to check a compressor...noticed a small fire and sounded the plant's fire alarm'
+  Stage 2 [warningIgnored] "Only 30 Seconds of Warning": 'Approximately 30 seconds later, an explosion occurred'
+  Stage 3 [explosion] "Explosion, Then Cascading Blasts": 'followed by a series of smaller secondary explosions'
+  Stage 4 [person] "8 Killed, ~120 Injured": fatalities/injuries frontmatter fields
+
+--- ARCO Chemical Channelview Wastewater Tank Explosion (arco-channelview-1990) ---
+  Stage 1 [gauge] "Nitrogen Purge Reduced": 'the tank received only minimal nitrogen purging'
+  Stage 2 [warningIgnored] "Analyzer in a Dead Zone": 'a temporary oxygen analyzer...failed to detect the dangerous buildup in time'
+  Stage 3 [explosion] "Tank Explodes": 'The blast leveled an area the size of a city block'
+  Stage 4 [person] "17 Killed, 5 Injured": fatalities/injuries frontmatter fields
+
 --- Arkema Crosby Organic Peroxide Fire (Hurricane Harvey) (arkema-crosby-2017) ---
   Stage 1 [building] "Hurricane Harvey Floods Site": 'Hurricane Harvey brought an unprecedented volume of rainfall to the Arkema plant'
   Stage 2 [gauge] "Power and Refrigeration Lost": 'knocking out both primary power and backup power to the low-temperature warehouses'
@@ -92,6 +104,12 @@ the incident's own .md file at any time.
   Stage 2 [gauge] "Alarm Flood": 'board operators had been managing an alarm flood of more than 3,700 alarms'
   Stage 3 [warningIgnored] "2019 Precedent Missed": 'a nearly identical 2019 incident had already provided a warning'
   Stage 4 [fire] "Flash Fire": fatalities/injuries frontmatter fields
+
+--- BPS West Helena Pesticide Warehouse Explosion (bps-west-helena-1997) ---
+  Stage 1 [warningIgnored] "Pesticide Sack Overheats": 'a bulk sack of azinphos-methyl generated heat through decomposition after being placed in contact with heated equipment'
+  Stage 2 [fire] "Smoke Reported": 'company representatives reportedly told them there was no risk of an explosion'
+  Stage 3 [explosion] "Explosion While Searching": 'a collapsing cinderblock wall killed three of the firefighters'
+  Stage 4 [person] "3 Firefighters Killed": fatalities/injuries frontmatter fields
 
 --- Buncefield Oil Storage Depot Explosion (buncefield-2005) ---
   Stage 1 [gauge] "Level Gauge Failed": 'a storage tank's automatic tank gauge failed to register the rising level'
@@ -267,6 +285,12 @@ the incident's own .md file at any time.
   Stage 3 [warningIgnored] "Contractors Had No Idea": 'Nearly everyone affected was a contractor from Burkes Construction working on an unrelated construction project'
   Stage 4 [person] "Two Killed, Eight Injured": fatalities/injuries frontmatter fields
 
+--- Givaudan Sense Colour Caramel Reactor Explosion (givaudan-louisville-2024) ---
+  Stage 1 [tank] "Reactor Built in 1978": 'originally built in 1978...modified in 2021 to fit the Louisville facility's design'
+  Stage 2 [gauge] "Sugar Reaction Runs Away": 'the reactor's relief system would have needed to be approximately four times larger'
+  Stage 3 [explosion] "Reactor Ruptures": 'The blast wave struck a control room located only 40 feet from the reactor'
+  Stage 4 [person] "2 Killed, 3 Injured": fatalities/injuries frontmatter fields
+
 --- Goodyear Houston Heat Exchanger Rupture and Ammonia Release (goodyear-houston-2008) ---
   Stage 1 [valve] "Relief Path Blocked": 'several valves...were closed, including a valve that isolated the exchanger from its relief valve'
   Stage 2 [gauge] "Steam Reintroduced": 'When pressurized steam was later introduced...the exchanger had no path to safely relieve the resulting overpressure'
@@ -405,6 +429,12 @@ the incident's own .md file at any time.
   Stage 3 [vaporCloud] "Spark Ignites Vapors": 'a spark from their hot work ignited flammable vapors escaping from holes in the roof and shell'
   Stage 4 [person] "1.1M Gallons Released": 'Approximately 1.1 million gallons of spent sulfuric acid were released in total'
 
+--- Napp Technologies Water-Reactive Chemical Explosion (napp-technologies-1995) ---
+  Stage 1 [tank] "Blending Runs 24 Hours": 'expected to take less than an hour but instead continued for nearly 24 hours'
+  Stage 2 [vaporCloud] "Water Enters the Mixture": 'water was introduced into the mixture...triggering the water-reactive combination'
+  Stage 3 [warningIgnored] "Fire Dept Notified Late": 'was not notified of a developing problem at the plant until shortly before the explosion'
+  Stage 4 [explosion] "Explosion": fatalities/injuries frontmatter fields
+
 --- NDK Crystal Pressure Vessel Explosion with Offsite Fatality (ndk-crystal-2009) ---
   Stage 1 [corrosion] "Cracking Found in 2007": 'the company discovered stress corrosion cracking in four of the eight vessel lids'
   Stage 2 [warningIgnored] "Warning Not Heeded": 'a consultant...expressed "serious reservations" about returning them to service...NDK...returned them to service anyway without independently testing them'
@@ -501,6 +531,12 @@ the incident's own .md file at any time.
   Stage 3 [explosion] "BLEVE": 'the exothermic reaction accelerated into a runaway...the reactor violently ruptured'
   Stage 4 [building] "Debris Found a Mile Away": 'Wreckage was found up to a mile from the site'
 
+--- Terra Industries Port Neal Ammonium Nitrate Explosion (terra-industries-port-neal-1994) ---
+  Stage 1 [gauge] "Vessels Left Charged After Shutdown": 'left charged with material and unmonitored after shutdown'
+  Stage 2 [corrosion] "Acidic Conditions Develop": 'strongly acidic conditions in the neutralizer and rundown tank'
+  Stage 3 [explosion] "Two Detonations": 'two massive detonations leveled portions of an ammonium nitrate plant'
+  Stage 4 [vaporCloud] "Ammonia Cloud, 2,500 Evacuated": fatalities/injuries frontmatter fields
+
 --- Tesoro Anacortes Refinery Heat Exchanger Explosion (tesoro-anacortes-2010) ---
   Stage 1 [corrosion] "High-Temp Hydrogen Attack": 'the direct cause was high temperature hydrogen attack (HTHA)...gradually cracks and weakens carbon steel from the inside, invisibly, over years'
   Stage 2 [investigation] "Industry Standard Inadequate": root causes: 'CSB found the American Petroleum Institute's standard for assessing equipment vulnerability to HTHA was inadequate'
@@ -572,6 +608,12 @@ the incident's own .md file at any time.
   Stage 2 [warningIgnored] "Fire Code Never Consulted": root causes: 'CSB found the company's engineering management systems did not ensure relevant industry fire codes...were referenced or applied'
   Stage 3 [explosion] "Explosion": 'An explosion and fire destroyed the plant...the blast was felt 25 miles away'
   Stage 4 [fire] "Debris Ignites Woods": 'burning debris ignited wooded areas up to two miles from the site'
+
+--- Whitehall Leather Company Toxic Gas Release (whitehall-leather-1999) ---
+  Stage 1 [tank] "Wrong Chemical Assumed": 'assumed this new delivery of sodium hydrosulfide was also pickle acid'
+  Stage 2 [warningIgnored] "No Verification Before Unloading": 'no procedure requiring confirmation that an incoming delivery matched the intended receiving tank'
+  Stage 3 [vaporCloud] "Chemicals Mix, Release Toxic Gas": 'the two chemicals reacted and produced hydrogen sulfide gas'
+  Stage 4 [person] "1 Killed, 1 Injured": fatalities/injuries frontmatter fields
 
 --- Williams Olefins Plant Reboiler Explosion (williams-olefins-2013) ---
   Stage 1 [valve] "1990s Change Removed Protection": 'Williams changed operating practice to run the fractionator with only one reboiler in service at a time...without adequately addressing the resulting loss of overpressure protection'

@@ -8,7 +8,7 @@ X-WR-CALDESC:Historical process safety incidents, on their anniversary date, wit
 BEGIN:VEVENT
 UID:flixborough-1974@rskless-psm-calendar
 DTSTART;VALUE=DATE:19740601
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Flixborough Chemical Plant Explosion (1974)
 DESCRIPTION:28 fatalities\, 36 injuries.\n\nRoot causes: inadequate-moc\, 
@@ -25,7 +25,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:seveso-1976@rskless-psm-calendar
 DTSTART;VALUE=DATE:19760710
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Seveso Dioxin Release (1976)
 DESCRIPTION:0 fatalities\, 0 injuries.\n\nRoot causes: design-deficiency\,
@@ -42,7 +42,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:bhopal-1984@rskless-psm-calendar
 DTSTART;VALUE=DATE:19841203
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Bhopal Gas Tragedy (1984)
 DESCRIPTION:3800 fatalities\, 500000 injuries.\n\nRoot causes: design-defi
@@ -59,7 +59,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:piper-alpha-1988@rskless-psm-calendar
 DTSTART;VALUE=DATE:19880706
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Piper Alpha Offshore Platform Explosion (1988)
 DESCRIPTION:167 fatalities\, 61 injuries.\n\nRoot causes: inadequate-moc\,
@@ -76,7 +76,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:phillips-pasadena-1989@rskless-psm-calendar
 DTSTART;VALUE=DATE:19891023
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Phillips 66 Pasadena Polyethylene Plant Explosion 
  (1989)
@@ -92,9 +92,47 @@ DESCRIPTION:Reminder
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:arco-channelview-1990@rskless-psm-calendar
+DTSTART;VALUE=DATE:19900705
+DTSTAMP:20260824T232858Z
+RRULE:FREQ=YEARLY
+SUMMARY:⚠️ Anniversary: ARCO Chemical Channelview Wastewater Tank Explosio
+ n (1990)
+DESCRIPTION:17 fatalities\, 5 injuries.\n\nRoot causes: nitrogen-purge-red
+ uced-during-maintenance\, oxygen-analyzer-positioned-in-dead-zone\, perox
+ ide-decomposition-generated-oxygen\, ignition-source-near-tank-during-cle
+ aning.\n\nFull brief and lessons learned: https://harish70777.github.io/p
+ rocess-safety-Calendar/incidents/arco-channelview-1990
+LOCATION:Channelview\, TX\, USA
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT0S
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:angus-sterlington-1991@rskless-psm-calendar
+DTSTART;VALUE=DATE:19910501
+DTSTAMP:20260824T232858Z
+RRULE:FREQ=YEARLY
+SUMMARY:⚠️ Anniversary: Angus Chemical Sterlington Nitroparaffin Plant Exp
+ losion (1991)
+DESCRIPTION:8 fatalities\, 120 injuries.\n\nRoot causes: compressor-fire-p
+ receded-explosion\, insufficient-safety-protocols-per-federal-investigati
+ on\, first-fatality-in-plant-35-year-history\, cascading-secondary-explos
+ ions.\n\nFull brief and lessons learned: https://harish70777.github.io/pr
+ ocess-safety-Calendar/incidents/angus-sterlington-1991
+LOCATION:Sterlington\, LA\, USA
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT0S
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:milford-haven-1994@rskless-psm-calendar
 DTSTART;VALUE=DATE:19940724
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Texaco Milford Haven Refinery Explosion and Fires 
  (1994)
@@ -111,9 +149,66 @@ DESCRIPTION:Reminder
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:terra-industries-port-neal-1994@rskless-psm-calendar
+DTSTART;VALUE=DATE:19941213
+DTSTAMP:20260824T232858Z
+RRULE:FREQ=YEARLY
+SUMMARY:⚠️ Anniversary: Terra Industries Port Neal Ammonium Nitrate Explos
+ ion (1994)
+DESCRIPTION:4 fatalities\, 18 injuries.\n\nRoot causes: acidic-conditions-
+ in-neutralizer\, prolonged-steam-application\, no-monitoring-after-shutdo
+ wn-with-vessels-charged\, no-written-safe-operating-procedures.\n\nFull b
+ rief and lessons learned: https://harish70777.github.io/process-safety-Ca
+ lendar/incidents/terra-industries-port-neal-1994
+LOCATION:Sergeant Bluff\, IA\, USA
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT0S
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:napp-technologies-1995@rskless-psm-calendar
+DTSTART;VALUE=DATE:19950421
+DTSTAMP:20260824T232858Z
+RRULE:FREQ=YEARLY
+SUMMARY:⚠️ Anniversary: Napp Technologies Water-Reactive Chemical Explosio
+ n (1995)
+DESCRIPTION:5 fatalities\, 35 injuries.\n\nRoot causes: water-introduced-t
+ o-water-reactive-mixture\, blending-ran-24-hours-instead-of-1\, fire-depa
+ rtment-not-notified-for-12-hours\, no-information-on-chemicals-provided-t
+ o-responders.\n\nFull brief and lessons learned: https://harish70777.gith
+ ub.io/process-safety-Calendar/incidents/napp-technologies-1995
+LOCATION:Lodi\, NJ\, USA
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT0S
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bps-west-helena-1997@rskless-psm-calendar
+DTSTART;VALUE=DATE:19970508
+DTSTAMP:20260824T232858Z
+RRULE:FREQ=YEARLY
+SUMMARY:⚠️ Anniversary: BPS West Helena Pesticide Warehouse Explosion (199
+ 7)
+DESCRIPTION:3 fatalities\, 17 injuries.\n\nRoot causes: pesticide-decompos
+ ed-against-hot-compressor-pipe\, firefighters-misinformed-about-explosion
+ -risk\, responders-sent-to-locate-smoke-source\, no-hazard-information-gi
+ ven-to-fire-department.\n\nFull brief and lessons learned: https://harish
+ 70777.github.io/process-safety-Calendar/incidents/bps-west-helena-1997
+LOCATION:West Helena\, AR\, USA
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT0S
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:morton-international-1998@rskless-psm-calendar
 DTSTART;VALUE=DATE:19980408
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Morton International Runaway Chemical Reaction (19
  98)
@@ -132,7 +227,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:longford-1998@rskless-psm-calendar
 DTSTART;VALUE=DATE:19980925
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Longford Esso Gas Plant Explosion (1998)
 DESCRIPTION:2 fatalities\, 8 injuries.\n\nRoot causes: no-hazop-conducted\
@@ -149,7 +244,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:condea-vista-1998@rskless-psm-calendar
 DTSTART;VALUE=DATE:19981013
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: CONDEA Vista Detergent Alkylate Reactor Explosion 
  (1998)
@@ -168,7 +263,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:equilon-anacortes-1998@rskless-psm-calendar
 DTSTART;VALUE=DATE:19981125
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Equilon Enterprises Delayed Coker Fire (1998)
 DESCRIPTION:6 fatalities\, 0 injuries.\n\nRoot causes: power-and-steam-los
@@ -186,7 +281,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:concept-sciences-1999@rskless-psm-calendar
 DTSTART;VALUE=DATE:19990219
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Concept Sciences Hydroxylamine Explosion (1999)
 DESCRIPTION:5 fatalities\, 14 injuries.\n\nRoot causes: explosive-decompos
@@ -204,7 +299,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:tosco-avon-1999@rskless-psm-calendar
 DTSTART;VALUE=DATE:19990223
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Tosco Avon Refinery Naphtha Fire (1999)
 DESCRIPTION:4 fatalities\, 1 injuries.\n\nRoot causes: work-permit-require
@@ -220,9 +315,27 @@ DESCRIPTION:Reminder
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:whitehall-leather-1999@rskless-psm-calendar
+DTSTART;VALUE=DATE:19990604
+DTSTAMP:20260824T232858Z
+RRULE:FREQ=YEARLY
+SUMMARY:⚠️ Anniversary: Whitehall Leather Company Toxic Gas Release (1999)
+DESCRIPTION:1 fatalities\, 1 injuries.\n\nRoot causes: chemicals-unloaded-
+ into-wrong-tank\, unwritten-onsite-nickname-caused-confusion\, no-verific
+ ation-before-unloading\, incompatible-chemicals-not-labeled-for-cross-con
+ tact-risk.\n\nFull brief and lessons learned: https://harish70777.github.
+ io/process-safety-Calendar/incidents/whitehall-leather-1999
+LOCATION:Whitehall\, MI\, USA
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT0S
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:bp-grangemouth-2000@rskless-psm-calendar
 DTSTART;VALUE=DATE:20000529
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: BP Grangemouth Petrochemical Complex\, Three Major
   Incidents (2000)
@@ -241,7 +354,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:bp-amoco-augusta-2001@rskless-psm-calendar
 DTSTART;VALUE=DATE:20010313
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: BP Amoco Polymers Thermal Decomposition Explosion 
  (2001)
@@ -260,7 +373,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:motiva-delaware-city-2001@rskless-psm-calendar
 DTSTART;VALUE=DATE:20010717
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Motiva Enterprises Delaware City Refinery Sulfuric
   Acid Tank Explosion (2001)
@@ -278,7 +391,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:azf-toulouse-2001@rskless-psm-calendar
 DTSTART;VALUE=DATE:20010921
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: AZF Toulouse Fertilizer Plant Explosion (2001)
 DESCRIPTION:31 fatalities\, 2500 injuries.\n\nRoot causes: incompatible-ch
@@ -295,7 +408,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:georgia-pacific-naheola-2002@rskless-psm-calendar
 DTSTART;VALUE=DATE:20020116
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Georgia-Pacific Naheola Mill Hydrogen Sulfide Rele
  ase (2002)
@@ -314,7 +427,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:first-chemical-2002@rskless-psm-calendar
 DTSTART;VALUE=DATE:20021013
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: First Chemical Corporation Distillation Column Exp
  losion (2002)
@@ -334,7 +447,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:west-pharmaceutical-2003@rskless-psm-calendar
 DTSTART;VALUE=DATE:20030129
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: West Pharmaceutical Services Dust Explosion (2003)
 DESCRIPTION:6 fatalities\, 38 injuries.\n\nRoot causes: no-engineering-ass
@@ -352,7 +465,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:cta-acoustics-2003@rskless-psm-calendar
 DTSTART;VALUE=DATE:20030220
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: CTA Acoustics Dust Explosion and Fire (2003)
 DESCRIPTION:7 fatalities\, 37 injuries.\n\nRoot causes: unknown-dust-hazar
@@ -370,7 +483,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:honeywell-baton-rouge-2003@rskless-psm-calendar
 DTSTART;VALUE=DATE:20030720
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Honeywell Baton Rouge Chlorine Release and Antimon
  y Pentachloride Fatality (2003)
@@ -389,7 +502,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hayes-lemmerz-2003@rskless-psm-calendar
 DTSTART;VALUE=DATE:20031029
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Hayes Lemmerz Aluminum Dust Explosion (2003)
 DESCRIPTION:1 fatalities\, 6 injuries.\n\nRoot causes: no-moc-on-dust-coll
@@ -407,7 +520,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:dpc-enterprises-glendale-2003@rskless-psm-calendar
 DTSTART;VALUE=DATE:20031117
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: DPC Enterprises Glendale Chlorine Release (2003)
 DESCRIPTION:0 fatalities\, 16 injuries.\n\nRoot causes: alarms-ignored-com
@@ -425,7 +538,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:mfg-chemical-2004@rskless-psm-calendar
 DTSTART;VALUE=DATE:20040412
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: MFG Chemical Runaway Reaction and Toxic Vapor Rele
  ase (2004)
@@ -444,7 +557,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:formosa-illiopolis-2004@rskless-psm-calendar
 DTSTART;VALUE=DATE:20040423
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Formosa Plastics Vinyl Chloride Explosion (2004)
 DESCRIPTION:5 fatalities\, 3 injuries.\n\nRoot causes: bypassed-pressure-i
@@ -462,7 +575,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:marcus-oil-2004@rskless-psm-calendar
 DTSTART;VALUE=DATE:20041203
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Marcus Oil and Chemical Pressure Vessel Explosion 
  (2004)
@@ -480,7 +593,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:texas-city-2005@rskless-psm-calendar
 DTSTART;VALUE=DATE:20050323
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: BP Texas City Refinery Explosion (2005)
 DESCRIPTION:15 fatalities\, 180 injuries.\n\nRoot causes: instrumentation-
@@ -497,7 +610,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:praxair-st-louis-2005@rskless-psm-calendar
 DTSTART;VALUE=DATE:20050624
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Praxair St. Louis Propylene Cylinder Fire and Expl
  osions (2005)
@@ -516,7 +629,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:buncefield-2005@rskless-psm-calendar
 DTSTART;VALUE=DATE:20051211
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Buncefield Oil Storage Depot Explosion (2005)
 DESCRIPTION:0 fatalities\, 43 injuries.\n\nRoot causes: instrumentation-fa
@@ -533,7 +646,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:bethune-point-2006@rskless-psm-calendar
 DTSTART;VALUE=DATE:20060111
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Bethune Point Wastewater Treatment Plant Methanol 
  Explosion (2006)
@@ -552,7 +665,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:synthron-2006@rskless-psm-calendar
 DTSTART;VALUE=DATE:20060131
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Synthron Runaway Reaction and Vapor Cloud Explosio
  n (2006)
@@ -571,7 +684,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:partridge-raleigh-2006@rskless-psm-calendar
 DTSTART;VALUE=DATE:20060605
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Partridge-Raleigh Oilfield Hot Work Explosion (200
  6)
@@ -590,7 +703,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:chevron-richmond-2007@rskless-psm-calendar
 DTSTART;VALUE=DATE:20070115
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Chevron Richmond Refinery Sulfidation Corrosion Fi
  re (2007)
@@ -609,7 +722,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:little-general-store-2007@rskless-psm-calendar
 DTSTART;VALUE=DATE:20070130
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Little General Store Propane Explosion (2007)
 DESCRIPTION:4 fatalities\, 6 injuries.\n\nRoot causes: tank-sited-too-clos
@@ -627,7 +740,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:valero-mckee-2007@rskless-psm-calendar
 DTSTART;VALUE=DATE:20070216
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Valero McKee Refinery Propane Fire (Frozen Dead-Le
  g Piping) (2007)
@@ -645,7 +758,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:xcel-cabin-creek-2007@rskless-psm-calendar
 DTSTART;VALUE=DATE:20071002
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Xcel Energy Cabin Creek Hydroelectric Plant Pensto
  ck Fire (2007)
@@ -664,7 +777,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:barton-solvents-2007@rskless-psm-calendar
 DTSTART;VALUE=DATE:20071029
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Barton Solvents Des Moines Fire and Explosions (20
  07)
@@ -683,7 +796,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:t2-laboratories-2007@rskless-psm-calendar
 DTSTART;VALUE=DATE:20071219
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: T2 Laboratories Reactive Chemical Explosion (2007)
 DESCRIPTION:4 fatalities\, 32 injuries.\n\nRoot causes: unrecognized-react
@@ -700,7 +813,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:imperial-sugar-2008@rskless-psm-calendar
 DTSTART;VALUE=DATE:20080207
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Imperial Sugar Refinery Dust Explosion (2008)
 DESCRIPTION:14 fatalities\, 36 injuries.\n\nRoot causes: combustible-dust-
@@ -717,7 +830,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:goodyear-houston-2008@rskless-psm-calendar
 DTSTART;VALUE=DATE:20080611
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Goodyear Houston Heat Exchanger Rupture and Ammoni
  a Release (2008)
@@ -736,7 +849,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:bayer-cropscience-2008@rskless-psm-calendar
 DTSTART;VALUE=DATE:20080828
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Bayer CropScience Pesticide Waste Tank Explosion (
  2008)
@@ -755,7 +868,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:allied-terminals-2008@rskless-psm-calendar
 DTSTART;VALUE=DATE:20081112
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Allied Terminals Fertilizer Tank Collapse (2008)
 DESCRIPTION:0 fatalities\, 2 injuries.\n\nRoot causes: welding-defects-in-
@@ -773,7 +886,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:conagra-slim-jim-2009@rskless-psm-calendar
 DTSTART;VALUE=DATE:20090609
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: ConAgra Slim Jim Plant Natural Gas Explosion (2009
  )
@@ -792,7 +905,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:jaipur-2009@rskless-psm-calendar
 DTSTART;VALUE=DATE:20091029
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Jaipur Oil Terminal Fire (2009)
 DESCRIPTION:12 fatalities\, 200 injuries.\n\nRoot causes: no-remote-shutof
@@ -809,7 +922,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:silver-eagle-refinery-2009@rskless-psm-calendar
 DTSTART;VALUE=DATE:20091104
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Silver Eagle Refinery Pipe Rupture and Hydrogen Ex
  plosion (2009)
@@ -828,7 +941,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ndk-crystal-2009@rskless-psm-calendar
 DTSTART;VALUE=DATE:20091207
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: NDK Crystal Pressure Vessel Explosion with Offsite
   Fatality (2009)
@@ -847,7 +960,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:dupont-belle-2010@rskless-psm-calendar
 DTSTART;VALUE=DATE:20100122
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: DuPont Belle Three Toxic Releases in 33 Hours (201
  0)
@@ -866,7 +979,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:kleen-energy-2010@rskless-psm-calendar
 DTSTART;VALUE=DATE:20100207
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Kleen Energy Plant Natural Gas Explosion (2010)
 DESCRIPTION:6 fatalities\, 50 injuries.\n\nRoot causes: inherently-unsafe-
@@ -883,7 +996,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:tesoro-anacortes-2010@rskless-psm-calendar
 DTSTART;VALUE=DATE:20100402
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Tesoro Anacortes Refinery Heat Exchanger Explosion
   (2010)
@@ -902,7 +1015,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:deepwater-horizon-2010@rskless-psm-calendar
 DTSTART;VALUE=DATE:20100420
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Deepwater Horizon / Macondo Well Blowout (2010)
 DESCRIPTION:11 fatalities\, 17 injuries.\n\nRoot causes: cement-barrier-fa
@@ -920,7 +1033,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:horsehead-monaca-2010@rskless-psm-calendar
 DTSTART;VALUE=DATE:20100722
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Horsehead Zinc Refinery Explosion (2010)
 DESCRIPTION:2 fatalities\, 1 injuries.\n\nRoot causes: blocked-sump-design
@@ -937,7 +1050,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:millard-refrigerated-2010@rskless-psm-calendar
 DTSTART;VALUE=DATE:20100823
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Millard Refrigerated Services Ammonia Release (201
  0)
@@ -956,7 +1069,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:dupont-buffalo-2010@rskless-psm-calendar
 DTSTART;VALUE=DATE:20101109
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: DuPont Yerkes Facility Hot Work Explosion (2010)
 DESCRIPTION:1 fatalities\, 1 injuries.\n\nRoot causes: hazard-analysis-wro
@@ -974,7 +1087,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:chevron-richmond-2012@rskless-psm-calendar
 DTSTART;VALUE=DATE:20120806
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Chevron Richmond Refinery Pipe Rupture and Fire (2
  012)
@@ -993,7 +1106,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:wynnewood-refinery-2012@rskless-psm-calendar
 DTSTART;VALUE=DATE:20120928
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Wynnewood Refinery Boiler Explosion (2012)
 DESCRIPTION:2 fatalities\, 0 injuries.\n\nRoot causes: natural-gas-accumul
@@ -1010,7 +1123,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:west-fertilizer-2013@rskless-psm-calendar
 DTSTART;VALUE=DATE:20130417
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: West Fertilizer Company Fire and Explosion (2013)
 DESCRIPTION:15 fatalities\, 260 injuries.\n\nRoot causes: combustible-buil
@@ -1027,7 +1140,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:williams-olefins-2013@rskless-psm-calendar
 DTSTART;VALUE=DATE:20130613
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Williams Olefins Plant Reboiler Explosion (2013)
 DESCRIPTION:2 fatalities\, 167 injuries.\n\nRoot causes: inadequate-moc-19
@@ -1044,7 +1157,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:chevron-pascagoula-2013@rskless-psm-calendar
 DTSTART;VALUE=DATE:20131115
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Chevron Pascagoula Refinery Furnace Explosion (201
  3)
@@ -1063,7 +1176,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:freedom-industries-elk-river-2014@rskless-psm-calendar
 DTSTART;VALUE=DATE:20140109
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Freedom Industries Elk River Chemical Spill (2014)
 DESCRIPTION:0 fatalities\, 300 injuries.\n\nRoot causes: pitting-corrosion
@@ -1081,7 +1194,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:dupont-laporte-2014@rskless-psm-calendar
 DTSTART;VALUE=DATE:20141115
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: DuPont La Porte Methyl Mercaptan Release (2014)
 DESCRIPTION:4 fatalities\, 1 injuries.\n\nRoot causes: flawed-engineering-
@@ -1099,7 +1212,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:exxonmobil-torrance-2015@rskless-psm-calendar
 DTSTART;VALUE=DATE:20150218
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: ExxonMobil Torrance Refinery Electrostatic Precipi
  tator Explosion (2015)
@@ -1118,7 +1231,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:tianjin-2015@rskless-psm-calendar
 DTSTART;VALUE=DATE:20150812
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Tianjin Port Explosions (2015)
 DESCRIPTION:173 fatalities\, 798 injuries.\n\nRoot causes: spontaneous-ign
@@ -1136,7 +1249,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sunoco-nederland-2016@rskless-psm-calendar
 DTSTART;VALUE=DATE:20160812
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Sunoco Nederland Crude Oil Terminal Flash Fire and
   Explosion (2016)
@@ -1155,7 +1268,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:airgas-cantonment-2016@rskless-psm-calendar
 DTSTART;VALUE=DATE:20160828
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Airgas Nitrous Oxide Explosion (2016)
 DESCRIPTION:1 fatalities\, 0 injuries.\n\nRoot causes: no-safer-design-eva
@@ -1173,7 +1286,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:mgpi-atchison-2016@rskless-psm-calendar
 DTSTART;VALUE=DATE:20161021
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: MGPI Processing Toxic Chlorine Gas Release (2016)
 DESCRIPTION:0 fatalities\, 140 injuries.\n\nRoot causes: visually-similar-
@@ -1191,7 +1304,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:exxonmobil-baton-rouge-2016@rskless-psm-calendar
 DTSTART;VALUE=DATE:20161122
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: ExxonMobil Baton Rouge Refinery Isobutane Fire (20
  16)
@@ -1210,7 +1323,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:pca-deridder-2017@rskless-psm-calendar
 DTSTART;VALUE=DATE:20170208
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Packaging Corporation of America DeRidder Mill Exp
  losion (2017)
@@ -1229,7 +1342,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:loy-lange-box-2017@rskless-psm-calendar
 DTSTART;VALUE=DATE:20170403
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Loy-Lange Box Company Pressure Vessel Explosion (2
  017)
@@ -1248,7 +1361,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:didion-milling-2017@rskless-psm-calendar
 DTSTART;VALUE=DATE:20170531
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Didion Milling Combustible Dust Explosions and Fir
  e (2017)
@@ -1267,7 +1380,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:arkema-crosby-2017@rskless-psm-calendar
 DTSTART;VALUE=DATE:20170831
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Arkema Crosby Organic Peroxide Fire (Hurricane Har
  vey) (2017)
@@ -1286,7 +1399,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:husky-superior-2018@rskless-psm-calendar
 DTSTART;VALUE=DATE:20180426
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Husky Energy Superior Refinery FCC Explosion (2018
  )
@@ -1305,7 +1418,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:kuraray-america-2018@rskless-psm-calendar
 DTSTART;VALUE=DATE:20180519
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Kuraray America EVAL Plant Ethylene Release and Fi
  re (2018)
@@ -1324,7 +1437,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itc-deer-park-2019@rskless-psm-calendar
 DTSTART;VALUE=DATE:20190317
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Intercontinental Terminals Company (ITC) Tank Farm
   Fire (2019)
@@ -1343,7 +1456,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:kmco-crosby-2019@rskless-psm-calendar
 DTSTART;VALUE=DATE:20190402
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: KMCO Chemical Facility Fatal Explosion and Fire (2
  019)
@@ -1362,7 +1475,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ab-specialty-silicones-2019@rskless-psm-calendar
 DTSTART;VALUE=DATE:20190503
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: AB Specialty Silicones Chemical Explosion (2019)
 DESCRIPTION:4 fatalities\, 1 injuries.\n\nRoot causes: incompatible-chemic
@@ -1380,7 +1493,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:philadelphia-energy-solutions-2019@rskless-psm-calendar
 DTSTART;VALUE=DATE:20190621
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Philadelphia Energy Solutions Refinery Fire and HF
   Release (2019)
@@ -1399,7 +1512,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:tpc-port-neches-2019@rskless-psm-calendar
 DTSTART;VALUE=DATE:20191127
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: TPC Group Port Neches Butadiene Explosions and Fir
  e (2019)
@@ -1418,7 +1531,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:watson-grinding-2020@rskless-psm-calendar
 DTSTART;VALUE=DATE:20200124
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Watson Grinding and Manufacturing Propylene Explos
  ion (2020)
@@ -1437,7 +1550,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:valero-meraux-2020@rskless-psm-calendar
 DTSTART;VALUE=DATE:20200410
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Valero Meraux Refinery Hydrocracker Explosion and 
  Fire (2020)
@@ -1456,7 +1569,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lacc-westlake-2020@rskless-psm-calendar
 DTSTART;VALUE=DATE:20200411
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: LACC Spent Caustic Release (2020)
 DESCRIPTION:0 fatalities\, 1 injuries.\n\nRoot causes: unsecured-manway-ha
@@ -1473,7 +1586,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:bio-lab-westlake-2020@rskless-psm-calendar
 DTSTART;VALUE=DATE:20200827
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Bio-Lab Chemical Fire and Toxic Gas Release (Hurri
  cane Laura) (2020)
@@ -1492,7 +1605,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:evergreen-packaging-2020@rskless-psm-calendar
 DTSTART;VALUE=DATE:20200921
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Evergreen Packaging Paper Mill Fire During Hot Wor
  k (2020)
@@ -1511,7 +1624,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:wacker-polysilicon-2020@rskless-psm-calendar
 DTSTART;VALUE=DATE:20201113
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Wacker Polysilicon Hydrogen Chloride Release (2020
  )
@@ -1530,7 +1643,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:formosa-point-comfort-2020@rskless-psm-calendar
 DTSTART;VALUE=DATE:20201203
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Formosa Plastics Point Comfort Chlorine Release (2
  020)
@@ -1549,7 +1662,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:optima-belle-2020@rskless-psm-calendar
 DTSTART;VALUE=DATE:20201208
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Optima Belle Double Cone Dryer Explosion (2020)
 DESCRIPTION:1 fatalities\, 3 injuries.\n\nRoot causes: inaccurate-safety-d
@@ -1568,7 +1681,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:foundation-food-group-2021@rskless-psm-calendar
 DTSTART;VALUE=DATE:20210128
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Foundation Food Group Liquid Nitrogen Release (202
  1)
@@ -1588,7 +1701,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:yenkin-majestic-2021@rskless-psm-calendar
 DTSTART;VALUE=DATE:20210408
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Yenkin-Majestic Resin Plant Vapor Cloud Explosion 
  and Fire (2021)
@@ -1608,7 +1721,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:chemtool-rockton-2021@rskless-psm-calendar
 DTSTART;VALUE=DATE:20210614
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Chemtool Rockton Plant Fire (2021)
 DESCRIPTION:0 fatalities\, 2 injuries.\n\nRoot causes: mechanical-equipmen
@@ -1625,7 +1738,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:rubicon-geismar-2022@rskless-psm-calendar
 DTSTART;VALUE=DATE:20220115
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Rubicon MDI Release (2022)
 DESCRIPTION:0 fatalities\, 2 injuries.\n\nRoot causes: premature-rupture-d
@@ -1643,7 +1756,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:bp-husky-toledo-2022@rskless-psm-calendar
 DTSTART;VALUE=DATE:20220920
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: BP-Husky Toledo Refinery Naphtha Fire (2022)
 DESCRIPTION:2 fatalities\, 0 injuries.\n\nRoot causes: liquid-overflow-int
@@ -1661,7 +1774,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:home-market-foods-2022@rskless-psm-calendar
 DTSTART;VALUE=DATE:20221219
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Home Market Foods Ammonia Release (2022)
 DESCRIPTION:1 fatalities\, 1 injuries.\n\nRoot causes: severed-ammonia-pip
@@ -1679,7 +1792,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:phillips-66-borger-2023@rskless-psm-calendar
 DTSTART;VALUE=DATE:20230117
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Phillips 66 Borger Refinery Natural Gas Liquid Fir
  e (2023)
@@ -1698,7 +1811,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:darling-ingredients-2023@rskless-psm-calendar
 DTSTART;VALUE=DATE:20230622
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Darling Ingredients Aluminum Chloride Tank Rupture
   (2023)
@@ -1716,7 +1829,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:dow-plaquemine-2023@rskless-psm-calendar
 DTSTART;VALUE=DATE:20230714
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Dow Louisiana Operations Glycol II Explosion and E
  thylene Oxide Release (2023)
@@ -1735,7 +1848,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:biolab-conyers-2024@rskless-psm-calendar
 DTSTART;VALUE=DATE:20240929
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: BioLab Conyers Warehouse Fire and Toxic Smoke Plum
  e (2024)
@@ -1754,7 +1867,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:pemex-deer-park-2024@rskless-psm-calendar
 DTSTART;VALUE=DATE:20241010
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: PEMEX Deer Park Refinery Hydrogen Sulfide Release 
  (2024)
@@ -1771,9 +1884,28 @@ DESCRIPTION:Reminder
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:givaudan-louisville-2024@rskless-psm-calendar
+DTSTART;VALUE=DATE:20241112
+DTSTAMP:20260824T232858Z
+RRULE:FREQ=YEARLY
+SUMMARY:⚠️ Anniversary: Givaudan Sense Colour Caramel Reactor Explosion (2
+ 024)
+DESCRIPTION:2 fatalities\, 3 injuries.\n\nRoot causes: runaway-decompositi
+ on-reaction-not-recognized\, relief-system-4-times-too-small\, decades-ol
+ d-reactor-relocated-and-modified\, control-room-not-blast-resistant-40-fe
+ et-away.\n\nFull brief and lessons learned: https://harish70777.github.io
+ /process-safety-Calendar/incidents/givaudan-louisville-2024
+LOCATION:Louisville\, KY\, USA
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT0S
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:us-steel-clairton-2025@rskless-psm-calendar
 DTSTART;VALUE=DATE:20250811
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: U.S. Steel Clairton Coke Works Coke Oven Gas Explo
  sion (2025)
@@ -1792,7 +1924,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:accurate-energetic-systems-2025@rskless-psm-calendar
 DTSTART;VALUE=DATE:20251010
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Accurate Energetic Systems Explosives Plant Explos
  ion (2025)
@@ -1811,7 +1943,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:woodland-pulp-2026@rskless-psm-calendar
 DTSTART;VALUE=DATE:20260127
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Woodland Pulp Mill Hydrogen Sulfide Release (2026)
 DESCRIPTION:2 fatalities\, 10 injuries.\n\nRoot causes: no-fixed-gas-detec
@@ -1829,7 +1961,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:catalyst-refiners-2026@rskless-psm-calendar
 DTSTART;VALUE=DATE:20260422
-DTSTAMP:20260824T230052Z
+DTSTAMP:20260824T232858Z
 RRULE:FREQ=YEARLY
 SUMMARY:⚠️ Anniversary: Catalyst Refiners Hydrogen Sulfide Release (2026)
 DESCRIPTION:2 fatalities\, 4 injuries.\n\nRoot causes: incompatible-chemic

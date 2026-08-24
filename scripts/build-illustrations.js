@@ -653,6 +653,48 @@ const RECIPES = {
     { icon: "explosion", label: "Explosion Collapses Roof", caption: "Ruptured refrigeration piping too", source: "'The explosion's force ruptured ammonia refrigeration lines'" },
     { icon: "person", label: "3 Killed, 41 Injured", caption: "Ammonia release complicated response", source: "fatalities/injuries frontmatter fields" },
   ]},
+"napp-technologies-1995": { stages: [
+    { icon: "tank", label: "Blending Runs 24 Hours", caption: "Expected to take under an hour", source: "'expected to take less than an hour but instead continued for nearly 24 hours'" },
+    { icon: "vaporCloud", label: "Water Enters the Mixture", caption: "Reactive aluminum powder and sulfite", source: "'water was introduced into the mixture...triggering the water-reactive combination'" },
+    { icon: "warningIgnored", label: "Fire Dept Notified Late", caption: "12-hour delay after danger was known", source: "'was not notified of a developing problem at the plant until shortly before the explosion'" },
+    { icon: "explosion", label: "Explosion", caption: "5 killed, 35 injured", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "terra-industries-port-neal-1994": { stages: [
+    { icon: "gauge", label: "Vessels Left Charged After Shutdown", caption: "No monitoring of the ammonium nitrate plant", source: "'left charged with material and unmonitored after shutdown'" },
+    { icon: "corrosion", label: "Acidic Conditions Develop", caption: "Steam applied for a prolonged period", source: "'strongly acidic conditions in the neutralizer and rundown tank'" },
+    { icon: "explosion", label: "Two Detonations", caption: "Felt in 2 neighboring states", source: "'two massive detonations leveled portions of an ammonium nitrate plant'" },
+    { icon: "vaporCloud", label: "Ammonia Cloud, 2,500 Evacuated", caption: "4 killed, 18 injured", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "givaudan-louisville-2024": { stages: [
+    { icon: "tank", label: "Reactor Built in 1978", caption: "Relocated and modified for this plant", source: "'originally built in 1978...modified in 2021 to fit the Louisville facility's design'" },
+    { icon: "gauge", label: "Sugar Reaction Runs Away", caption: "Relief system 4x too small", source: "'the reactor's relief system would have needed to be approximately four times larger'" },
+    { icon: "explosion", label: "Reactor Ruptures", caption: "Control room only 40 feet away", source: "'The blast wave struck a control room located only 40 feet from the reactor'" },
+    { icon: "person", label: "2 Killed, 3 Injured", caption: "\"A catastrophe waiting to happen\"", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "bps-west-helena-1997": { stages: [
+    { icon: "warningIgnored", label: "Pesticide Sack Overheats", caption: "Contact with a hot compressor pipe", source: "'a bulk sack of azinphos-methyl generated heat through decomposition after being placed in contact with heated equipment'" },
+    { icon: "fire", label: "Smoke Reported", caption: "Firefighters told there was no explosion risk", source: "'company representatives reportedly told them there was no risk of an explosion'" },
+    { icon: "explosion", label: "Explosion While Searching", caption: "Cinderblock wall collapses", source: "'a collapsing cinderblock wall killed three of the firefighters'" },
+    { icon: "person", label: "3 Firefighters Killed", caption: "17 injured, river closed 12 hours", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "whitehall-leather-1999": { stages: [
+    { icon: "tank", label: "Wrong Chemical Assumed", caption: "\"Pickle acid\" nickname caused confusion", source: "'assumed this new delivery of sodium hydrosulfide was also pickle acid'" },
+    { icon: "warningIgnored", label: "No Verification Before Unloading", caption: "No procedure to confirm the match", source: "'no procedure requiring confirmation that an incoming delivery matched the intended receiving tank'" },
+    { icon: "vaporCloud", label: "Chemicals Mix, Release Toxic Gas", caption: "Hydrogen sulfide generated", source: "'the two chemicals reacted and produced hydrogen sulfide gas'" },
+    { icon: "person", label: "1 Killed, 1 Injured", caption: "Neither chemical had an NFPA rating", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "arco-channelview-1990": { stages: [
+    { icon: "gauge", label: "Nitrogen Purge Reduced", caption: "Compressor taken out for repair", source: "'the tank received only minimal nitrogen purging'" },
+    { icon: "warningIgnored", label: "Analyzer in a Dead Zone", caption: "Missed the oxygen buildup", source: "'a temporary oxygen analyzer...failed to detect the dangerous buildup in time'" },
+    { icon: "explosion", label: "Tank Explodes", caption: "Felt up to 20 miles away", source: "'The blast leveled an area the size of a city block'" },
+    { icon: "person", label: "17 Killed, 5 Injured", caption: "Halted 15% of US styrene output", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "angus-sterlington-1991": { stages: [
+    { icon: "fire", label: "Small Fire Noticed", caption: "Alarm sounded near a compressor", source: "'workers preparing to check a compressor...noticed a small fire and sounded the plant's fire alarm'" },
+    { icon: "warningIgnored", label: "Only 30 Seconds of Warning", caption: "Explosion followed almost immediately", source: "'Approximately 30 seconds later, an explosion occurred'" },
+    { icon: "explosion", label: "Explosion, Then Cascading Blasts", caption: "Felt 8 miles away", source: "'followed by a series of smaller secondary explosions'" },
+    { icon: "person", label: "8 Killed, ~120 Injured", caption: "$10M fine for insufficient protocols", source: "fatalities/injuries frontmatter fields" },
+  ]},
 };
 
 function esc(str) {
