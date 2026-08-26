@@ -189,6 +189,12 @@ the incident's own .md file at any time.
   Stage 3 [fire] "Fire Burns Several Days": 'a fire that burned for several days...approximately 42,000 pounds of hydrogen fluoride'
   Stage 4 [warningIgnored] "Water Supply Nearly Exhausted": 'CITGO nearly exhausted the stored water supply for the water mitigation system'
 
+--- CITGO Sulphur Refinery Heat Exchanger Hydrogen Fire (citgo-sulphur-2023) ---
+  Stage 1 [valve] "Bolts Under-Torqued in 2013": 'the assembly instructions...listed an incorrect bolt size'
+  Stage 2 [gauge] "43 Thermal Cycles Over a Decade": 'the bolts had relaxed...to the point that the flange could no longer contain the hydrogen'
+  Stage 3 [vaporCloud] "Hydrogen Escapes at Startup": 'hydrogen gas were accidentally released from a shell-and-tube heat exchanger'
+  Stage 4 [fire] "Fire, $1.5M Damage": fatalities/injuries frontmatter fields
+
 --- ConAgra Slim Jim Plant Natural Gas Explosion (conagra-slim-jim-2009) ---
   Stage 1 [valve] "Gas Vented Indoors": 'Rather than directing this purge outdoors, the contractors vented the gas inside the building'
   Stage 2 [vaporCloud] "Flammable Cloud Accumulates": 'The escaping natural gas accumulated and formed a flammable cloud inside the plant'
@@ -267,11 +273,23 @@ the incident's own .md file at any time.
   Stage 3 [explosion] "Initial Explosion": 'a "smoldering nest"...an accumulation of corn product that had ignited inside process piping'
   Stage 4 [fire] "Cascading Explosions": 'spread through interconnected piping into other buildings...fueling a cascade of secondary explosions'
 
+--- Domtar Hawesville Hydrogen Sulfide Release (domtar-hawesville-2023) ---
+  Stage 1 [valve] "Valve Left Open": 'a valve had been left open, allowing a...stream containing sodium sulfide to enter the tank'
+  Stage 2 [vaporCloud] "Acid Meets Sulfide": 'the sulfamic acid combined with the sodium sulfide...generated toxic hydrogen sulfide gas'
+  Stage 3 [warningIgnored] "Coworker Attempts Rescue": 'A third operator was seriously injured attempting to help the first'
+  Stage 4 [person] "3 Injured": fatalities/injuries frontmatter fields
+
 --- Dow Louisiana Operations Glycol II Explosion and Ethylene Oxide Release (dow-plaquemine-2023) ---
   Stage 1 [warningIgnored] "10 Prior Incidents in 4 Years": 'the Plaquemine facility had already experienced ten separate emergency incidents'
   Stage 2 [explosion] "Explosions and Fire": 'a series of explosions and fires occurred...causing significant damage'
   Stage 3 [vaporCloud] "31,000 lbs of EtO Released": 'More than 31,000 pounds of ethylene oxide...were released into the atmosphere'
   Stage 4 [building] "Hundreds Sheltered in Place": fatalities/injuries frontmatter fields
+
+--- Dow St. Charles Operations Hot Water Release (dow-st-charles-2023) ---
+  Stage 1 [valve] "Bleed Valves Opened for Repair": 'site personnel opened two bleed valves in series...attached a hose to route the leaking hot feedwater'
+  Stage 2 [warningIgnored] "Readiness Checklist Skipped": 'they did not use the site's operational readiness checklist'
+  Stage 3 [gauge] "Hot Water Escapes on Restart": 'the two bleed valves remained open, and the temporary hose remained connected'
+  Stage 4 [person] "1 Injured": fatalities/injuries frontmatter fields
 
 --- DPC Enterprises Glendale Chlorine Release (dpc-enterprises-glendale-2003) ---
   Stage 1 [tank] "Scrubber Caustic Depleted": 'routinely run down to less than 0.5 percent'
@@ -339,6 +357,12 @@ the incident's own .md file at any time.
   Stage 3 [explosion] "Column Explodes": 'located only 50 feet from the column's base'
   Stage 4 [person] "3 Injured": fatalities/injuries frontmatter fields
 
+--- Flint Hills Resources Rosemount Sulfur Recovery Tube Rupture (flint-hills-rosemount-2023) ---
+  Stage 1 [corrosion] "Sulfidation Corrosion Thins Tube": 'sulfidation corrosion...gradually thinning the metal over time'
+  Stage 2 [warningIgnored] "Feedwater Not Monitored": 'the boiler feed water was not being effectively monitored'
+  Stage 3 [vaporCloud] "Boiler Tube Ruptures": 'a ruptured tube within the waste heat boiler'
+  Stage 4 [building] "$2.2M Damage": fatalities/injuries frontmatter fields
+
 --- Flixborough Chemical Plant Explosion (flixborough-1974) ---
   Stage 1 [corrosion] "Reactor Cracked": 'a crack was found in one of six reactors'
   Stage 2 [valve] "Temporary Bypass Installed": 'a temporary bypass pipe was installed...without proper engineering calculations'
@@ -368,6 +392,12 @@ the incident's own .md file at any time.
   Stage 2 [warningIgnored] "Containment Also Failed": 'The tank's secondary containment wall...had cracks and holes of its own from years of disrepair'
   Stage 3 [vaporCloud] "Chemical Leak": 'Crude MCHM...leaked through the holes'
   Stage 4 [building] "300,000 Without Water": 'forced a "do-not-use" order on tap water for up to 300,000 residents across nine counties'
+
+--- Georgia-Pacific Alcolu Caustic Pump Overpressure (georgia-pacific-alcolu-2023) ---
+  Stage 1 [valve] "New Pump, First Day of Use": 'this was the first time Georgia-Pacific used it'
+  Stage 2 [warningIgnored] "Firewater Used to Flush It": 'employees decided to flush it out with water from a fire hose'
+  Stage 3 [explosion] "Plastic Casing Cracks": 'the pump's plastic casing could not withstand the pressure supplied by the firewater'
+  Stage 4 [person] "1 Injured": fatalities/injuries frontmatter fields
 
 --- Georgia-Pacific Resins Columbus Runaway Reaction Explosion (georgia-pacific-columbus-1997) ---
   Stage 1 [building] "Reactor in a Residential Area": 'residents in the surrounding South Side neighborhood had already experienced years of hazardous releases'
@@ -452,6 +482,18 @@ the incident's own .md file at any time.
   Stage 2 [warningIgnored] "Worker Mishandles the Clog": 'the facility's monitoring systems failed to detect the developing problem'
   Stage 3 [explosion] "Explosions, Toxins Reach River": 'released approximately 100 tons of pollutants...into the nearby Songhua River'
   Stage 4 [building] "Water Cut for Millions": fatalities/injuries frontmatter fields
+
+--- Kinder Morgan Snyder Crude Oil Pump Failure Fire (kinder-morgan-snyder-crude-2023) ---
+  Stage 1 [corrosion] "Excessive Pump Wear": 'the pump's bearing lock nut...had become loose'
+  Stage 2 [gauge] "Shaft Shifts, Contacts Parts": 'this loose lock nut allowed the pump shaft to move and contact pump components'
+  Stage 3 [fire] "Metal-to-Metal Contact Ignites It": 'heat from metal-to-metal contact in the pump seal area may have provided the ignition source'
+  Stage 4 [person] "0 Injured": fatalities/injuries frontmatter fields
+
+--- Kinder Morgan Snyder CO2 Vessel Overpressure Rupture (kinder-morgan-snyder-gas-2023) ---
+  Stage 1 [valve] "Dump Valve Stuck Open": 'a malfunction the company found was common at the site during cold weather'
+  Stage 2 [corrosion] "Gas Cools to -30°F, Ice Forms": 'ice or hydrate to form in the drain system vessel's outlet piping'
+  Stage 3 [gauge] "Pressure Builds 4x Rating": 'ruptured in a brittle failure mode'
+  Stage 4 [explosion] "Fragments Fly 1,200 Feet": fatalities/injuries frontmatter fields
 
 --- Kleen Energy Plant Natural Gas Explosion (kleen-energy-2010) ---
   Stage 1 [valve] "Gas Blow to Clean Piping": 'using a "gas blow", a common industry practice of venting high-pressure natural gas...directly to atmosphere'
@@ -590,6 +632,12 @@ the incident's own .md file at any time.
   Stage 2 [vaporCloud] "H2S Vapor Travels Downwind": 'The hydrogen sulfide vapor then traveled downwind into an adjacent unit'
   Stage 3 [warningIgnored] "No Positive Equipment ID": 'the refinery lacked an effective method to clearly distinguish the correct flange before work began'
   Stage 4 [person] "Two Fatalities": fatalities/injuries frontmatter fields
+
+--- Pemex Deer Park Heat Exchanger Startup Bleed Valve Fire (pemex-deer-park-feb2023) ---
+  Stage 1 [valve] "Bleed Valve Missed in Walkdown": 'a bleed valve on top of the heat exchangers remained locked open'
+  Stage 2 [warningIgnored] "No Leak Test Before Startup": 'no system, such as leak testing, to ensure all valves were in the correct position'
+  Stage 3 [fire] "Hot Hydrocarbons Autoignite": 'The hot hydrocarbons ignited (autoignition), causing a fire'
+  Stage 4 [building] "$2.3M Damage": fatalities/injuries frontmatter fields
 
 --- Philadelphia Energy Solutions Refinery Fire and HF Release (philadelphia-energy-solutions-2019) ---
   Stage 1 [corrosion] "1973 Pipe Elbow": 'A steel pipe elbow installed in 1973...ruptured after decades of corrosion had eaten the pipe wall down to roughly 7% of its original thickness'

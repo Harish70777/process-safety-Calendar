@@ -911,6 +911,54 @@ const RECIPES = {
     { icon: "vaporCloud", label: "Ammonia Bursts Out", caption: "No respiratory protection worn", source: "'a burst of ammonia vapor was released directly into the employee's chest and face'" },
     { icon: "person", label: "1 Injured", caption: "Same gap likely exists elsewhere", source: "fatalities/injuries frontmatter fields" },
   ]},
+"dow-st-charles-2023": { stages: [
+    { icon: "valve", label: "Bleed Valves Opened for Repair", caption: "Hose routed leak to a sump", source: "'site personnel opened two bleed valves in series...attached a hose to route the leaking hot feedwater'" },
+    { icon: "warningIgnored", label: "Readiness Checklist Skipped", caption: "No walkdown before startup", source: "'they did not use the site's operational readiness checklist'" },
+    { icon: "gauge", label: "Hot Water Escapes on Restart", caption: "Valves and hose never removed", source: "'the two bleed valves remained open, and the temporary hose remained connected'" },
+    { icon: "person", label: "1 Injured", caption: "Stepped into a pool of hot water", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "citgo-sulphur-2023": { stages: [
+    { icon: "valve", label: "Bolts Under-Torqued in 2013", caption: "Wrong bolt size in instructions", source: "'the assembly instructions...listed an incorrect bolt size'" },
+    { icon: "gauge", label: "43 Thermal Cycles Over a Decade", caption: "Bolts gradually relaxed further", source: "'the bolts had relaxed...to the point that the flange could no longer contain the hydrogen'" },
+    { icon: "vaporCloud", label: "Hydrogen Escapes at Startup", caption: "Flange could no longer contain it", source: "'hydrogen gas were accidentally released from a shell-and-tube heat exchanger'" },
+    { icon: "fire", label: "Fire, $1.5M Damage", caption: "Emergency shutdown, no injuries", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "kinder-morgan-snyder-gas-2023": { stages: [
+    { icon: "valve", label: "Dump Valve Stuck Open", caption: "Known cold-weather malfunction", source: "'a malfunction the company found was common at the site during cold weather'" },
+    { icon: "corrosion", label: "Gas Cools to -30°F, Ice Forms", caption: "Blocks the emergency relief valve", source: "'ice or hydrate to form in the drain system vessel's outlet piping'" },
+    { icon: "gauge", label: "Pressure Builds 4x Rating", caption: "Vessel rated 125 psig, hit 700", source: "'ruptured in a brittle failure mode'" },
+    { icon: "explosion", label: "Fragments Fly 1,200 Feet", caption: "$14M damage, control room hit", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "kinder-morgan-snyder-crude-2023": { stages: [
+    { icon: "corrosion", label: "Excessive Pump Wear", caption: "Bearing lock nut comes loose", source: "'the pump's bearing lock nut...had become loose'" },
+    { icon: "gauge", label: "Shaft Shifts, Contacts Parts", caption: "Damage releases crude oil", source: "'this loose lock nut allowed the pump shaft to move and contact pump components'" },
+    { icon: "fire", label: "Metal-to-Metal Contact Ignites It", caption: "Heat from friction in the seal area", source: "'heat from metal-to-metal contact in the pump seal area may have provided the ignition source'" },
+    { icon: "person", label: "0 Injured", caption: "$1.5M in damage", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "pemex-deer-park-feb2023": { stages: [
+    { icon: "valve", label: "Bleed Valve Missed in Walkdown", caption: "Hard to see, dark outside", source: "'a bleed valve on top of the heat exchangers remained locked open'" },
+    { icon: "warningIgnored", label: "No Leak Test Before Startup", caption: "No independent verification step", source: "'no system, such as leak testing, to ensure all valves were in the correct position'" },
+    { icon: "fire", label: "Hot Hydrocarbons Autoignite", caption: "562°F, well above autoignition", source: "'The hot hydrocarbons ignited (autoignition), causing a fire'" },
+    { icon: "building", label: "$2.3M Damage", caption: "Isolation drawing destroyed in fire", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "georgia-pacific-alcolu-2023": { stages: [
+    { icon: "valve", label: "New Pump, First Day of Use", caption: "Failed to move fluid, leaked", source: "'this was the first time Georgia-Pacific used it'" },
+    { icon: "warningIgnored", label: "Firewater Used to Flush It", caption: "Avoided caustic on hands instead", source: "'employees decided to flush it out with water from a fire hose'" },
+    { icon: "explosion", label: "Plastic Casing Cracks", caption: "Not rated for firewater pressure", source: "'the pump's plastic casing could not withstand the pressure supplied by the firewater'" },
+    { icon: "person", label: "1 Injured", caption: "Pump later eliminated entirely", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "domtar-hawesville-2023": { stages: [
+    { icon: "valve", label: "Valve Left Open", caption: "Wrong process stream enters tank", source: "'a valve had been left open, allowing a...stream containing sodium sulfide to enter the tank'" },
+    { icon: "vaporCloud", label: "Acid Meets Sulfide", caption: "Generates toxic hydrogen sulfide", source: "'the sulfamic acid combined with the sodium sulfide...generated toxic hydrogen sulfide gas'" },
+    { icon: "warningIgnored", label: "Coworker Attempts Rescue", caption: "Falls 11 feet trying to help", source: "'A third operator was seriously injured attempting to help the first'" },
+    { icon: "person", label: "3 Injured", caption: "All regained consciousness", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "flint-hills-rosemount-2023": { stages: [
+    { icon: "corrosion", label: "Sulfidation Corrosion Thins Tube", caption: "Fouling raises local temperature", source: "'sulfidation corrosion...gradually thinning the metal over time'" },
+    { icon: "warningIgnored", label: "Feedwater Not Monitored", caption: "Hydrocarbon contamination undetected", source: "'the boiler feed water was not being effectively monitored'" },
+    { icon: "vaporCloud", label: "Boiler Tube Ruptures", caption: "H2S and SO2 released", source: "'a ruptured tube within the waste heat boiler'" },
+    { icon: "building", label: "$2.2M Damage", caption: "Real-time monitoring added after", source: "fatalities/injuries frontmatter fields" },
+  ]},
 };
 
 function esc(str) {

@@ -4256,6 +4256,39 @@
     "hasBody": true
   },
   {
+    "id": "dow-st-charles-2023",
+    "file": "dow-st-charles-2023.md",
+    "title": "Dow St. Charles Operations Hot Water Release",
+    "date": "2023-01-17",
+    "location": "Hahnville, LA, USA",
+    "industry": [
+      "chemical-manufacturing"
+    ],
+    "chemicals": [
+      "boiler-feedwater"
+    ],
+    "severity": 2,
+    "fatalities": 0,
+    "injuries": 1,
+    "root_causes": [
+      "bleed-valves-left-open-during-startup",
+      "temporary-hose-not-removed-before-recommissioning",
+      "operational-readiness-checklist-not-used",
+      "operator-stepped-into-pooled-hot-water"
+    ],
+    "psm_elements": [
+      "operating-procedures",
+      "mechanical-integrity",
+      "training"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Incident Reports Volume One (January 2025)"
+    ],
+    "hasBody": true
+  },
+  {
     "id": "phillips-66-borger-2023",
     "file": "phillips-66-borger-2023.md",
     "title": "Phillips 66 Borger Refinery Natural Gas Liquid Fire",
@@ -4291,6 +4324,138 @@
     "hasBody": true
   },
   {
+    "id": "citgo-sulphur-2023",
+    "file": "citgo-sulphur-2023.md",
+    "title": "CITGO Sulphur Refinery Heat Exchanger Hydrogen Fire",
+    "date": "2023-01-21",
+    "location": "Sulphur, LA, USA",
+    "industry": [
+      "oil-gas-refining"
+    ],
+    "chemicals": [
+      "hydrogen"
+    ],
+    "severity": 2,
+    "fatalities": 0,
+    "injuries": 0,
+    "root_causes": [
+      "bolts-under-torqued-at-assembly-in-2013",
+      "wrong-bolt-size-in-assembly-instructions",
+      "incorrect-instructions-applied-from-similar-exchanger",
+      "thermal-cycling-relaxed-flange-over-a-decade"
+    ],
+    "psm_elements": [
+      "mechanical-integrity",
+      "process-safety-information"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Incident Reports Volume One (January 2025)"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "kinder-morgan-snyder-gas-2023",
+    "file": "kinder-morgan-snyder-gas-2023.md",
+    "title": "Kinder Morgan Snyder CO2 Vessel Overpressure Rupture",
+    "date": "2023-01-31",
+    "location": "Snyder, TX, USA",
+    "industry": [
+      "gas-processing"
+    ],
+    "chemicals": [
+      "carbon-dioxide",
+      "hydrogen-sulfide"
+    ],
+    "severity": 1,
+    "fatalities": 0,
+    "injuries": 0,
+    "root_causes": [
+      "dump-valve-stuck-open-in-cold-weather",
+      "ice-blocked-emergency-relief-valve-outlet",
+      "vessel-rated-far-below-actual-pressure-reached",
+      "phas-treated-hazard-as-operational-not-safety"
+    ],
+    "psm_elements": [
+      "process-hazard-analysis",
+      "mechanical-integrity",
+      "process-safety-information"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Incident Reports Volume One (January 2025)"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "kinder-morgan-snyder-crude-2023",
+    "file": "kinder-morgan-snyder-crude-2023.md",
+    "title": "Kinder Morgan Snyder Crude Oil Pump Failure Fire",
+    "date": "2023-02-11",
+    "location": "Snyder, TX, USA",
+    "industry": [
+      "oil-gas-production"
+    ],
+    "chemicals": [
+      "crude-oil",
+      "nitrogen-oxide"
+    ],
+    "severity": 2,
+    "fatalities": 0,
+    "injuries": 0,
+    "root_causes": [
+      "excessive-pump-wear-and-tear",
+      "loose-bearing-lock-nut",
+      "shaft-movement-damaged-pump-components",
+      "metal-to-metal-contact-provided-ignition-source"
+    ],
+    "psm_elements": [
+      "mechanical-integrity"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Incident Reports Volume One (January 2025)"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "pemex-deer-park-feb2023",
+    "file": "pemex-deer-park-feb2023.md",
+    "title": "Pemex Deer Park Heat Exchanger Startup Bleed Valve Fire",
+    "date": "2023-02-23",
+    "location": "Deer Park, TX, USA",
+    "industry": [
+      "oil-gas-refining"
+    ],
+    "chemicals": [
+      "pentane",
+      "heavier-hydrocarbons"
+    ],
+    "severity": 2,
+    "fatalities": 0,
+    "injuries": 0,
+    "root_causes": [
+      "bleed-valve-left-locked-open",
+      "energy-isolation-drawing-incomplete-or-unclear",
+      "valve-not-easily-visible-during-walkdown",
+      "no-leak-testing-before-startup"
+    ],
+    "psm_elements": [
+      "operating-procedures",
+      "mechanical-integrity",
+      "process-safety-information"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Incident Reports Volume One (January 2025)"
+    ],
+    "hasBody": true
+  },
+  {
     "id": "conocophillips-watford-city-2023",
     "file": "conocophillips-watford-city-2023.md",
     "title": "ConocoPhillips Watford City Lone Worker Asphyxiation",
@@ -4316,6 +4481,39 @@
       "operating-procedures",
       "training",
       "mechanical-integrity"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Incident Reports Volume One (January 2025)"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "georgia-pacific-alcolu-2023",
+    "file": "georgia-pacific-alcolu-2023.md",
+    "title": "Georgia-Pacific Alcolu Caustic Pump Overpressure",
+    "date": "2023-02-24",
+    "location": "Alcolu, SC, USA",
+    "industry": [
+      "pulp-paper-manufacturing"
+    ],
+    "chemicals": [
+      "sodium-hydroxide"
+    ],
+    "severity": 2,
+    "fatalities": 0,
+    "injuries": 1,
+    "root_causes": [
+      "new-pump-used-for-first-time-day-after-installation",
+      "firewater-used-to-flush-instead-of-depressurizing",
+      "pump-not-rated-for-firewater-pressure",
+      "plastic-casing-cracked-under-pressure"
+    ],
+    "psm_elements": [
+      "management-of-change",
+      "mechanical-integrity",
+      "operating-procedures"
     ],
     "status": "published",
     "source_verified": true,
@@ -4357,6 +4555,74 @@
     "sources": [
       "Harris County Fire Marshal's Office Investigation Ruling (2023)",
       "INEOS Phenol Official Statement (March 2023)"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "domtar-hawesville-2023",
+    "file": "domtar-hawesville-2023.md",
+    "title": "Domtar Hawesville Hydrogen Sulfide Release",
+    "date": "2023-03-29",
+    "location": "Hawesville, KY, USA",
+    "industry": [
+      "pulp-paper-manufacturing"
+    ],
+    "chemicals": [
+      "sulfamic-acid",
+      "sodium-sulfide",
+      "hydrogen-sulfide"
+    ],
+    "severity": 1,
+    "fatalities": 0,
+    "injuries": 3,
+    "root_causes": [
+      "valve-left-open-allowed-wrong-stream-into-tank",
+      "procedure-did-not-specify-closing-that-valve",
+      "sulfamic-acid-added-to-contaminated-tank",
+      "coworker-injured-attempting-rescue"
+    ],
+    "psm_elements": [
+      "operating-procedures",
+      "training",
+      "mechanical-integrity"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Incident Reports Volume One (January 2025)"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "flint-hills-rosemount-2023",
+    "file": "flint-hills-rosemount-2023.md",
+    "title": "Flint Hills Resources Rosemount Sulfur Recovery Tube Rupture",
+    "date": "2023-04-08",
+    "location": "Rosemount, MN, USA",
+    "industry": [
+      "oil-gas-refining"
+    ],
+    "chemicals": [
+      "hydrogen-sulfide",
+      "sulfur-dioxide"
+    ],
+    "severity": 2,
+    "fatalities": 0,
+    "injuries": 0,
+    "root_causes": [
+      "sulfidation-corrosion-thinned-boiler-tube",
+      "hydrocarbon-fouling-raised-tube-wall-temperature",
+      "boiler-feedwater-not-effectively-monitored",
+      "contamination-remained-undetected"
+    ],
+    "psm_elements": [
+      "mechanical-integrity",
+      "process-safety-information"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Incident Reports Volume One (January 2025)"
     ],
     "hasBody": true
   },
