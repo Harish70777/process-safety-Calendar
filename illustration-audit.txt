@@ -21,6 +21,12 @@ the incident's own .md file at any time.
   Stage 3 [explosion] "Explosion": 'triggered a decomposition reaction...causing a catastrophic explosion'
   Stage 4 [warningIgnored] "Regulatory Gap": 'most of the federal regulations requiring such systems at hazardous chemical facilities simply don't apply to nitrous oxide manufacturers'
 
+--- Albright and Wilson Charleston Chemical Plant Explosion (albright-wilson-charleston-1991) ---
+  Stage 1 [tank] "Mixing Flame Retardant": 'began mixing chemicals to produce a flame retardant when an unexpected reaction'
+  Stage 2 [warningIgnored] "Subcontractors Nearby": 'a subcontractor that was installing insulation around pipes near the mixing apparatus'
+  Stage 3 [explosion] "Unexpected Reaction Ignites": 'the structure lost part of its walls and roof'
+  Stage 4 [person] "9 Killed, 33 Injured": fatalities/injuries frontmatter fields
+
 --- Allied Terminals Fertilizer Tank Collapse (allied-terminals-2008) ---
   Stage 1 [corrosion] "Welding Defect": root causes: 'CSB's investigation pointed to flaws in the tank's welded construction'
   Stage 2 [tank] "Tank Splits Open": 'splitting open vertically and releasing roughly 2.1 million gallons of fertilizer almost instantaneously'
@@ -56,6 +62,12 @@ the incident's own .md file at any time.
   Stage 2 [warningIgnored] "Equipment Not Grounded": 'none of the conductive metal components involved...were bonded and grounded'
   Stage 3 [fire] "Ignition": 'a popping sound signaled the tote had ignited'
   Stage 4 [building] "Second Incident in 3 Months": 'a similar static-spark, bonding-and-grounding failure had destroyed the company's Wichita, Kansas facility in July 2007'
+
+--- Bastian Plating Company Hydrogen Cyanide Release (bastian-plating-1988) ---
+  Stage 1 [tank] "Acid Meets Cyanide Residue": 'muriatic acid used to clean the vat reacted with residual zinc cyanide compounds'
+  Stage 2 [vaporCloud] "Worker Collapses in Confined Space": 'The worker collapsed while inside the confined space'
+  Stage 3 [warningIgnored] "Coworkers Attempt Rescue": 'Three coworkers...attempted to rescue him without any respiratory protection'
+  Stage 4 [person] "5 Killed, 20 Injured": fatalities/injuries frontmatter fields
 
 --- Bayer CropScience Pesticide Waste Tank Explosion (bayer-cropscience-2008) ---
   Stage 1 [gauge] "Premature Startup": 'began startup of the process before completing a proper pre-startup safety review and while bypassing safety interlocks'
@@ -506,6 +518,18 @@ the incident's own .md file at any time.
   Stage 2 [gauge] "No Automatic Cooling": 'With no stirring and no automatic cooling system, residual heat in the mixture drove a slow exothermic reaction'
   Stage 3 [overfill] "Pressure Exceeds Relief Setting": 'pressure inside the reactor exceeded the rupture disc's set point...and it burst'
   Stage 4 [vaporCloud] "Dioxin Release": 'The cloud carried an estimated 1-2 kg of TCDD dioxin...over the towns of Seveso and Meda'
+
+--- Shell Chemical Belpre Polymer Reactor Explosion (shell-belpre-1994) ---
+  Stage 1 [gauge] "Runaway Reaction in Reactor": 'A catastrophic failure of a 15,000 gallon polymer reactor vessel was initiated by a runaway chemical reaction'
+  Stage 2 [fire] "Fire Reaches Tank Farm": 'The fire then spread to a nearby chemical storage tank farm'
+  Stage 3 [explosion] "6 Tanks Ignite": 'Five more tanks ignited...holding millions of gallons of styrene'
+  Stage 4 [person] "3 Killed": fatalities/injuries frontmatter fields
+
+--- Shell Norco Catalytic Cracking Unit Explosion (shell-norco-1988) ---
+  Stage 1 [corrosion] "Vapor Line Corrodes": 'corrosion of an 8-inch vapor line running from a 10-inch header'
+  Stage 2 [warningIgnored] "Unit Run Beyond Design": 'the unit had a known corrosion problem, evidenced by an ammonia injection system'
+  Stage 3 [vaporCloud] "17,000 lbs Released in 30 Seconds": 'releasing an estimated 17,000 pounds of hydrocarbon vapor in roughly 30 seconds'
+  Stage 4 [person] "7 Killed, 18 Injured": fatalities/injuries frontmatter fields
 
 --- Silver Eagle Refinery Pipe Rupture and Hydrogen Explosion (silver-eagle-refinery-2009) ---
   Stage 1 [corrosion] "Never-Inspected Pipe": 'CSB's metallurgical analysis found no inspection records for the pipe at any point in its service life'

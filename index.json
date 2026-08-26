@@ -107,6 +107,77 @@
     "hasBody": true
   },
   {
+    "id": "shell-norco-1988",
+    "file": "shell-norco-1988.md",
+    "title": "Shell Norco Catalytic Cracking Unit Explosion",
+    "date": "1988-05-05",
+    "location": "Norco, LA, USA",
+    "industry": [
+      "oil-gas-refining"
+    ],
+    "chemicals": [
+      "hydrocarbon-vapor",
+      "propane"
+    ],
+    "severity": 1,
+    "fatalities": 7,
+    "injuries": 18,
+    "root_causes": [
+      "corroded-vapor-line-ruptured",
+      "unit-run-beyond-original-design-capacity",
+      "known-corrosion-problem-with-existing-mitigation",
+      "control-room-sited-too-close-to-hazard"
+    ],
+    "psm_elements": [
+      "mechanical-integrity",
+      "facility-siting",
+      "process-hazard-analysis"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "OSHA Accident Investigation Summary (1988)",
+      "Shell Oil Company Public Statement (1988)"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "bastian-plating-1988",
+    "file": "bastian-plating-1988.md",
+    "title": "Bastian Plating Company Hydrogen Cyanide Release",
+    "date": "1988-06-28",
+    "location": "Auburn, IN, USA",
+    "industry": [
+      "metal-finishing"
+    ],
+    "chemicals": [
+      "muriatic-acid",
+      "zinc-cyanide",
+      "hydrogen-cyanide"
+    ],
+    "severity": 1,
+    "fatalities": 5,
+    "injuries": 20,
+    "root_causes": [
+      "incompatible-chemicals-mixed-during-cleaning",
+      "confined-space-not-recognized-as-hazardous",
+      "coworkers-attempted-rescue-without-protection",
+      "cleaning-tank-not-purged-of-residual-cyanide"
+    ],
+    "psm_elements": [
+      "operating-procedures",
+      "training",
+      "emergency-planning"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "Contemporary News Coverage, Washington Post and UPI (1988)",
+      "OSHA Investigation Record"
+    ],
+    "hasBody": true
+  },
+  {
     "id": "piper-alpha-1988",
     "file": "piper-alpha-1988.md",
     "title": "Piper Alpha Offshore Platform Explosion",
@@ -247,6 +318,74 @@
     "sources": [
       "Federal Investigation Findings and OSHA Fine Announcement (1991)",
       "Chemical & Engineering News Coverage (1991)"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "albright-wilson-charleston-1991",
+    "file": "albright-wilson-charleston-1991.md",
+    "title": "Albright and Wilson Charleston Chemical Plant Explosion",
+    "date": "1991-06-17",
+    "location": "North Charleston, SC, USA",
+    "industry": [
+      "chemical-manufacturing"
+    ],
+    "chemicals": [
+      "phosphorus-compounds",
+      "flame-retardant-chemicals"
+    ],
+    "severity": 1,
+    "fatalities": 9,
+    "injuries": 33,
+    "root_causes": [
+      "unexpected-chemical-reaction-during-mixing",
+      "subcontractors-working-near-active-mixing-apparatus",
+      "cause-of-reaction-never-publicly-determined"
+    ],
+    "psm_elements": [
+      "process-hazard-analysis",
+      "contractors",
+      "facility-siting"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "Contemporary News Coverage, Chemical & Engineering News (1991)",
+      "Local News Retrospective Coverage (2018, 2020, 2021, 2023)"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "shell-belpre-1994",
+    "file": "shell-belpre-1994.md",
+    "title": "Shell Chemical Belpre Polymer Reactor Explosion",
+    "date": "1994-05-27",
+    "location": "Belpre, OH, USA",
+    "industry": [
+      "chemical-manufacturing"
+    ],
+    "chemicals": [
+      "kraton-polymer",
+      "styrene"
+    ],
+    "severity": 1,
+    "fatalities": 3,
+    "injuries": 0,
+    "root_causes": [
+      "runaway-reaction-in-polymer-reactor",
+      "fire-spread-to-storage-tank-farm",
+      "six-tanks-of-styrene-and-diesel-ignited",
+      "holiday-weekend-timing"
+    ],
+    "psm_elements": [
+      "process-hazard-analysis",
+      "mechanical-integrity",
+      "emergency-planning"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "OSHA Investigation Findings (1994)"
     ],
     "hasBody": true
   },

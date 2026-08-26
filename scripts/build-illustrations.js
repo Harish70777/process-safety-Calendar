@@ -695,6 +695,48 @@ const RECIPES = {
     { icon: "explosion", label: "Explosion, Then Cascading Blasts", caption: "Felt 8 miles away", source: "'followed by a series of smaller secondary explosions'" },
     { icon: "person", label: "8 Killed, ~120 Injured", caption: "$10M fine for insufficient protocols", source: "fatalities/injuries frontmatter fields" },
   ]},
+"albright-wilson-charleston-1991": { stages: [
+    { icon: "tank", label: "Mixing Flame Retardant", caption: "Special Products Unit, before noon", source: "'began mixing chemicals to produce a flame retardant when an unexpected reaction'" },
+    { icon: "warningIgnored", label: "Subcontractors Nearby", caption: "Installing insulation near the mixer", source: "'a subcontractor that was installing insulation around pipes near the mixing apparatus'" },
+    { icon: "explosion", label: "Unexpected Reaction Ignites", caption: "Building loses walls and roof", source: "'the structure lost part of its walls and roof'" },
+    { icon: "person", label: "9 Killed, 33 Injured", caption: "Cause never publicly determined", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "shell-belpre-1994": { stages: [
+    { icon: "gauge", label: "Runaway Reaction in Reactor", caption: "15,000-gallon Kraton-D polymer unit", source: "'A catastrophic failure of a 15,000 gallon polymer reactor vessel was initiated by a runaway chemical reaction'" },
+    { icon: "fire", label: "Fire Reaches Tank Farm", caption: "Spread from the destroyed K-1 unit", source: "'The fire then spread to a nearby chemical storage tank farm'" },
+    { icon: "explosion", label: "6 Tanks Ignite", caption: "Styrene and diesel, burned 9 hours", source: "'Five more tanks ignited...holding millions of gallons of styrene'" },
+    { icon: "person", label: "3 Killed", caption: "1,700 residents evacuated", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "shell-norco-1988": { stages: [
+    { icon: "corrosion", label: "Vapor Line Corrodes", caption: "8-inch line off a 10-inch header", source: "'corrosion of an 8-inch vapor line running from a 10-inch header'" },
+    { icon: "warningIgnored", label: "Unit Run Beyond Design", caption: "Known corrosion, existing mitigation", source: "'the unit had a known corrosion problem, evidenced by an ammonia injection system'" },
+    { icon: "vaporCloud", label: "17,000 lbs Released in 30 Seconds", caption: "Vapor cloud explosion near control room", source: "'releasing an estimated 17,000 pounds of hydrocarbon vapor in roughly 30 seconds'" },
+    { icon: "person", label: "7 Killed, 18 Injured", caption: "Damage felt 45 miles away", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "bastian-plating-1988": { stages: [
+    { icon: "tank", label: "Acid Meets Cyanide Residue", caption: "Cleaning a vat that held zinc cyanide", source: "'muriatic acid used to clean the vat reacted with residual zinc cyanide compounds'" },
+    { icon: "vaporCloud", label: "Worker Collapses in Confined Space", caption: "Hydrogen cyanide gas generated", source: "'The worker collapsed while inside the confined space'" },
+    { icon: "warningIgnored", label: "Coworkers Attempt Rescue", caption: "No respiratory protection", source: "'Three coworkers...attempted to rescue him without any respiratory protection'" },
+    { icon: "person", label: "5 Killed, 20 Injured", caption: "Worst confined-space accident in US history", source: "fatalities/injuries frontmatter fields" },
+  ]},
+"merck-barceloneta-1986": { stages: [
+    { icon: "tank", label: "Tank Component Fails", caption: "A carbon disk allegedly contributed", source: "'a carbon disk installed as part of the tank assembly contributed to the failure'" },
+    { icon: "explosion", label: "Tank Explodes", caption: "Fumes smelled 15 miles away", source: "'Residents as far as 15 miles away reported smelling fumes'" },
+    { icon: "warningIgnored", label: "Cyanide Feared in Water Supply", caption: "Byproduct of the plant's chemistry", source: "'government officials expressed concern that the local water supply might be contaminated with cyanide'" },
+    { icon: "person", label: "3 Killed, 5 Injured", caption: "Plant closed for 2 years", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "georgia-pacific-columbus-1997": { stages: [
+    { icon: "building", label: "Reactor in a Residential Area", caption: "Years of prior hazardous releases", source: "'residents in the surrounding South Side neighborhood had already experienced years of hazardous releases'" },
+    { icon: "gauge", label: "Known Hazard Since 1957", caption: "Runaway reactions documented decades earlier", source: "'phenol-formaldehyde runaway reactions had already caused recorded incidents dating back to 1957'" },
+    { icon: "explosion", label: "Reactor Explodes", caption: "Toxins spread across the neighborhood", source: "'The explosion spread toxins across the adjacent residential area'" },
+    { icon: "person", label: "1 Killed, 4 Injured", caption: "$22 million settlement followed", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "plastifax-gulfport-1982": { stages: [
+    { icon: "gauge", label: "Nitration Reaction Underway", caption: "Converting hexanol to hexyl-nitrate", source: "'during the nitration of 2-ethyl-hexanol to produce 2-ethyl-hexyl-nitrate'" },
+    { icon: "warningIgnored", label: "Insufficient Process Supervision", caption: "NIOSH recommended closer oversight", source: "'better supervision of potentially explosive chemical processes'" },
+    { icon: "explosion", label: "Plant Levels", caption: "Debris found nearly a mile away", source: "'Metal debris from the blast was scattered nearly a mile away'" },
+    { icon: "person", label: "3 Killed, 9 Injured", caption: "5,000 evacuated for 4 hours", source: "fatalities/injuries frontmatter fields" },
+  ]},
 };
 
 function esc(str) {
