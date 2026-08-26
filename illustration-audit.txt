@@ -69,6 +69,12 @@ the incident's own .md file at any time.
   Stage 3 [fire] "Ignition": 'a popping sound signaled the tote had ignited'
   Stage 4 [building] "Second Incident in 3 Months": 'a similar static-spark, bonding-and-grounding failure had destroyed the company's Wichita, Kansas facility in July 2007'
 
+--- BASF TOTALEnergies Port Arthur Distillation Tower Collapse (basf-totalenergies-port-arthur-2023) ---
+  Stage 1 [corrosion] "Water Ingress Corrodes Tower": 'water to enter the extractive distillation unit, causing internal corrosion'
+  Stage 2 [warningIgnored] "2016 Finding Not Passed On": 'a 2016 incident...had already revealed the potential for iron sulfide...not been effectively transferred'
+  Stage 3 [fire] "Manways Opened, Air Ignites It": 'oxygen entered the tower and triggered an exothermic iron sulfide oxidation reaction'
+  Stage 4 [building] "Tower Collapses": fatalities/injuries frontmatter fields
+
 --- Bastian Plating Company Hydrogen Cyanide Release (bastian-plating-1988) ---
   Stage 1 [tank] "Acid Meets Cyanide Residue": 'muriatic acid used to clean the vat reacted with residual zinc cyanide compounds'
   Stage 2 [vaporCloud] "Worker Collapses in Confined Space": 'The worker collapsed while inside the confined space'
@@ -201,6 +207,24 @@ the incident's own .md file at any time.
   Stage 3 [vaporCloud] "Steam Injected to Clear It": 'The steam immediately triggered a runaway reaction with the trapped aluminum'
   Stage 4 [explosion] "Explosion": fatalities/injuries frontmatter fields
 
+--- ConocoPhillips Carlsbad Vacuum Truck Flash Fire (conocophillips-carlsbad-2021) ---
+  Stage 1 [valve] "Draining an Emulsion Layer": 'ConocoPhillips periodically removed the emulsion layer by transferring fluids...to a vacuum truck'
+  Stage 2 [vaporCloud] "Hose Disconnected Pressurized": 'The driver disconnected the hose from the heater treater, and the contents flowed out'
+  Stage 3 [fire] "Flash Fire Ignites": 'A component of the fired heater treater...likely ignited the flammable vapor'
+  Stage 4 [person] "1 Injured": fatalities/injuries frontmatter fields
+
+--- ConocoPhillips Watford City Lone Worker Asphyxiation (conocophillips-watford-city-2023) ---
+  Stage 1 [tank] "Vessel Draining Into a Bucket": 'the employee began manually draining the vessel...into a bucket inside the building'
+  Stage 2 [vaporCloud] "Hydrocarbons Vaporize Indoors": 'the drained hydrocarbons vaporized inside the enclosed building and displaced oxygen'
+  Stage 3 [warningIgnored] "Personal Monitor Left in Truck": 'his personal gas detection monitor...was turned off and in his truck'
+  Stage 4 [person] "1 Killed": fatalities/injuries frontmatter fields
+
+--- Continental Oil Commerce City Polymerization Unit Explosion (continental-oil-commerce-city-1978) ---
+  Stage 1 [valve] "New Unit, 2 Weeks Old": 'the new polymerization unit was approximately 25 percent destroyed'
+  Stage 2 [vaporCloud] "Gas Fumes Leak": 'Gas fumes leaking from newly installed equipment...ignited in a fireball'
+  Stage 3 [explosion] "Explosion, 3.5 on Richter Scale": 'The explosion registered 3.5 on the Richter scale'
+  Stage 4 [person] "3 Killed, 9 Injured": fatalities/injuries frontmatter fields
+
 --- CTA Acoustics Dust Explosion and Fire (cta-acoustics-2003) ---
   Stage 1 [dustCloud] "Dust Hazard Unknown to Workers": 'The building itself was never designed to limit dust explosion severity'
   Stage 2 [warningIgnored] "Supplier Withheld a Warning": root causes: 'Borden Chemical...was aware of a nearly identical 1999 dust explosion...but never passed that safety lesson on'
@@ -218,6 +242,12 @@ the incident's own .md file at any time.
   Stage 2 [warningIgnored] "Water Contact": 'Aluminum chloride solution is inherently unstable and reacts violently, potentially explosively, with water'
   Stage 3 [explosion] "Explosion": 'An explosion occurred in an ancillary building'
   Stage 4 [person] "One Fatality": 'One worker died in the incident'
+
+--- Darling Ingredients Wadesboro Tank Rupture (darling-wadesboro-2023) ---
+  Stage 1 [tank] "Wrong Chemical Delivered": 'sulfuric acid was added instead'
+  Stage 2 [vaporCloud] "Reaction Builds Pressure": 'the reaction between aluminum chloride and sulfuric acid producing hydrogen chloride vapor'
+  Stage 3 [explosion] "Tank Separates from Base": 'built pressure inside the tank until it separated the vessel's body from its base'
+  Stage 4 [person] "1 Killed": fatalities/injuries frontmatter fields
 
 --- Deepwater Horizon / Macondo Well Blowout (deepwater-horizon-2010) ---
   Stage 1 [corrosion] "Cement Barrier Failed": 'the cement job...failed to seal off the hydrocarbon-bearing formation'
@@ -591,6 +621,12 @@ the incident's own .md file at any time.
   Stage 3 [explosion] "Plant Levels": 'Metal debris from the blast was scattered nearly a mile away'
   Stage 4 [person] "3 Killed, 9 Injured": fatalities/injuries frontmatter fields
 
+--- Polycarbon Industries Pressure Filter Explosion (polycarbon-industries-2023) ---
+  Stage 1 [gauge] "Agitator Loosens, Generates Heat": 'the agitator had loosened and was rubbing a plate at the bottom of the filter dryer vessel'
+  Stage 2 [warningIgnored] "Decomposition Hazard Unknown": 'PCI learned that Dekon decomposition releases flammable gases...only through post-incident testing'
+  Stage 3 [explosion] "Self-Accelerating Reaction": 'the vessel's rupture disc opened, and a second larger explosion occurred'
+  Stage 4 [person] "1 Killed": fatalities/injuries frontmatter fields
+
 --- Praxair St. Louis Propylene Cylinder Fire and Explosions (praxair-st-louis-2005) ---
   Stage 1 [tank] "Cylinders Stored on Hot Asphalt": 'cylinders stored in the open on asphalt absorbed heat radiating from the pavement'
   Stage 2 [gauge] "Relief Valve Vents, Ignites": 'CSB found the industry-standard set points specified for these valves allowed venting well below the pressure that would actually damage the cylinders'
@@ -645,6 +681,12 @@ the incident's own .md file at any time.
   Stage 3 [explosion] "Boiler Explosion Ignites Vapor Cloud": 'The resulting boiler explosion ignited an extensive vapor cloud'
   Stage 4 [person] "27 Killed, 74 Injured": fatalities/injuries frontmatter fields
 
+--- Suncor Commerce City Dead-Leg Freeze and Vapor Cloud Explosion (suncor-commerce-city-2022) ---
+  Stage 1 [gauge] "Dead Leg Unmanaged 190 Days": 'the process fluid...was stagnant for 190 days before the incident'
+  Stage 2 [corrosion] "Water Freezes, Ice Damages Valve": 'water within the isolated piping froze'
+  Stage 3 [vaporCloud] "Vapor Cloud Drifts to Fired Heater": 'formed a flammable vapor cloud that drifted toward a nearby fired heater'
+  Stage 4 [explosion] "2 Operators Engulfed": fatalities/injuries frontmatter fields
+
 --- Sunoco Nederland Crude Oil Terminal Flash Fire and Explosion (sunoco-nederland-2016) ---
   Stage 1 [fire] "Hot Work on Crude Pipe": 'conducting hot work...on a section of pipe that still contained residual crude oil'
   Stage 2 [warningIgnored] "Procedure Gaps": root causes: 'both Sunoco's and L-Con's hot work procedures had similar, significant gaps'
@@ -698,6 +740,12 @@ the incident's own .md file at any time.
   Stage 2 [warningIgnored] "2016 Recommendation Ignored": root causes: 'a 2016 internal hazard analysis recommendation was never implemented'
   Stage 3 [overfill] "Polymer Builds Up": 'For more than 100 days before the incident...popcorn polymer...had been steadily accumulating'
   Stage 4 [explosion] "Explosion": 'Roughly 6,000 gallons of liquid butadiene emptied from the fractionator in under a minute'
+
+--- Tyson Foods Perry Ammonia Compressor Release (tyson-foods-perry-2023) ---
+  Stage 1 [valve] "Compressor Believed Empty": 'ammonia remained trapped between the compressor's discharge check valve...and an isolation valve'
+  Stage 2 [warningIgnored] "Procedure Missing a Valve Step": 'the procedure did not include this valve'
+  Stage 3 [vaporCloud] "Ammonia Bursts Out": 'a burst of ammonia vapor was released directly into the employee's chest and face'
+  Stage 4 [person] "1 Injured": fatalities/injuries frontmatter fields
 
 --- U.S. Steel Clairton Coke Works Coke Oven Gas Explosion (us-steel-clairton-2025) ---
   Stage 1 [valve] "Ad Hoc Valve Washing": 'U.S. Steel had no written procedure specifying how this task should be safely performed'

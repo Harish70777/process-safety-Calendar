@@ -863,6 +863,54 @@ const RECIPES = {
     { icon: "explosion", label: "Explosion 400 Feet Up", caption: "24+ workers present at the site", source: "'causing a fire and explosion approximately 400 feet above the ground'" },
     { icon: "person", label: "9 Killed, 14 Injured", caption: "2nd fatal gas incident in 4 years", source: "fatalities/injuries frontmatter fields" },
   ]},
+"continental-oil-commerce-city-1978": { stages: [
+    { icon: "valve", label: "New Unit, 2 Weeks Old", caption: "Polymerization unit not yet proven out", source: "'the new polymerization unit was approximately 25 percent destroyed'" },
+    { icon: "vaporCloud", label: "Gas Fumes Leak", caption: "From newly installed equipment", source: "'Gas fumes leaking from newly installed equipment...ignited in a fireball'" },
+    { icon: "explosion", label: "Explosion, 3.5 on Richter Scale", caption: "Flames 60 feet above the stacks", source: "'The explosion registered 3.5 on the Richter scale'" },
+    { icon: "person", label: "3 Killed, 9 Injured", caption: "Same site as later Suncor incidents", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "suncor-commerce-city-2022": { stages: [
+    { icon: "gauge", label: "Dead Leg Unmanaged 190 Days", caption: "Pump locked out since June 2022", source: "'the process fluid...was stagnant for 190 days before the incident'" },
+    { icon: "corrosion", label: "Water Freezes, Ice Damages Valve", caption: "Extreme cold snap, Dec 21-24", source: "'water within the isolated piping froze'" },
+    { icon: "vaporCloud", label: "Vapor Cloud Drifts to Fired Heater", caption: "Colorless, odorless portion", source: "'formed a flammable vapor cloud that drifted toward a nearby fired heater'" },
+    { icon: "explosion", label: "2 Operators Engulfed", caption: "Told to judge safety by their senses", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "conocophillips-carlsbad-2021": { stages: [
+    { icon: "valve", label: "Draining an Emulsion Layer", caption: "No hazard analysis for this task", source: "'ConocoPhillips periodically removed the emulsion layer by transferring fluids...to a vacuum truck'" },
+    { icon: "vaporCloud", label: "Hose Disconnected Pressurized", caption: "Fluid flowed into open atmosphere", source: "'The driver disconnected the hose from the heater treater, and the contents flowed out'" },
+    { icon: "fire", label: "Flash Fire Ignites", caption: "Fired heater left online nearby", source: "'A component of the fired heater treater...likely ignited the flammable vapor'" },
+    { icon: "person", label: "1 Injured", caption: "Truck not grounded or bonded", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "conocophillips-watford-city-2023": { stages: [
+    { icon: "tank", label: "Vessel Draining Into a Bucket", caption: "Inside a sealed, heated building", source: "'the employee began manually draining the vessel...into a bucket inside the building'" },
+    { icon: "vaporCloud", label: "Hydrocarbons Vaporize Indoors", caption: "No detection, no ventilation", source: "'the drained hydrocarbons vaporized inside the enclosed building and displaced oxygen'" },
+    { icon: "warningIgnored", label: "Personal Monitor Left in Truck", caption: "Turned off, not worn", source: "'his personal gas detection monitor...was turned off and in his truck'" },
+    { icon: "person", label: "1 Killed", caption: "Lone worker, no one to notice", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "polycarbon-industries-2023": { stages: [
+    { icon: "gauge", label: "Agitator Loosens, Generates Heat", caption: "Friction against the vessel's base plate", source: "'the agitator had loosened and was rubbing a plate at the bottom of the filter dryer vessel'" },
+    { icon: "warningIgnored", label: "Decomposition Hazard Unknown", caption: "Learned only after the explosion", source: "'PCI learned that Dekon decomposition releases flammable gases...only through post-incident testing'" },
+    { icon: "explosion", label: "Self-Accelerating Reaction", caption: "Two escalating explosions", source: "'the vessel's rupture disc opened, and a second larger explosion occurred'" },
+    { icon: "person", label: "1 Killed", caption: "Facility permanently closed", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "darling-wadesboro-2023": { stages: [
+    { icon: "tank", label: "Wrong Chemical Delivered", caption: "Sulfuric acid, not aluminum chloride", source: "'sulfuric acid was added instead'" },
+    { icon: "vaporCloud", label: "Reaction Builds Pressure", caption: "Hydrogen chloride vapor generated", source: "'the reaction between aluminum chloride and sulfuric acid producing hydrogen chloride vapor'" },
+    { icon: "explosion", label: "Tank Separates from Base", caption: "Company's own theory contradicted evidence", source: "'built pressure inside the tank until it separated the vessel's body from its base'" },
+    { icon: "person", label: "1 Killed", caption: "Same pattern as MGPI Atchison", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "basf-totalenergies-port-arthur-2023": { stages: [
+    { icon: "corrosion", label: "Water Ingress Corrodes Tower", caption: "Iron released, forms iron sulfide", source: "'water to enter the extractive distillation unit, causing internal corrosion'" },
+    { icon: "warningIgnored", label: "2016 Finding Not Passed On", caption: "Same tower, forgotten institutional knowledge", source: "'a 2016 incident...had already revealed the potential for iron sulfide...not been effectively transferred'" },
+    { icon: "fire", label: "Manways Opened, Air Ignites It", caption: "Pyrophoric material self-ignites", source: "'oxygen entered the tower and triggered an exothermic iron sulfide oxidation reaction'" },
+    { icon: "building", label: "Tower Collapses", caption: "$194 million in damage, no injuries", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "tyson-foods-perry-2023": { stages: [
+    { icon: "valve", label: "Compressor Believed Empty", caption: "Ammonia trapped by a check valve", source: "'ammonia remained trapped between the compressor's discharge check valve...and an isolation valve'" },
+    { icon: "warningIgnored", label: "Procedure Missing a Valve Step", caption: "That valve never opened", source: "'the procedure did not include this valve'" },
+    { icon: "vaporCloud", label: "Ammonia Bursts Out", caption: "No respiratory protection worn", source: "'a burst of ammonia vapor was released directly into the employee's chest and face'" },
+    { icon: "person", label: "1 Injured", caption: "Same gap likely exists elsewhere", source: "fatalities/injuries frontmatter fields" },
+  ]},
 };
 
 function esc(str) {
