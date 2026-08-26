@@ -33,6 +33,12 @@ the incident's own .md file at any time.
   Stage 3 [person] "Workers Caught": 'A welder and his helper...were caught in the collapse and immersed in the released liquid fertilizer'
   Stage 4 [building] "Community Reached": 'flooded a nearby road...reached portions of a nearby residential neighborhood'
 
+--- Alon USA Big Spring Refinery Propylene Splitter Explosion (alon-big-spring-2008) ---
+  Stage 1 [gauge] "Propylene Splitter Explodes": 'an explosion occurred...centered around the facility's propylene splitter unit'
+  Stage 2 [warningIgnored] "Fire Threatens HF Unit": 'the fire that followed the initial explosion threatened the refinery's adjacent alkylation unit'
+  Stage 3 [building] "Felt for Miles": 'The blast was strong enough to be felt for miles'
+  Stage 4 [person] "0 Killed, 5 Injured": fatalities/injuries frontmatter fields
+
 --- Angus Chemical Sterlington Nitroparaffin Plant Explosion (angus-sterlington-1991) ---
   Stage 1 [fire] "Small Fire Noticed": 'workers preparing to check a compressor...noticed a small fire and sounded the plant's fire alarm'
   Stage 2 [warningIgnored] "Only 30 Seconds of Warning": 'Approximately 30 seconds later, an explosion occurred'
@@ -159,6 +165,12 @@ the incident's own .md file at any time.
   Stage 3 [fire] "Pipe Ruptures & Fire": 'a large vapor cloud that engulfed 19 Chevron employees before igniting'
   Stage 4 [building] "Community Impact": 'roughly 15,000 nearby residents sought medical treatment'
 
+--- CITGO Corpus Christi Hydrogen Fluoride Alkylation Unit Fire (citgo-corpus-christi-2009) ---
+  Stage 1 [valve] "Control Valve Fails": 'a control valve suddenly failed, causing a blockage of liquid that triggered violent shaking'
+  Stage 2 [corrosion] "Threaded Connections Break": 'this shaking broke two threaded pipe connections'
+  Stage 3 [fire] "Fire Burns Several Days": 'a fire that burned for several days...approximately 42,000 pounds of hydrogen fluoride'
+  Stage 4 [warningIgnored] "Water Supply Nearly Exhausted": 'CITGO nearly exhausted the stored water supply for the water mitigation system'
+
 --- ConAgra Slim Jim Plant Natural Gas Explosion (conagra-slim-jim-2009) ---
   Stage 1 [valve] "Gas Vented Indoors": 'Rather than directing this purge outdoors, the contractors vented the gas inside the building'
   Stage 2 [vaporCloud] "Flammable Cloud Accumulates": 'The escaping natural gas accumulated and formed a flammable cloud inside the plant'
@@ -194,6 +206,12 @@ the incident's own .md file at any time.
   Stage 2 [gauge] "Pressure Test Misread": 'a negative pressure test...was misinterpreted by the crew as successful'
   Stage 3 [fire] "Blowout & Fire": 'hydrocarbons flowed uncontrolled up the wellbore and ignited'
   Stage 4 [vaporCloud] "Oil Spill": 'triggering the largest marine oil spill in U.S. history'
+
+--- Delek Refining Tyler Saturated Gas Unit Explosion (delek-tyler-2008) ---
+  Stage 1 [corrosion] "Line Ruptures": 'a line ruptured in the saturated gas unit'
+  Stage 2 [vaporCloud] "Flammable Gas Released": 'releasing pressurized flammable material into the surrounding area'
+  Stage 3 [explosion] "Explosion & Fire": 'the escaping hydrocarbon gas found an ignition source'
+  Stage 4 [person] "2 Killed, 3 Injured": fatalities/injuries frontmatter fields
 
 --- Didion Milling Combustible Dust Explosions and Fire (didion-milling-2017) ---
   Stage 1 [dustCloud] "No Dust Hazard Analysis": 'no dust hazard analysis had ever been performed'
@@ -351,6 +369,12 @@ the incident's own .md file at any time.
   Stage 3 [explosion] "Primary Explosion": 'a primary explosion inside that enclosure'
   Stage 4 [fire] "Cascading Explosions": 'triggering a chain of much larger secondary explosions'
 
+--- INEOS Phenol Pasadena Tanker BLEVE (ineos-pasadena-2023) ---
+  Stage 1 [valve] "Transfer Hose Disconnects": 'a hose disconnected between the tank trailer and the facility'
+  Stage 2 [fire] "Vapor Ignites": 'released LPG ignited during the offloading process'
+  Stage 3 [explosion] "BLEVE": 'various exits were not open' during the evacuation attempt
+  Stage 4 [person] "0 Killed, 1 Injured": fatalities/injuries frontmatter fields
+
 --- Intercontinental Terminals Company (ITC) Tank Farm Fire (itc-deer-park-2019) ---
   Stage 1 [corrosion] "Pump Bearing Fails": 'The pump kept running for roughly 30 minutes after the failure, releasing flammable product'
   Stage 2 [warningIgnored] "2014 Recommendation Ignored": 'a hazard review team had specifically recommended adding flammable gas detection near this tank five years earlier'
@@ -404,6 +428,12 @@ the incident's own .md file at any time.
   Stage 2 [warningIgnored] "2012 Repair Incomplete": 'A 2012 repair attempt removed only part of the corroded metal...the original, still-compromised steel remained in place'
   Stage 3 [gauge] "Operated While Leaking": 'employees had discovered the vessel was actively leaking...Loy-Lange continued operating the equipment anyway'
   Stage 4 [explosion] "Explosion": 'launched the roughly 2,000-pound vessel through the air and through the roof of a neighboring business...roughly 500 feet away'
+
+--- Marathon Galveston Bay Refinery Ultraformer Fire (marathon-galveston-bay-2023) ---
+  Stage 1 [gauge] "Pump Flagged for Repair": 'Marathon had flagged this pump as needing maintenance...deferred'
+  Stage 2 [corrosion] "Crack Goes Undetected": 'the crack that ultimately caused the leak would very likely have been identified'
+  Stage 3 [fire] "Seal Fails, Fire Erupts": 'A seal failure on the reformer unit...ignited and caused the fatal blaze'
+  Stage 4 [person] "1 Killed, 3 Injured": fatalities/injuries frontmatter fields
 
 --- Marcus Oil and Chemical Pressure Vessel Explosion (marcus-oil-2004) ---
   Stage 1 [corrosion] "Defective Repair Weld": 'reduced the vessel's structural strength by more than 75 percent'
@@ -542,6 +572,12 @@ the incident's own .md file at any time.
   Stage 2 [fire] "Fire Reaches Tank Farm": 'The fire then spread to a nearby chemical storage tank farm'
   Stage 3 [explosion] "6 Tanks Ignite": 'Five more tanks ignited...holding millions of gallons of styrene'
   Stage 4 [person] "3 Killed": fatalities/injuries frontmatter fields
+
+--- Shell Deer Park Olefins Unit Heat Exchanger Fire (shell-deer-park-2023) ---
+  Stage 1 [gauge] "Heat Exchanger Maintenance": 'A leak developed during a heat exchange between two heavy gas oils'
+  Stage 2 [fire] "Fire Reignites Twice": 'the fire restarted on both the following Saturday and Sunday'
+  Stage 3 [warningIgnored] "Wastewater Capacity Exceeded": 'the volume of water required to control a multi-day fire surpassed the facility's on-site storage'
+  Stage 4 [person] "0 Killed, 9 Injured": fatalities/injuries frontmatter fields
 
 --- Shell Norco Catalytic Cracking Unit Explosion (shell-norco-1988) ---
   Stage 1 [corrosion] "Vapor Line Corrodes": 'corrosion of an 8-inch vapor line running from a 10-inch header'

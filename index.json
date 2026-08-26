@@ -1843,6 +1843,41 @@
     "hasBody": true
   },
   {
+    "id": "alon-big-spring-2008",
+    "file": "alon-big-spring-2008.md",
+    "title": "Alon USA Big Spring Refinery Propylene Splitter Explosion",
+    "date": "2008-02-18",
+    "location": "Big Spring, TX, USA",
+    "industry": [
+      "oil-gas-refining"
+    ],
+    "chemicals": [
+      "propylene",
+      "hydrofluoric-acid"
+    ],
+    "severity": 2,
+    "fatalities": 0,
+    "injuries": 5,
+    "root_causes": [
+      "explosion-centered-in-propylene-splitter",
+      "fire-threatened-adjacent-hf-alkylation-unit",
+      "reduced-holiday-staffing-may-have-limited-injuries",
+      "cause-not-publicly-detailed"
+    ],
+    "psm_elements": [
+      "facility-siting",
+      "mechanical-integrity",
+      "emergency-planning"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "EPA National Response Center Incident Report (2008)",
+      "Contemporary News Coverage, NBC News and EHS Today (2008)"
+    ],
+    "hasBody": true
+  },
+  {
     "id": "goodyear-houston-2008",
     "file": "goodyear-houston-2008.md",
     "title": "Goodyear Houston Heat Exchanger Rupture and Ammonia Release",
@@ -1917,6 +1952,38 @@
     "hasBody": true
   },
   {
+    "id": "delek-tyler-2008",
+    "file": "delek-tyler-2008.md",
+    "title": "Delek Refining Tyler Saturated Gas Unit Explosion",
+    "date": "2008-10-20",
+    "location": "Tyler, TX, USA",
+    "industry": [
+      "oil-gas-refining"
+    ],
+    "chemicals": [
+      "hydrocarbon-process-gas"
+    ],
+    "severity": 1,
+    "fatalities": 2,
+    "injuries": 3,
+    "root_causes": [
+      "line-ruptured-in-saturated-gas-unit",
+      "mechanical-integrity-failure",
+      "refinery-fire-following-rupture"
+    ],
+    "psm_elements": [
+      "mechanical-integrity",
+      "incident-investigation"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "OSHA Investigation Report (2008)",
+      "Texas Tribune Refinery Fatality Database"
+    ],
+    "hasBody": true
+  },
+  {
     "id": "allied-terminals-2008",
     "file": "allied-terminals-2008.md",
     "title": "Allied Terminals Fertilizer Tank Collapse",
@@ -1982,6 +2049,41 @@
     "sources": [
       "CSB Safety Bulletin: Key Lessons for Prevention of Fires and Explosions During Hot Tap Work and Vessel/Tank Repurposing (2009)",
       "CSB Safety Video: Deadly Practices"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "citgo-corpus-christi-2009",
+    "file": "citgo-corpus-christi-2009.md",
+    "title": "CITGO Corpus Christi Hydrogen Fluoride Alkylation Unit Fire",
+    "date": "2009-07-19",
+    "location": "Corpus Christi, TX, USA",
+    "industry": [
+      "oil-gas-refining"
+    ],
+    "chemicals": [
+      "hydrogen-fluoride",
+      "hydrocarbons"
+    ],
+    "severity": 1,
+    "fatalities": 0,
+    "injuries": 2,
+    "root_causes": [
+      "control-valve-failed-caused-piping-shake",
+      "threaded-pipe-connections-broke",
+      "hf-water-mitigation-system-inadequate",
+      "stored-water-supply-nearly-exhausted"
+    ],
+    "psm_elements": [
+      "mechanical-integrity",
+      "emergency-planning",
+      "process-hazard-analysis"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "CSB Urgent Safety Recommendations (December 2009)",
+      "CSB Final Investigation Report (2011)"
     ],
     "hasBody": true
   },
@@ -3733,6 +3835,112 @@
     "source_verified": true,
     "sources": [
       "CSB Incident Reports Volume One (2025)"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "ineos-pasadena-2023",
+    "file": "ineos-pasadena-2023.md",
+    "title": "INEOS Phenol Pasadena Tanker BLEVE",
+    "date": "2023-03-22",
+    "location": "Pasadena, TX, USA",
+    "industry": [
+      "chemical-manufacturing"
+    ],
+    "chemicals": [
+      "liquid-petroleum-gas",
+      "propylene",
+      "propane"
+    ],
+    "severity": 2,
+    "fatalities": 0,
+    "injuries": 1,
+    "root_causes": [
+      "tanker-hose-disconnected-during-transfer",
+      "lpg-ignited-during-offloading",
+      "tanker-underwent-bleve",
+      "facility-exits-not-open-during-evacuation"
+    ],
+    "psm_elements": [
+      "operating-procedures",
+      "emergency-planning",
+      "mechanical-integrity"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "Harris County Fire Marshal's Office Investigation Ruling (2023)",
+      "INEOS Phenol Official Statement (March 2023)"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "shell-deer-park-2023",
+    "file": "shell-deer-park-2023.md",
+    "title": "Shell Deer Park Olefins Unit Heat Exchanger Fire",
+    "date": "2023-05-05",
+    "location": "Deer Park, TX, USA",
+    "industry": [
+      "chemical-manufacturing"
+    ],
+    "chemicals": [
+      "cracked-heavy-gas-oil",
+      "cracked-light-gas-oil",
+      "gasoline"
+    ],
+    "severity": 2,
+    "fatalities": 0,
+    "injuries": 9,
+    "root_causes": [
+      "heat-exchange-between-gas-oils-caused-leak",
+      "occurred-during-routine-maintenance",
+      "wastewater-storage-capacity-exceeded",
+      "fire-reignited-multiple-times-over-days"
+    ],
+    "psm_elements": [
+      "mechanical-integrity",
+      "operating-procedures",
+      "emergency-planning"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "Contemporary News Coverage, AP and Chemical & Engineering News (2023)",
+      "City of Deer Park Official Incident Updates (2023)"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "marathon-galveston-bay-2023",
+    "file": "marathon-galveston-bay-2023.md",
+    "title": "Marathon Galveston Bay Refinery Ultraformer Fire",
+    "date": "2023-05-15",
+    "location": "Texas City, TX, USA",
+    "industry": [
+      "oil-gas-refining"
+    ],
+    "chemicals": [
+      "hydrocarbon-process-fluid"
+    ],
+    "severity": 1,
+    "fatalities": 1,
+    "injuries": 3,
+    "root_causes": [
+      "leaking-pump-known-to-need-maintenance",
+      "maintenance-deferred-for-production",
+      "seal-failure-during-routine-work",
+      "same-site-as-2005-bp-disaster"
+    ],
+    "psm_elements": [
+      "mechanical-integrity",
+      "incident-investigation",
+      "management-of-change"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "Contemporary News Coverage, ABC13 and Chron.com (2023)",
+      "Bloomberg News Investigation on Deferred Refinery Maintenance (2024)"
     ],
     "hasBody": true
   },

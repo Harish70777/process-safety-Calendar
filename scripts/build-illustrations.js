@@ -737,6 +737,78 @@ const RECIPES = {
     { icon: "explosion", label: "Plant Levels", caption: "Debris found nearly a mile away", source: "'Metal debris from the blast was scattered nearly a mile away'" },
     { icon: "person", label: "3 Killed, 9 Injured", caption: "5,000 evacuated for 4 hours", source: "fatalities/injuries frontmatter fields" },
   ]},
+"phillips-pasadena-1999": { stages: [
+    { icon: "gauge", label: "Capacity Boosted 40%", caption: "One month before the explosion", source: "'Phillips had increased the unit's K-Resin production capacity by 40 percent'" },
+    { icon: "explosion", label: "Reactor Explodes", caption: "One of four clustered reactors", source: "'an explosion occurred in one of four K-Resin styrene-butadiene copolymer reactors'" },
+    { icon: "warningIgnored", label: "$204,000 Fine", caption: "Modest penalty for the outcome", source: "'a $204,000 fine against Phillips for 13 alleged safety violations'" },
+    { icon: "person", label: "2 Killed, 3 Injured", caption: "Same unit exploded again in 2000", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "phillips-pasadena-2000": { stages: [
+    { icon: "gauge", label: "Tank Out of Service, No Gauges", caption: "Being cleaned, no warning instrumentation", source: "'the tank was out of service for cleaning and had no pressure or temperature gauges'" },
+    { icon: "warningIgnored", label: "Same Unit as 1999 Fatality", caption: "Corrective action proved insufficient", source: "'the K-Resin unit had already experienced a fatal explosion roughly nine months earlier'" },
+    { icon: "explosion", label: "Explosion & Fire", caption: "Burned nearly 4 hours", source: "'Huge flames erupted...sending a massive column of black smoke'" },
+    { icon: "person", label: "1 Killed, 71 Injured", caption: "$2.5M OSHA fine for training failures", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "formosa-point-comfort-2005": { stages: [
+    { icon: "valve", label: "Forklift Snags Drain Valve", caption: "Unprotected piping near vehicle traffic", source: "'a trailer being towed by a forklift snagged a small drain valve'" },
+    { icon: "vaporCloud", label: "Vapor Cloud Blocks Access", caption: "Manual-only valves, no remote shutoff", source: "'the advancing vapor cloud forced them to retreat before they could do so'" },
+    { icon: "fire", label: "Fire Burns 5 Days", caption: "Flames reached 500-800 feet", source: "'The fire burned for nearly five days before being fully extinguished'" },
+    { icon: "person", label: "0 Killed, 16 Injured", caption: "Structural steel failed, vents ruptured", source: "fatalities/injuries frontmatter fields" },
+  ]},
+"mckee-refinery-1956": { stages: [
+    { icon: "vaporCloud", label: "Vapor Reaches Asphalt Fire", caption: "Relief valve released pentane vapor", source: "'wind carried the vapor toward a nearby asphalt tank...where a small fire was being maintained'" },
+    { icon: "fire", label: "Flame Flashes Back to Tank", caption: "1-hour fight at gauging device and vents", source: "'the flame flashed back to Spheroid No. 199'" },
+    { icon: "warningIgnored", label: "Product Pumped Out Mid-Fire", caption: "Increased the tank's empty vapor space", source: "'a step that increased the empty vapor space inside the vessel'" },
+    { icon: "explosion", label: "BLEVE", caption: "19 firefighters killed", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "tosco-avon-1997": { stages: [
+    { icon: "gauge", label: "Pipe Ruptures, Excess Heat", caption: "Hydrocracker unit, hydrocarbon-hydrogen mix", source: "'A pipeline ruptured under excessively high operating temperatures'" },
+    { icon: "warningIgnored", label: "Shutdown Procedures Not Followed", caption: "Management tolerated risky practices", source: "'operators did not follow required emergency procedures to depressure and shutdown the reactor'" },
+    { icon: "explosion", label: "Explosion & Fire", caption: "Inspectors locked out over 2 hours", source: "'plant security personnel locked out county inspectors dispatched to the blaze for 2+ hours'" },
+    { icon: "person", label: "1 Killed, 46 Injured", caption: "Pattern repeated in 1999 naphtha fire", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "union-carbide-seadrift-1991": { stages: [
+    { icon: "corrosion", label: "Refining Column Fails", caption: "Ethylene oxide unit destroyed", source: "'The explosion originated in this column, which was completely destroyed'" },
+    { icon: "warningIgnored", label: "Shrapnel Ruptures Nearby Lines", caption: "Methane and hydrocarbon lines hit", source: "'debris from the refining column failure struck a nearby pipe rack, rupturing methane and hydrocarbon lines'" },
+    { icon: "explosion", label: "Damage Spreads to 2 More Units", caption: "Glycol unit and co-generation damaged", source: "'The ethylene glycol unit and the facility's co-generation unit were both damaged'" },
+    { icon: "person", label: "1 Killed, 19+ Injured", caption: "Entire facility idled", source: "fatalities/injuries frontmatter fields" },
+  ]},
+"citgo-corpus-christi-2009": { stages: [
+    { icon: "valve", label: "Control Valve Fails", caption: "Caused violent piping shake", source: "'a control valve suddenly failed, causing a blockage of liquid that triggered violent shaking'" },
+    { icon: "corrosion", label: "Threaded Connections Break", caption: "Released flammable hydrocarbons", source: "'this shaking broke two threaded pipe connections'" },
+    { icon: "fire", label: "Fire Burns Several Days", caption: "42,000 lbs of HF released", source: "'a fire that burned for several days...approximately 42,000 pounds of hydrogen fluoride'" },
+    { icon: "warningIgnored", label: "Water Supply Nearly Exhausted", caption: "Backup seawater transfer also failed", source: "'CITGO nearly exhausted the stored water supply for the water mitigation system'" },
+  ]},
+  "delek-tyler-2008": { stages: [
+    { icon: "corrosion", label: "Line Ruptures", caption: "Saturated gas unit piping fails", source: "'a line ruptured in the saturated gas unit'" },
+    { icon: "vaporCloud", label: "Flammable Gas Released", caption: "Pressurized hydrocarbon escapes", source: "'releasing pressurized flammable material into the surrounding area'" },
+    { icon: "explosion", label: "Explosion & Fire", caption: "Escaping gas ignites", source: "'the escaping hydrocarbon gas found an ignition source'" },
+    { icon: "person", label: "2 Killed, 3 Injured", caption: "Root cause detail not fully public", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "alon-big-spring-2008": { stages: [
+    { icon: "gauge", label: "Propylene Splitter Explodes", caption: "Holiday, skeleton crew on site", source: "'an explosion occurred...centered around the facility's propylene splitter unit'" },
+    { icon: "warningIgnored", label: "Fire Threatens HF Unit", caption: "Near-miss on toxic acid release", source: "'the fire that followed the initial explosion threatened the refinery's adjacent alkylation unit'" },
+    { icon: "building", label: "Felt for Miles", caption: "Schools and interstate closed", source: "'The blast was strong enough to be felt for miles'" },
+    { icon: "person", label: "0 Killed, 5 Injured", caption: "Refinery shut 2 months", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "marathon-galveston-bay-2023": { stages: [
+    { icon: "gauge", label: "Pump Flagged for Repair", caption: "Maintenance deferred for production", source: "'Marathon had flagged this pump as needing maintenance...deferred'" },
+    { icon: "corrosion", label: "Crack Goes Undetected", caption: "Inspection never happened", source: "'the crack that ultimately caused the leak would very likely have been identified'" },
+    { icon: "fire", label: "Seal Fails, Fire Erupts", caption: "Same site as 2005 BP disaster", source: "'A seal failure on the reformer unit...ignited and caused the fatal blaze'" },
+    { icon: "person", label: "1 Killed, 3 Injured", caption: "55-year-old machinist", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "shell-deer-park-2023": { stages: [
+    { icon: "gauge", label: "Heat Exchanger Maintenance", caption: "Leak between two gas oils", source: "'A leak developed during a heat exchange between two heavy gas oils'" },
+    { icon: "fire", label: "Fire Reignites Twice", caption: "Not fully extinguished first time", source: "'the fire restarted on both the following Saturday and Sunday'" },
+    { icon: "warningIgnored", label: "Wastewater Capacity Exceeded", caption: "Controlled discharge into ship channel", source: "'the volume of water required to control a multi-day fire surpassed the facility's on-site storage'" },
+    { icon: "person", label: "0 Killed, 9 Injured", caption: "Precautionary hospitalization", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "ineos-pasadena-2023": { stages: [
+    { icon: "valve", label: "Transfer Hose Disconnects", caption: "LPG being offloaded from tanker", source: "'a hose disconnected between the tank trailer and the facility'" },
+    { icon: "fire", label: "Vapor Ignites", caption: "Fire engulfs the tanker truck", source: "'released LPG ignited during the offloading process'" },
+    { icon: "explosion", label: "BLEVE", caption: "Exits reportedly not open", source: "'various exits were not open' during the evacuation attempt" },
+    { icon: "person", label: "0 Killed, 1 Injured", caption: "Driver thrown to the ground", source: "fatalities/injuries frontmatter fields" },
+  ]},
 };
 
 function esc(str) {
