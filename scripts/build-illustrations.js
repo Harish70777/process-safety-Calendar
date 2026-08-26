@@ -809,6 +809,60 @@ const RECIPES = {
     { icon: "explosion", label: "BLEVE", caption: "Exits reportedly not open", source: "'various exits were not open' during the evacuation attempt" },
     { icon: "person", label: "0 Killed, 1 Injured", caption: "Driver thrown to the ground", source: "fatalities/injuries frontmatter fields" },
   ]},
+"skikda-lng-2004": { stages: [
+    { icon: "corrosion", label: "Boiler Known Defective", caption: "Flagged a year earlier, superficial repair", source: "'workers said they had warned a year earlier that the boiler was faulty'" },
+    { icon: "vaporCloud", label: "Hydrocarbon Leak into Boiler", caption: "Ingested through the firebox", source: "'A large hydrocarbon leak was ingested into the facility's main boiler firebox'" },
+    { icon: "explosion", label: "Boiler Explosion Ignites Vapor Cloud", caption: "3 LNG trains destroyed", source: "'The resulting boiler explosion ignited an extensive vapor cloud'" },
+    { icon: "person", label: "27 Killed, 74 Injured", caption: "One of the worst LNG accidents ever", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "jilin-petrochemical-2005": { stages: [
+    { icon: "valve", label: "Processing Tower Jams", caption: "Aniline nitration unit, abnormal ops", source: "'processing tower T-102 became jammed during abnormal operations'" },
+    { icon: "warningIgnored", label: "Worker Mishandles the Clog", caption: "Monitoring failed to detect the issue", source: "'the facility's monitoring systems failed to detect the developing problem'" },
+    { icon: "explosion", label: "Explosions, Toxins Reach River", caption: "100 tons of benzene, nitrobenzene released", source: "'released approximately 100 tons of pollutants...into the nearby Songhua River'" },
+    { icon: "building", label: "Water Cut for Millions", caption: "5 killed, 70 injured, delayed disclosure", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "enschede-fireworks-2000": { stages: [
+    { icon: "tank", label: "Wrong Fireworks Grade Stored", caption: "1.1G stored, only 1.4G licensed", source: "'the facility was licensed to hold only lower-hazard 1.4G grade fireworks but actually contained...1.1G grade'" },
+    { icon: "warningIgnored", label: "1991 Warning Never Acted On", caption: "Culemborg's recommendations unimplemented", source: "'the level of the hazard posed by the factory had been substantially underestimated'" },
+    { icon: "explosion", label: "Three Escalating Explosions", caption: "Felt 50km away, neighborhood leveled", source: "'a series of three explosions of increasing violence'" },
+    { icon: "person", label: "23 Killed, 950 Injured", caption: "Largest explosion in NL since WWII", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "culemborg-fireworks-1991": { stages: [
+    { icon: "warningIgnored", label: "Ignition Source Unknown", caption: "Fire preceded the explosion", source: "'the exact ignition source of the fire...was never conclusively determined'" },
+    { icon: "tank", label: "Fireworks Behave Unexpectedly", caption: "Exploded rather than burned as classified", source: "'the fireworks behaved very differently than expected for their official 1.3 hazard classification'" },
+    { icon: "explosion", label: "Two Explosions Seconds Apart", caption: "Levee buffer limited wider damage", source: "'immediately followed by another explosion in three adjacent rooms'" },
+    { icon: "building", label: "Recommendations Never Funded", caption: "2 killed; same gaps caused Enschede", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "san-juanico-1984": { stages: [
+    { icon: "corrosion", label: "Pipe Ruptures Between Vessels", caption: "Operators couldn't identify pressure drop", source: "'An 8-inch pipe between a sphere and a series of cylinders had ruptured'" },
+    { icon: "warningIgnored", label: "No Effective Gas Detection", caption: "No emergency isolation in time", source: "'the ineffective gas detection system and as a result, lack of emergency isolation'" },
+    { icon: "explosion", label: "Cascading BLEVEs for 90 Minutes", caption: "Fire water system disabled by first blast", source: "'a series of additional BLEVEs followed as LPG vessels violently ruptured'" },
+    { icon: "person", label: "500+ Killed, 7,000 Injured", caption: "Sited directly beside dense housing", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "los-alfaques-1978": { stages: [
+    { icon: "tank", label: "Tanker Loses Containment", caption: "23 tons of liquid propylene", source: "'the tank's integrity was lost while directly adjacent to a densely populated area'" },
+    { icon: "warningIgnored", label: "Campers Approach the Cloud", caption: "Campsite sited beside the highway", source: "'Campers, curious about the unusual cloud, approached rather than fled'" },
+    { icon: "explosion", label: "BLEVE Engulfs the Campsite", caption: "Fireball hundreds of feet high", source: "'sent towering flames hundreds of feet into the air'" },
+    { icon: "person", label: "215 Killed, 200+ Injured", caption: "Led to new nighttime-only transport law", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "feyzin-1966": { stages: [
+    { icon: "valve", label: "Valves Opened Out of Order", caption: "Contrary to draining procedure", source: "'contrary to the established operating procedure, the lower valve was opened only halfway'" },
+    { icon: "corrosion", label: "Both Valves Freeze Open", caption: "Handle lost, leak unstoppable", source: "'the extreme cooling effect...caused both valves to freeze'" },
+    { icon: "explosion", label: "Sphere BLEVEs After 2 Hours", caption: "300m fireball, debris damages neighbors", source: "'the sphere suddenly ruptured in a catastrophic boiling liquid expanding vapor explosion'" },
+    { icon: "person", label: "18 Killed, 81 Injured", caption: "Defined BLEVE engineering worldwide", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "bayou-corne-2012": { stages: [
+    { icon: "warningIgnored", label: "Warnings Ignored Since 1976", caption: "Cavern drilled too close to dome wall", source: "'ignored warnings about the cavern's instability dating back to 1976'" },
+    { icon: "gauge", label: "Months of Seismic Activity", caption: "Bubbling in the bayou, company denied risk", source: "'unexplained seismic activity and mysterious bubbling'" },
+    { icon: "building", label: "Salt Cavern Collapses", caption: "Sinkhole grows to 34 acres", source: "'the outer wall of the salt dome gave way'" },
+    { icon: "person", label: "0 Killed, 350 Evacuated", caption: "Economic interests over safety, court found", source: "fatalities/injuries frontmatter fields" },
+  ]},
+  "bhilai-steel-2018": { stages: [
+    { icon: "gauge", label: "Uneven Pressure for 2 Days", caption: "Scheduled maintenance planned", source: "'The pipeline had reportedly shown uneven pressure for two days'" },
+    { icon: "valve", label: "Joints Opened on Live Gas Line", caption: "Coke oven gas ignites", source: "'when the joints in the pipeline were opened, the coke oven gas ignited'" },
+    { icon: "explosion", label: "Explosion 400 Feet Up", caption: "24+ workers present at the site", source: "'causing a fire and explosion approximately 400 feet above the ground'" },
+    { icon: "person", label: "9 Killed, 14 Injured", caption: "2nd fatal gas incident in 4 years", source: "fatalities/injuries frontmatter fields" },
+  ]},
 };
 
 function esc(str) {

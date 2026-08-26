@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 380" font-family="Arial, sans-serif">
+  <defs>
+    <style>
+      .label { font-family: Arial, sans-serif; font-weight: 700; font-size: 15px; fill: #13567F; }
+      .sublabel { font-family: Arial, sans-serif; font-size: 11px; fill: #666; }
+      .arrow { stroke: #C9D6DE; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+  <rect width="960" height="380" fill="#F5F8FA"/>
+  <line x1="178" y1="130" x2="302" y2="130" class="arrow" stroke-dasharray="4 5"/>
+  <line x1="418" y1="130" x2="542" y2="130" class="arrow" stroke-dasharray="4 5"/>
+  <line x1="658" y1="130" x2="782" y2="130" class="arrow" stroke-dasharray="4 5"/>
+  <g transform="translate(60,50)">
+        
+    <circle cx="60" cy="80" r="58" fill="#FBE3D6"/>
+    <path d="M60,35 L95,100 L25,100 Z" fill="#E8622C"/>
+    <rect x="56" y="58" width="8" height="24" rx="3" fill="#F5F8FA"/>
+    <circle cx="60" cy="90" r="4" fill="#F5F8FA"/>
+        <text x="60" y="160" text-anchor="middle" class="label">Ignition Source</text>
+        <text x="60" y="176" text-anchor="middle" class="label">Unknown</text>
+        <text x="60" y="198" text-anchor="middle" class="sublabel">Fire preceded the</text>
+        <text x="60" y="211" text-anchor="middle" class="sublabel">explosion</text>
+      </g>
+
+  <g transform="translate(300,50)">
+        
+    <circle cx="60" cy="80" r="58" fill="#DCE9F2"/>
+    <rect x="28" y="55" width="64" height="55" rx="8" fill="#13567F"/>
+    <ellipse cx="60" cy="55" rx="32" ry="10" fill="#3A7CA5"/>
+    <line x1="28" y1="80" x2="92" y2="80" stroke="#E8622C" stroke-width="3"/>
+        <text x="60" y="160" text-anchor="middle" class="label">Fireworks Behave</text>
+        <text x="60" y="176" text-anchor="middle" class="label">Unexpectedly</text>
+        <text x="60" y="198" text-anchor="middle" class="sublabel">Exploded rather than</text>
+        <text x="60" y="211" text-anchor="middle" class="sublabel">burned as classified</text>
+      </g>
+
+  <g transform="translate(540,50)">
+        
+    <circle cx="60" cy="80" r="58" fill="#FBE3D6"/>
+    <path d="M60,30 L70,55 L95,50 L78,70 L100,90 L72,86 L75,112 L60,92 L45,112 L48,86 L20,90 L42,70 L25,50 L50,55 Z" fill="#E8622C"/>
+    <circle cx="60" cy="78" r="14" fill="#C81E1E"/>
+        <text x="60" y="160" text-anchor="middle" class="label">Two Explosions</text>
+        <text x="60" y="176" text-anchor="middle" class="label">Seconds Apart</text>
+        <text x="60" y="198" text-anchor="middle" class="sublabel">Levee buffer limited</text>
+        <text x="60" y="211" text-anchor="middle" class="sublabel">wider damage</text>
+      </g>
+
+  <g transform="translate(780,50)">
+        
+    <circle cx="60" cy="80" r="58" fill="#DCE9F2"/>
+    <rect x="30" y="70" width="60" height="35" rx="2" fill="#13567F"/>
+    <rect x="38" y="78" width="10" height="10" fill="#F5F8FA"/>
+    <rect x="55" y="78" width="10" height="10" fill="#F5F8FA"/>
+    <rect x="72" y="78" width="10" height="10" fill="#F5F8FA"/>
+    <path d="M25,70 L60,48 L95,70 Z" fill="#13567F"/>
+        <text x="60" y="160" text-anchor="middle" class="label">Recommendations</text>
+        <text x="60" y="176" text-anchor="middle" class="label">Never Funded</text>
+        <text x="60" y="198" text-anchor="middle" class="sublabel">2 killed; same gaps</text>
+        <text x="60" y="211" text-anchor="middle" class="sublabel">caused Enschede</text>
+      </g>
+  <rect x="0" y="350" width="960" height="30" fill="#13567F"/>
+  <text x="480" y="369" text-anchor="middle" fill="#fff" font-size="12" font-family="Arial, sans-serif" font-weight="500">Culemborg Fireworks Warehouse Explosion — 2 killed, 25 injured</text>
+</svg>

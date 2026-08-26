@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 380" font-family="Arial, sans-serif">
+  <defs>
+    <style>
+      .label { font-family: Arial, sans-serif; font-weight: 700; font-size: 15px; fill: #13567F; }
+      .sublabel { font-family: Arial, sans-serif; font-size: 11px; fill: #666; }
+      .arrow { stroke: #C9D6DE; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+  <rect width="960" height="380" fill="#F5F8FA"/>
+  <line x1="178" y1="130" x2="302" y2="130" class="arrow" stroke-dasharray="4 5"/>
+  <line x1="418" y1="130" x2="542" y2="130" class="arrow" stroke-dasharray="4 5"/>
+  <line x1="658" y1="130" x2="782" y2="130" class="arrow" stroke-dasharray="4 5"/>
+  <g transform="translate(60,50)">
+        
+    <circle cx="60" cy="80" r="58" fill="#FBE3D6"/>
+    <path d="M60,35 L95,100 L25,100 Z" fill="#E8622C"/>
+    <rect x="56" y="58" width="8" height="24" rx="3" fill="#F5F8FA"/>
+    <circle cx="60" cy="90" r="4" fill="#F5F8FA"/>
+        <text x="60" y="160" text-anchor="middle" class="label">Warnings Ignored</text>
+        <text x="60" y="176" text-anchor="middle" class="label">Since 1976</text>
+        <text x="60" y="198" text-anchor="middle" class="sublabel">Cavern drilled too close</text>
+        <text x="60" y="211" text-anchor="middle" class="sublabel">to dome wall</text>
+      </g>
+
+  <g transform="translate(300,50)">
+        
+    <circle cx="60" cy="80" r="58" fill="#DCE9F2"/>
+    <circle cx="60" cy="75" r="30" fill="#fff" stroke="#13567F" stroke-width="4"/>
+    <line x1="60" y1="75" x2="78" y2="58" stroke="#C81E1E" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="60" cy="75" r="4" fill="#13567F"/>
+    <rect x="50" y="105" width="20" height="14" rx="3" fill="#13567F"/>
+        <text x="60" y="160" text-anchor="middle" class="label">Months of Seismic</text>
+        <text x="60" y="176" text-anchor="middle" class="label">Activity</text>
+        <text x="60" y="198" text-anchor="middle" class="sublabel">Bubbling in the bayou,</text>
+        <text x="60" y="211" text-anchor="middle" class="sublabel">company denied risk</text>
+      </g>
+
+  <g transform="translate(540,50)">
+        
+    <circle cx="60" cy="80" r="58" fill="#DCE9F2"/>
+    <rect x="30" y="70" width="60" height="35" rx="2" fill="#13567F"/>
+    <rect x="38" y="78" width="10" height="10" fill="#F5F8FA"/>
+    <rect x="55" y="78" width="10" height="10" fill="#F5F8FA"/>
+    <rect x="72" y="78" width="10" height="10" fill="#F5F8FA"/>
+    <path d="M25,70 L60,48 L95,70 Z" fill="#13567F"/>
+        <text x="60" y="160" text-anchor="middle" class="label">Salt Cavern</text>
+        <text x="60" y="176" text-anchor="middle" class="label">Collapses</text>
+        <text x="60" y="198" text-anchor="middle" class="sublabel">Sinkhole grows to 34</text>
+        <text x="60" y="211" text-anchor="middle" class="sublabel">acres</text>
+      </g>
+
+  <g transform="translate(780,50)">
+        
+    <circle cx="60" cy="80" r="58" fill="#FBE3D6"/>
+    <circle cx="60" cy="52" r="14" fill="#13567F"/>
+    <path d="M38,105 C38,80 48,70 60,70 C72,70 82,80 82,105 Z" fill="#13567F"/>
+        <text x="60" y="160" text-anchor="middle" class="label">0 Killed, 350</text>
+        <text x="60" y="176" text-anchor="middle" class="label">Evacuated</text>
+        <text x="60" y="198" text-anchor="middle" class="sublabel">Economic interests over</text>
+        <text x="60" y="211" text-anchor="middle" class="sublabel">safety, court found</text>
+      </g>
+  <rect x="0" y="350" width="960" height="30" fill="#13567F"/>
+  <text x="480" y="369" text-anchor="middle" fill="#fff" font-size="12" font-family="Arial, sans-serif" font-weight="500">Bayou Corne Salt Cavern Collapse and Sinkhole — 0 killed, 0 injured</text>
+</svg>

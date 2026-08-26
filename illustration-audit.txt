@@ -81,11 +81,23 @@ the incident's own .md file at any time.
   Stage 3 [explosion] "Vessel Explosion": 'flying roughly 50 feet through the air, demolishing process equipment'
   Stage 4 [warningIgnored] "Near-Miss with MIC Tank": 'the exploding vessel's trajectory came close to striking piping atop a nearby tank holding methyl isocyanate (MIC)'
 
+--- Bayou Corne Salt Cavern Collapse and Sinkhole (bayou-corne-2012) ---
+  Stage 1 [warningIgnored] "Warnings Ignored Since 1976": 'ignored warnings about the cavern's instability dating back to 1976'
+  Stage 2 [gauge] "Months of Seismic Activity": 'unexplained seismic activity and mysterious bubbling'
+  Stage 3 [building] "Salt Cavern Collapses": 'the outer wall of the salt dome gave way'
+  Stage 4 [person] "0 Killed, 350 Evacuated": fatalities/injuries frontmatter fields
+
 --- Bethune Point Wastewater Treatment Plant Methanol Explosion (bethune-point-2006) ---
   Stage 1 [fire] "Hot Work Above Methanol Vent": 'workers using a cutting torch on a roof above the methanol storage tank accidentally ignited vapors coming from the tank vent'
   Stage 2 [warningIgnored] "No Hot Work Controls": 'The City of Daytona Beach did not implement adequate controls for hot work'
   Stage 3 [corrosion] "PVC Piping, Not Steel": 'methanol piping and valves were built of polyvinyl chloride rather than steel'
   Stage 4 [person] "2 Killed, 1 Injured": fatalities/injuries frontmatter fields
+
+--- Bhilai Steel Plant Coke Oven Gas Pipeline Explosion (bhilai-steel-2018) ---
+  Stage 1 [gauge] "Uneven Pressure for 2 Days": 'The pipeline had reportedly shown uneven pressure for two days'
+  Stage 2 [valve] "Joints Opened on Live Gas Line": 'when the joints in the pipeline were opened, the coke oven gas ignited'
+  Stage 3 [explosion] "Explosion 400 Feet Up": 'causing a fire and explosion approximately 400 feet above the ground'
+  Stage 4 [person] "9 Killed, 14 Injured": fatalities/injuries frontmatter fields
 
 --- Bhopal Gas Tragedy (bhopal-1984) ---
   Stage 1 [tank] "MIC Storage Tank": 'a storage tank holding roughly 40 tons of methyl isocyanate'
@@ -195,6 +207,12 @@ the incident's own .md file at any time.
   Stage 3 [fire] "Oven Left Open": 'a curing oven had been left open due to an unresolved temperature control problem'
   Stage 4 [explosion] "Explosion & Fire": 'killing seven workers, injuring 37, and destroying the facility'
 
+--- Culemborg Fireworks Warehouse Explosion (culemborg-fireworks-1991) ---
+  Stage 1 [warningIgnored] "Ignition Source Unknown": 'the exact ignition source of the fire...was never conclusively determined'
+  Stage 2 [tank] "Fireworks Behave Unexpectedly": 'the fireworks behaved very differently than expected for their official 1.3 hazard classification'
+  Stage 3 [explosion] "Two Explosions Seconds Apart": 'immediately followed by another explosion in three adjacent rooms'
+  Stage 4 [building] "Recommendations Never Funded": fatalities/injuries frontmatter fields
+
 --- Darling Ingredients Aluminum Chloride Tank Rupture (darling-ingredients-2023) ---
   Stage 1 [tank] "Water-Reactive Chemical": 'tied to a tank containing aluminum chloride solution'
   Stage 2 [warningIgnored] "Water Contact": 'Aluminum chloride solution is inherently unstable and reacts violently, potentially explosively, with water'
@@ -249,6 +267,12 @@ the incident's own .md file at any time.
   Stage 3 [vaporCloud] "Toxic Release": 'roughly 24,000 pounds of the highly toxic, flammable chemical escaped and vaporized inside the building'
   Stage 4 [person] "Four Fatalities": 'Personnel investigated the developing leak without respiratory protection; four workers died'
 
+--- Enschede Fireworks Warehouse Disaster (enschede-fireworks-2000) ---
+  Stage 1 [tank] "Wrong Fireworks Grade Stored": 'the facility was licensed to hold only lower-hazard 1.4G grade fireworks but actually contained...1.1G grade'
+  Stage 2 [warningIgnored] "1991 Warning Never Acted On": 'the level of the hazard posed by the factory had been substantially underestimated'
+  Stage 3 [explosion] "Three Escalating Explosions": 'a series of three explosions of increasing violence'
+  Stage 4 [person] "23 Killed, 950 Injured": fatalities/injuries frontmatter fields
+
 --- Equilon Enterprises Delayed Coker Fire (equilon-anacortes-1998) ---
   Stage 1 [gauge] "Power and Steam Lost": 'Approximately 37 hours before the fire, the Equilon Enterprises oil refinery...lost electric power and steam supply'
   Stage 2 [warningIgnored] "No MOC for Abnormal Conditions": 'resuming and continuing operations under these unusual circumstances did not go through the kind of formal MOC review'
@@ -272,6 +296,12 @@ the incident's own .md file at any time.
   Stage 2 [vaporCloud] "Hydrocarbons Backflow": 'Hydrocarbons backflowed through the process and ignited inside the electrostatic precipitator'
   Stage 3 [explosion] "Explosion": 'The blast dispersed large quantities of catalyst dust up to a mile from the refinery'
   Stage 4 [warningIgnored] "Near-Miss with HF Tank": 'narrowly missing a tank holding tens of thousands of pounds of modified hydrofluoric acid'
+
+--- Feyzin Refinery Propane Sphere BLEVE (feyzin-1966) ---
+  Stage 1 [valve] "Valves Opened Out of Order": 'contrary to the established operating procedure, the lower valve was opened only halfway'
+  Stage 2 [corrosion] "Both Valves Freeze Open": 'the extreme cooling effect...caused both valves to freeze'
+  Stage 3 [explosion] "Sphere BLEVEs After 2 Hours": 'the sphere suddenly ruptured in a catastrophic boiling liquid expanding vapor explosion'
+  Stage 4 [person] "18 Killed, 81 Injured": fatalities/injuries frontmatter fields
 
 --- First Chemical Corporation Distillation Column Explosion (first-chemical-2002) ---
   Stage 1 [corrosion] "Leaking Steam Valves": 'steam was slowly leaking through deteriorated shut-off valves'
@@ -387,6 +417,12 @@ the incident's own .md file at any time.
   Stage 3 [warningIgnored] "No Remote Shutoff": 'The site had no remotely operated shutdown valve, so stopping the leak required someone to physically reach the valve'
   Stage 4 [explosion] "Explosion After 75 Minutes": 'The leak continued uncontrolled for 75 minutes before the cloud found an ignition source and exploded'
 
+--- Jilin Petrochemical Plant Explosion and Songhua River Contamination (jilin-petrochemical-2005) ---
+  Stage 1 [valve] "Processing Tower Jams": 'processing tower T-102 became jammed during abnormal operations'
+  Stage 2 [warningIgnored] "Worker Mishandles the Clog": 'the facility's monitoring systems failed to detect the developing problem'
+  Stage 3 [explosion] "Explosions, Toxins Reach River": 'released approximately 100 tons of pollutants...into the nearby Songhua River'
+  Stage 4 [building] "Water Cut for Millions": fatalities/injuries frontmatter fields
+
 --- Kleen Energy Plant Natural Gas Explosion (kleen-energy-2010) ---
   Stage 1 [valve] "Gas Blow to Clean Piping": 'using a "gas blow", a common industry practice of venting high-pressure natural gas...directly to atmosphere'
   Stage 2 [vaporCloud] "Gas Accumulates": 'gas blows released an estimated 400,000 standard cubic feet of natural gas into a congested outdoor area'
@@ -422,6 +458,12 @@ the incident's own .md file at any time.
   Stage 2 [corrosion] "Metal Embrittled": 'the exchanger, no longer receiving the warm oil that kept it from embrittling, cooled dramatically'
   Stage 3 [valve] "Warm Oil Reintroduced": 'the sudden reintroduction of heat caused the now brittle, supercooled metal to fracture'
   Stage 4 [fire] "Release & Fire": 'cut gas supply to nearly all of Victoria state for about two weeks'
+
+--- Los Alfaques Propylene Tanker BLEVE (los-alfaques-1978) ---
+  Stage 1 [tank] "Tanker Loses Containment": 'the tank's integrity was lost while directly adjacent to a densely populated area'
+  Stage 2 [warningIgnored] "Campers Approach the Cloud": 'Campers, curious about the unusual cloud, approached rather than fled'
+  Stage 3 [explosion] "BLEVE Engulfs the Campsite": 'sent towering flames hundreds of feet into the air'
+  Stage 4 [person] "215 Killed, 200+ Injured": fatalities/injuries frontmatter fields
 
 --- Loy-Lange Box Company Pressure Vessel Explosion (loy-lange-box-2017) ---
   Stage 1 [corrosion] "Corrosion Known Since 2004": 'The company had been aware of corrosion problems as far back as 2004'
@@ -561,6 +603,12 @@ the incident's own .md file at any time.
   Stage 3 [warningIgnored] "Known Hazard Not Mitigated": 'Rubicon's process hazard analysis had already identified personnel exposure to hot MDI as a potential consequence'
   Stage 4 [person] "Two Workers Sprayed": fatalities/injuries frontmatter fields
 
+--- San Juanico PEMEX LPG Terminal Disaster (san-juanico-1984) ---
+  Stage 1 [corrosion] "Pipe Ruptures Between Vessels": 'An 8-inch pipe between a sphere and a series of cylinders had ruptured'
+  Stage 2 [warningIgnored] "No Effective Gas Detection": 'the ineffective gas detection system and as a result, lack of emergency isolation'
+  Stage 3 [explosion] "Cascading BLEVEs for 90 Minutes": 'a series of additional BLEVEs followed as LPG vessels violently ruptured'
+  Stage 4 [person] "500+ Killed, 7,000 Injured": fatalities/injuries frontmatter fields
+
 --- Seveso Dioxin Release (seveso-1976) ---
   Stage 1 [valve] "Reactor Shut Down Mid-Cycle": 'shut down mid-cycle on a Friday evening...and abandoned unsupervised for the weekend'
   Stage 2 [gauge] "No Automatic Cooling": 'With no stirring and no automatic cooling system, residual heat in the mixture drove a slow exothermic reaction'
@@ -590,6 +638,12 @@ the incident's own .md file at any time.
   Stage 2 [gauge] "Sulfidation Corrosion": 'sulfur compounds in the process stream had caused sulfidation corrosion to progressively thin the pipe walls, undetected, over 16 years'
   Stage 3 [explosion] "Hydrogen Explosion": 'The rupture released a large quantity of hydrogen that ignited immediately'
   Stage 4 [building] "100+ Homes Damaged": 'the resulting blast wave traveled from the refinery into an adjacent residential subdivision, damaging more than 100 homes'
+
+--- Skikda LNG Complex Explosion (skikda-lng-2004) ---
+  Stage 1 [corrosion] "Boiler Known Defective": 'workers said they had warned a year earlier that the boiler was faulty'
+  Stage 2 [vaporCloud] "Hydrocarbon Leak into Boiler": 'A large hydrocarbon leak was ingested into the facility's main boiler firebox'
+  Stage 3 [explosion] "Boiler Explosion Ignites Vapor Cloud": 'The resulting boiler explosion ignited an extensive vapor cloud'
+  Stage 4 [person] "27 Killed, 74 Injured": fatalities/injuries frontmatter fields
 
 --- Sunoco Nederland Crude Oil Terminal Flash Fire and Explosion (sunoco-nederland-2016) ---
   Stage 1 [fire] "Hot Work on Crude Pipe": 'conducting hot work...on a section of pipe that still contained residual crude oil'

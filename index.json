@@ -1,5 +1,41 @@
 [
   {
+    "id": "feyzin-1966",
+    "file": "feyzin-1966.md",
+    "title": "Feyzin Refinery Propane Sphere BLEVE",
+    "date": "1966-01-04",
+    "location": "Feyzin, France",
+    "industry": [
+      "oil-gas-refining"
+    ],
+    "chemicals": [
+      "propane",
+      "butane"
+    ],
+    "severity": 1,
+    "fatalities": 18,
+    "injuries": 81,
+    "root_causes": [
+      "valves-opened-in-wrong-order-per-procedure",
+      "valve-handle-fell-off-during-release",
+      "both-valves-froze-open",
+      "adjacent-spheres-not-fire-protected"
+    ],
+    "psm_elements": [
+      "operating-procedures",
+      "facility-siting",
+      "emergency-planning",
+      "mechanical-integrity"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "IChemE Feyzin Incident Summary",
+      "French Ministry for Sustainable Development BARPI/ARIA Detailed Case File"
+    ],
+    "hasBody": true
+  },
+  {
     "id": "flixborough-1974",
     "file": "flixborough-1974.md",
     "title": "Flixborough Chemical Plant Explosion",
@@ -70,6 +106,39 @@
     "hasBody": true
   },
   {
+    "id": "los-alfaques-1978",
+    "file": "los-alfaques-1978.md",
+    "title": "Los Alfaques Propylene Tanker BLEVE",
+    "date": "1978-07-11",
+    "location": "Alcanar, Spain",
+    "industry": [
+      "hazardous-materials-transportation"
+    ],
+    "chemicals": [
+      "propylene"
+    ],
+    "severity": 1,
+    "fatalities": 215,
+    "injuries": 200,
+    "root_causes": [
+      "tank-failed-at-a-weak-point-or-collision",
+      "vapor-cloud-drifted-into-crowded-campsite",
+      "campsite-sited-directly-adjacent-to-hazmat-transport-route",
+      "curious-onlookers-approached-the-vapor-cloud"
+    ],
+    "psm_elements": [
+      "facility-siting",
+      "emergency-planning"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "Contemporary News Coverage, TIME Magazine (1978)",
+      "Academic Retrospective Analysis, Grokipedia and Wikipedia Cross-Referenced Sources"
+    ],
+    "hasBody": true
+  },
+  {
     "id": "plastifax-gulfport-1982",
     "file": "plastifax-gulfport-1982.md",
     "title": "Plastifax Company Nitration Explosion",
@@ -102,6 +171,42 @@
     "sources": [
       "NIOSH Health Hazard Evaluation Report HETA 82-285-1339 (1983)",
       "Contemporary News Coverage, UPI and Associated Press (1982)"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "san-juanico-1984",
+    "file": "san-juanico-1984.md",
+    "title": "San Juanico PEMEX LPG Terminal Disaster",
+    "date": "1984-11-19",
+    "location": "San Juan Ixhuatepec, Mexico",
+    "industry": [
+      "lpg-storage-distribution"
+    ],
+    "chemicals": [
+      "propane",
+      "butane",
+      "liquefied-petroleum-gas"
+    ],
+    "severity": 1,
+    "fatalities": 500,
+    "injuries": 7000,
+    "root_causes": [
+      "pipe-ruptured-between-vessels",
+      "operators-could-not-identify-pressure-drop-cause",
+      "ineffective-gas-detection-and-emergency-isolation",
+      "facility-sited-directly-adjacent-to-dense-housing"
+    ],
+    "psm_elements": [
+      "facility-siting",
+      "emergency-planning",
+      "mechanical-integrity"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "UK Health and Safety Executive Technical Case Study",
+      "Peer-Reviewed Analysis, Journal of Hazardous Materials (1987)"
     ],
     "hasBody": true
   },
@@ -354,6 +459,42 @@
     "sources": [
       "OSHA Investigation Findings (1990-1991)",
       "ARCO Chemical Company Public Statement (January 1991)"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "culemborg-fireworks-1991",
+    "file": "culemborg-fireworks-1991.md",
+    "title": "Culemborg Fireworks Warehouse Explosion",
+    "date": "1991-02-14",
+    "location": "Culemborg, Netherlands",
+    "industry": [
+      "fireworks-manufacturing",
+      "explosives-storage"
+    ],
+    "chemicals": [
+      "fireworks-pyrotechnic-compositions",
+      "black-powder"
+    ],
+    "severity": 1,
+    "fatalities": 2,
+    "injuries": 25,
+    "root_causes": [
+      "ignition-source-never-determined",
+      "fireworks-behaved-unlike-their-hazard-classification",
+      "storage-weight-limits-may-have-been-exceeded",
+      "safety-recommendations-never-funded-or-implemented"
+    ],
+    "psm_elements": [
+      "process-hazard-analysis",
+      "facility-siting",
+      "compliance-audits"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "TNO Technical Investigation and BARPI/ARIA Summary Report",
+      "Wikipedia: Culemborg Fireworks Disaster, cross-referenced against TNO findings"
     ],
     "hasBody": true
   },
@@ -880,6 +1021,41 @@
     "hasBody": true
   },
   {
+    "id": "enschede-fireworks-2000",
+    "file": "enschede-fireworks-2000.md",
+    "title": "Enschede Fireworks Warehouse Disaster",
+    "date": "2000-05-13",
+    "location": "Enschede, Netherlands",
+    "industry": [
+      "fireworks-manufacturing",
+      "explosives-storage"
+    ],
+    "chemicals": [
+      "fireworks-pyrotechnic-compositions"
+    ],
+    "severity": 1,
+    "fatalities": 23,
+    "injuries": 950,
+    "root_causes": [
+      "higher-grade-fireworks-stored-than-licensed",
+      "facility-overloaded-beyond-capacity",
+      "sited-in-residential-neighborhood",
+      "earlier-1991-disaster-recommendations-never-implemented"
+    ],
+    "psm_elements": [
+      "facility-siting",
+      "mechanical-integrity",
+      "compliance-audits"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "TNO Forensic and Technical Investigation Report (2000-2001)",
+      "Contemporary News Coverage, NL Times and DutchNews.nl"
+    ],
+    "hasBody": true
+  },
+  {
     "id": "bp-grangemouth-2000",
     "file": "bp-grangemouth-2000.md",
     "title": "BP Grangemouth Petrochemical Complex, Three Major Incidents",
@@ -1273,6 +1449,41 @@
     "hasBody": true
   },
   {
+    "id": "skikda-lng-2004",
+    "file": "skikda-lng-2004.md",
+    "title": "Skikda LNG Complex Explosion",
+    "date": "2004-01-19",
+    "location": "Skikda, Algeria",
+    "industry": [
+      "lng-processing"
+    ],
+    "chemicals": [
+      "liquefied-natural-gas",
+      "hydrocarbon-vapor"
+    ],
+    "severity": 1,
+    "fatalities": 27,
+    "injuries": 74,
+    "root_causes": [
+      "hydrocarbon-leak-ingested-into-boiler-firebox",
+      "boiler-known-defective-for-a-year",
+      "superficial-repair-only",
+      "boiler-explosion-ignited-vapor-cloud"
+    ],
+    "psm_elements": [
+      "mechanical-integrity",
+      "incident-investigation",
+      "process-hazard-analysis"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "AIChE Process Safety Symposium: Revisiting the 2004 Skikda Explosion (2020)",
+      "Contemporary News Coverage, Reuters and Oil & Gas Journal (2004)"
+    ],
+    "hasBody": true
+  },
+  {
     "id": "mfg-chemical-2004",
     "file": "mfg-chemical-2004.md",
     "title": "MFG Chemical Runaway Reaction and Toxic Vapor Release",
@@ -1449,6 +1660,42 @@
     "sources": [
       "CSB Safety Bulletin: Fire at Praxair St. Louis (June 2006)",
       "CSB Safety Video: Dangers of Propylene Cylinders"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "jilin-petrochemical-2005",
+    "file": "jilin-petrochemical-2005.md",
+    "title": "Jilin Petrochemical Plant Explosion and Songhua River Contamination",
+    "date": "2005-11-13",
+    "location": "Jilin City, China",
+    "industry": [
+      "chemical-manufacturing"
+    ],
+    "chemicals": [
+      "benzene",
+      "nitrobenzene",
+      "aniline"
+    ],
+    "severity": 1,
+    "fatalities": 5,
+    "injuries": 70,
+    "root_causes": [
+      "processing-tower-jammed-during-abnormal-operations",
+      "worker-mishandled-clog-clearing",
+      "monitoring-systems-failed-to-detect-issue",
+      "government-delayed-public-disclosure-of-spill"
+    ],
+    "psm_elements": [
+      "process-hazard-analysis",
+      "mechanical-integrity",
+      "emergency-planning"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "United Nations OCHA Situation Report (November 2005)",
+      "Wilson Center Environmental Policy Analysis (2009)"
     ],
     "hasBody": true
   },
@@ -2448,6 +2695,43 @@
     "hasBody": true
   },
   {
+    "id": "bayou-corne-2012",
+    "file": "bayou-corne-2012.md",
+    "title": "Bayou Corne Salt Cavern Collapse and Sinkhole",
+    "date": "2012-08-03",
+    "location": "Bayou Corne, LA, USA",
+    "industry": [
+      "solution-mining",
+      "salt-cavern-storage"
+    ],
+    "chemicals": [
+      "crude-oil",
+      "natural-gas",
+      "brine"
+    ],
+    "severity": 2,
+    "fatalities": 0,
+    "injuries": 0,
+    "root_causes": [
+      "cavern-drilled-too-close-to-salt-dome-wall",
+      "warnings-of-instability-ignored-since-1976",
+      "economic-concerns-prioritized-over-safety",
+      "months-of-seismic-activity-before-collapse"
+    ],
+    "psm_elements": [
+      "process-hazard-analysis",
+      "mechanical-integrity",
+      "emergency-planning"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "State District Court Ruling, Assumption Parish, Louisiana (2018)",
+      "Contemporary Reporting, Places Journal and Grist (2013-2019)"
+    ],
+    "hasBody": true
+  },
+  {
     "id": "chevron-richmond-2012",
     "file": "chevron-richmond-2012.md",
     "title": "Chevron Richmond Refinery Pipe Rupture and Fire",
@@ -3125,6 +3409,40 @@
     "sources": [
       "CSB Final Investigation Report No. 2018-03-I-TX (2022)",
       "HazardEx, CSB report coverage"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "bhilai-steel-2018",
+    "file": "bhilai-steel-2018.md",
+    "title": "Bhilai Steel Plant Coke Oven Gas Pipeline Explosion",
+    "date": "2018-10-09",
+    "location": "Bhilai, India",
+    "industry": [
+      "steel-manufacturing"
+    ],
+    "chemicals": [
+      "coke-oven-gas"
+    ],
+    "severity": 1,
+    "fatalities": 9,
+    "injuries": 14,
+    "root_causes": [
+      "uneven-pressure-in-pipeline-for-days",
+      "maintenance-performed-on-live-gas-line",
+      "joints-opened-during-scheduled-work",
+      "workers-not-adequately-protected-during-repair"
+    ],
+    "psm_elements": [
+      "operating-procedures",
+      "mechanical-integrity",
+      "training"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "Contemporary News Coverage, Press Trust of India and Deccan Herald (2018)",
+      "Trade Union Statements, Centre for Indian Trade Union"
     ],
     "hasBody": true
   },
