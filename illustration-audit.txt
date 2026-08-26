@@ -291,6 +291,12 @@ the incident's own .md file at any time.
   Stage 3 [vaporCloud] "Chemical Leak": 'Crude MCHM...leaked through the holes'
   Stage 4 [building] "300,000 Without Water": 'forced a "do-not-use" order on tap water for up to 300,000 residents across nine counties'
 
+--- Georgia-Pacific Resins Columbus Runaway Reaction Explosion (georgia-pacific-columbus-1997) ---
+  Stage 1 [building] "Reactor in a Residential Area": 'residents in the surrounding South Side neighborhood had already experienced years of hazardous releases'
+  Stage 2 [gauge] "Known Hazard Since 1957": 'phenol-formaldehyde runaway reactions had already caused recorded incidents dating back to 1957'
+  Stage 3 [explosion] "Reactor Explodes": 'The explosion spread toxins across the adjacent residential area'
+  Stage 4 [person] "1 Killed, 4 Injured": fatalities/injuries frontmatter fields
+
 --- Georgia-Pacific Naheola Mill Hydrogen Sulfide Release (georgia-pacific-naheola-2002) ---
   Stage 1 [tank] "Routine Spillage into Pit": 'each losing up to five gallons of NaSH into a collection pit at the site, a normal, expected part of the unloading process'
   Stage 2 [vaporCloud] "Reacts in Acidic Sewer": 'it reacted to release hydrogen sulfide gas, a highly toxic gas that can cause immediate death'
@@ -405,6 +411,12 @@ the incident's own .md file at any time.
   Stage 3 [explosion] "Vessel Ruptures": 'steel fragments were thrown up to a quarter mile from the plant'
   Stage 4 [fire] "7-Hour Fire": fatalities/injuries frontmatter fields
 
+--- Merck Sharp and Dohme Barceloneta Tank Explosion (merck-barceloneta-1986) ---
+  Stage 1 [tank] "Tank Component Fails": 'a carbon disk installed as part of the tank assembly contributed to the failure'
+  Stage 2 [explosion] "Tank Explodes": 'Residents as far as 15 miles away reported smelling fumes'
+  Stage 3 [warningIgnored] "Cyanide Feared in Water Supply": 'government officials expressed concern that the local water supply might be contaminated with cyanide'
+  Stage 4 [person] "3 Killed, 5 Injured": fatalities/injuries frontmatter fields
+
 --- MFG Chemical Runaway Reaction and Toxic Vapor Release (mfg-chemical-2004) ---
   Stage 1 [tank] "First Production-Scale Batch": 'MFG moved directly from laboratory-scale testing to a full 4,000-gallon production batch'
   Stage 2 [gauge] "Reaction Goes Out of Control": 'the reaction went out of control, rapidly over-pressurizing a 4,000-gallon reactor'
@@ -500,6 +512,12 @@ the incident's own .md file at any time.
   Stage 2 [warningIgnored] "Shift Handover Failed": 'permit-to-work...was not properly communicated across shift handover'
   Stage 3 [fire] "Ignition": 'causing condensate to leak through the flange and ignite'
   Stage 4 [explosion] "Platform Destroyed": 'The platform was destroyed; 167 of 226 workers died'
+
+--- Plastifax Company Nitration Explosion (plastifax-gulfport-1982) ---
+  Stage 1 [gauge] "Nitration Reaction Underway": 'during the nitration of 2-ethyl-hexanol to produce 2-ethyl-hexyl-nitrate'
+  Stage 2 [warningIgnored] "Insufficient Process Supervision": 'better supervision of potentially explosive chemical processes'
+  Stage 3 [explosion] "Plant Levels": 'Metal debris from the blast was scattered nearly a mile away'
+  Stage 4 [person] "3 Killed, 9 Injured": fatalities/injuries frontmatter fields
 
 --- Praxair St. Louis Propylene Cylinder Fire and Explosions (praxair-st-louis-2005) ---
   Stage 1 [tank] "Cylinders Stored on Hot Asphalt": 'cylinders stored in the open on asphalt absorbed heat radiating from the pavement'

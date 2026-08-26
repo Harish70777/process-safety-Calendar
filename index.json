@@ -70,6 +70,42 @@
     "hasBody": true
   },
   {
+    "id": "plastifax-gulfport-1982",
+    "file": "plastifax-gulfport-1982.md",
+    "title": "Plastifax Company Nitration Explosion",
+    "date": "1982-06-02",
+    "location": "Gulfport, MS, USA",
+    "industry": [
+      "chemical-manufacturing"
+    ],
+    "chemicals": [
+      "2-ethyl-hexanol",
+      "2-ethyl-hexyl-nitrate",
+      "nitric-acid"
+    ],
+    "severity": 1,
+    "fatalities": 3,
+    "injuries": 9,
+    "root_causes": [
+      "nitration-reaction-uncontrolled",
+      "chemical-plant-in-proximity-to-residential-areas",
+      "rescue-workers-ran-out-of-breathing-air",
+      "insufficient-supervision-of-explosive-process"
+    ],
+    "psm_elements": [
+      "process-hazard-analysis",
+      "mechanical-integrity",
+      "emergency-planning"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "NIOSH Health Hazard Evaluation Report HETA 82-285-1339 (1983)",
+      "Contemporary News Coverage, UPI and Associated Press (1982)"
+    ],
+    "hasBody": true
+  },
+  {
     "id": "bhopal-1984",
     "file": "bhopal-1984.md",
     "title": "Bhopal Gas Tragedy",
@@ -103,6 +139,41 @@
       "Indian Council of Medical Research reports",
       "Trevor Kletz, 'Still Going Wrong!'",
       "CSB educational case study materials"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "merck-barceloneta-1986",
+    "file": "merck-barceloneta-1986.md",
+    "title": "Merck Sharp and Dohme Barceloneta Tank Explosion",
+    "date": "1986-06-12",
+    "location": "Barceloneta, PR, USA",
+    "industry": [
+      "pharmaceutical-manufacturing"
+    ],
+    "chemicals": [
+      "methyldopa-precursor-chemicals",
+      "cyanide-compounds"
+    ],
+    "severity": 1,
+    "fatalities": 3,
+    "injuries": 5,
+    "root_causes": [
+      "tank-component-failure",
+      "carbon-disk-contributed-to-explosion",
+      "inadequate-employee-training-alleged",
+      "tank-design-and-maintenance-questioned"
+    ],
+    "psm_elements": [
+      "mechanical-integrity",
+      "training",
+      "process-safety-information"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "Contemporary News Coverage, UPI (1986)",
+      "Robles Melendez v. Merck and Co., Inc., 770 F. Supp. 71 (D.P.R. 1991)"
     ],
     "hasBody": true
   },
@@ -525,6 +596,42 @@
     "sources": [
       "EPA/OSHA Joint Chemical Accident Investigation Report (1999)",
       "NFPA Fire Investigations Report (1998)"
+    ],
+    "hasBody": true
+  },
+  {
+    "id": "georgia-pacific-columbus-1997",
+    "file": "georgia-pacific-columbus-1997.md",
+    "title": "Georgia-Pacific Resins Columbus Runaway Reaction Explosion",
+    "date": "1997-09-10",
+    "location": "Columbus, OH, USA",
+    "industry": [
+      "chemical-manufacturing"
+    ],
+    "chemicals": [
+      "phenol",
+      "formaldehyde",
+      "sulfuric-acid"
+    ],
+    "severity": 1,
+    "fatalities": 1,
+    "injuries": 4,
+    "root_causes": [
+      "runaway-exothermic-reaction",
+      "decades-of-known-industry-incidents-with-same-chemistry",
+      "facility-sited-in-residential-neighborhood",
+      "years-of-prior-hazardous-releases"
+    ],
+    "psm_elements": [
+      "process-hazard-analysis",
+      "facility-siting",
+      "operating-procedures"
+    ],
+    "status": "published",
+    "source_verified": true,
+    "sources": [
+      "EPA Case Study: How to Prevent Runaway Reactions (1999)",
+      "Springer Nature International Journal of Industrial Chemistry Case Study"
     ],
     "hasBody": true
   },
